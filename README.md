@@ -1,4 +1,4 @@
-# **NOMBRE DEL COMPONENTE FORMATIVO**
+# **Herramientas y normativa de innovación en salud pública**
 
 ## **Enlace GitHubPages**
 
