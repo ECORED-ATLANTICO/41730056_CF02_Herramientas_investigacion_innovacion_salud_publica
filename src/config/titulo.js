@@ -1,1 +1,1 @@
-module.exports = 'Titulo del componente formativo'
+module.exports = 'Metodologías ágiles y diseño centrado en el usuario'
