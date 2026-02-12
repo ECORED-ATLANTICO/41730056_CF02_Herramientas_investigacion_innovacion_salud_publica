@@ -305,7 +305,8 @@ export default {
         },
         {
           id: 18,
-          texto: 'El proceso de Design Thinking se desarrolla en cinco fases, las cuales son:',
+          texto:
+            'El proceso de Design Thinking se desarrolla en cinco fases, las cuales son:',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -346,8 +347,16 @@ export default {
               texto: 'Mejora la comunicación profesional – usuario',
               esCorrecta: false,
             },
-            { id: 'b', texto: 'Aumenta la comodidad del paciente', esCorrecta: false },
-            { id: 'c', texto: 'Aumenta el costo del servicio', esCorrecta: false },
+            {
+              id: 'b',
+              texto: 'Aumenta la comodidad del paciente',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Aumenta el costo del servicio',
+              esCorrecta: false,
+            },
             { id: 'd', texto: 'A y b son correctas', esCorrecta: true },
           ],
           mensaje_correcto: 'Muy bien felicitaciones',
@@ -361,7 +370,11 @@ export default {
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Necesidades de las personas', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Necesidades de las personas',
+              esCorrecta: false,
+            },
             { id: 'b', texto: 'Requisitos del negocio', esCorrecta: false },
             {
               id: 'c',
@@ -375,7 +388,8 @@ export default {
             'Retome los materiales del Componente Formativo y revise los aspectos relacionados con esta pregunta.',
         },
       ],
-      mensaje_final_aprobado: '¡Excelente! Le felicito, ha superado la actividad',
+      mensaje_final_aprobado:
+        '¡Excelente! Le felicito, ha superado la actividad',
       mensaje_final_reprobado:
         'Te recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica',
     },

@@ -32,12 +32,14 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Principios y fases de Design Thinking y Human-Centered Design (HCD) en salud pública',
+        titulo:
+          'Principios y fases de Design Thinking y Human-Centered Design (HCD) en salud pública',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Introducción y principios al pensamiento de diseño en salud pública',
+            titulo:
+              'Introducción y principios al pensamiento de diseño en salud pública',
             hash: 't_1_1',
           },
           {
@@ -57,7 +59,8 @@ export default {
           },
           {
             numero: '1.5',
-            titulo: 'Diferencias y complementariedades entre Design Thinking y HCD',
+            titulo:
+              'Diferencias y complementariedades entre Design Thinking y HCD',
             hash: 't_1_5',
           },
         ],
@@ -65,7 +68,8 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tipos de prototipado y procesos de testeo con usuarios en salud',
+        titulo:
+          'Tipos de prototipado y procesos de testeo con usuarios en salud',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -93,7 +97,8 @@ export default {
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Concepto de Producto Mínimo Viable (MVP) y su aplicación en proyectos de salud',
+        titulo:
+          'Concepto de Producto Mínimo Viable (MVP) y su aplicación en proyectos de salud',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -144,17 +149,20 @@ export default {
       {
         nombreRuta: 'tema5',
         numero: '5',
-        titulo: 'Casos de éxito de innovación en salud pública en Colombia y América Latina',
+        titulo:
+          'Casos de éxito de innovación en salud pública en Colombia y América Latina',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '5.1',
-            titulo: 'Innovaciones participativas centradas en las personas impulsadas por Design Thinking o Human-Centered Design',
+            titulo:
+              'Innovaciones participativas centradas en las personas impulsadas por Design Thinking o Human-Centered Design',
             hash: 't_5_1',
           },
           {
             numero: '5.2',
-            titulo: 'Implementaciones adaptativas y gestión de proyectos de innovación en salud en América Latina',
+            titulo:
+              'Implementaciones adaptativas y gestión de proyectos de innovación en salud en América Latina',
             hash: 't_5_2',
           },
         ],
@@ -232,7 +240,8 @@ export default {
       referencia:
         'Instituto de Investigación Sanitaria Galicia Sur. (2023). Lean Startup para científicos. Instituto de Investigación Sanitaria Galicia Sur.',
       tipo: 'Libro',
-      link: 'https://www.iisgaliciasur.es/wp-content/uploads/2023/05/Lean-Startup-para-cientificos.pdf',
+      link:
+        'https://www.iisgaliciasur.es/wp-content/uploads/2023/05/Lean-Startup-para-cientificos.pdf',
     },
   ],
   glosario: [
@@ -316,22 +325,26 @@ export default {
     {
       referencia:
         'Highsmith, J. (2009). Gestión Ágil de Proyectos: Creación de productos innovadores. Addison-Wesley.',
-      link: 'https://books.google.com.co/books?id=VuFpkztwPaUC&printsec=frontcover&hl=es&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false',
+      link:
+        'https://books.google.com.co/books?id=VuFpkztwPaUC&printsec=frontcover&hl=es&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false',
     },
     {
       referencia:
         'Instituto Nacional de Salud (2016, 2 de diciembre). INS de Colombia compartirá su conocimiento sobre zika al mundo.',
-      link: 'https://www.ins.gov.co/BibliotecaDigital/boletin-prensa-ins-2-12-2016-zika.pdf',
+      link:
+        'https://www.ins.gov.co/BibliotecaDigital/boletin-prensa-ins-2-12-2016-zika.pdf',
     },
     {
       referencia:
         'IxDF - Fundación para el Diseño de Interacción. (25 de mayo de 2016). ¿Qué es el Design Thinking? IxDF - Fundación para el Diseño de Interacción.',
-      link: 'https://www.interaction-design.org/literature/topics/design-thinking',
+      link:
+        'https://www.interaction-design.org/literature/topics/design-thinking',
     },
     {
       referencia:
         'Justinmente. (marzo 19 de 2018). ¿Qué diferencia hay entre un prototipo y un MVP? recuperado de',
-      link: 'https://www.justinmind.com/es/prototipado/que-diferencia-hay-entre-un-prototipo-y-un-mvp',
+      link:
+        'https://www.justinmind.com/es/prototipado/que-diferencia-hay-entre-un-prototipo-y-un-mvp',
     },
     {
       referencia:
@@ -341,22 +354,24 @@ export default {
     {
       referencia:
         'Mejía Flores, G. E. (2024). Metodologías ágiles aplicadas a organizaciones de salud: desafíos actuales y cómo gestionarlos. Pontificia Universidad Católica del Ecuador.',
-      link: 'https://repositorio.puce.edu.ec/items/a55af9eb-93df-4af0-a5c4-d3f8e0395e30',
+      link:
+        'https://repositorio.puce.edu.ec/items/a55af9eb-93df-4af0-a5c4-d3f8e0395e30',
     },
     {
-      referencia:
-        'Miro (sf). Prototipos de alta fidelidad vs baja fidelidad.',
+      referencia: 'Miro (sf). Prototipos de alta fidelidad vs baja fidelidad.',
       link: 'https://miro.com/es/prototipos/baja-fidelidad-vs-alta-fidelidad/',
     },
     {
       referencia:
         'Narvaez, M. (sf). ¿Qué son las pruebas con usuarios o test con usuarios? Questionpro (Blog).',
-      link: 'https://www.questionpro.com/blog/es/pruebas-con-usuarios-o-test-con-usuarios/',
+      link:
+        'https://www.questionpro.com/blog/es/pruebas-con-usuarios-o-test-con-usuarios/',
     },
     {
       referencia:
         'Organización Panamericana de la Salud & Organización Mundial de la Salud - OPS/OMS, (2025, 23 de junio). Avances e innovaciones destacan BIREME en el 2024. Boletín BIREME no 94.',
-      link: 'https://boletin.bireme.org/2025/01/23/1-avances-e-innovaciones-destacan-bireme-en-el-2024/',
+      link:
+        'https://boletin.bireme.org/2025/01/23/1-avances-e-innovaciones-destacan-bireme-en-el-2024/',
     },
     {
       referencia:
@@ -371,17 +386,20 @@ export default {
     {
       referencia:
         'Pomar, P. (2017, 19 de mayo). Diferencias entre Design Thinking y Diseño centrado en las personas. Thinkernautas (Blog).',
-      link: 'https://thinkernautas.com/diferencias-design-thinking-human-centered-design',
+      link:
+        'https://thinkernautas.com/diferencias-design-thinking-human-centered-design',
     },
     {
       referencia:
         'Ries, E. (2011). The Lean Startup: How Today’s Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses. Crown Business.',
-      link: 'https://books.google.com.co/books?id=tvfyz-4JILwC&printsec=frontcover&hl=es&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false',
+      link:
+        'https://books.google.com.co/books?id=tvfyz-4JILwC&printsec=frontcover&hl=es&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false',
     },
     {
       referencia:
         'Rojas Otálora, A. (2022). Desafíos en la gestión de proyectos.',
-      link: 'https://es.scribd.com/document/913850916/Annotated-Desafios-en-La-Gesti-c3-93n-de-Los-Proyectos-Aplicados-a-Los-Proc-281-29-Docx',
+      link:
+        'https://es.scribd.com/document/913850916/Annotated-Desafios-en-La-Gesti-c3-93n-de-Los-Proyectos-Aplicados-a-Los-Proc-281-29-Docx',
     },
     {
       referencia:
@@ -401,12 +419,14 @@ export default {
     {
       referencia:
         'Schwaber, K., & Sutherland, J. (2020). Guía de Scrum: la guía definitiva del marco de trabajo Scrum. Scrum.org.',
-      link: 'https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-Spanish-Latin-South-American.pdf',
+      link:
+        'https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-Spanish-Latin-South-American.pdf',
     },
     {
       referencia:
         'Solvingadhoc. (2017, 13 de noviembre). El aprendizaje validado en Lean Startup, un pilar fundamental. Solvingadhoc (Blog).',
-      link: 'https://solvingadhoc.com/aprendizaje-validado-lean-startup-pilar-fundamental/',
+      link:
+        'https://solvingadhoc.com/aprendizaje-validado-lean-startup-pilar-fundamental/',
     },
     {
       referencia:
@@ -421,7 +441,8 @@ export default {
     {
       referencia:
         'Universidad Internacional de Valencia (2023, 20 de febrero). Prototipado: qué es y cómo funciona. VIU (Blog).',
-      link: 'https://www.universidadviu.com/co/actualidad/nuestros-expertos/prototipado-que-es-y-como-funciona',
+      link:
+        'https://www.universidadviu.com/co/actualidad/nuestros-expertos/prototipado-que-es-y-como-funciona',
     },
   ],
   creditos: [
