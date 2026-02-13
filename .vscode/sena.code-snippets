@@ -1,0 +1,26 @@
+{
+  "Fila Imagen Texto": {
+    "prefix": "sena-img-text",
+    "body": [
+      ".row.mb-5.justify-content-center.align-items-center",
+      "  .col-auto.mb-3.mb-lg-0",
+      "    figure",
+      "      img(src=\"@/assets/curso/temas/${1:temaXX}/${2:imgXX.svg}\", alt=\"${3:Imagen Decorativa}\", data-aos=\"zoom-in\")",
+      "  .col-lg",
+      "    p.mb-0(data-aos=\"fade-right\") $0"
+    ],
+    "description": "Inserta una fila con imagen a la izquierda y texto a la derecha."
+  },
+  "Fila Texto Imagen": {
+    "prefix": "sena-text-img",
+    "body": [
+      ".row.mb-5.justify-content-center.align-items-center",
+      "  .col-lg-7.col-md-12.mb-4.mb-md-0(order-sm=\"1\" order-md=\"1\")",
+      "    p.mb-0(data-aos=\"fade-right\") $0",
+      "  .col-md-8.col-lg-5(order-sm=\"2\" order-md=\"2\")",
+      "    figure",
+      "      img(src=\"@/assets/curso/temas/${1:temaXX}/${2:imgXX.svg}\", alt=\"${3:Imagen Decorativa}\", data-aos=\"zoom-in\")"
+    ],
+    "description": "Inserta una fila con texto a la izquierda e imagen a la derecha."
+  }
+}

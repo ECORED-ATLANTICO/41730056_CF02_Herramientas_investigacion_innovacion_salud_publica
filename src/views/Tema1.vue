@@ -7,40 +7,38 @@
         span 1
       h1 Principios y fases de Design Thinking y Human-Centered Design (HCD) en salud pública
   
-    .bg-full-width
-      .row.align-items-ceniter(data-aos="fade-left").justify-content-center.mb-4
+    .row.align-items-center(data-aos="fade-left").justify-content-center.mb-4
 
-        .col-md-12.col-lg-10
-          .row.justify-content-center.align-items-center
-            .col-12.col-md-6.col-lg-5
-              figure
-                img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/img01.png', alt='Imagen Decorativa')
-            .col-12.col-md-12.col-lg-7.bg-color-terciario-t5
-              p.mb-0.p-4 Te invitamos a ver el siguiente video introductorio sobre el Pensamiento de Diseño (Design Thinking), el Diseño Centrado en el Usuario (Human-Centered Design). Mientras observas el video, reflexiona sobre las siguientes preguntas: ¿Cómo cambia la investigación en salud cuando se trabaja con las comunidades desde el inicio?
-    
-    .bg-full-width.bg-fondo-1
-      .px-5
-        .row.align-items-center(data-aos="fade-left").justify-content-center.mb-3
-          .col-12.col-md-12.col-lg-12
+      .col-md-12.col-lg-10
+        .row.justify-content-center.align-items-center
+          .col-12.col-md-6.col-lg-5
             figure
-              img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/img02.png', alt='Imagen Decorativa')
+              img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/img01.png', alt='Imagen Decorativa')
+          .col-12.col-md-12.col-lg-7.bg-color-terciario-t5
+            p.mb-0.p-4 Te invitamos a ver el siguiente video introductorio sobre el Pensamiento de Diseño (Design Thinking), el Diseño Centrado en el Usuario (Human-Centered Design). Mientras observas el video, reflexiona sobre las siguientes preguntas: ¿Cómo cambia la investigación en salud cuando se trabaja con las comunidades desde el inicio?
+    
+    .bg-fondo-1
+      .row.align-items-center(data-aos="fade-left").justify-content-center.mb-3
+        .col-12.col-md-12.col-lg-12
+          figure
+            img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/img02.png', alt='Imagen Decorativa')
 
-        separador
+      separador
 
-        .row.align-items-center(data-aos="fade-left").justify-content-center
-          .col-12.col-md-12.col-lg-12
+      .row.align-items-center(data-aos="fade-left").justify-content-center
+        .col-12.col-md-12.col-lg-12
 
-            //- Titulo
-            .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-              h2#t_1_1 1.1  Introducción y principios al pensamiento de diseño en salud pública
+          //- Titulo
+          .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+            h2#t_1_1 1.1  Introducción y principios al pensamiento de diseño en salud pública
 
-            //- banner con tarjeta
-            .row.justify-content-center.align-items-center.mb-3.tarjeta(data-aos="fade-left")
-              .col-lg-12.mb-2
-                div.tarjeta-horz.mb-3
-                  img(src='@/assets/curso/temas/tema1/img03.png', alt='Imagen decorativa')
-                  div.texto-tarjeta.bg-white
-                      p.mb-0 ¿Qué es Design Thinking?  Es una metodología que permite estructurar la forma en que se entiende un problema, qué se quiere solucionar y cuál es la solución que se debe crear. Este enfoque se basa en principios como la empatía con los usuarios, la creatividad y un proceso de resolución de problemas iterativo, es decir que no sigue una secuencia rígida y lineal, sino que evoluciona según los aprendizajes que surgen en cada etapa. 
+          //- banner con tarjeta
+          .row.justify-content-center.align-items-center.mb-3.tarjeta(data-aos="fade-left")
+            .col-lg-12.mb-2
+              div.tarjeta-horz.mb-3
+                img(src='@/assets/curso/temas/tema1/img03.png', alt='Imagen decorativa')
+                div.texto-tarjeta.bg-white
+                    p.mb-0 ¿Qué es Design Thinking?  Es una metodología que permite estructurar la forma en que se entiende un problema, qué se quiere solucionar y cuál es la solución que se debe crear. Este enfoque se basa en principios como la empatía con los usuarios, la creatividad y un proceso de resolución de problemas iterativo, es decir que no sigue una secuencia rígida y lineal, sino que evoluciona según los aprendizajes que surgen en cada etapa. 
 
     .row.align-items-center(data-aos="fade-left").justify-content-center
       //- Col3 y Col9
@@ -115,61 +113,60 @@
                   li Reducción de riesgos al validar o probar temprano (IxDF, 2016).
 
     .bg-full-width.bg-fondo-1
-      .px-5
 
-        separador
+      separador
 
-        .row.align-items-center(data-aos="fade-left").justify-content-center.mb-3
-          .col-12.col-md-12.col-lg-12
+      .row.align-items-center(data-aos="fade-left").justify-content-center.mb-3
+        .col-12.col-md-12.col-lg-12
 
-            //- Titulo
-            .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-              h2#t_1_2 1.2  Fases del proceso de Design Thinking
+          //- Titulo
+          .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+            h2#t_1_2 1.2  Fases del proceso de Design Thinking
 
-            p.mb-3 A continuación, se presenta con mayor profundidad cada una de las fases del proceso de Design Thinking <b>(ver Figura 1)</b>: 
+          p.mb-3 A continuación, se presenta con mayor profundidad cada una de las fases del proceso de Design Thinking <b>(ver Figura 1)</b>: 
 
-            TabsC.color-acento-contenido.mb-4
-              .p-3.p-md-4(titulo="Empatizar")
-                .row
-                  .col-lg-6.mb-4.mb-md-0
-                    p.p-4 Se busca comprender las necesidades, deseos y frustraciones de los usuarios poniéndose en su lugar a través de la observación, entrevistas y encuestas.
-                
-                  .col-lg-4.mb-3.mb-lg-0
-                    figure
-                      img(src='@/assets/curso/temas/tema1/img07.png', alt='Texto que describa la imagen')
+          TabsC.color-acento-contenido.mb-4
+            .p-3.p-md-4(titulo="Empatizar")
+              .row
+                .col-lg-6.mb-4.mb-md-0
+                  p.p-4 Se busca comprender las necesidades, deseos y frustraciones de los usuarios poniéndose en su lugar a través de la observación, entrevistas y encuestas.
+              
+                .col-lg-4.mb-3.mb-lg-0
+                  figure
+                    img(src='@/assets/curso/temas/tema1/img07.png', alt='Texto que describa la imagen')
 
-              .p-3.p-md-4(titulo="Definir")
-                .row
-                  .col-lg-6.mb-4.mb-md-0
-                    p.p-4 Se analiza y procesa toda la información recopilada en la fase de empatía para definir claramente el problema central y formular un "punto de vista" procesable que guiará el resto del proceso.
-                
-                  .col-lg-4.mb-3.mb-lg-0
-                    figure
-                      img(src='@/assets/curso/temas/tema1/img08.png', alt='Texto que describa la imagen')
-              .p-3.p-md-4(titulo="Idear")
-                .row
-                  .col-lg-6.mb-4.mb-md-0
-                    p.p-4 Es la fase de lluvia de ideas, donde se generan tantas ideas como sea posible para resolver el problema definido. En esta etapa se fomenta la creatividad y no se descarta ninguna idea.
-                
-                  .col-lg-4.mb-3.mb-lg-0
-                    figure
-                      img(src='@/assets/curso/temas/tema1/img09.png', alt='Texto que describa la imagen')
-              .p-3.p-md-4(titulo="Prototipar")
-                .row
-                  .col-lg-6.mb-4.mb-md-0
-                    p.p-4 Las ideas seleccionadas se convierten en versiones tangibles y de bajo costo. No se busca el prototipo perfecto, sino diferentes versiones para experimentar y probar diversas soluciones.
-                
-                  .col-lg-4.mb-3.mb-lg-0
-                    figure
-                      img(src='@/assets/curso/temas/tema1/img10.png', alt='Texto que describa la imagen')
-              .p-3.p-md-4(titulo="Probar")
-                .row
-                  .col-lg-6.mb-4.mb-md-0
-                    p.p-4 Los prototipos se ponen a prueba con usuarios reales para recoger sus opiniones y comentarios. La retroalimentación obtenida se utiliza para refinar las soluciones o para iterar, volviendo a una fase anterior si es necesario, hasta llegar a la mejor versión posible (De la Peña, 2024).
-                
-                  .col-lg-4.mb-3.mb-lg-0
-                    figure
-                      img(src='@/assets/curso/temas/tema1/img11.png', alt='Texto que describa la imagen')
+            .p-3.p-md-4(titulo="Definir")
+              .row
+                .col-lg-6.mb-4.mb-md-0
+                  p.p-4 Se analiza y procesa toda la información recopilada en la fase de empatía para definir claramente el problema central y formular un "punto de vista" procesable que guiará el resto del proceso.
+              
+                .col-lg-4.mb-3.mb-lg-0
+                  figure
+                    img(src='@/assets/curso/temas/tema1/img08.png', alt='Texto que describa la imagen')
+            .p-3.p-md-4(titulo="Idear")
+              .row
+                .col-lg-6.mb-4.mb-md-0
+                  p.p-4 Es la fase de lluvia de ideas, donde se generan tantas ideas como sea posible para resolver el problema definido. En esta etapa se fomenta la creatividad y no se descarta ninguna idea.
+              
+                .col-lg-4.mb-3.mb-lg-0
+                  figure
+                    img(src='@/assets/curso/temas/tema1/img09.png', alt='Texto que describa la imagen')
+            .p-3.p-md-4(titulo="Prototipar")
+              .row
+                .col-lg-6.mb-4.mb-md-0
+                  p.p-4 Las ideas seleccionadas se convierten en versiones tangibles y de bajo costo. No se busca el prototipo perfecto, sino diferentes versiones para experimentar y probar diversas soluciones.
+              
+                .col-lg-4.mb-3.mb-lg-0
+                  figure
+                    img(src='@/assets/curso/temas/tema1/img10.png', alt='Texto que describa la imagen')
+            .p-3.p-md-4(titulo="Probar")
+              .row
+                .col-lg-6.mb-4.mb-md-0
+                  p.p-4 Los prototipos se ponen a prueba con usuarios reales para recoger sus opiniones y comentarios. La retroalimentación obtenida se utiliza para refinar las soluciones o para iterar, volviendo a una fase anterior si es necesario, hasta llegar a la mejor versión posible (De la Peña, 2024).
+              
+                .col-lg-4.mb-3.mb-lg-0
+                  figure
+                    img(src='@/assets/curso/temas/tema1/img11.png', alt='Texto que describa la imagen')
 
     .row.align-items-center(data-aos="fade-left").justify-content-center
       .col-12.col-md-12.col-lg-10
@@ -196,13 +193,13 @@
         .titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2#t_1_3 1.3  Beneficios del Design Thinking en salud pública
 
-          
-        .row.align-items-center.justify-content-center.mb-3(data-aos="fade-left")
-          .col-12.col-md-8.col-lg-1.mb-4.mb-lg-0.mx-auto
+
+        .row.mb-5.justify-content-center.align-items-center
+          .col-auto.mb-3.mb-lg-0
             figure
-              img.mb-4(src='@/assets/curso/temas/tema1/img12.svg', alt='Imagen Decorativa')
-          .col-12.col-md-12.col-lg-11.mb-4.mb-lg-0
-            p De acuerdo con la Fundación para el Diseño y la Interacción (IxDF, 2016), hoy en día hablar de salud implica no solo es referirse a la enfermedad, sino también, y especialmente, a las personas y a sus experiencias. Aunque el sistema sanitario presenta múltiples oportunidades de mejora, las estrategias y reflexiones sobre cómo debemos fortalecer la salud, desde la gestión de servicios sanitarios hasta el desarrollo de equipos médicos o dispositivos para pacientes, deben poner el foco en las personas.
+              img(src="@/assets/curso/temas/tema1/img12.svg", alt="Imagen Decorativa", data-aos="zoom-in")
+          .col-lg
+            p.mb-0(data-aos="fade-right") De acuerdo con la Fundación para el Diseño y la Interacción (IxDF, 2016), hoy en día hablar de salud implica no solo es referirse a la enfermedad, sino también, y especialmente, a las personas y a sus experiencias. Aunque el sistema sanitario presenta múltiples oportunidades de mejora, las estrategias y reflexiones sobre cómo debemos fortalecer la salud, desde la gestión de servicios sanitarios hasta el desarrollo de equipos médicos o dispositivos para pacientes, deben poner el foco en las personas.
 
 
         .row.align-items-center(data-aos="fade-left").justify-content-center
@@ -250,11 +247,13 @@
 
           
         .row.justify-content-center.align-items-center.mb-4
-          .col-12.col-md-6.col-lg-1
-            figure
-              img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/img17.svg', alt='Imagen Decorativa').mx-auto
           .col-12.col-md-12.col-lg-10
-            p.mb-0 Entre los avances logrados gracias al Design Thinking se encuentran otras que pueden parecer simples, pero que tienen un impacto significativo en la experiencia del paciente. Por ejemplo, el rediseño de un traje de paciente, los cuales solían ser bastante incómodos para los usuarios, especialmente para los más pudorosos, por lo que se diseñó un nuevo modelo tipo pijama que pudiera ser usado tanto dentro como fuera del hospital sin pasar incomodidades o vergüenza. También es muy conocido el caso de un diseño que elimina la necesidad de usar soportes para el suero, encapsulando el dispositivo en una bolsa transportable, lo que facilita la movilidad de los pacientes, especialmente con cáncer y otras enfermedades dentro del hospital. 
+            .row.mb-5.justify-content-center.align-items-center
+              .col-auto.mb-3.mb-lg-0
+                figure
+                  img(src="@/assets/curso/temas/tema1/img17.svg", alt="Imagen Decorativa", data-aos="zoom-in")
+              .col-lg
+                p.mb-0(data-aos="fade-right") Entre los avances logrados gracias al Design Thinking se encuentran otras que pueden parecer simples, pero que tienen un impacto significativo en la experiencia del paciente. Por ejemplo, el rediseño de un traje de paciente, los cuales solían ser bastante incómodos para los usuarios, especialmente para los más pudorosos, por lo que se diseñó un nuevo modelo tipo pijama que pudiera ser usado tanto dentro como fuera del hospital sin pasar incomodidades o vergüenza. También es muy conocido el caso de un diseño que elimina la necesidad de usar soportes para el suero, encapsulando el dispositivo en una bolsa transportable, lo que facilita la movilidad de los pacientes, especialmente con cáncer y otras enfermedades dentro del hospital. 
 
         p.mb-3 Así, los beneficios del Desing Thinking en salud se dan en doble vía, tanto para los pacientes como para los trabajadores del sector salud, por ejemplo: 
 
@@ -389,14 +388,13 @@
                   td Crear soluciones que proporcionen el mayor valor posible a los usuarios, considerando sus contextos emocionales y sociales.
 
       .row.justify-content-center.align-items-center.mb-4
-        .col-12.col-md-12.col-lg-10
-          .row.justify-content-center.align-items-center
-            .col-12.col-md-6.col-lg-2
+        .col-12.col-md-12.col-lg-8
+          .row.mb-5.justify-content-center.align-items-center
+            .col-auto.mb-3.mb-lg-0
               figure
-                img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/img25.svg', alt='Imagen Decorativa').mx-auto.w-75
-            .col-12.col-md-12.col-lg-10
-              p.mb-0 En los años 90, cuando la gente hablaba de Innovación, en realidad se refería a Tecnología. Ahora, cuando la gente habla de Innovación en realidad quiere decir Diseño. Bruce Nussbaum, Managing Editor Businessweek Magazine (De la Peña, 2024). 
-
+                img(src="@/assets/curso/temas/tema1/img25.svg", alt="Imagen Decorativa", data-aos="zoom-in")
+            .col-lg
+              p.mb-0(data-aos="fade-right") En los años 90, cuando la gente hablaba de Innovación, en realidad se refería a Tecnología. Ahora, cuando la gente habla de Innovación en realidad quiere decir Diseño. Bruce Nussbaum, Managing Editor Businessweek Magazine (De la Peña, 2024). 
 
 </template>
 
