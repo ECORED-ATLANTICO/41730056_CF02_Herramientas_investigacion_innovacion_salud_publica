@@ -25,9 +25,8 @@
                   img(src="@/assets/curso/temas/tema5/img03.svg", alt="Imagen Decorativa", data-aos="zoom-in")
               .col-lg
                 p.mb-0(data-aos="fade-right") A continuación, pasaremos a explicar algunos casos exitosos, sin embargo, es importante recapitular los marcos de trabajo metodológicos vistos hasta el momento y reconocer que la innovación en salud no depende únicamente del desarrollo tecnológico, sino también de la comprensión profunda del contexto social, la colaboración entre actores institucionales y las comunidades, y la aplicación sistemática de metodologías como <em>Design Thinking</em>, HCD y las metodologías ágiles.
-
          
-      .col-md-8.col-lg-3
+      .col-md-6.col-lg-3
         figure
           img(src="@/assets/curso/temas/tema5/img02.png", alt="Imagen Decorativa", data-aos="zoom-in").mb-lg-0
 
@@ -53,7 +52,7 @@
         .row.align-items-center.bg-color-primario-p20.p-4(data-aos="fade-left").icono-inferior.mb-4
           .col-12.col-md-12.col-lg-9.mb-4.mb-lg-0
             p Por ejemplo, una estrategia para mejorar la adherencia a tratamientos puede comenzar con un ejercicio de empatía y mapeo de actores, según el <em>Design Thinking</em>, seguir con la co-creación de prototipos con pacientes y profesionales, según HCD, y culminar en una implementación iterativa que evalúa resultados cada semana, empleando metodologías ágiles. En este sentido, lo importante no es etiquetar la metodología, sino evidenciar el enfoque centrado en el usuario, la experimentación y la mejora continua.
-          .col-12.col-md-8.col-lg-3.mb-4.mb-lg-0.mx-auto
+          .col-12.col-md-6.col-lg-3.mb-4.mb-lg-0.mx-auto
             figure
               img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema5/img06.png', alt='Imagen Decorativa') 
 
@@ -97,7 +96,7 @@
                 td Implementación por ciclos de un sistema de telemedicina o vigilancia epidemiológica.
 
     .row.mb-5.justify-content-center.align-items-center
-      .col-md-8.col-lg-3(order-sm="2" order-md="2")
+      .col-md-8.col-lg-3.mb-3(order-sm="2" order-md="2")
         figure
           img(src="@/assets/curso/temas/tema5/img07.png", alt="Imagen Decorativa", data-aos="zoom-in")
       .col-lg-9.col-md-12.mb-4.mb-md-0(order-sm="1" order-md="1")
@@ -128,7 +127,7 @@
 
     .row.justify-content-center.align-items-center
       .col-md-12.col-lg-10
-        .row.align-items-center.justify-content-center.mb-5
+        .row.align-items-center.justify-content-center
           .col-lg-9.order-lg-1.order-2
             AcordionA(tipo="a" clase-tarjeta="tarjeta bg-color-1")
               .div(titulo="Mamás del Río")
@@ -139,10 +138,9 @@
                 p.mb-0 Mitigación de riesgos durante la pandemia de COVID-19 en territorio maya tz´utujil de Guatemala. Liderado por la Universidad del Valle de Guatemala. Este proyecto implementó un sistema de vigilancia sindrómica comunitaria durante la pandemia de COVID-19 con pertinencia cultural en población maya tz’utujil. Su estructura metodológica incluyó co-creación de materiales educativos, campañas de comunicación diseñadas con líderes comunitarios y retroalimentación continua mediante investigación participativa. Las soluciones fueron codiseñadas con los usuarios finales, adaptadas a su idioma, cosmovisión y contexto territorial, respetando las prácticas culturales de salud. La OPS destaca que el proyecto no solo mejoró la vigilancia sanitaria, sino también la confianza y apropiación comunitaria (Ruwaach, 2022).
               .div(titulo="Modelo Integral de Atención en Salud para la Ruralidad de Sumapaz")
                 p.mb-0 Liderado por la Subred Integrada de Servicios de Salud Sur, Secretaría Distrital de Salud de Bogotá, Colombia. El modelo se centra en diseñar servicios de salud adaptados a contextos rurales mediante participación comunitaria, diálogo intercultural y fortalecimiento de redes locales de apoyo. La OPS resalta su capacidad para integrar saberes ancestrales, medicina alternativa y determinantes ambientales, mostrando un enfoque de diseño verdaderamente centrado en las personas y en su entorno ecológico y cultural (PAHO TV, 2024).
-          .col-md-8.col-lg-3.mb-3.mb-lg-0.order-lg-2.order-1
+          .col-md-6.col-lg-3.mb-3.mb-lg-0.order-lg-2.order-1
             figure
               img(src="@/assets/curso/temas/tema5/img11.png", data-aos="zoom-in")
-  
 
     separador
     
