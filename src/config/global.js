@@ -69,7 +69,7 @@ export default {
         nombreRuta: 'tema2',
         numero: '2',
         titulo:
-          'Tipos de prototipado y procesos de testeo con usuarios en salud',
+          'Tipos de prototipado y procesos de <em>test</em>eo con usuarios en salud',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -84,7 +84,7 @@ export default {
           },
           {
             numero: '2.3',
-            titulo: 'Principios básicos del testeo con usuarios',
+            titulo: 'Principios básicos del <em>test</em>eo con usuarios',
             hash: 't_2_3',
           },
           {
@@ -281,7 +281,7 @@ export default {
         'Es un prototipo que permite comprobar si el bien o servicio que está desarrollando una compañía se ajusta a las necesidades del mercado y, de no hacerlo, los cambios que debe introducir en su diseño, funcionalidad o, incluso, precio.',
     },
     {
-      termino: 'Pruebas con usuarios o test con usuarios',
+      termino: 'Pruebas con usuarios o <em>test</em> con usuarios',
       significado:
         'Son una herramienta en el diseño de productos, servicios y experiencias, ya que permiten utilizar la observación y el análisis para evaluar cómo un grupo de personas determinado utiliza los desarrollos para identificar errores y mejoras antes de realizar un lanzamiento oficial',
     },
@@ -363,9 +363,9 @@ export default {
     },
     {
       referencia:
-        'Narvaez, M. (sf). ¿Qué son las pruebas con usuarios o test con usuarios? Questionpro (Blog).',
+        'Narvaez, M. (sf). ¿Qué son las pruebas con usuarios o <em>test</em> con usuarios? Questionpro (Blog).',
       link:
-        'https://www.questionpro.com/blog/es/pruebas-con-usuarios-o-test-con-usuarios/',
+        'https://www.questionpro.com/blog/es/pruebas-con-usuarios-o-<em>test</em>-con-usuarios/',
     },
     {
       referencia:

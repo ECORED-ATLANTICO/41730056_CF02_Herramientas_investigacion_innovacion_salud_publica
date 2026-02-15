@@ -198,7 +198,7 @@ export default {
         {
           id: 13,
           texto:
-            'Tipo de prueba o test con usuarios en el que la forma más sencilla de obtener datos de los clientes, sin importar su ubicación, es:',
+            'Tipo de prueba o <em>test</em> con usuarios en el que la forma más sencilla de obtener datos de los clientes, sin importar su ubicación, es:',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [

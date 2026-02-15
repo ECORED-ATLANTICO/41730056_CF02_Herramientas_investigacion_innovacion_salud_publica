@@ -214,5 +214,15 @@
       "    p.mb-0 ${6:Por ello, la gestión de la propiedad intelectual en el sector salud no se limita a registrar o patentar, sino que implica definir estrategias de transferencia tecnológica responsable, en las cuales se equilibren los derechos de los innovadores con las necesidades de los sistemas de salud.}"
     ],
     "description": "Fila con tres columnas: tarjeta de texto, imagen y texto con icono decorativo"
+  },
+  "TituloConImagen": {
+    "prefix": "Sena_Titulo+img",
+    "body": [
+      ".titulo-con-imagen.mb-5(data-aos=\"fade-right\")",
+      "  .titulo-con-imagen__fondo",
+      "    img.titulo-con-imagen__imagen(src=\"@/assets/componentes/1.svg\")",
+      "    h3.titulo-con-imagen__texto El proceso de trazabilidad"
+    ],
+    "description": "Bloque de título con imagen de fondo en Pug"
   }
 }
