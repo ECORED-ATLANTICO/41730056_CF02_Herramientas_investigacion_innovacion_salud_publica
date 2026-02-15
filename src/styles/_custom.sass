@@ -14,6 +14,37 @@
     @media (min-width: $bp-min-lg)
       width: 500px
 
+.banner-principal-decorativo
+  &-1
+    animation: float1 3.5s ease-in-out infinite alternate
+    position: absolute
+    top: 20%
+    right: 0%
+  &-2
+    animation: girar 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 45%
+    right: 80%
+
+  &-3
+    position: absolute
+    top: 20%
+    right: 80%
+    animation: girar 2.8s ease-in-out infinite alternate
+
+@keyframes float1
+  0%
+    transform: translateY(20px)
+  100%
+    transform: translateY(0px)
+
+@keyframes girar
+  from
+    transform: rotate(0deg)
+
+  to
+    transform: rotate(360deg)
+
 ///////////CUSTOM BANNER PRINCIPAL E INTERNO/////////////
 .banner-principal .tarjeta
   background-position: left 50% !important
