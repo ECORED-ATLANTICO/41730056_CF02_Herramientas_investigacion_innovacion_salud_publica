@@ -84,7 +84,7 @@ export default {
         {
           id: 5,
           texto:
-            'El Design Thinking es una metodología orientada a resolver problemas mal definidos o desconocidos, basada en un proceso iterativo y no lineal propio del pensamiento de diseño.',
+            'El <em>Design Thinking</em> es una metodología orientada a resolver problemas mal definidos o desconocidos, basada en un proceso iterativo y no lineal propio del pensamiento de diseño.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -98,7 +98,7 @@ export default {
         {
           id: 6,
           texto:
-            'El objetivo principal del Design Thinking es garantizar que las soluciones sean deseables, factibles y viables.',
+            'El objetivo principal del <em>Design Thinking</em> es garantizar que las soluciones sean deseables, factibles y viables.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -126,7 +126,7 @@ export default {
         {
           id: 8,
           texto:
-            'Las metodologías Design Thinking y Human-Centered Design comparten una filosofía centrada en las personas, empleando la empatía y la iteración como pilares para abordar y resolver problemas complejos.',
+            'Las metodologías <em>Design Thinking</em> y <em>Human-Centered Design</em> comparten una filosofía centrada en las personas, empleando la empatía y la iteración como pilares para abordar y resolver problemas complejos.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -306,7 +306,7 @@ export default {
         {
           id: 18,
           texto:
-            'El proceso de Design Thinking se desarrolla en cinco fases, las cuales son:',
+            'El proceso de <em>Design Thinking</em> se desarrolla en cinco fases, las cuales son:',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -338,7 +338,7 @@ export default {
         {
           id: 19,
           texto:
-            'El proceso de Design Thinking, aplicado al ámbito de la salud, ofrece los siguientes beneficios:',
+            'El proceso de <em>Design Thinking</em>, aplicado al ámbito de la salud, ofrece los siguientes beneficios:',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -366,7 +366,7 @@ export default {
         {
           id: 20,
           texto:
-            'El procesos de Design Thinking combina las capacidades del pensamiento creativo y racional, enfocándose en los siguientes aspectos:',
+            'El procesos de <em>Design Thinking</em> combina las capacidades del pensamiento creativo y racional, enfocándose en los siguientes aspectos:',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [

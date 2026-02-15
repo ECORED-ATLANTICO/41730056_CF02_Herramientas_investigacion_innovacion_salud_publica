@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Metodologías ágiles y diseño centrado en el usuario',
     Description:
-      'Este componente formativo aborda los principios del Pensamiento de Diseño (Design Thinking), el Diseño Centrado en el Usuario (Human-Centered Design) y metodologías ágiles como Lean Startup, Scrum y Kanban, aplicadas al desarrollo, prototipado y validación de soluciones innovadoras en investigación en salud pública, integrando el concepto de Producto Mínimo Viable y casos exitosos en América Latina.',
+      'Este componente formativo aborda los principios del Pensamiento de Diseño (<em>Design Thinking</em>), el Diseño Centrado en el Usuario (<em>Human-Centered Design</em>) y metodologías ágiles como Lean Startup, Scrum y Kanban, aplicadas al desarrollo, prototipado y validación de soluciones innovadoras en investigación en salud pública, integrando el concepto de Producto Mínimo Viable y casos exitosos en América Latina.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -33,7 +33,7 @@ export default {
         nombreRuta: 'tema1',
         numero: '1',
         titulo:
-          'Principios y fases de Design Thinking y Human-Centered Design (HCD) en salud pública',
+          'Principios y fases de <em>Design Thinking</em> y <em>Human-Centered Design</em> (HCD) en salud pública',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -44,23 +44,23 @@ export default {
           },
           {
             numero: '1.2',
-            titulo: 'Fases del proceso de Design Thinking',
+            titulo: 'Fases del proceso de <em>Design Thinking</em>',
             hash: 't_1_2',
           },
           {
             numero: '1.3',
-            titulo: 'Beneficios del Design Thinking en salud pública',
+            titulo: 'Beneficios del <em>Design Thinking</em> en salud pública',
             hash: 't_1_3',
           },
           {
             numero: '1.4',
-            titulo: 'Fundamentos del Human-Centered Design (HCD)',
+            titulo: 'Fundamentos del <em>Human-Centered Design</em> (HCD)',
             hash: 't_1_4',
           },
           {
             numero: '1.5',
             titulo:
-              'Diferencias y complementariedades entre Design Thinking y HCD',
+              'Diferencias y complementariedades entre <em>Design Thinking</em> y HCD',
             hash: 't_1_5',
           },
         ],
@@ -156,7 +156,7 @@ export default {
           {
             numero: '5.1',
             titulo:
-              'Innovaciones participativas centradas en las personas impulsadas por Design Thinking o Human-Centered Design',
+              'Innovaciones participativas centradas en las personas impulsadas por <em>Design Thinking</em> o <em>Human-Centered Design</em>',
             hash: 't_5_1',
           },
           {
@@ -261,9 +261,9 @@ export default {
         'En prototipado, se refiere al nivel de detalle, precisión y realismo de un prototipo en comparación con el producto final.',
     },
     {
-      termino: 'Human-Centered Design (HCD)',
+      termino: '<em>Human-Centered Design</em> (HCD)',
       significado:
-        'Enfoque de diseño que pone las necesidades, capacidades y comportamientos de los seres humanos en el centro del proceso de desarrollo. Es la filosofía subyacente al Design Thinking.',
+        'Enfoque de diseño que pone las necesidades, capacidades y comportamientos de los seres humanos en el centro del proceso de desarrollo. Es la filosofía subyacente al <em>Design Thinking</em>.',
     },
     {
       termino: 'Iteración',
@@ -336,7 +336,7 @@ export default {
     },
     {
       referencia:
-        'IxDF - Fundación para el Diseño de Interacción. (25 de mayo de 2016). ¿Qué es el Design Thinking? IxDF - Fundación para el Diseño de Interacción.',
+        'IxDF - Fundación para el Diseño de Interacción. (25 de mayo de 2016). ¿Qué es el <em>Design Thinking</em>? IxDF - Fundación para el Diseño de Interacción.',
       link:
         'https://www.interaction-design.org/literature/topics/design-thinking',
     },
@@ -385,7 +385,7 @@ export default {
     },
     {
       referencia:
-        'Pomar, P. (2017, 19 de mayo). Diferencias entre Design Thinking y Diseño centrado en las personas. Thinkernautas (Blog).',
+        'Pomar, P. (2017, 19 de mayo). Diferencias entre <em>Design Thinking</em> y Diseño centrado en las personas. Thinkernautas (Blog).',
       link:
         'https://thinkernautas.com/diferencias-design-thinking-human-centered-design',
     },
@@ -408,7 +408,7 @@ export default {
     },
     {
       referencia:
-        'Saavedra Seoane, M. (sf). El Design Thinking en la salud. Designthinking.gal (Blog).',
+        'Saavedra Seoane, M. (sf). El <em>Design Thinking</em> en la salud. Designthinking.gal (Blog).',
       link: 'https://designthinking.gal/el-design-thinking-en-salud/',
     },
     {

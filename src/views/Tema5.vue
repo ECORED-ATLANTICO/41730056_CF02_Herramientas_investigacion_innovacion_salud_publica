@@ -24,7 +24,7 @@
                 figure
                   img(src="@/assets/curso/temas/tema5/img03.svg", alt="Imagen Decorativa", data-aos="zoom-in")
               .col-lg
-                p.mb-0(data-aos="fade-right") A continuación, pasaremos a explicar algunos casos exitosos, sin embargo, es importante recapitular los marcos de trabajo metodológicos vistos hasta el momento y reconocer que la innovación en salud no depende únicamente del desarrollo tecnológico, sino también de la comprensión profunda del contexto social, la colaboración entre actores institucionales y las comunidades, y la aplicación sistemática de metodologías como Design Thinking, HCD y las metodologías ágiles.
+                p.mb-0(data-aos="fade-right") A continuación, pasaremos a explicar algunos casos exitosos, sin embargo, es importante recapitular los marcos de trabajo metodológicos vistos hasta el momento y reconocer que la innovación en salud no depende únicamente del desarrollo tecnológico, sino también de la comprensión profunda del contexto social, la colaboración entre actores institucionales y las comunidades, y la aplicación sistemática de metodologías como <em>Design Thinking</em>, HCD y las metodologías ágiles.
 
          
       .col-md-8.col-lg-3
@@ -46,33 +46,33 @@
             figure
               img(src="@/assets/curso/temas/tema5/img05.svg", alt="Imagen Decorativa", data-aos="zoom-in")
           .col-lg
-            p.mb-0(data-aos="fade-right") De acuerdo con lo anterior, en proyectos reales de innovación, es habitual encontrar hibridaciones metodológicas, es decir, experiencias que inician con Design Thinking para explorar necesidades, continúan con HCD para adaptar soluciones al contexto local y se gestionan con marcos ágiles como Scrum o Kanban para su implementación progresiva. Es por esto por lo que más que metodologías cerradas, funcionan como principios complementarios dentro de un mismo proceso de innovación.
+            p.mb-0(data-aos="fade-right") De acuerdo con lo anterior, en proyectos reales de innovación, es habitual encontrar hibridaciones metodológicas, es decir, experiencias que inician con <em>Design Thinking</em> para explorar necesidades, continúan con HCD para adaptar soluciones al contexto local y se gestionan con marcos ágiles como Scrum o Kanban para su implementación progresiva. Es por esto por lo que más que metodologías cerradas, funcionan como principios complementarios dentro de un mismo proceso de innovación.
 
     .row.mb-5.justify-content-center.align-items-center
       .col-md-12.col-lg-10
         .row.align-items-center.bg-color-primario-p20.p-4(data-aos="fade-left").icono-inferior.mb-4
           .col-12.col-md-12.col-lg-9.mb-4.mb-lg-0
-            p Por ejemplo, una estrategia para mejorar la adherencia a tratamientos puede comenzar con un ejercicio de empatía y mapeo de actores, según el Design Thinking, seguir con la co-creación de prototipos con pacientes y profesionales, según HCD, y culminar en una implementación iterativa que evalúa resultados cada semana, empleando metodologías ágiles. En este sentido, lo importante no es etiquetar la metodología, sino evidenciar el enfoque centrado en el usuario, la experimentación y la mejora continua.
+            p Por ejemplo, una estrategia para mejorar la adherencia a tratamientos puede comenzar con un ejercicio de empatía y mapeo de actores, según el <em>Design Thinking</em>, seguir con la co-creación de prototipos con pacientes y profesionales, según HCD, y culminar en una implementación iterativa que evalúa resultados cada semana, empleando metodologías ágiles. En este sentido, lo importante no es etiquetar la metodología, sino evidenciar el enfoque centrado en el usuario, la experimentación y la mejora continua.
           .col-12.col-md-8.col-lg-3.mb-4.mb-lg-0.mx-auto
             figure
               img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema5/img06.png', alt='Imagen Decorativa') 
 
-        p.mb-0 A continuación, se presenta una tabla comparativa entre Design Thinking, Human-Centered Design y metodologías ágiles
+        p.mb-0 A continuación, se presenta una tabla comparativa entre <em>Design Thinking</em>, <em>Human-Centered Design</em> y metodologías ágiles
 
     .row.justify-content-center.align-items-center(data-aos="fade-left").mb-4
       .col-lg-12
         .titulo-sexto.mb-4.color-acento-contenido
           h5 
             b Tabla 5. 
-            span Comparativa entre Design Thinking, Human-Centered Design y metodologías ágiles
+            span Comparativa entre <em>Design Thinking</em>, <em>Human-Centered Design</em> y metodologías ágiles
         .tabla-a.color-acento-contenido
           table
             caption Fuente: elaboración propia INS (2025)
             thead
               tr
                 th Aspecto
-                th Design Thinking 
-                th Human-Centered Design 
+                th <em>Design Thinking</em> 
+                th <em>Human-Centered Design</em> 
                 th Metodologías Ágiles
             tbody
               tr
@@ -101,7 +101,7 @@
         figure
           img(src="@/assets/curso/temas/tema5/img07.png", alt="Imagen Decorativa", data-aos="zoom-in")
       .col-lg-9.col-md-12.mb-4.mb-md-0(order-sm="1" order-md="1")
-        p.mb-0(data-aos="fade-right") Conforme a lo explicado hasta aquí, lo esencial es comprender cuándo y por qué aplicar cada enfoque, por ejemplo el Design Thinking es más útil cuando el problema es ambiguo y se necesita comprender y redefinir la situación desde la experiencia del usuario, mientras que el HCD se aplica más cuando nuestra situación busque diseñar soluciones que respeten costumbres y realidades de las comunidades, pero que a la vez garanticen apropiación y sostenibilidad, y las metodologías ágiles son clave cuando el desafío pasa a la fase de ejecución, donde se requiere coordinación, eficiencia y adaptación constante a los resultados. Es así, la combinación de los tres enfoques permite avanzar desde la comprensión empática hasta la implementación efectiva, cerrando el ciclo de innovación con aprendizaje validado y evidencia aplicada.
+        p.mb-0(data-aos="fade-right") Conforme a lo explicado hasta aquí, lo esencial es comprender cuándo y por qué aplicar cada enfoque, por ejemplo el <em>Design Thinking</em> es más útil cuando el problema es ambiguo y se necesita comprender y redefinir la situación desde la experiencia del usuario, mientras que el HCD se aplica más cuando nuestra situación busque diseñar soluciones que respeten costumbres y realidades de las comunidades, pero que a la vez garanticen apropiación y sostenibilidad, y las metodologías ágiles son clave cuando el desafío pasa a la fase de ejecución, donde se requiere coordinación, eficiencia y adaptación constante a los resultados. Es así, la combinación de los tres enfoques permite avanzar desde la comprensión empática hasta la implementación efectiva, cerrando el ciclo de innovación con aprendizaje validado y evidencia aplicada.
 
 
     .row.justify-content-center.align-items-center
@@ -109,7 +109,7 @@
       
       .row.justify-content-center.align-items-center.z-2
         .col-lg-9(data-aos="fade-up")
-          p.banner-text Si bien muchos proyectos de innovación en salud pública en América Latina no declaran explícitamente el uso de metodologías como Design Thinking, Human-Centered Design o Agile, sus principios están presentes en la forma en que abordan los problemas, involucran a las comunidades y mejoran sus procesos. A continuación, se presentan experiencias que reflejan la aplicación práctica de estos enfoques. 
+          p.banner-text Si bien muchos proyectos de innovación en salud pública en América Latina no declaran explícitamente el uso de metodologías como <em>Design Thinking</em>, <em>Human-Centered Design</em> o Agile, sus principios están presentes en la forma en que abordan los problemas, involucran a las comunidades y mejoran sus procesos. A continuación, se presentan experiencias que reflejan la aplicación práctica de estos enfoques. 
 
     separador
     
@@ -117,14 +117,14 @@
       .col-12.col-md-12.col-lg-12
         //- Titulo
         .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2#t_5_1 5.1 Innovaciones participativas centradas en las personas impulsadas por Design Thinking o Human-Centered Design 
+          h2#t_5_1 5.1 Innovaciones participativas centradas en las personas impulsadas por <em>Design Thinking</em> o <em>Human-Centered Design</em> 
 
         .row.mb-5.justify-content-center.align-items-center
           .col-auto.mb-3.mb-lg-0
             figure
               img(src="@/assets/curso/temas/tema5/img09.svg", alt="Imagen Decorativa", data-aos="zoom-in")
           .col-lg
-            p.mb-0(data-aos="fade-right") A continuación, se presentan cuatro ejemplos de innovaciones impulsadas por Design Thinking y Human-Centered Design, estos casos han sido reconocidos por las lecciones en innovación social en salud pública que han dejado y han sido documentadas por la Organización Panamericana de la Salud (OPS, 2025), debido a su capacidad para co-crear soluciones pertinentes con las comunidades, mejorar la equidad en salud y generar modelos replicables basados en el diseño centrado en las personas y la comprensión profunda del contexto local.
+            p.mb-0(data-aos="fade-right") A continuación, se presentan cuatro ejemplos de innovaciones impulsadas por <em>Design Thinking</em> y <em>Human-Centered Design</em>, estos casos han sido reconocidos por las lecciones en innovación social en salud pública que han dejado y han sido documentadas por la Organización Panamericana de la Salud (OPS, 2025), debido a su capacidad para co-crear soluciones pertinentes con las comunidades, mejorar la equidad en salud y generar modelos replicables basados en el diseño centrado en las personas y la comprensión profunda del contexto local.
 
     .row.justify-content-center.align-items-center
       .col-md-12.col-lg-10
