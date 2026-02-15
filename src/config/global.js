@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Metodologías ágiles y diseño centrado en el usuario',
     Description:
-      'Este componente formativo aborda los principios del Pensamiento de Diseño (<em>Design Thinking</em>), el Diseño Centrado en el Usuario (<em>Human-Centered Design</em>) y metodologías ágiles como Lean Startup, Scrum y Kanban, aplicadas al desarrollo, prototipado y validación de soluciones innovadoras en investigación en salud pública, integrando el concepto de Producto Mínimo Viable y casos exitosos en América Latina.',
+      'Este componente formativo aborda los principios del Pensamiento de Diseño (<em>Design Thinking</em>), el Diseño Centrado en el Usuario (<em>Human-Centered Design</em>) y metodologías ágiles como <em>Lean Startup</em>, <em>Scrum</em> y <em>Kanban</em>, aplicadas al desarrollo, prototipado y validación de soluciones innovadoras en investigación en salud pública, integrando el concepto de Producto Mínimo Viable y casos exitosos en América Latina.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -126,17 +126,17 @@ export default {
           },
           {
             numero: '4.2',
-            titulo: 'Lean Startup',
+            titulo: '<em>Lean Startup</em>',
             hash: 't_4_2',
           },
           {
             numero: '4.3',
-            titulo: 'Scrum',
+            titulo: '<em>Scrum</em>',
             hash: 't_4_3',
           },
           {
             numero: '4.4',
-            titulo: 'Kanban',
+            titulo: '<em>Kanban</em>',
             hash: 't_4_4',
           },
           {
@@ -238,7 +238,7 @@ export default {
     {
       tema: 'Metodologías agiles',
       referencia:
-        'Instituto de Investigación Sanitaria Galicia Sur. (2023). Lean Startup para científicos. Instituto de Investigación Sanitaria Galicia Sur.',
+        'Instituto de Investigación Sanitaria Galicia Sur. (2023). <em>Lean Startup</em> para científicos. Instituto de Investigación Sanitaria Galicia Sur.',
       tipo: 'Libro',
       link:
         'https://www.iisgaliciasur.es/wp-content/uploads/2023/05/Lean-Startup-para-cientificos.pdf',
@@ -248,7 +248,7 @@ export default {
     {
       termino: 'Backlog',
       significado:
-        'Lista ordenada y priorizada de las funcionalidades, requisitos, mejoras y correcciones que se necesitan para un producto. Es central en el marco de trabajo Scrum.',
+        'Lista ordenada y priorizada de las funcionalidades, requisitos, mejoras y correcciones que se necesitan para un producto. Es central en el marco de trabajo <em>Scrum</em>.',
     },
     {
       termino: 'Brainstormng',
@@ -286,9 +286,9 @@ export default {
         'Son una herramienta en el diseño de productos, servicios y experiencias, ya que permiten utilizar la observación y el análisis para evaluar cómo un grupo de personas determinado utiliza los desarrollos para identificar errores y mejoras antes de realizar un lanzamiento oficial',
     },
     {
-      termino: 'Sprint',
+      termino: '<em>Sprint</em>',
       significado:
-        'Periodo corto de trabajo en Scrum durante el cual se desarrollan entregables específicos y verificables.',
+        'Periodo corto de trabajo en <em>Scrum</em> durante el cual se desarrollan entregables específicos y verificables.',
     },
     {
       termino: 'Startup',
@@ -348,7 +348,7 @@ export default {
     },
     {
       referencia:
-        'Martins, J. (2025, 19 de enero). ¿Qué es la metodología Kanban y cómo funciona? Asana (Blog).',
+        'Martins, J. (2025, 19 de enero). ¿Qué es la metodología <em>Kanban</em> y cómo funciona? Asana (Blog).',
       link: 'https://asana.com/es/resources/what-is-kanban',
     },
     {
@@ -391,7 +391,7 @@ export default {
     },
     {
       referencia:
-        'Ries, E. (2011). The Lean Startup: How Today’s Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses. Crown Business.',
+        'Ries, E. (2011). The <em>Lean Startup</em>: How Today’s Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses. Crown Business.',
       link:
         'https://books.google.com.co/books?id=tvfyz-4JILwC&printsec=frontcover&hl=es&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false',
     },
@@ -418,13 +418,13 @@ export default {
     },
     {
       referencia:
-        'Schwaber, K., & Sutherland, J. (2020). Guía de Scrum: la guía definitiva del marco de trabajo Scrum. Scrum.org.',
+        'Schwaber, K., & Sutherland, J. (2020). Guía de <em>Scrum</em>: la guía definitiva del marco de trabajo <em>Scrum</em>. Scrum.org.',
       link:
         'https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-Spanish-Latin-South-American.pdf',
     },
     {
       referencia:
-        'Solvingadhoc. (2017, 13 de noviembre). El aprendizaje validado en Lean Startup, un pilar fundamental. Solvingadhoc (Blog).',
+        'Solvingadhoc. (2017, 13 de noviembre). El aprendizaje validado en <em>Lean Startup</em>, un pilar fundamental. Solvingadhoc (Blog).',
       link:
         'https://solvingadhoc.com/aprendizaje-validado-lean-startup-pilar-fundamental/',
     },

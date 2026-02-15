@@ -70,7 +70,7 @@ export default {
         {
           id: 4,
           texto:
-            'La metodología Lean Startup, desarrollada por Eric Ries en 2011, combina principios ágiles con enfoques de validación científica para gestionar la innovación en contextos caracterizados por alta incertidumbre.',
+            'La metodología <em>Lean Startup</em>, desarrollada por Eric Ries en 2011, combina principios ágiles con enfoques de validación científica para gestionar la innovación en contextos caracterizados por alta incertidumbre.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -266,9 +266,9 @@ export default {
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Lean Startup', esCorrecta: false },
-            { id: 'b', texto: 'Scrum', esCorrecta: true },
-            { id: 'c', texto: 'Kanban', esCorrecta: false },
+            { id: 'a', texto: '<em>Lean Startup</em>', esCorrecta: false },
+            { id: 'b', texto: '<em>Scrum</em>', esCorrecta: true },
+            { id: 'c', texto: '<em>Kanban</em>', esCorrecta: false },
             { id: 'd', texto: 'Debate', esCorrecta: false },
           ],
           mensaje_correcto: 'Muy bien, felicitaciones',
@@ -278,7 +278,7 @@ export default {
         {
           id: 17,
           texto:
-            'Hace parte del Roles en Scrum adaptados a la investigación en salud pública, excepto:',
+            'Hace parte del Roles en <em>Scrum</em> adaptados a la investigación en salud pública, excepto:',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -289,7 +289,7 @@ export default {
             },
             {
               id: 'b',
-              texto: 'Facilitador o Líder de proceso (Scrum Master)',
+              texto: 'Facilitador o Líder de proceso (<em>Scrum</em> Master)',
               esCorrecta: false,
             },
             {

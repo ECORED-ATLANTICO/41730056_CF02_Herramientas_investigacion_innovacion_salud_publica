@@ -46,7 +46,7 @@
             figure
               img(src="@/assets/curso/temas/tema5/img05.svg", alt="Imagen Decorativa", data-aos="zoom-in")
           .col-lg
-            p.mb-0(data-aos="fade-right") De acuerdo con lo anterior, en proyectos reales de innovación, es habitual encontrar hibridaciones metodológicas, es decir, experiencias que inician con <em>Design Thinking</em> para explorar necesidades, continúan con HCD para adaptar soluciones al contexto local y se gestionan con marcos ágiles como Scrum o Kanban para su implementación progresiva. Es por esto por lo que más que metodologías cerradas, funcionan como principios complementarios dentro de un mismo proceso de innovación.
+            p.mb-0(data-aos="fade-right") De acuerdo con lo anterior, en proyectos reales de innovación, es habitual encontrar hibridaciones metodológicas, es decir, experiencias que inician con <em>Design Thinking</em> para explorar necesidades, continúan con HCD para adaptar soluciones al contexto local y se gestionan con marcos ágiles como <em>Scrum</em> o <em>Kanban</em> para su implementación progresiva. Es por esto por lo que más que metodologías cerradas, funcionan como principios complementarios dentro de un mismo proceso de innovación.
 
     .row.mb-5.justify-content-center.align-items-center
       .col-md-12.col-lg-10
@@ -158,14 +158,14 @@
             img.d-lg-flex.d-none(src="@/assets/curso/temas/tema5/img12.svg", style="max-width: 90px").mx-auto
           .col-lg.px-lg-4.p-3
             p.mb-3 Uno de los ejemplos más recientes de adopción de enfoques ágiles en el ámbito de la salud pública en América Latina proviene del Centro Latinoamericano y del Caribe de Información en Ciencias de la Salud, centro especializado de la Organización Panamericana de la Salud. 
-            p.mb-0 Durante 2024, la OPS/OMS consolidaron prácticas innovadoras de gestión y ejecución estratégica, incorporando metodologías ágiles de gestión y operaciones, entre ellas el enfoque Scrum, con el fin de aumentar la eficiencia y la colaboración en sus proyectos de transformación digital. La introducción del enfoque ágil en esta institución de salud pública representa un cambio relevante en la forma de gestionar proyectos tecnológicos y de información sanitaria. 
+            p.mb-0 Durante 2024, la OPS/OMS consolidaron prácticas innovadoras de gestión y ejecución estratégica, incorporando metodologías ágiles de gestión y operaciones, entre ellas el enfoque <em>Scrum</em>, con el fin de aumentar la eficiencia y la colaboración en sus proyectos de transformación digital. La introducción del enfoque ágil en esta institución de salud pública representa un cambio relevante en la forma de gestionar proyectos tecnológicos y de información sanitaria. 
 
     .row.justify-content-center.align-items-center
       .col-md-8.col-lg-4(order-sm="2" order-md="2")
         figure
           img(src="@/assets/curso/temas/tema5/img13.png", alt="Imagen Decorativa", data-aos="zoom-in")
       .col-lg-8.col-md-12.mb-4.mb-md-0(order-sm="1" order-md="1")
-        p.mb-3(data-aos="fade-right") El uso de Scrum permitió organizar el trabajo en ciclos cortos e iterativos, fortalecer la comunicación entre equipos técnicos, administrativos y científicos, y priorizar entregas de valor tangible, como mejoras en plataformas, servicios digitales y herramientas basadas en inteligencia artificial. Además,  la OPS/OMS complementó la metodología con la incorporación de herramientas como ChatGPT que facilitaron el desarrollo de nuevos productos informativos y la personalización de servicios, reflejando un proceso de innovación continua y adaptativa.
+        p.mb-3(data-aos="fade-right") El uso de <em>Scrum</em> permitió organizar el trabajo en ciclos cortos e iterativos, fortalecer la comunicación entre equipos técnicos, administrativos y científicos, y priorizar entregas de valor tangible, como mejoras en plataformas, servicios digitales y herramientas basadas en inteligencia artificial. Además,  la OPS/OMS complementó la metodología con la incorporación de herramientas como ChatGPT que facilitaron el desarrollo de nuevos productos informativos y la personalización de servicios, reflejando un proceso de innovación continua y adaptativa.
 
         .row.justify-content-center.align-items-center
           .col-auto.mb-3.mb-lg-0

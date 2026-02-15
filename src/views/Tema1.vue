@@ -413,7 +413,7 @@
             figure
               img(src="@/assets/curso/temas/tema1/img25.svg", alt="Imagen Decorativa", data-aos="zoom-in")
           .col-lg
-            p.mb-0(data-aos="fade-right") En los años 90, cuando la gente hablaba de Innovación, en realidad se refería a Tecnología. Ahora, cuando la gente habla de Innovación en realidad quiere decir Diseño. Bruce Nussbaum, Managing Editor Businessweek Magazine (De la Peña, 2024). 
+            p.mb-0(data-aos="fade-right") En los años 90, cuando la gente hablaba de Innovación, en realidad se refería a Tecnología. Ahora, cuando la gente habla de Innovación en realidad quiere decir Diseño. Bruce Nussbaum, <em>Managing Editor Businessweek Magazine</em> (De la Peña, 2024). 
 
 </template>
 

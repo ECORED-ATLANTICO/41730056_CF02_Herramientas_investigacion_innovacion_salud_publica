@@ -84,12 +84,12 @@
         .col-lg-12.order-lg-1
           TabsA.color-acento-botones
             .tarjeta.color-acento-botones--borde.p-4(titulo="<em>Wireframes</em>")
-              p.mb-2 Tras el sketching o primeros bocetos a papel donde generamos nuevas ideas y con el objetivo de crear un primer prototipo de lo que será nuestro proyecto digital, pasamos a crear <em>Wireframes</em> de nuestra idea. 
+              p.mb-2 Tras el <em>sketching</em> o primeros bocetos a papel donde generamos nuevas ideas y con el objetivo de crear un primer prototipo de lo que será nuestro proyecto digital, pasamos a crear <em>Wireframes</em> de nuestra idea. 
               p.mb-0 En esta fase, se pretende validar el diseño del contenido. Su distribución futura. Normalmente, se hace en blanco y negro o escala de grises.
             .tarjeta.color-acento-botones--borde.p-4(titulo="Mockups")
               p.mb-0 Este tipo de prototipo se centra en la parte más visual del proyecto digital a desarrollar. En esta ocasión, y a diferencia del wireframe, contiene colores, tipografías, contenido como imágenes, videos, etc. Podríamos decir que, físicamente hablando, se aproximaría mucho al producto final, aunque sin contemplar las interacciones ni tipo de navegación.
             .tarjeta.color-acento-botones--borde.p-4(titulo="Maqueta/ Prototipo de alta fidelidad")
-              p.mb-2 Este sería otro tipo de prototipado digital. En este caso, el más fiel al proyecto final. Con la maqueta validaríamos si la idea o negocio funciona. Esta fase sirve para detectar problemas de navegación y usabilidad, así como el feedback de los usuarios/ futuros clientes.
+              p.mb-2 Este sería otro tipo de prototipado digital. En este caso, el más fiel al proyecto final. Con la maqueta validaríamos si la idea o negocio funciona. Esta fase sirve para detectar problemas de navegación y usabilidad, así como el <em>feedback</em> de los usuarios/ futuros clientes.
               p.mb-0 Gracias al prototipo de alta fidelidad podrías conocer si los colores, tipografías, colores, botones… escogidos son los idóneos. Por tanto, podríamos considerarla como la fase más importante para validar la usabilidad y aceptación de un producto digital (3Dalia, 2025). 
 
       separador
@@ -202,7 +202,7 @@
                   .div(titulo="Pruebas con usuario remotas no moderadas")
                     p.mb-3 En este tipo de pruebas con usuario no hay moderador. Hay dos variantes principales de las pruebas de usuario remotas sin moderador, en las que tiene imágenes de las acciones del participante en la prueba, así como comentarios:
                     p.mb-3 <b>Imagen y sonido grabados:</b> se pide a los usuarios que piensen en voz alta. Lo malo es que muchos de los participantes en las pruebas que se obtienen con estas herramientas suenan como si fueran usuarios de pruebas semiprofesionales. Sin embargo, también es posible hacer pruebas con un panel de usuarios propio, lo cual es definitivamente una ventaja. 
-                    p.mb-0 <b>Movimientos del ratón y tiempo grabados:</b> en este método, no se ve al participante de la prueba y no se le oye. Ellos ven la tarea en la pantalla, realizan la tarea y rellenan un cuestionario online para dar feedback adicional después de cada tarea.
+                    p.mb-0 <b>Movimientos del ratón y tiempo grabados:</b> en este método, no se ve al participante de la prueba y no se le oye. Ellos ven la tarea en la pantalla, realizan la tarea y rellenan un cuestionario online para dar <em>feedback</em> adicional después de cada tarea.
 
       .row.justify-content-center.align-items-center.mb-3
         .col-md-12.col-lg-12
@@ -212,7 +212,7 @@
           .row.mb-0.justify-content-center.align-items-center
             .col-lg-9.order-2.order-lg-1
               LineaTiempoD.color-secundario
-                p(numero="1" titulo="Pruebas de usabilidad (investigación UX)") Busca medir la eficacia y la facilidad de uso de una página web o un Ecommerce por parte de un usuario para satisfacer sus necesidades. En las pruebas de usabilidad de un sitio web se miden varios aspectos: seguimiento ocular, mapas de calor online, mapas de clics, recorrido del usuario, etc.
+                p(numero="1" titulo="Pruebas de usabilidad (investigación UX)") Busca medir la eficacia y la facilidad de uso de una página web o un <em>Ecommerce</em> por parte de un usuario para satisfacer sus necesidades. En las pruebas de usabilidad de un sitio web se miden varios aspectos: seguimiento ocular, mapas de calor online, mapas de clics, recorrido del usuario, etc.
                 p(numero="2" titulo="Encuestas") Otro tipo de <em>test</em> de usuarios es el representado por las encuestas online, que ayudan a obtener de los clientes opiniones sobre productos e ideas que ayudarían a mejorarlo. Es una de las formas más fáciles de obtener datos de los clientes porque pueden completar las encuestas a través de cualquier lugar. <br><br> Se recomienda recurrir a las encuestas de satisfacción del cliente si quiere recibir, en poco tiempo, muchas respuestas de los clientes sobre un producto. La información recopilada ayudará al diseñador de UX a tener indicaciones claras en el proceso de diseño y en la arquitectura de la información para ofrecer un viaje de usuario perfecto para los clientes.
                 p(numero="3" titulo="Pruebas A/B") Este tipo de pruebas con usuarios son una de las formas más eficaces y rápidas de aumentar el número de conversiones. Las pruebas A/B son el proceso por el cual se envían dos variantes diferentes de un material de marketing, como un correo electrónico a distintos grupos de suscriptores. <br><br> Es importante recordar que cada grupo debe recibir sólo una variante del correo electrónico, no las dos, y que deben enviarse el mismo día y a la misma hora. <br><br> A continuación, se hace un seguimiento de las reacciones de los clientes y se determina qué variante ha suscitado las reacciones que le ayudan a alcanzar los objetivos propuestos.
                 p(numero="4" titulo="Grupos focales") Los grupos focales son una técnica de investigación cualitativa que consiste en establecer un debate sobre un tema determinado con un grupo formado por 8-10 participantes, normalmente durante 1 o 2 horas. <br><br> Este método permite obtener información en profundidad sobre las motivaciones y los comportamientos del público objetivo con respecto a las categorías de interés.
@@ -228,7 +228,7 @@
               //- img.titulo-con-imagen__imagen(src="@/assets/curso/temas/bg/bg-02.png")
               h3.titulo-con-imagen__texto Evaluación de prototipos
               
-          p.mb-3 Para la evaluación de prototipos y con un enfoque hacia el emprendimiento, se destaca la metodología creada por Tamarack Institute en Canadá denominada Evaluación de Prototipos, la cual se basa en los siguientes pasos, los cuales son iterativos:
+          p.mb-3 Para la evaluación de prototipos y con un enfoque hacia el emprendimiento, se destaca la metodología creada por <em>Tamarack Institute</em> en Canadá denominada Evaluación de Prototipos, la cual se basa en los siguientes pasos, los cuales son iterativos:
 
         .bg-fondo-5.tarjeta.mb-2
           .p-3.p-lg-4

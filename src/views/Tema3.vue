@@ -47,7 +47,7 @@
         .titulo-sexto.mb-4.color-acento-contenido
           h5 
             b Tabla 2. 
-            span Diferencias entre prototipo y MVP
+            span <em>Diferencias entre prototipo y MVP</em>
         .tabla-a.color-acento-contenido
           table
             caption Fuente: Adaptado SENA (2026), Tomado de UNIR, 2024.
@@ -127,7 +127,7 @@
         .titulo-sexto.mb-4.color-acento-contenido
           h5 
             b Tabla 3. 
-            span Diferencias entre PMV de Baja vs PMV de alta
+            span <em>Diferencias entre PMV de Baja vs PMV de alta</em>
         .tabla-a.color-acento-contenido
           table
             caption Fuente: Clavijo, 2025.
