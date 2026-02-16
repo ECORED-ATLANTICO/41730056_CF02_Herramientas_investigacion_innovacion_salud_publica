@@ -454,14 +454,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable del ecosistema',
+          nombre: 'Claudia Johanna Gómez Pérez',
+          cargo:
+            'Responsable del Ecosistema de Recursos Educativos Digitales (RED)',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Miguel de Jesús Paredes Maestre',
           cargo: 'Responsable de línea de producción',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
       ],
     },
@@ -469,14 +470,44 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Milady Tatiana Villalobos Babilonia',
-          cargo: 'Responsable del ecosistema',
-          centro: 'Dirección General',
+          nombre: 'Leonor Cristina Cañon Uribe',
+          cargo: 'Profesional especializado',
+          centro:
+            'Subdirección de Innovación en salud pública - Dirección de Investigación - Instituto Nacional de Salud',
         },
         {
-          nombre: 'Olga Constanza Bermudez Jaimes',
-          cargo: 'Responsable de línea de producción',
-          centro: 'Dirección General',
+          nombre: 'Angelica Rocio Borbon Orjuela',
+          cargo: 'Profesional especializado',
+          centro:
+            'Subdirección de Innovación en salud pública - Dirección de Investigación - Instituto Nacional de Salud',
+        },
+        {
+          nombre: 'Maria Luz Gunturiz Albarracin',
+          cargo: 'Profesional especializado',
+          centro:
+            'Subdirección de Innovación en salud pública - Dirección de Investigación - Instituto Nacional de Salud',
+        },
+        {
+          nombre: 'Angela Navas Cáceres',
+          cargo: 'Experta Técnica',
+          centro:
+            'Centro de Formación de Talento humano en Salud - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Gina Carol Villate Calderón',
+          cargo: 'Experta Técnica',
+          centro:
+            'Centro de Formación de Talento humano en Salud - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Eliana Milena Buitrago Umaña',
+          cargo: 'Asesora Pedagógica',
+          centro:
+            'Centro de Formación de Talento humano en Salud - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Jair Enrique Coll Gallardo',
+          cargo: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
     },
@@ -487,37 +518,42 @@ export default {
           nombre: 'Leonor Cristina Cañon Uribe',
           cargo: 'Profesional especializado',
           centro:
-            'Subdirección de Innovación en salud pública - Dirección de Investigación-Instituto Nacional de Salud',
+            'Subdirección de Innovación en salud pública - Dirección de Investigación - Instituto Nacional de Salud',
         },
         {
           nombre: 'Angelica Rocio Borbon Orjuela',
           cargo: 'Profesional especializado',
           centro:
-            'Subdirección de Innovación en salud pública - Dirección de Investigación-Instituto Nacional de Salud',
+            'Subdirección de Innovación en salud pública - Dirección de Investigación - Instituto Nacional de Salud',
         },
         {
           nombre: 'Maria Luz Gunturiz Albarracin',
           cargo: 'Profesional especializado',
           centro:
-            'Subdirección de Innovación en salud pública - Dirección de Investigación-Instituto Nacional de Salud',
+            'Subdirección de Innovación en salud pública - Dirección de Investigación - Instituto Nacional de Salud',
         },
         {
           nombre: 'Angela Navas Cáceres',
-          cargo: 'Experta Técnica',
+          cargo: 'Expertas Técnica',
           centro:
-            'Regional Distrito Capital – Centro de Formación de Talento humano en Salud',
+            'Centro de Formación de Talento humano en Salud - Regional Distrito Capital',
         },
         {
           nombre: 'Gina Carol Villate Calderón',
-          cargo: 'Experta Técnica',
+          cargo: 'Expertas Técnica',
           centro:
-            'Regional Distrito Capital – Centro de Formación de Talento humano en Salud',
+            'Centro de Formación de Talento humano en Salud - Regional Distrito Capital',
         },
         {
           nombre: 'Eliana Milena Buitrago Umaña',
           cargo: 'Asesora Pedagógica',
           centro:
-            'Regional Distrito Capital – Centro de Formación de Talento humano en Salud',
+            'Centro de Formación de Talento humano en Salud - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Jair Enrique Coll Gallardo ',
+          cargo: 'Evaluador instruccional',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
     },
@@ -525,19 +561,19 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Carmen Alicia Martínez Torres',
+          cargo: 'Diseñador web',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Álvaro Guillermo Araújo Angarita',
           cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Alexander Rafael Acosta Bedoya',
           cargo: 'Animador y productor audiovisual',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
     },
@@ -545,14 +581,24 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Luz Karime Amaya Cabra',
+          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Laura Daniela Burgos Rueda',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+        },
+        {
+          nombre: 'Jonathan Adié Villafañe',
+          cargo: 'Validador y vinculador de recursos digitales',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+        },
+        {
+          nombre: 'Karine Isabel Ospino Fritz ',
+          cargo: 'Validador y vinculador de recursos digitales',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
     },
