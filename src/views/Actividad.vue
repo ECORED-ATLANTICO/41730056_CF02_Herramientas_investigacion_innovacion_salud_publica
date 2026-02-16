@@ -113,7 +113,7 @@ export default {
           id: 7,
           texto:
             'En el diseño de equipamiento médico, la experiencia del paciente es prioritaria. Por ello, Freud Dietz rediseñó una máquina de resonancia magnética como una nave espacial o barco pirata, convirtiéndola en una experiencia lúdica que reduce el dolor crónico, especialmente en niños.',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Verdadero', esCorrecta: true },
@@ -199,7 +199,7 @@ export default {
           id: 13,
           texto:
             'Tipo de prueba o <em>test</em> con usuarios en el que la forma más sencilla de obtener datos de los clientes, sin importar su ubicación, es:',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             {
