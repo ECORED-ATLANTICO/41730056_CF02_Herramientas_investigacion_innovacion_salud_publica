@@ -138,7 +138,7 @@
                 p.mb-0 Mitigación de riesgos durante la pandemia de COVID-19 en territorio maya tz´utujil de Guatemala. Liderado por la Universidad del Valle de Guatemala. Este proyecto implementó un sistema de vigilancia sindrómica comunitaria durante la pandemia de COVID-19 con pertinencia cultural en población maya tz’utujil. Su estructura metodológica incluyó co-creación de materiales educativos, campañas de comunicación diseñadas con líderes comunitarios y retroalimentación continua mediante investigación participativa. Las soluciones fueron codiseñadas con los usuarios finales, adaptadas a su idioma, cosmovisión y contexto territorial, respetando las prácticas culturales de salud. La OPS destaca que el proyecto no solo mejoró la vigilancia sanitaria, sino también la confianza y apropiación comunitaria (Ruwaach, 2022).
               .div(titulo="Modelo Integral de Atención en Salud para la Ruralidad de Sumapaz")
                 p.mb-0 Liderado por la Subred Integrada de Servicios de Salud Sur, Secretaría Distrital de Salud de Bogotá, Colombia. El modelo se centra en diseñar servicios de salud adaptados a contextos rurales mediante participación comunitaria, diálogo intercultural y fortalecimiento de redes locales de apoyo. La OPS resalta su capacidad para integrar saberes ancestrales, medicina alternativa y determinantes ambientales, mostrando un enfoque de diseño verdaderamente centrado en las personas y en su entorno ecológico y cultural (PAHO TV, 2024).
-          .col-md-6.col-lg-3.mb-3.mb-lg-0.order-lg-2.order-1
+          .col-8.col-md-6.col-lg-3.mb-3.mb-lg-0.order-lg-2.order-1
             figure
               img(src="@/assets/curso/temas/tema5/img11.png", data-aos="zoom-in")
 

@@ -284,7 +284,7 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Propietario del Producto (Product Owner)',
+              texto: 'Propietario del Producto <em>(Product Owner)</em>',
               esCorrecta: false,
             },
             {

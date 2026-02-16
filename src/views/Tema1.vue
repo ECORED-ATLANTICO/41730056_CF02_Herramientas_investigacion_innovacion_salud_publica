@@ -89,11 +89,11 @@
       //- Col3 y Col9
       .container.mb-3
         .row.align-items-center.justify-content-center(data-aos="fade-left")
-          .col-12.col-md-6.col-lg-3.mb-4.mb-lg-0.mx-auto
+          .col-8.col-md-6.col-lg-3.mb-4.mb-lg-0.mx-auto
             figure
               img.mb-2.mb-lg-0(src='@/assets/curso/temas/tema1/img06.png', alt='Imagen Decorativa')
           .col-12.col-md-12.col-lg-9.mb-4.mb-lg-0
-            p Es importante tener en cuenta que más que una técnica, el <em>Design Thinking</em> es una mentalidad que impulsa a quienes investigan e innovan. La mentalidad de un design thinker se centra en la empatía con el usuario, el optimismo, la colaboración multidisciplinaria, la iteración constante y la aceptación del fracaso temprano como parte del proceso de aprendizaje. Se trata de un enfoque ágil y centrado en el ser humano para resolver problemas complejos a través de la creatividad, la experimentación y el pensamiento práctico. En general, se puede concretar la mentalidad del desing thinker en:
+            p Es importante tener en cuenta que más que una técnica, el <em>Design Thinking</em> es una mentalidad que impulsa a quienes investigan e innovan. La mentalidad de un <em>design thinker</em> se centra en la empatía con el usuario, el optimismo, la colaboración multidisciplinaria, la iteración constante y la aceptación del fracaso temprano como parte del proceso de aprendizaje. Se trata de un enfoque ágil y centrado en el ser humano para resolver problemas complejos a través de la creatividad, la experimentación y el pensamiento práctico. En general, se puede concretar la mentalidad del <em>design thinker</em> en:
 
             .row.align-items-center.bg-color-terciario-t10.p-4(data-aos="fade-left").icono-inferior
               .col-12.col-md-12.col-lg-12.mb-4.mb-lg-0
@@ -205,14 +205,14 @@
                 p.mb-0 Considerando los problemas actuales de nuestra sociedad (crisis sociales, recortes presupuestales, transformación política…), así como la complejidad de nuestro sistema sanitario (unido a la competencia existente en la salud privada), cualquier organización que desee consolidarse como un sistema de salud exitoso, debe ser capaz de innovar en la prestación de servicios, trascendiendo todas las fronteras geográficas, políticas o sectoriales. El <em>Design Thinking</em> puede aportar a los profesionales de la salud a la integración de enfoques más creativos, interdisciplinares y centrados en las personas, que ayudará en la mejora de la gestión sanitaria y en la innovación dentro del sector.
       
         .row.align-items-center(data-aos="fade-left").justify-content-center.mb-3
-          .col-12.col-md-12.col-lg-10.mx-auto.mb-4.p-0
+          .col-12.col-md-12.col-lg-10.mx-auto.mb-4
             p.mb-3 Además, el <em>Design Thinking</em> ofrece beneficios como mejorar la experiencia del paciente (reduciendo ansiedad, mejorando comodidad y movilidad) y optimizar la comunicación médico-paciente. También impulsa el desarrollo de soluciones ajustadas a necesidades reales, incrementa la satisfacción del personal y favorece la eficiencia de los servicios al optimizar procesos y reducir tiempos de espera. Aunque los beneficios que puede aportar la visión del <em>Design Thinking</em> en el ámbito sanitario son múltiples, aquellos relacionados con los pacientes probablemente sean los que provocan una mayor sensibilidad social, precisamente porque es algo que nos afecta a todos, pues en algún momento de nuestra vida pasaremos o tendremos el rol de pacientes en el sistema sanitario. 
 
           .col-12.col-md-12.col-lg-10.mx-auto.mb-4
             .row.justify-content-center.align-items-center.bg-color-terciario-t5.p-4(data-aos="fade-left").icono-inferior
-              .col-12.col-md-12.col-lg-9.mb-4.mb-lg-0
+              .col-12.col-md-12.col-lg-9.mb-4.mb-lg-0.order-2.order-lg-1
                 p Entre los beneficios que ha aportado la aplicación del Pensamiento de Diseño en salud, se destacan: la humanización en la interacción con tecnologías de diagnóstico (reducción de la ansiedad y del miedo), mejorar la comunicación profesional de salud y usuario (la comunicación médico-paciente o farmacéutico-consumidor, por ejemplo) o aumentar la comodidad y movilidad de los pacientes. Todos estos beneficios se pueden explicitar en una serie de ejemplos reales:
-              .col-12.col-md-6.col-lg-3
+              .col-12.col-md-6.col-lg-3.order-1.order-lg-2
                 figure
                   img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/img14.png', alt='Imagen Decorativa')
 
@@ -249,13 +249,13 @@
               .col-lg
                 p.mb-0(data-aos="fade-right") Entre los avances logrados gracias al <em>Design Thinking</em> se encuentran otras que pueden parecer simples, pero que tienen un impacto significativo en la experiencia del paciente. Por ejemplo, el rediseño de un traje de paciente, los cuales solían ser bastante incómodos para los usuarios, especialmente para los más pudorosos, por lo que se diseñó un nuevo modelo tipo pijama que pudiera ser usado tanto dentro como fuera del hospital sin pasar incomodidades o vergüenza. También es muy conocido el caso de un diseño que elimina la necesidad de usar soportes para el suero, encapsulando el dispositivo en una bolsa transportable, lo que facilita la movilidad de los pacientes, especialmente con cáncer y otras enfermedades dentro del hospital. 
 
-        p.mb-3 Así, los beneficios del Desing Thinking en salud se dan en doble vía, tanto para los pacientes como para los trabajadores del sector salud, por ejemplo: 
+        p.mb-3 Así, los beneficios del <em>Design Thinking</em> en salud se dan en doble vía, tanto para los pacientes como para los trabajadores del sector salud, por ejemplo: 
 
         .row.mb-4.justify-content-center
           .col-12.col-md-12.col-lg-5.mb-3
             .bg-color-primario-p20.p-4.h-100.border-radius-20.img-topright.h-100
               img(src='@/assets/curso/temas/tema1/img26.svg' alt='AvatarTop' , style="max-width: 70px").mx-auto.mb-3
-              h5.mb-4.pt-lg-5.pt-xl-0 Para los pacientes
+              h5.mb-4.pt-lg-5.pt-xl-0.w-75 Para los pacientes
               ul.lista-ul--color
                 li.mb-2 #[b Mejor experiencia:] genera, pues reduce la ansiedad y el miedo al interactuar con equipos médicos y mejora la comodidad y movilidad.
                 li.mb-2 #[b Mejor comunicación:] porque fomenta una comunicación más empática y clara entre profesionales de la salud y pacientes.
@@ -264,7 +264,7 @@
           .col-12.col-md-12.col-lg-7.mb-3
             .bg-color-terciario-t10.p-4.h-100.border-radius-20.img-topright.h-100
               img(src='@/assets/curso/temas/tema1/img27.svg' alt='AvatarTop' , style="max-width: 70px").mx-auto.mb-3
-              h5.mb-4.pt-lg-5.pt-xl-0 Hipótesis de crecimiento o adopción
+              h5.mb-4.pt-lg-5.pt-xl-0.w-75 Hipótesis de crecimiento o adopción
               
               ul.bullets.color-adicional1
                 li #[b Innovación en servicios:] permite desarrollar soluciones que aborden problemas reales desde la perspectiva del usuario, no solo la médica o tecnológica.
@@ -281,7 +281,7 @@
 
           //- Titulo
           .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-            h2#t_1_4 1.4  Fundamentos del <em>Human-Centered Design</em> (HCD)
+            h2#t_1_4 1.4 Fundamentos del <em>Human-Centered Design</em> (HCD)
 
 
           .row.align-items-center(data-aos="fade-left").justify-content-center.mb-4
@@ -289,7 +289,7 @@
               p.mb-3 El HCD, es un enfoque que prioriza a las personas, sus necesidades y contexto en el proceso de diseño. Sus principios clave son la empatía, la observación, la colaboración, la creación de prototipos e iteración. Algunas herramientas de empatía, incluyen los mapas de actores, que ayudan a visualizar las necesidades, comportamientos y motivaciones de los usuarios para crear soluciones más efectivas. 
 
           .row.mb-5.justify-content-center.align-items-center
-            h4.mb-2 Principios del HCD
+            h4.mb-4 Principios del HCD
             .col-md-8.col-lg-4.mb-3.mb-lg-0.order-lg-2
               figure
                 img(src="@/assets/curso/temas/tema1/img18.png", data-aos="zoom-in")
@@ -310,12 +310,12 @@
                 .tarjeta.color-acento-botones--borde.p-4(titulo="Enfoque en las personas")
                   p.mb-0.p-4 Asegurar que el diseño final responda realmente a los problemas de los usuarios y genere valor significativo, considerando sus contextos sociales, culturales y emocionales.
 
-          h4.mb-2 Herramientas de empatía
+          h4.mb-4 Herramientas de empatía
     .bg-full-width.bg-fondo-3
       .px-4.px-md-5
         .row.justify-content-center.align-items-center
           .col-lg-8.order-lg-2
-            SlyderF(columnas="col-12 col-lg-6").p-4
+            SlyderF(columnas="col-12 col-xl-6").p-4
               .bg-color-white.p-4.h-100.box-shadow
                 img(src='@/assets/curso/temas/tema1/img20.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                 h4.text-center.mb-4 Mapas de actores (Stakeholder Maps)
@@ -350,7 +350,7 @@
               p.mb-3 Aunque comparten una misma filosofía centrada en las personas, el <em>Design Thinking</em> (DT) y el <em>Human-Centered Design</em> (HCD) presentan enfoques y alcances ligeramente distintos (ver Tabla 1). El DT es un proceso general que se utiliza principalmente como una metodología estructurada para la resolución de problemas complejos, que incluye empatía, definición, ideación, prototipado y prueba, las cuales guían la generación y validación de soluciones. 
 
           .row.align-items-center.justify-content-center(data-aos="fade-left").mb-4
-            h4.mb-2 Similitudes
+            h4.mb-4 Similitudes
             .col-lg-9.order-lg-1
               AcordionA(tipo="a" clase-tarjeta="tarjeta bg-color-2")
                 div(titulo="Enfoque en el usuario")
@@ -371,7 +371,7 @@
         .titulo-sexto.mb-4.color-acento-contenido
           h5 
             b Tabla 1. 
-            span Comparación Desing thinking y diseño centrado en el humano
+            span Comparación <em>Design thinking</em> y diseño centrado en el humano
         .tabla-a.color-acento-contenido
           table
             caption Fuente: SENA 2026

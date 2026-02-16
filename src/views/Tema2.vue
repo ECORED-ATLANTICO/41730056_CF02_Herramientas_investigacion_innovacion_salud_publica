@@ -50,7 +50,7 @@
             //- img.titulo-con-imagen__imagen(src="@/assets/curso/temas/bg/bg-02.png")
             h3.titulo-con-imagen__texto Tipos de prototipado
 
-        p.mb-3.p-0 Los tipos de prototipado se pueden dividir en dos grandes grupos: el prototipado para productos físicos y el prototipado para productos digitales. 
+        p.mb-5.p-0 Los tipos de prototipado se pueden dividir en dos grandes grupos: el prototipado para productos físicos y el prototipado para productos digitales. 
 
         h4.mb-4 Prototipado para producto físico: 
 
@@ -87,7 +87,7 @@
               p.mb-2 Tras el <em>sketching</em> o primeros bocetos a papel donde generamos nuevas ideas y con el objetivo de crear un primer prototipo de lo que será nuestro proyecto digital, pasamos a crear <em>Wireframes</em> de nuestra idea. 
               p.mb-0 En esta fase, se pretende validar el diseño del contenido. Su distribución futura. Normalmente, se hace en blanco y negro o escala de grises.
             .tarjeta.color-acento-botones--borde.p-4(titulo="Mockups")
-              p.mb-0 Este tipo de prototipo se centra en la parte más visual del proyecto digital a desarrollar. En esta ocasión, y a diferencia del wireframe, contiene colores, tipografías, contenido como imágenes, videos, etc. Podríamos decir que, físicamente hablando, se aproximaría mucho al producto final, aunque sin contemplar las interacciones ni tipo de navegación.
+              p.mb-0 Este tipo de prototipo se centra en la parte más visual del proyecto digital a desarrollar. En esta ocasión, y a diferencia del <em>wireframe,</em> contiene colores, tipografías, contenido como imágenes, videos, etc. Podríamos decir que, físicamente hablando, se aproximaría mucho al producto final, aunque sin contemplar las interacciones ni tipo de navegación.
             .tarjeta.color-acento-botones--borde.p-4(titulo="Maqueta/ Prototipo de alta fidelidad")
               p.mb-2 Este sería otro tipo de prototipado digital. En este caso, el más fiel al proyecto final. Con la maqueta validaríamos si la idea o negocio funciona. Esta fase sirve para detectar problemas de navegación y usabilidad, así como el <em>feedback</em> de los usuarios/ futuros clientes.
               p.mb-0 Gracias al prototipo de alta fidelidad podrías conocer si los colores, tipografías, colores, botones… escogidos son los idóneos. Por tanto, podríamos considerarla como la fase más importante para validar la usabilidad y aceptación de un producto digital (3Dalia, 2025). 
@@ -123,7 +123,7 @@
                   p.mb-3 <b>Propósito</b>: demostrar el diseño casi final, permitiendo pruebas de usabilidad más precisas y recopilando comentarios sobre detalles finos y matices del producto.
                   p.mb-0 <b>Ventajas</b>: proporcionan una experiencia de usuario muy cercana a la realidad, lo que ayuda a validar el diseño final antes del desarrollo.
 
-            .col-md-6.col-lg-4.mb-3.mb-lg-0.order-lg-2.order-1
+            .col-8.col-md-6.col-lg-4.mb-3.mb-lg-0.order-lg-2.order-1
               figure
                 img(src="@/assets/curso/temas/tema2/img06.png", data-aos="zoom-in")
         
@@ -177,7 +177,7 @@
                 p.mb-0(data-aos="fade-right") Los principios básicos del <em>test</em>eo con usuarios se centran en definir objetivos claros, seleccionar participantes representativos y crear un entorno de prueba adecuado para observar el comportamiento real del usuario al interactuar con un producto. Se debe planificar meticulosamente las tareas a realizar, documentar las observaciones y analizar los datos para identificar problemas de usabilidad y generar un informe con propuestas de mejora (Narváez, sf).   
 
       .bg-fondo-2-2
-        .row.justify-content-center.align-items-center.mb-3
+        .row.justify-content-center.align-items-center.mb-5
           .col-md-12.col-lg-10
             .titulo-con-imagen.mb-3(data-aos="fade-right").p-0
               .titulo-con-imagen__fondo
@@ -187,7 +187,7 @@
             p.mb-3 Existen diferentes métodos para realizar <em><em>test</em>s</em> con usuarios, entre los que destacan:
 
             .row.align-items-center.justify-content-center.mb-2
-              .col-md-6.col-lg-3.mb-3.mb-lg-0
+              .col-8.col-md-6.col-lg-3.mb-3.mb-lg-0
                 figure
                   img(src="@/assets/curso/temas/tema2/img11.png", data-aos="zoom-in")
               .col-lg-9
@@ -217,7 +217,7 @@
                 p(numero="3" titulo="Pruebas A/B") Este tipo de pruebas con usuarios son una de las formas más eficaces y rápidas de aumentar el número de conversiones. Las pruebas A/B son el proceso por el cual se envían dos variantes diferentes de un material de marketing, como un correo electrónico a distintos grupos de suscriptores. <br><br> Es importante recordar que cada grupo debe recibir sólo una variante del correo electrónico, no las dos, y que deben enviarse el mismo día y a la misma hora. <br><br> A continuación, se hace un seguimiento de las reacciones de los clientes y se determina qué variante ha suscitado las reacciones que le ayudan a alcanzar los objetivos propuestos.
                 p(numero="4" titulo="Grupos focales") Los grupos focales son una técnica de investigación cualitativa que consiste en establecer un debate sobre un tema determinado con un grupo formado por 8-10 participantes, normalmente durante 1 o 2 horas. <br><br> Este método permite obtener información en profundidad sobre las motivaciones y los comportamientos del público objetivo con respecto a las categorías de interés.
                 p(numero="5" titulo="Prueba con usuarios beta") La prueba con usuarios beta se utiliza para evaluar una versión de un producto que aún no está lista para el usuario final debido a la falta de pruebas en condiciones reales. <br><br> Los sitios web, los sistemas operativos y las diferentes aplicaciones pueden estar en la fase de pruebas beta. Las pruebas beta pueden ser abiertas, lanzadas para cualquier persona que quiera probar la versión inestable, o cerradas, diseñadas para las pruebas en un grupo cerrado o restringido. <br><br> El objetivo de la prueba beta es terminar las pruebas de rendimiento y la necesidad de identificar los problemas que causan errores (Narvaez, sf).
-            .col-md-5.col-lg-3.mb-3.mb-lg-0.order-1.order-lg-2
+            .col-8.col-md-5.col-lg-3.mb-3.mb-lg-0.order-1.order-lg-2
               figure
                 img(src="@/assets/curso/temas/tema2/img12.png", data-aos="zoom-in")
 

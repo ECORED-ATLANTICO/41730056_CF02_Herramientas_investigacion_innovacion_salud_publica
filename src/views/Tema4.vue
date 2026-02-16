@@ -45,7 +45,7 @@
                 .col-12.col-lg-12
                   p.mb-0(data-aos="fade-right") En el campo de la investigación en salud pública, caracterizado por la complejidad, la variabilidad de contextos y la necesidad de respuestas rápidas ante problemas emergentes, la aplicación de principios ágiles ha cobrado creciente relevancia. Estos enfoques permiten que los equipos de investigación puedan ajustar objetivos, métodos y productos a medida que surgen nuevas evidencias o condiciones externas, evitando la rigidez metodológica que puede limitar la innovación.
 
-            .col-md-6.col-lg-3
+            .col-8.col-md-6.col-lg-3
               figure
                 img(src="@/assets/curso/temas/tema4/img04.png", alt="Imagen Decorativa", data-aos="zoom-in").mb-lg-0
 
@@ -83,7 +83,7 @@
             figure
               img(src='@/assets/curso/temas/tema4/img10.png', alt='')
           .col-lg-8.order-lg-1
-            SlyderF(columnas="col-12 col-lg-6").p-4
+            SlyderF(columnas="col-12 col-xl-6").p-4
               .bg-color-white.p-4.h-100.box-shadow
                 img(src='@/assets/curso/temas/tema4/img08.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                 h4.text-center.mb-4 Entregas incrementales de conocimiento
@@ -171,13 +171,13 @@
               .col-12.col-md-6.col-lg-6
                 .bg-color-primario-p20.p-4.h-100.border-radius-20.img-topright.h-100
                   img(src='@/assets/curso/temas/tema4/img17.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                  h5.mb-4.pt-lg-5.pt-xl-0 Hipótesis de valor
+                  h5.mb-4.pt-lg-5.pt-xl-0.w-50 Hipótesis de valor
                   p.mb-0 Se refieren a la relevancia o utilidad percibida de la solución propuesta, es decir, si esta responde a una necesidad concreta de los usuarios o de las instituciones. Por ejemplo, si un sistema de monitoreo digital facilita efectivamente el seguimiento de pacientes con enfermedades crónicas o mejora la coordinación entre niveles de atención.
 
               .col-12.col-md-6.col-lg-6
                 .bg-color-terciario-t10.p-4.h-100.border-radius-20.img-topright.h-100
                   img(src='@/assets/curso/temas/tema4/img18.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                  h5.mb-4.pt-lg-5.pt-xl-0 Hipótesis de crecimiento o adopción
+                  h5.mb-4.pt-lg-5.pt-xl-0.w-50 Hipótesis de crecimiento o adopción
                   p.mb-0 Que buscan comprender cómo se amplía la cobertura o cómo la solución se integra de manera sostenible en nuevos entornos, territorios o poblaciones. Estas hipótesis examinan aspectos como la facilidad de uso, la aceptabilidad cultural o las barreras de acceso.
 
             .row.mb-3.justify-content-center.align-items-center
@@ -234,7 +234,7 @@
           .col-md-6.col-lg-4.col-xl-4.mb-3.mb-xl-0
             figure
               img(src="@/assets/curso/temas/tema4/img24.png", data-aos="zoom-in")
-          .col-xl-3
+          .col-xl-3.mt-3.mt-xl-0
             img.d-xl-flex.d-none(src="@/assets/curso/temas/tema4/img25.svg", style="max-width: 90px").mb-3
             p.mb-0 En estos contextos, <em>Scrum</em> permite integrar de manera efectiva a equipos multidisciplinarios, como científicos, epidemiólogos, analistas de datos, ingenieros biomédicos y gestores, promoviendo la coordinación, la transparencia y la mejora continua en cada ciclo de trabajo.
         
@@ -259,7 +259,7 @@
           SlyderA(tipo="b").bg-color-white.p-4.tarjeta
             .row.justify-content-center.align-items-center.p-4
               .col-lg-8.mb-3
-                h4 Propietario del Producto (Product Owner)
+                h4 Propietario del Producto <em>(Product Owner)</em>
                 p.mb-0 En un proyecto de salud pública, este rol suele corresponder a un investigador principal, coordinador de proyecto o líder técnico responsable de definir la visión y los objetivos científicos o sanitarios. Su función es priorizar las tareas según el valor que aportan al propósito del proyecto, por ejemplo, decidir si se avanza primero en la validación del algoritmo de predicción, en la recopilación de datos de campo o en el diseño de la interfaz de usuario para una herramienta de vigilancia. Además, este rol actúa como enlace entre el equipo técnico y las partes interesadas que pueden ser por ejemplo ministerios, entidades territoriales, instituciones académicas o agencias de cooperación, pues es quien asegura que los entregables parciales respondan a las necesidades que se quieren atender.
               .col-md-9.col-lg-4.mb-3.mb-lg-0
                 figure
@@ -387,7 +387,7 @@
             figure
               img(src='@/assets/curso/temas/tema4/img41.png', alt='')
           .col-lg-8.order-lg-1
-            SlyderF(columnas="col-12 col-lg-6").p-4
+            SlyderF(columnas="col-12 col-xl-6").p-4
               .bg-color-white.p-4.h-100.box-shadow
                 img(src='@/assets/curso/temas/tema4/img37.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                 h4.text-center.mb-4 Visualizar el flujo de trabajo
