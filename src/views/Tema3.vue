@@ -92,12 +92,15 @@
 
     .row.align-items-center.justify-content-center
       .col-12.col-md-12.col-lg-10
-      
-        .titulo-con-imagen.mb-3(data-aos="fade-right").p-0
-          .titulo-con-imagen__fondo
-            //- img.titulo-con-imagen__imagen(src="@/assets/curso/temas/bg/bg-02.png")
-            h3.titulo-con-imagen__texto Características que debe tener un producto mínimo viable 
 
+
+        //- Subtitulo
+        .align-items-center.justify-content-star.mb-1
+          .div.mb-3(data-aos="fade-left")
+            h3.subtitle.position-relative Características que debe tener un producto mínimo viable 
+              img.image(src='@/assets/curso/temas/img01.svg', alt='Imagen decorativa')
+         
+      
         p.mb-3 Al tratarse de un prototipo que debe mostrar cómo será el bien o servicio que se quiere introducir en el mercado, las características del producto mínimo viable están asociadas a los cuatro objetivos a comprobar:
         .row.justify-content-center.align-items-center.bg-color-primario-p20.p-4(data-aos="fade-left").icono-inferior.mb-4
           .col-12.col-md-6.col-lg-3.mb-4.mb-lg-0.mx-auto

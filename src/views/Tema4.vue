@@ -128,10 +128,11 @@
               .col-lg
                 p.mb-0(data-aos="fade-right") <em>Lean Startup</em> considera que muchas iniciativas fallan por asumir hipótesis no verificadas, invertir en características que no son valoradas por los usuarios o ignorar señales tempranas de insatisfacción. Al aplicar el enfoque de experimentación científica al diseño de soluciones, esta metodología promueve decisiones informadas y adaptaciones frecuentes basadas en evidencia empírica.
 
-            .titulo-con-imagen.mb-3(data-aos="fade-right").p-0
-              .titulo-con-imagen__fondo
-                //- img.titulo-con-imagen__imagen(src="@/assets/curso/temas/bg/bg-02.png")
-                h3.titulo-con-imagen__texto Ciclo construir, medir, aprender 
+            //- Subtitulo
+            .align-items-center.justify-content-star.mb-1
+              .div.mb-3(data-aos="fade-left")
+                h3.subtitle.position-relative Ciclo construir, medir, aprender 
+                  img.image(src='@/assets/curso/temas/img01.svg', alt='Imagen decorativa')
                 
             p.mb-3(data-aos="fade-right") El núcleo operativo de <em>Lean Startup</em> es el bucle construir, medir, aprender. Este ciclo debe recorrerse tantas veces como sea necesario para validar o refinar las hipótesis de proyecto que busque por ejemplo, convertir ideas en productos, observar las respuestas de los usuarios y aprender si perseverar o realizar cambios.  
 
@@ -151,10 +152,13 @@
                   .div(titulo="Aprender")
                     p Con los datos recolectados, el equipo analiza si las hipótesis formuladas inicialmente son válidas o no, y decide si perseverar con el rumbo actual, es decir seguir desarrollando, o cambiar algún componente. En investigación en salud, aprender puede implicar, por ejemplo, cambiar componentes como, redefinir la población objetivo, ajustar la herramienta de recolección de datos, o modificar el diseño. Este aprendizaje validado es el motor que dirige las siguientes iteraciones, por lo que el aprendizaje no solo es técnico, sino estratégico y metodológico.
 
-            .titulo-con-imagen.mb-3(data-aos="fade-right").p-0
-              .titulo-con-imagen__fondo
-                //- img.titulo-con-imagen__imagen(src="@/assets/curso/temas/bg/bg-02.png")
-                h3.titulo-con-imagen__texto Validación de hipótesis y aprendizaje validado                
+            
+            //- Subtitulo
+            .align-items-center.justify-content-star.mb-1
+              .div.mb-3(data-aos="fade-left")
+                h3.subtitle.position-relative Validación de hipótesis y aprendizaje validado  
+                  img.image(src='@/assets/curso/temas/img01.svg', alt='Imagen decorativa')
+              
             
             .row.mb-3.justify-content-center.align-items-center
               .col-auto.mb-3.mb-lg-0.d-none.d-lg-block
@@ -246,10 +250,12 @@
           .col-12.col-md-12.col-lg-9.mb-4.mb-lg-0
             p.mb-0 En instituciones de salud o investigación, la implementación de <em>Scrum</em> ayuda a organizar proyectos en fases iterativas denominadas <em>sprint</em>s, donde los equipos producen entregables parciales, revisan resultados y adaptan sus estrategias con base en la evidencia emergente. Esta metodología es especialmente valiosa en entornos caracterizados por alta incertidumbre y múltiples dependencias entre disciplinas, como ocurre en estudios de vigilancia epidemiológica, desarrollo de herramientas tecnológicas, validación de intervenciones o implementación de sistemas de información en salud (Schwaber & Sutherland, 2020).
 
-        .titulo-con-imagen.mb-3(data-aos="fade-right").p-0
-          .titulo-con-imagen__fondo
-            //- img.titulo-con-imagen__imagen(src="@/assets/curso/temas/bg/bg-02.png")
-            h3.titulo-con-imagen__texto Roles en <em>Scrum</em> adaptados a la investigación en salud pública    
+        //- Subtitulo
+        .align-items-center.justify-content-star.mb-1
+          .div.mb-3(data-aos="fade-left")
+            h3.subtitle.position-relative Roles en <em>Scrum</em> adaptados a la investigación en salud pública  
+              img.image(src='@/assets/curso/temas/img01.svg', alt='Imagen decorativa')
+        
 
         .row.align-items-center.justify-content-center.mb-3
           p.mb-0 El marco <em>Scrum</em> se estructura en torno a tres roles fundamentales, que pueden adaptarse a los entornos institucionales y científicos sin perder su esencia colaborativa:
@@ -283,12 +289,13 @@
 
       .row.justify-content-center.align-items-center
         .col-12.col-md-12.col-lg-10
-        
-          .titulo-con-imagen.mb-3(data-aos="fade-right").p-0
-            .titulo-con-imagen__fondo
-              //- img.titulo-con-imagen__imagen(src="@/assets/curso/temas/bg/bg-02.png")
-              h3.titulo-con-imagen__texto Eventos y artefactos de <em>Scrum</em> aplicados a proyectos de salud
- 
+          //- Subtitulo
+          .align-items-center.justify-content-star.mb-1
+            .div.mb-3(data-aos="fade-left")
+              h3.subtitle.position-relative Eventos y artefactos de <em>Scrum</em> aplicados a proyectos de salud
+                img.image(src='@/assets/curso/temas/img01.svg', alt='Imagen decorativa')
+          
+          
           .row.mb-5.justify-content-center.align-items-center
             .col-auto.mb-3.mb-lg-0.d-none.d-lg-block
               figure
@@ -364,11 +371,12 @@
               .col-lg.p-lg-4
                 p.mb-0 En el contexto de la investigación y la salud pública, <em>Kanban</em> se ha consolidado como una herramienta que permite visualizar los procesos, identificar cuellos de botella, priorizar tareas críticas y tomar decisiones basadas en evidencia. Su aplicación resulta particularmente útil en proyectos de vigilancia epidemiológica, gestión de laboratorios, coordinación de actividades de campo o administración de proyectos de innovación, entre otros, donde la cantidad de tareas, la interacción entre áreas y la necesidad de seguimiento continuo suelen ser elevadas (Martins, 2025).
 
-        .row.align-items-center.justify-content-center.mb-4(data-aos="fade-right")
-          .titulo-con-imagen.mb-3(data-aos="fade-right").p-0
-            .titulo-con-imagen__fondo
-              //- img.titulo-con-imagen__imagen(src="@/assets/curso/temas/bg/bg-02.png")
-              h3.titulo-con-imagen__texto Principios y gestión visual del flujo de trabajo
+
+        //- Subtitulo
+        .align-items-center.justify-content-star.mb-1
+          .div.mb-3(data-aos="fade-left")
+            h3.subtitle.position-relative Principios y gestión visual del flujo de trabajo
+              img.image(src='@/assets/curso/temas/img01.svg', alt='Imagen decorativa')
 
           .col-md-8.col-lg-4.mb-3(order-sm="2" order-md="2")
             figure
@@ -419,12 +427,13 @@
 
     .row.align-items-center.justify-content-center.mb-4(data-aos="fade-right")
       .col-12.col-md-12.col-lg-10
-      
-        .titulo-con-imagen.mb-3(data-aos="fade-right").p-0
-          .titulo-con-imagen__fondo
-            //- img.titulo-con-imagen__imagen(src="@/assets/curso/temas/bg/bg-02.png")
-            h3.titulo-con-imagen__texto Implementación de tableros <em>Kanban</em> en investigación y salud
 
+        //- Subtitulo
+        .align-items-center.justify-content-star.mb-1
+          .div.mb-3(data-aos="fade-left")
+            h3.subtitle.position-relative Implementación de tableros <em>Kanban</em> en investigación y salud
+              img.image(src='@/assets/curso/temas/img01.svg', alt='Imagen decorativa')
+              
         .row.align-items-center.bg-color-primario-p20.p-4(data-aos="fade-left").icono-inferior
           .col-12.col-md-6.col-lg-3.mb-4.mb-lg-0.mx-auto
             figure

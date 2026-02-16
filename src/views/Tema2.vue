@@ -45,10 +45,12 @@
           .col-lg
             p.mb-0 Propósito del prototipado: el prototipado sirve como puente entre la ideación y ejecución, proporcionando una oportunidad para recopilar comentarios, iterar sobre conceptos de diseño y descubrir posibles problemas o mejoras.
 
-        .titulo-con-imagen.mb-3(data-aos="fade-right").p-0
-          .titulo-con-imagen__fondo
-            //- img.titulo-con-imagen__imagen(src="@/assets/curso/temas/bg/bg-02.png")
-            h3.titulo-con-imagen__texto Tipos de prototipado
+
+        //- Subtitulo
+        .align-items-center.justify-content-star.mb-1.ps-2
+          .div.mb-3(data-aos="fade-left")
+            h3.subtitle.position-relative Tipos de prototipado
+              img.image(src='@/assets/curso/temas/img01.svg', alt='Imagen decorativa')
 
         p.mb-5.p-0 Los tipos de prototipado se pueden dividir en dos grandes grupos: el prototipado para productos físicos y el prototipado para productos digitales. 
 
@@ -179,10 +181,13 @@
       .bg-fondo-2-2
         .row.justify-content-center.align-items-center.mb-5
           .col-md-12.col-lg-10
-            .titulo-con-imagen.mb-3(data-aos="fade-right").p-0
-              .titulo-con-imagen__fondo
-                //- img.titulo-con-imagen__imagen(src="@/assets/curso/temas/bg/bg-02.png")
-                h3.titulo-con-imagen__texto Métodos para realizar <em><em>test</em>s</em> con usuarios
+            
+            //- Subtitulo
+            .align-items-center.justify-content-star.mb-1
+              .div.mb-3(data-aos="fade-left")
+                h3.subtitle.position-relative Métodos para realizar <em><em>test</em>s</em> con usuarios
+                  img.image(src='@/assets/curso/temas/img01.svg', alt='Imagen decorativa')
+
 
             p.mb-3 Existen diferentes métodos para realizar <em><em>test</em>s</em> con usuarios, entre los que destacan:
 
@@ -223,10 +228,13 @@
 
       .row.justify-content-center.align-items-center.mb-2
         .col-md-12.col-lg-10
-          .titulo-con-imagen.mb-3(data-aos="fade-right").p-0
-            .titulo-con-imagen__fondo
-              //- img.titulo-con-imagen__imagen(src="@/assets/curso/temas/bg/bg-02.png")
-              h3.titulo-con-imagen__texto Evaluación de prototipos
+          
+          //- Subtitulo
+          .row.align-items-center.justify-content-star.mb-1.ps-2
+            .div.mb-3(data-aos="fade-left")
+              h3.subtitle.position-relative Evaluación de prototipos
+                img.image(src='@/assets/curso/temas/img01.svg', alt='Imagen decorativa')
+         
               
           p.mb-3 Para la evaluación de prototipos y con un enfoque hacia el emprendimiento, se destaca la metodología creada por <em>Tamarack Institute</em> en Canadá denominada Evaluación de Prototipos, la cual se basa en los siguientes pasos, los cuales son iterativos:
 
