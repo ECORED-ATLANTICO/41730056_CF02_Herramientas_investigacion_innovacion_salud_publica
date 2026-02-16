@@ -285,7 +285,7 @@
             )
             .bloque-texto-g__texto.p-4
               p.mb-0 La recolección de retroalimentación y la iteración son un proceso continuo para mejorar un producto o proyecto. Consiste en recopilar opiniones, usarlas para hacer ajustes y mejoras (iteración), y luego repetir el ciclo para refinar continuamente la solución. Este enfoque es fundamental para que un producto o servicio se adapte a las necesidades de los usuarios, resuelva problemas y alcance la excelencia.  
-
+ 
 </template>
 
 <script>
