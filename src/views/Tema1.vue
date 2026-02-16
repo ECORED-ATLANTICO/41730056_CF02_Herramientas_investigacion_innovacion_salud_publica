@@ -107,7 +107,7 @@
                   li Mayor colaboración intersectorial y multidisciplinar
                   li Reducción de riesgos al validar o probar temprano (IxDF, 2016).
 
-    .bg-fondo-1
+    .bg-full-width.bg-fondo-1
 
       separador
 

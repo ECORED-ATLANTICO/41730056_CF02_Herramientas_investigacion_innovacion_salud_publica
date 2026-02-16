@@ -221,28 +221,28 @@ export default {
     {
       tema: 'Fases del design thinking',
       referencia:
-        'De la Peña, N. (2024, 24 de abril). 5 fases del design thinking: cómo aplicar esta metodología para triunfar con tus proyectos. Genially (Blog).',
+        '<em>De la Peña, N. (2024, 24 de abril). 5 fases del design thinking: cómo aplicar esta metodología para triunfar con tus proyectos. Genially (Blog).</em>',
       tipo: 'Blog',
       link: 'https://blog.genially.com/fases-design-thinking/',
     },
     {
       tema: 'Atención primaria en salud en Colombia',
       referencia:
-        'Saludderecho. (2022, 19 de abril). Claves de éxito de los Modelos Innovadores de Atención Primaria en Salud (Video). YouTube.',
+        '<em>Saludderecho. (2022, 19 de abril). Claves de éxito de los Modelos Innovadores de Atención Primaria en Salud (Video). YouTube.</em>',
       tipo: 'Video Webinar',
       link: 'https://www.youtube.com/watch?v=uYk1HOmcMv0',
     },
     {
       tema: 'Producto mínimo viable',
       referencia:
-        'CEEI, Comunidad Valenciana. Manual 51. Producto Mínimo Viable. Centro Europeo de Empresas Innovadoras de Valencia (CEEI Valencia). 2017. P45.',
+        '<em>CEEI, Comunidad Valenciana. Manual 51. Producto Mínimo Viable. Centro Europeo de Empresas Innovadoras de Valencia (CEEI Valencia). 2017. P45.</em>',
       tipo: 'Manual',
       link: 'https://www.emprenemjunts.es/?op=13&n=11900',
     },
     {
       tema: 'Metodologías agiles',
       referencia:
-        'Instituto de Investigación Sanitaria Galicia Sur. (2023). <em>Lean Startup</em> para científicos. Instituto de Investigación Sanitaria Galicia Sur.',
+        '<em>Instituto de Investigación Sanitaria Galicia Sur. (2023). <em>Lean Startup</em> para científicos. Instituto de Investigación Sanitaria Galicia Sur.</em>',
       tipo: 'Libro',
       link:
         'https://www.iisgaliciasur.es/wp-content/uploads/2023/05/Lean-Startup-para-cientificos.pdf',
@@ -463,51 +463,6 @@ export default {
           nombre: 'Miguel de Jesús Paredes Maestre',
           cargo: 'Responsable de línea de producción',
           centro: 'Centro de Comercio y Servicios – Regional Atlántico',
-        },
-      ],
-    },
-    {
-      titulo: 'CONTENIDO INSTRUCCIONAL',
-      autores: [
-        {
-          nombre: 'Leonor Cristina Cañon Uribe',
-          cargo: 'Profesional especializado',
-          centro:
-            'Subdirección de Innovación en salud pública - Dirección de Investigación - Instituto Nacional de Salud',
-        },
-        {
-          nombre: 'Angelica Rocio Borbon Orjuela',
-          cargo: 'Profesional especializado',
-          centro:
-            'Subdirección de Innovación en salud pública - Dirección de Investigación - Instituto Nacional de Salud',
-        },
-        {
-          nombre: 'Maria Luz Gunturiz Albarracin',
-          cargo: 'Profesional especializado',
-          centro:
-            'Subdirección de Innovación en salud pública - Dirección de Investigación - Instituto Nacional de Salud',
-        },
-        {
-          nombre: 'Angela Navas Cáceres',
-          cargo: 'Experta Técnica',
-          centro:
-            'Centro de Formación de Talento humano en Salud - Regional Distrito Capital',
-        },
-        {
-          nombre: 'Gina Carol Villate Calderón',
-          cargo: 'Experta Técnica',
-          centro:
-            'Centro de Formación de Talento humano en Salud - Regional Distrito Capital',
-        },
-        {
-          nombre: 'Eliana Milena Buitrago Umaña',
-          cargo: 'Asesora Pedagógica',
-          centro:
-            'Centro de Formación de Talento humano en Salud - Regional Distrito Capital',
-        },
-        {
-          nombre: 'Jair Enrique Coll Gallardo',
-          cargo: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
     },

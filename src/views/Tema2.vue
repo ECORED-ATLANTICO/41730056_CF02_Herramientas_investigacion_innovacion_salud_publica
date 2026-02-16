@@ -60,7 +60,7 @@
       .p-3.p-lg-4
         SlyderA(tipo="b").bg-color-white.p-4.tarjeta
           .row.justify-content-center.align-items-center
-            .col-lg-8.mb-4.mb-md-0
+            .col-lg-8.mb-3
               h4 Prototipado 3D:
               p.mb-0 En los procesos de fabricación el uso de impresión 3D tiene muchas ventajas, como las mejoras tanto en precisión como en velocidad. El desarrollo de nuevas técnicas y las constantes investigaciones en materiales hacen que las posibilidades de esta tecnología sean cada vez mayores. Por esto, cada vez más empresas incorporan equipos, o cuentan con colaboradores, de impresión 3D para sus proyectos de diseño y desarrollo de producto. Sobre todo, resultan de utilidad para las fases de prototipado y <em>test</em>eo.
             .col-lg-4.mb-3.mb-lg-0
@@ -68,7 +68,7 @@
                 img(src='@/assets/curso/temas/tema2/img04.png', alt='Imagen de acompañamiento')
           
           .row.justify-content-center.align-items-center
-            .col-lg-8.mb-4.mb-md-0
+            .col-lg-8.mb-3
               h4 Prototipado 2D:
               p.mb-2 Aunque la impresión 3D es una de las técnicas más empleadas a la hora de prototipar, existen otras muchas técnicas y materiales para realizar un prototipo. 
               p.mb-0 En muchas ocasiones, recurrir a técnicas tradicionales nos da la posibilidad de obtener un prototipo más rápido. Una de las ventajas del prototipado es poder <em>test</em>ar y/o validar y, a veces, no se requiere de precisión para ello.  Por ejemplo, en las primeras fases del diseño y desarrollo de producto, cuando solo se necesitan validar conceptos como formas, volúmenes o ergonomía, se puede recurrir a técnicas como esculpir o modelar poliestireno entre otros materiales.

@@ -27,7 +27,7 @@
 
             .col-12.col-md-12.col-lg-9
               .row.justify-content-center.align-items-center.mb-4
-                .col-md-8.col-lg-5(order-sm="2" order-md="2")
+                .col-md-8.col-lg-5.mb-3(order-sm="2" order-md="2")
                   figure
                     img(src="@/assets/curso/temas/tema4/img02.png", alt="Imagen Decorativa", data-aos="zoom-in")
                 .col-lg-7.col-md-12.bg-color-primario-p20(order-sm="1" order-md="1").p-5

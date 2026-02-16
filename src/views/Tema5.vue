@@ -11,14 +11,14 @@
 
       .col-12.col-md-12.col-lg-9
         .row.justify-content-center.align-items-center.mb-4
-          .col-md-8.col-lg-4(order-sm="2" order-md="2")
+          .col-md-8.col-lg-4.mb-3(order-sm="2" order-md="2")
             figure
               img(src="@/assets/curso/temas/tema5/img01.png", alt="Imagen Decorativa", data-aos="zoom-in")
           .col-lg-8.col-md-12.bg-color-primario-p20(order-sm="1" order-md="1").p-4
             p.mb-0(data-aos="fade-right") La innovación en salud pública ha evolucionado significativamente en la última década, impulsada por la necesidad de dar respuesta a problemas complejos mediante enfoques interdisciplinarios, metodologías centradas en las personas y herramientas ágiles de gestión. Tanto en Colombia como en otros países latinoamericanos, los proyectos más exitosos se caracterizan por combinar diseño centrado en el usuario y gestión iterativa, en lugar de depender exclusivamente de enfoques técnicos o administrativos. 
 
         .row.justify-content-center.align-items-center
-          .col-12.col-md-12.col-lg-12.bg-color-1.p-3
+          .col-12.col-md-12.col-lg-12.bg-color-1.p-3.mb-4
             .row.justify-content-center
               .col-auto.mb-3.mb-lg-0.d-none.d-lg-block
                 figure
