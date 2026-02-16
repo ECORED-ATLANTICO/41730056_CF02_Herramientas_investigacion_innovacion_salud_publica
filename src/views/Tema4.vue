@@ -321,7 +321,7 @@
           h4 Artefactos principales:
 
         .col-12.col-md-6.col-lg-4.mb-3
-          .bg-color-terciario-t10.p-4.h-100.border-radius-20
+          .bg-color-primario-p20.p-4.h-100.border-radius-20
             img(src='@/assets/curso/temas/tema4/img31.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
             h4.text-center.mb-2 Lista de trabajo general
             p.text-center Es la lista priorizada de tareas, requerimientos o hipótesis pendientes. Representa el plan general del proyecto. En salud pública, puede incluir actividades como desarrollo de instrumentos, pruebas de campo, análisis estadístico, redacción de artículos o reuniones con actores institucionales.
