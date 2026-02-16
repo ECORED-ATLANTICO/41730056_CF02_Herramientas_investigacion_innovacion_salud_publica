@@ -43,7 +43,7 @@
         .row.justify-content-center.align-items-center
           .col-auto.mb-3.mb-lg-0.d-none.d-lg-block
             figure
-              img(src="@/assets/curso/temas/tema5/img05.svg", alt="Imagen Decorativa", data-aos="zoom-in")
+              img(src="@/assets/curso/temas/tema5/img05.png", alt="Imagen Decorativa", data-aos="zoom-in")
           .col-lg
             p.mb-0(data-aos="fade-right") De acuerdo con lo anterior, en proyectos reales de innovación, es habitual encontrar hibridaciones metodológicas, es decir, experiencias que inician con <em>Design Thinking</em> para explorar necesidades, continúan con HCD para adaptar soluciones al contexto local y se gestionan con marcos ágiles como <em>Scrum</em> o <em>Kanban</em> para su implementación progresiva. Es por esto por lo que más que metodologías cerradas, funcionan como principios complementarios dentro de un mismo proceso de innovación.
 
@@ -54,7 +54,7 @@
             p Por ejemplo, una estrategia para mejorar la adherencia a tratamientos puede comenzar con un ejercicio de empatía y mapeo de actores, según el <em>Design Thinking</em>, seguir con la co-creación de prototipos con pacientes y profesionales, según HCD, y culminar en una implementación iterativa que evalúa resultados cada semana, empleando metodologías ágiles. En este sentido, lo importante no es etiquetar la metodología, sino evidenciar el enfoque centrado en el usuario, la experimentación y la mejora continua.
           .col-12.col-md-6.col-lg-3.mb-4.mb-lg-0.mx-auto
             figure
-              img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema5/img06.png', alt='Imagen Decorativa') 
+              img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema5/img06.svg', alt='Imagen Decorativa') 
 
         p.mb-0 A continuación, se presenta una tabla comparativa entre <em>Design Thinking</em>, <em>Human-Centered Design</em> y metodologías ágiles
 
@@ -121,7 +121,7 @@
         .row.mb-5.justify-content-center.align-items-center
           .col-auto.mb-3.mb-lg-0.d-none.d-lg-block
             figure
-              img(src="@/assets/curso/temas/tema5/img09.svg", alt="Imagen Decorativa", data-aos="zoom-in")
+              img(src="@/assets/curso/temas/tema5/img09.png", alt="Imagen Decorativa", data-aos="zoom-in")
           .col-lg
             p.mb-0(data-aos="fade-right") A continuación, se presentan cuatro ejemplos de innovaciones impulsadas por <em>Design Thinking</em> y <em>Human-Centered Design</em>, estos casos han sido reconocidos por las lecciones en innovación social en salud pública que han dejado y han sido documentadas por la Organización Panamericana de la Salud (OPS, 2025), debido a su capacidad para co-crear soluciones pertinentes con las comunidades, mejorar la equidad en salud y generar modelos replicables basados en el diseño centrado en las personas y la comprensión profunda del contexto local.
 

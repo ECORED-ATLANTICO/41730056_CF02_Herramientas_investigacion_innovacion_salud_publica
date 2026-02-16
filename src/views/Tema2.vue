@@ -13,7 +13,7 @@
           .row.justify-content-center.align-items-center
             .tarjeta.h-100.col-12.col-md-6.col-lg-2.bg-color-5.p-4.mb-3
               figure
-                img(src='@/assets/curso/temas/tema2/img01.png', alt='Imagen Decorativa')
+                img(src='@/assets/curso/temas/tema2/img01.svg', alt='Imagen Decorativa')
             .col-12.col-md-12.col-lg-10
               p.mb-2 El prototipado y el <em>test</em>eo con usuarios constituyen etapas fundamentales dentro de los procesos de innovación aplicados a la investigación en salud pública, ya que permiten transformar ideas en soluciones tangibles y evaluarlas en contextos reales o simulados. A través de los distintos tipos de prototipado, es posible validar tempranamente hipótesis, identificar oportunidades de mejora y reducir riesgos antes de la implementación definitiva de intervenciones, servicios o herramientas en salud. 
               p.mb-0 De igual manera, los procesos de <em>test</em>eo con usuarios facilitan la incorporación de la experiencia, necesidades y expectativas de los actores involucrados, fortaleciendo la pertinencia, usabilidad y efectividad de las soluciones propuestas, en coherencia con los principios de enfoque centrado en las personas y toma de decisiones basada en evidencia.
@@ -167,12 +167,12 @@
                   li Conocer el comportamiento de los usuarios ante tus productos
               .col-12.col-md-6.col-lg-3.mb-4.mb-lg-0.mx-auto
                 figure
-                  img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema2/img09.png', alt='Imagen Decorativa') 
+                  img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema2/img09.svg', alt='Imagen Decorativa') 
 
             .row.mb-2.justify-content-center.align-items-center
               .col-auto.mb-3.mb-lg-0.d-none.d-lg-block
                 figure
-                  img(src="@/assets/curso/temas/tema2/img10.svg", alt="Imagen Decorativa", data-aos="zoom-in")
+                  img(src="@/assets/curso/temas/tema2/img10.png", alt="Imagen Decorativa", data-aos="zoom-in")
               .col-lg
                 p.mb-0(data-aos="fade-right") Los principios básicos del <em>test</em>eo con usuarios se centran en definir objetivos claros, seleccionar participantes representativos y crear un entorno de prueba adecuado para observar el comportamiento real del usuario al interactuar con un producto. Se debe planificar meticulosamente las tareas a realizar, documentar las observaciones y analizar los datos para identificar problemas de usabilidad y generar un informe con propuestas de mejora (Narváez, sf).   
 

@@ -19,7 +19,7 @@
           .row.justify-content-center.align-items-center
             .col-auto.mb-2.mb-lg-0.d-none.d-lg-block
               figure
-                img(src="@/assets/curso/temas/tema3/img02.svg", alt="Imagen Decorativa", data-aos="zoom-in")
+                img(src="@/assets/curso/temas/tema3/img02.png", alt="Imagen Decorativa", data-aos="zoom-in")
             .col-lg
               p.mb-0(data-aos="fade-right") Esto facilita identificar mejoras, validar su pertinencia, evaluar la experiencia de pacientes y profesionales, y reducir riesgos asociados a implementaciones a gran escala. Así, el PMV se convierte en una herramienta fundamental para generar evidencia práctica y diseñar soluciones más efectivas, centradas en las necesidades de la población.
 
@@ -102,7 +102,7 @@
         .row.justify-content-center.align-items-center.bg-color-primario-p20.p-4(data-aos="fade-left").icono-inferior.mb-4
           .col-12.col-md-6.col-lg-3.mb-4.mb-lg-0.mx-auto
             figure
-              img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema3/img05.png', alt='Imagen Decorativa') 
+              img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema3/img05.svg', alt='Imagen Decorativa') 
           .col-12.col-md-12.col-lg-9.mb-4.mb-lg-0.px-lg-5
             ul.bullets.color-primario
               li <b>Su funcionalidad:</b> para qué ha sido creado, qué soluciones ofrece a las demandas del consumidor final.
@@ -116,7 +116,7 @@
         .row.justify-content-center.align-items-center.mb-4
           .col-auto.mb-3.mb-lg-0.d-none.d-lg-block
             figure
-              img(src="@/assets/curso/temas/tema3/img06.svg", alt="Imagen Decorativa", data-aos="zoom-in")
+              img(src="@/assets/curso/temas/tema3/img06.png", alt="Imagen Decorativa", data-aos="zoom-in")
           .col-lg
             p.mb-0(data-aos="fade-right") De acuerdo con Clavijo (2025), Existen dos tipos principales de MVP según su nivel de desarrollo: el MVP de baja fidelidad (validación de problema con inversión de 0-500 USD y desarrollo de 1-3 semanas) y el MVP de alta fidelidad (validación de solución con inversión de 500-5000 USD y desarrollo de 4-8 semanas).
 

@@ -54,7 +54,7 @@
         .row.align-items-center.bg-color-terciario-t5.p-4(data-aos="fade-left").icono-inferior.mb-4
           .col-12.col-md-6.col-lg-4.mb-4.mb-lg-0.mx-auto.order-md-2.order-lg-1
             figure
-              img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema4/img05.png', alt='Imagen Decorativa') 
+              img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema4/img05.svg', alt='Imagen Decorativa') 
           .col-12.col-md-12.col-lg-8.mb-4.mb-lg-0.order-md-1.order-lg-2
             p.mb-0 Se ha identificado que el uso de metodologías ágiles en proyectos de investigación y desarrollo se da generalmente en modelos híbridos, donde los principios ágiles se integran con estructuras tradicionales de planificación. Su aplicación más frecuente ocurre en las fases de planeación y ejecución, donde se logra reducir los tiempos de entrega, optimizar los recursos disponibles y fortalecer la cohesión del equipo de trabajo. Además, los proyectos de investigación se benefician de la naturaleza iterativa de estos métodos, que promueven la reflexión constante y la toma de decisiones basadas en la evidencia obtenida durante el proceso.
           
@@ -124,7 +124,7 @@
             .row.justify-content-center.mb-4
               .col-auto.mb-3.mb-lg-0.d-none.d-lg-block
                 figure
-                  img(src="@/assets/curso/temas/tema4/img14.svg", alt="Imagen Decorativa", data-aos="zoom-in")
+                  img(src="@/assets/curso/temas/tema4/img14.png", alt="Imagen Decorativa", data-aos="zoom-in")
               .col-lg
                 p.mb-0(data-aos="fade-right") <em>Lean Startup</em> considera que muchas iniciativas fallan por asumir hipótesis no verificadas, invertir en características que no son valoradas por los usuarios o ignorar señales tempranas de insatisfacción. Al aplicar el enfoque de experimentación científica al diseño de soluciones, esta metodología promueve decisiones informadas y adaptaciones frecuentes basadas en evidencia empírica.
 
@@ -292,7 +292,7 @@
           .row.mb-5.justify-content-center.align-items-center
             .col-auto.mb-3.mb-lg-0.d-none.d-lg-block
               figure
-                img(src="@/assets/curso/temas/tema4/img30.svg", alt="Imagen Decorativa", data-aos="zoom-in")
+                img(src="@/assets/curso/temas/tema4/img30.png", alt="Imagen Decorativa", data-aos="zoom-in")
             .col-lg
               p.mb-0(data-aos="fade-right") Según lo establecido por Schwaber & Sutherland (2020), el ciclo de <em>Scrum</em> se compone de eventos iterativos y artefactos documentales que estructuran el trabajo del equipo, garantizando la visibilidad de los avances y la mejora continua en cada iteración.
           
@@ -428,7 +428,7 @@
         .row.align-items-center.bg-color-primario-p20.p-4(data-aos="fade-left").icono-inferior
           .col-12.col-md-6.col-lg-3.mb-4.mb-lg-0.mx-auto
             figure
-              img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema4/img42.png', alt='Imagen Decorativa') 
+              img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema4/img42.svg', alt='Imagen Decorativa') 
           .col-12.col-md-12.col-lg-9.mb-4.mb-lg-0
             p.mb-0 De acuerdo con Martins (2025), la implementación de <em>Kanban</em> no requiere herramientas tecnológicas complejas, sino una estructura clara y el compromiso del equipo con la transparencia y la organización del trabajo. En proyectos de investigación, los tableros <em>Kanban</em> pueden utilizarse para planificar y monitorear el avance de los objetivos específicos, desde la formulación del proyecto hasta la publicación de los resultados.
           
@@ -438,7 +438,7 @@
         .row.justify-content-center.align-items-center
           .col-auto.mb-3.mb-lg-0.d-none.d-lg-block
             figure
-              img(src="@/assets/curso/temas/tema4/img43.svg", alt="Imagen Decorativa", data-aos="zoom-in")
+              img(src="@/assets/curso/temas/tema4/img43.png", alt="Imagen Decorativa", data-aos="zoom-in")
           .col-lg
             p.mb-0(data-aos="fade-right") Por ejemplo, en un estudio multicéntrico, el tablero puede incluir columnas que representen las fases del trabajo: diseño del protocolo, aprobación ética, recolección de datos, análisis estadístico y redacción del informe final. Cada actividad se desplaza visualmente a medida que avanza, lo que permite a los investigadores y coordinadores identificar retrasos, reasignar responsabilidades o anticipar necesidades de apoyo.
 
@@ -480,7 +480,7 @@
         .col-12.col-md-12.col-lg-10
           .row.align-items-center
             .col-lg-auto
-              img.d-lg-flex.d-none(src="@/assets/curso/temas/tema4/img45.svg", style="max-width: 100px").mx-auto
+              img.d-lg-flex.d-none(src="@/assets/curso/temas/tema4/img45.png", style="max-width: 100px").mx-auto
             .col-lg.p-lg-4
               p.mb-0 La selección de las metodologías debe basarse en el nivel de incertidumbre, el tamaño del equipo y el tipo de entrega. En contextos de investigación en salud pública, se recomienda un enfoque híbrido, combinando <em>Scrum</em> para gestión iterativa, <em>Kanban</em> para control de flujo y <em>Lean Startup</em> para validación científica (ver Tabla 4).
 
@@ -533,7 +533,7 @@
               
             .col-12.col-md-6.col-lg-3.mb-4.mb-lg-0.mx-auto
               figure
-                img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema4/img47.png', alt='Imagen Decorativa') 
+                img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema4/img47.svg', alt='Imagen Decorativa') 
             
 
 </template>

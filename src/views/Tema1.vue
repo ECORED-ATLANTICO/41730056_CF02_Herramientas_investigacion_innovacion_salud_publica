@@ -75,7 +75,7 @@
             .row.align-items-center.bg-color-primario-p20.p-4(data-aos="fade-left").icono-inferior
               .col-12.col-md-6.col-lg-3.mb-4.mb-lg-0.mx-auto
                 figure
-                  img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/img05.png', alt='Imagen Decorativa')
+                  img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/img05.svg', alt='Imagen Decorativa')
               .col-12.col-md-12.col-lg-9.mb-4.mb-lg-0
                 p El enfoque se apoya en valores fundamentales que guían su práctica, los principios del <em>Design Thinking</em>:
                 ul.bullets.color-primario
@@ -191,7 +191,7 @@
         .row.mb-4.justify-content-center.align-items-center
           .col-auto.mb-3.mb-lg-0.d-none.d-lg-block
             figure
-              img(src="@/assets/curso/temas/tema1/img12.svg", alt="Imagen Decorativa", data-aos="zoom-in")
+              img(src="@/assets/curso/temas/tema1/img12_2.png", alt="Imagen Decorativa", data-aos="zoom-in")
           .col-lg
             p.mb-0(data-aos="fade-right") De acuerdo con la Fundación para el Diseño y la Interacción (IxDF, 2016), hoy en día hablar de salud implica no solo es referirse a la enfermedad, sino también, y especialmente, a las personas y a sus experiencias. Aunque el sistema sanitario presenta múltiples oportunidades de mejora, las estrategias y reflexiones sobre cómo debemos fortalecer la salud, desde la gestión de servicios sanitarios hasta el desarrollo de equipos médicos o dispositivos para pacientes, deben poner el foco en las personas.
 
@@ -214,7 +214,7 @@
                 p Entre los beneficios que ha aportado la aplicación del Pensamiento de Diseño en salud, se destacan: la humanización en la interacción con tecnologías de diagnóstico (reducción de la ansiedad y del miedo), mejorar la comunicación profesional de salud y usuario (la comunicación médico-paciente o farmacéutico-consumidor, por ejemplo) o aumentar la comodidad y movilidad de los pacientes. Todos estos beneficios se pueden explicitar en una serie de ejemplos reales:
               .col-12.col-md-6.col-lg-3.order-1.order-lg-2
                 figure
-                  img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/img14.png', alt='Imagen Decorativa')
+                  img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/img14.svg', alt='Imagen Decorativa')
 
         .col-12.col-md-12.col-lg-12.mb-4
           .row.justify-content-center.align-items-center.mb-2
@@ -347,7 +347,23 @@
 
           .row.align-items-center(data-aos="fade-left").justify-content-center.mb-3
             .col-12.col-md-12.col-lg-12
-              p.mb-3 Aunque comparten una misma filosofía centrada en las personas, el <em>Design Thinking</em> (DT) y el <em>Human-Centered Design</em> (HCD) presentan enfoques y alcances ligeramente distintos (ver Tabla 1). El DT es un proceso general que se utiliza principalmente como una metodología estructurada para la resolución de problemas complejos, que incluye empatía, definición, ideación, prototipado y prueba, las cuales guían la generación y validación de soluciones. 
+              p.mb-0 Aunque comparten una misma filosofía centrada en las personas, el <em>Design Thinking</em> (DT) y el <em>Human-Centered Design</em> (HCD) presentan enfoques y alcances ligeramente distintos (ver Tabla 1). El DT es un proceso general que se utiliza principalmente como una metodología estructurada para la resolución de problemas complejos, que incluye empatía, definición, ideación, prototipado y prueba, las cuales guían la generación y validación de soluciones. 
+
+          .row.align-items-center(data-aos="fade-left").justify-content-center.mb-1
+            .col-md-12.col-lg-12
+              .row.justify-content-center.align-items-center
+                .col-12.col-md-6.col-lg-2.bg-color-primario-p20.p-3.mb-0
+                  figure
+                    img(src='@/assets/curso/temas/tema1/img28.svg', alt='Imagen Decorativa', style="max-width: 88%")
+                .col-12.col-md-12.col-lg-10.p-4.px-lg-4
+                  .row.justify-content-center.bg-color-1.p-3
+                    .col-auto.mb-3.mb-lg-0.d-none.d-lg-block
+                      figure
+                        img(src="@/assets/curso/temas/tema5/img03.svg", alt="Imagen Decorativa", data-aos="zoom-in")
+                    .col-lg
+                      p.mb-0(data-aos="fade-right") El HCD, por su parte, es un enfoque más amplio, considera las necesidades de los usuarios de manera integral, centrándose en la creación de productos y servicios que sean usables, accesibles y brinden valor, integrando al mismo tiempo el contexto emocional, social y el de las partes interesadas en la solución. Ambos comparten el uso de la empatía y la iteración, pero el Design Thinking  es más una metodología para resolver problemas complejos, mientras que el HCD es el resultado de poner al ser humano en el centro de todo el proceso de diseño de soluciones (Pomar, 2017).
+              
+          
 
           .row.align-items-center.justify-content-center(data-aos="fade-left").mb-4
             h4.mb-4 Similitudes
@@ -407,7 +423,7 @@
         .row.mb-0.justify-content-center.align-items-center
           .col-auto.mb-3.mb-lg-0.d-none.d-lg-block
             figure
-              img(src="@/assets/curso/temas/tema1/img25.svg", alt="Imagen Decorativa", data-aos="zoom-in")
+              img(src="@/assets/curso/temas/tema1/img25.png", alt="Imagen Decorativa", data-aos="zoom-in")
           .col-lg
             p.mb-0(data-aos="fade-right") En los años 90, cuando la gente hablaba de Innovación, en realidad se refería a Tecnología. Ahora, cuando la gente habla de Innovación en realidad quiere decir Diseño. Bruce Nussbaum, <em>Managing Editor Businessweek Magazine</em> (De la Peña, 2024). 
 
