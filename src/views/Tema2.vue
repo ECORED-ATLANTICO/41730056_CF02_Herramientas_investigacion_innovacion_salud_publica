@@ -170,7 +170,7 @@
                   img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema2/img09.png', alt='Imagen Decorativa') 
 
             .row.mb-2.justify-content-center.align-items-center
-              .col-auto.mb-3.mb-lg-0
+              .col-auto.mb-3.mb-lg-0.d-none.d-lg-block
                 figure
                   img(src="@/assets/curso/temas/tema2/img10.svg", alt="Imagen Decorativa", data-aos="zoom-in")
               .col-lg
@@ -209,7 +209,7 @@
           .row.mb-2.justify-content-center.align-items-center
             h4 Tipos de pruebas con usuarios o <em>test</em> con usuarios
 
-          .row.mb-0.justify-content-center.align-items-center
+          .row.mb-3.justify-content-center.align-items-center
             .col-lg-9.order-2.order-lg-1
               LineaTiempoD.color-secundario
                 p(numero="1" titulo="Pruebas de usabilidad (investigación UX)") Busca medir la eficacia y la facilidad de uso de una página web o un <em>Ecommerce</em> por parte de un usuario para satisfacer sus necesidades. En las pruebas de usabilidad de un sitio web se miden varios aspectos: seguimiento ocular, mapas de calor online, mapas de clics, recorrido del usuario, etc.

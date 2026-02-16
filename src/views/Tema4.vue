@@ -36,7 +36,7 @@
               .row.justify-content-center.align-items-center
                 .col-12.col-md-12.col-lg-12.bg-color-1.p-3.mb-3
                   .row.justify-content-center
-                    .col-auto.mb-3.mb-lg-0
+                    .col-auto.mb-3.mb-lg-0.d-none.d-lg-block
                       figure
                         img(src="@/assets/curso/temas/tema4/img03.svg", alt="Imagen Decorativa", data-aos="zoom-in")
                     .col-lg.p-3
@@ -52,24 +52,24 @@
     .row.mb-2.justify-content-center.align-items-center
       .col-12.col-md-12.col-lg-10.mb-3
         .row.align-items-center.bg-color-terciario-t5.p-4(data-aos="fade-left").icono-inferior.mb-4
-          .col-12.col-md-6.col-lg-4.mb-4.mb-lg-0.mx-auto
+          .col-12.col-md-6.col-lg-4.mb-4.mb-lg-0.mx-auto.order-md-2.order-lg-1
             figure
               img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema4/img05.png', alt='Imagen Decorativa') 
-          .col-12.col-md-12.col-lg-8.mb-4.mb-lg-0
+          .col-12.col-md-12.col-lg-8.mb-4.mb-lg-0.order-md-1.order-lg-2
             p.mb-0 Se ha identificado que el uso de metodologías ágiles en proyectos de investigación y desarrollo se da generalmente en modelos híbridos, donde los principios ágiles se integran con estructuras tradicionales de planificación. Su aplicación más frecuente ocurre en las fases de planeación y ejecución, donde se logra reducir los tiempos de entrega, optimizar los recursos disponibles y fortalecer la cohesión del equipo de trabajo. Además, los proyectos de investigación se benefician de la naturaleza iterativa de estos métodos, que promueven la reflexión constante y la toma de decisiones basadas en la evidencia obtenida durante el proceso.
           
         p.mb-3 Desde una perspectiva de gestión, Highsmith (2009) resalta que la agilidad implica más que rapidez: se trata de un enfoque estratégico que combina disciplina y adaptabilidad, permitiendo a las organizaciones y equipos científicos responder de forma efectiva a la incertidumbre, mientras mantienen la visión del propósito final del proyecto. La agilidad, aplicada a la investigación, no busca eliminar la planificación, sino convertirla en un proceso flexible, abierto a la experimentación, al aprendizaje validado y al cambio continuo, lo cual es fundamental en contextos de innovación en salud.
         
         .row.justify-content-center.align-items-center
-          .col-md-8.col-lg-5(order-sm="2" order-md="2")
+          .col-md-8.col-lg-5.mb-3(order-sm="2" order-md="2")
             figure
               img(src="@/assets/curso/temas/tema4/img06.png", alt="Imagen Decorativa", data-aos="zoom-in")
           .col-lg-7.col-md-12.mb-2.mb-md-0(order-sm="1" order-md="1")
             .row.justify-content-center.align-items-center.mb-2
-              .col-auto.mb-3.mb-lg-0.order-md-2
+              .col-auto.mb-3.mb-lg-0.order-md-1.d-none.d-lg-block
                 figure
                   img(src="@/assets/curso/temas/tema4/img07.svg", alt="Imagen Decorativa", data-aos="zoom-in")
-              .col-lg.order-md-1
+              .col-lg.order-md-2
                 p.mb-0(data-aos="fade-right") Se ha evidenciado que los equipos de investigación que adoptan prácticas ágiles muestran mayor productividad, comunicación efectiva, aprendizaje organizacional y satisfacción de los actores involucrados. 
 
             p.mb-0(data-aos="fade-right") Esto se debe a que las metodologías ágiles transforman la gestión del proyecto en un proceso colaborativo, dinámico y orientado a resultados tempranos, favoreciendo el intercambio de conocimiento entre expertos técnicos, comunidades beneficiarias, y decisores en salud pública. Así, la aplicación de metodologías ágiles en investigación no solo mejora la eficiencia operativa, sino que también refuerza el enfoque participativo y el aprendizaje colectivo, aspectos esenciales para generar innovaciones sostenibles y de impacto social.
@@ -122,7 +122,7 @@
         .row.mb-3.justify-content-center.align-items-center
           .col-12.col-md-12.col-lg-10
             .row.justify-content-center.mb-4
-              .col-auto.mb-3.mb-lg-0
+              .col-auto.mb-3.mb-lg-0.d-none.d-lg-block
                 figure
                   img(src="@/assets/curso/temas/tema4/img14.svg", alt="Imagen Decorativa", data-aos="zoom-in")
               .col-lg
@@ -157,7 +157,7 @@
                 h3.titulo-con-imagen__texto Validación de hipótesis y aprendizaje validado                
             
             .row.mb-3.justify-content-center.align-items-center
-              .col-auto.mb-3.mb-lg-0
+              .col-auto.mb-3.mb-lg-0.d-none.d-lg-block
                 figure
                   img(src="@/assets/curso/temas/tema4/img16.svg", alt="Imagen Decorativa", data-aos="zoom-in")
               .col-lg
@@ -166,32 +166,29 @@
             .row.mb-4.justify-content-center.align-items-center
               p.mb-0(data-aos="fade-right") Las hipótesis en este tipo de proyectos suelen agruparse en dos dimensiones principales:
 
-            .row.mb-4.justify-content-center.align-items-center
-              .col-md-6.col-lg-6
-                .tarjeta.bg-color-primario-p20.p-4.h-100
-                  //- .row.justify-content-center.mb-3
-                  //-   .col-8
-                  //-     img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-                  h4 Hipótesis de valor
-                  p Se refieren a la relevancia o utilidad percibida de la solución propuesta, es decir, si esta responde a una necesidad concreta de los usuarios o de las instituciones. Por ejemplo, si un sistema de monitoreo digital facilita efectivamente el seguimiento de pacientes con enfermedades crónicas o mejora la coordinación entre niveles de atención.
+            .row.mb-4.justify-content-center
+              
+              .col-12.col-md-6.col-lg-6
+                .bg-color-primario-p20.p-4.h-100.border-radius-20.img-topright.h-100
+                  img(src='@/assets/curso/temas/tema4/img17.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                  h5.mb-4.pt-lg-5.pt-xl-0 Hipótesis de valor
+                  p.mb-0 Se refieren a la relevancia o utilidad percibida de la solución propuesta, es decir, si esta responde a una necesidad concreta de los usuarios o de las instituciones. Por ejemplo, si un sistema de monitoreo digital facilita efectivamente el seguimiento de pacientes con enfermedades crónicas o mejora la coordinación entre niveles de atención.
 
-              .col-md-6.col-lg-6           
-                .tarjeta.bg-color-terciario-t10.p-4.h-100
-                  //- .row.justify-content-center.mb-3
-                  //-   .col-8
-                  //-     img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-                  h4 Hipótesis de crecimiento o adopción
-                  p Que buscan comprender cómo se amplía la cobertura o cómo la solución se integra de manera sostenible en nuevos entornos, territorios o poblaciones. Estas hipótesis examinan aspectos como la facilidad de uso, la aceptabilidad cultural o las barreras de acceso.
+              .col-12.col-md-6.col-lg-6
+                .bg-color-terciario-t10.p-4.h-100.border-radius-20.img-topright.h-100
+                  img(src='@/assets/curso/temas/tema4/img18.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                  h5.mb-4.pt-lg-5.pt-xl-0 Hipótesis de crecimiento o adopción
+                  p.mb-0 Que buscan comprender cómo se amplía la cobertura o cómo la solución se integra de manera sostenible en nuevos entornos, territorios o poblaciones. Estas hipótesis examinan aspectos como la facilidad de uso, la aceptabilidad cultural o las barreras de acceso.
 
             .row.mb-3.justify-content-center.align-items-center
-              .col-lg-7.col-md-12.mb-4.mb-md-0(order-sm="1" order-md="1")
+              .col-lg-7.col-md-12.mb-3(order-sm="1" order-md="1")
                 p.mb-0(data-aos="fade-right") El proceso de validación implica identificar las hipótesis más arriesgadas, aquellas que, de resultar falsas, pondrían en riesgo el propósito del proyecto. En lugar de invertir recursos en desarrollar soluciones complejas desde el inicio, el enfoque Lean propone someter estos supuestos a pruebas experimentales tempranas, controladas y de bajo costo. Por ejemplo, antes de escalar una aplicación móvil para la notificación de síntomas, puede ser más útil verificar si los trabajadores de salud en zonas rurales están dispuestos a utilizar herramientas digitales, si cuentan con conectividad suficiente o si el formato de registro es comprensible. Este tipo de aprendizaje temprano evita invertir esfuerzos en productos que, aunque técnicamente viables, no serían funcionales en el contexto real.
               .col-md-8.col-lg-5(order-sm="2" order-md="2")
                 figure
                   img(src="@/assets/curso/temas/tema4/img19.png", alt="Imagen Decorativa", data-aos="zoom-in")
         
         .row.mb-5.justify-content-center.align-items-center.bg-color-1.p-4.mb-5
-          .col-auto.mb-3.mb-lg-0
+          .col-auto.mb-3.mb-lg-0.d-none.d-lg-block
             figure
               img(src="@/assets/curso/temas/tema4/img20.svg", alt="Imagen Decorativa", data-aos="zoom-in")
           .col-lg
@@ -208,7 +205,7 @@
         .row.mb-4.justify-content-center.align-items-center
           .col-12.col-md-12.col-lg-10
             .row.justify-content-center.align-items-center.mb-4
-              .col-auto.mb-3.mb-lg-0
+              .col-auto.mb-3.mb-lg-0.d-none.d-lg-block
                 figure
                   img(src="@/assets/curso/temas/tema4/img22.svg", alt="Imagen Decorativa", data-aos="zoom-in")
               .col-lg
@@ -260,24 +257,24 @@
       .bg-fondo-5.tarjeta.mb-5
         .p-3.p-lg-4
           SlyderA(tipo="b").bg-color-white.p-4.tarjeta
-            .row.justify-content-center.align-items-center
-              .col-lg-8.mb-4.mb-md-0
+            .row.justify-content-center.align-items-center.p-4
+              .col-lg-8.mb-3
                 h4 Propietario del Producto (Product Owner)
                 p.mb-0 En un proyecto de salud pública, este rol suele corresponder a un investigador principal, coordinador de proyecto o líder técnico responsable de definir la visión y los objetivos científicos o sanitarios. Su función es priorizar las tareas según el valor que aportan al propósito del proyecto, por ejemplo, decidir si se avanza primero en la validación del algoritmo de predicción, en la recopilación de datos de campo o en el diseño de la interfaz de usuario para una herramienta de vigilancia. Además, este rol actúa como enlace entre el equipo técnico y las partes interesadas que pueden ser por ejemplo ministerios, entidades territoriales, instituciones académicas o agencias de cooperación, pues es quien asegura que los entregables parciales respondan a las necesidades que se quieren atender.
               .col-md-9.col-lg-4.mb-3.mb-lg-0
                 figure
                   img(src='@/assets/curso/temas/tema4/img27.png', alt='Imagen de acompañamiento')
 
-            .row.justify-content-center.align-items-center
-              .col-lg-8.mb-4.mb-md-0
+            .row.justify-content-center.align-items-center.p-4
+              .col-lg-8.mb-3
                 h4 Facilitador o Líder de proceso (<em>Scrum</em> Master)
                 p.mb-0 Su función es garantizar que el marco <em>Scrum</em> se aplique correctamente, facilitando la comunicación, eliminando obstáculos organizativos o logísticos y promoviendo la eficiencia del equipo. En el contexto científico, este rol equivale a un gestor de proyectos de investigación y desarrollo, un coordinador metodológico o un profesional de innovación, encargado de asegurar que el equipo mantenga una dinámica ágil, cumpla los tiempos establecidos y reflexione periódicamente sobre cómo mejorar su rendimiento. Este rol no es jerárquico, sino de acompañamiento y se encarga de fomentar la autogestión y la colaboración, facilitando que los investigadores dediquen más tiempo al trabajo técnico y menos a la gestión burocrática.
               .col-md-9.col-lg-4.mb-3.mb-lg-0
                 figure
                   img(src='@/assets/curso/temas/tema4/img28.png', alt='Imagen de acompañamiento')
 
-            .row.justify-content-center.align-items-center
-              .col-lg-8.mb-4.mb-md-0
+            .row.justify-content-center.align-items-center.p-4
+              .col-lg-8.mb-3
                 h4 Equipo de trabajo interdisciplinario o equipo de desarrollo
                 p.mb-0 Son el equipo de trabajo en los proyectos de investigación y salud pública este equipo puede estar conformado por investigadores de distintas áreas, epidemiólogos, bioestadísticos, tecnólogos, analistas de laboratorio, profesionales de salud, programadores o diseñadores. Su tarea es ejecutar las actividades planificadas dentro de cada <em>sprint</em>, desarrollar los productos intermedios, por ejemplo, protocolos, bases de datos depuradas, informes de resultados parciales o prototipos tecnológicos, y validar los avances obtenidos. Lo esencial es que el equipo sea autónomo, multidisciplinario y comprometido con los resultados colectivos, ya que la efectividad del <em>Scrum</em> depende de la capacidad del grupo para autoorganizarse y mantener una comunicación constante (Schwaber & Sutherland, 2020).
               .col-md-9.col-lg-4.mb-3.mb-lg-0
@@ -293,7 +290,7 @@
               h3.titulo-con-imagen__texto Eventos y artefactos de <em>Scrum</em> aplicados a proyectos de salud
  
           .row.mb-5.justify-content-center.align-items-center
-            .col-auto.mb-3.mb-lg-0
+            .col-auto.mb-3.mb-lg-0.d-none.d-lg-block
               figure
                 img(src="@/assets/curso/temas/tema4/img30.svg", alt="Imagen Decorativa", data-aos="zoom-in")
             .col-lg
@@ -316,19 +313,19 @@
         .col-12.col-md-12.col-lg-12
           h4 Artefactos principales:
 
-        .col-12.col-md-6.col-lg-4
+        .col-12.col-md-6.col-lg-4.mb-3
           .bg-color-terciario-t10.p-4.h-100.border-radius-20
             img(src='@/assets/curso/temas/tema4/img31.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
             h4.text-center.mb-2 Lista de trabajo general
             p.text-center Es la lista priorizada de tareas, requerimientos o hipótesis pendientes. Representa el plan general del proyecto. En salud pública, puede incluir actividades como desarrollo de instrumentos, pruebas de campo, análisis estadístico, redacción de artículos o reuniones con actores institucionales.
 
-        .col-12.col-md-6.col-lg-4
+        .col-12.col-md-6.col-lg-4.mb-3
           .bg-color-terciario-t10.p-4.h-100.border-radius-20
             img(src='@/assets/curso/temas/tema4/img32.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
             h4.text-center.mb-2 Lista de ciclo
             p.text-center Conjunto de tareas específicas seleccionadas, son aquellas tareas que deben completarse en el <em>sprint</em> o ciclo actual.
 
-        .col-12.col-md-6.col-lg-4
+        .col-12.col-md-6.col-lg-4.mb-3
           .bg-color-primario-p20.p-4.h-100.border-radius-20
             img(src='@/assets/curso/temas/tema4/img33.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
             h4.text-center.mb-2 Resultado incremental
@@ -367,15 +364,20 @@
               .col-lg.p-lg-4
                 p.mb-0 En el contexto de la investigación y la salud pública, <em>Kanban</em> se ha consolidado como una herramienta que permite visualizar los procesos, identificar cuellos de botella, priorizar tareas críticas y tomar decisiones basadas en evidencia. Su aplicación resulta particularmente útil en proyectos de vigilancia epidemiológica, gestión de laboratorios, coordinación de actividades de campo o administración de proyectos de innovación, entre otros, donde la cantidad de tareas, la interacción entre áreas y la necesidad de seguimiento continuo suelen ser elevadas (Martins, 2025).
 
-        .row.align-items-center.justify-content-center(data-aos="fade-right")
-          .row.mb-5.justify-content-center.align-items-center
-            .col-md-8.col-lg-4(order-sm="2" order-md="2")
-              figure
-                img(src="@/assets/curso/temas/tema4/img36.png", alt="Imagen Decorativa", data-aos="zoom-in")
-            .col-lg-8.col-md-12.mb-4.mb-md-0(order-sm="1" order-md="1")
-              p.mb-3(data-aos="fade-right") El fundamento del método <em>Kanban</em> radica en hacer visible el trabajo para comprender cómo fluye dentro del equipo o la organización. Esto se logra mediante la elaboración de tableros visuales, físicos o digitales, que muestran las distintas etapas del proceso, desde la planificación hasta la finalización de las actividades. Cada tarea se representa mediante una tarjeta o registro, que se desplaza a lo largo de columnas que reflejan el estado del trabajo marcándolo como, por ejemplo: pendiente, en ejecución, en revisión, finalizado.
-              p.mb-3(data-aos="fade-right") Esta representación permite que todos los miembros del equipo tengan una visión compartida del progreso, de las tareas en curso y de las prioridades, fortaleciendo la coordinación y la transparencia. Al observar el flujo completo, es posible detectar bloqueos o sobrecargas que dificultan el avance, y tomar medidas oportunas para resolverlos.
-              p.mb-0(data-aos="fade-right") Los principios básicos de <em>Kanban</em> pueden resumirse en cuatro aspectos centrales:
+        .row.align-items-center.justify-content-center.mb-4(data-aos="fade-right")
+          .titulo-con-imagen.mb-3(data-aos="fade-right").p-0
+            .titulo-con-imagen__fondo
+              //- img.titulo-con-imagen__imagen(src="@/assets/curso/temas/bg/bg-02.png")
+              h3.titulo-con-imagen__texto Principios y gestión visual del flujo de trabajo
+
+          .col-md-8.col-lg-4.mb-3(order-sm="2" order-md="2")
+            figure
+              img(src="@/assets/curso/temas/tema4/img36.png", alt="Imagen Decorativa", data-aos="zoom-in")
+
+          .col-lg-8.col-md-12.mb-4(order-sm="1" order-md="1")
+            p.mb-3(data-aos="fade-right") El fundamento del método <em>Kanban</em> radica en hacer visible el trabajo para comprender cómo fluye dentro del equipo o la organización. Esto se logra mediante la elaboración de tableros visuales, físicos o digitales, que muestran las distintas etapas del proceso, desde la planificación hasta la finalización de las actividades. Cada tarea se representa mediante una tarjeta o registro, que se desplaza a lo largo de columnas que reflejan el estado del trabajo marcándolo como, por ejemplo: pendiente, en ejecución, en revisión, finalizado.
+            p.mb-3(data-aos="fade-right") Esta representación permite que todos los miembros del equipo tengan una visión compartida del progreso, de las tareas en curso y de las prioridades, fortaleciendo la coordinación y la transparencia. Al observar el flujo completo, es posible detectar bloqueos o sobrecargas que dificultan el avance, y tomar medidas oportunas para resolverlos.
+            p.mb-0(data-aos="fade-right") Los principios básicos de <em>Kanban</em> pueden resumirse en cuatro aspectos centrales:
 
         
     .bg-full-width.bg-fondo-3.mb-4
@@ -434,7 +436,7 @@
     .row.align-items-center.justify-content-center.mb-4(data-aos="fade-right")
       .col-12.col-md-12.col-lg-10
         .row.justify-content-center.align-items-center
-          .col-auto.mb-3.mb-lg-0
+          .col-auto.mb-3.mb-lg-0.d-none.d-lg-block
             figure
               img(src="@/assets/curso/temas/tema4/img43.svg", alt="Imagen Decorativa", data-aos="zoom-in")
           .col-lg
@@ -449,7 +451,7 @@
               p.mb-0 En instituciones de salud, los tableros <em>Kanban</em> se han utilizado para mejorar la coordinación de equipos clínicos, gestionar proyectos de innovación o monitorear procesos administrativos y de calidad. Mejía (2024) señala que la aplicación de este método en hospitales permite reducir desperdicios, optimizar la utilización de recursos humanos y materiales, y mejorar la capacidad de respuesta ante cambios o demandas emergentes. En este sentido, <em>Kanban</em> no solo organiza las tareas, sino que promueve una cultura de trabajo basada en la evidencia y en la mejora continua.
           .col-xl-6
             .row.justify-content-center.align-items-center.mb-4
-              .col-auto.mb-3.mb-lg-0
+              .col-auto.mb-3.mb-lg-0.d-none.d-lg-block
                 figure
                   img(src="@/assets/curso/temas/tema4/img44.svg", alt="Imagen Decorativa", data-aos="zoom-in")
               .col-lg
@@ -499,17 +501,17 @@
                   th Aplicación sugerida en salud pública
               tbody
                 tr
-                  td <em>Lean Startup</em>
+                  td <b><em>Lean Startup</em></b>
                   td Validación rápida de hipótesis mediante la experimentación y el aprendizaje basado en evidencia.
                   td Permite reducir riesgos, optimizar recursos y obtener resultados tempranos que guían decisiones basadas en datos.
                   td Ideal para el diseño y prueba de intervenciones piloto, herramientas tecnológicas o estrategias innovadoras, antes de su implementación a gran escala.
                 tr
-                  td <em>Scrum</em>
+                  td <b><em>Scrum</em></b>
                   td Gestión iterativa y colaborativa de proyectos complejos a través de ciclos de trabajo cortos.
                   td Favorece la coordinación de equipos multidisciplinarios, la transparencia y la entrega continua de productos verificables.
                   td Recomendado para equipos de investigación, vigilancia o gestión institucional que desarrollan proyectos con objetivos y entregables sucesivos.
                 tr
-                  td <em>Kanban</em>
+                  td <b><em>Kanban</em></b>
                   td Visualización del flujo de trabajo y mejora continua del proceso.
                   td Incrementa la eficiencia operativa, la priorización de tareas y la comunicación interna.
                   td Adecuado para el seguimiento de proyectos, la gestión de laboratorios o la administración de programas de salud, donde es necesario mantener un control permanente del avance.

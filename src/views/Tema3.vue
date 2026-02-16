@@ -17,7 +17,7 @@
       .row.mb-3.justify-content-center.align-items-center
         .col-md-12.col-lg-9
           .row.justify-content-center.align-items-center
-            .col-auto.mb-2.mb-lg-0
+            .col-auto.mb-2.mb-lg-0.d-none.d-lg-block
               figure
                 img(src="@/assets/curso/temas/tema3/img02.svg", alt="Imagen Decorativa", data-aos="zoom-in")
             .col-lg
@@ -114,7 +114,7 @@
     .row.align-items-center.justify-content-center.mb-4
       .col-12.col-md-12.col-lg-10
         .row.justify-content-center.align-items-center.mb-4
-          .col-auto.mb-3.mb-lg-0
+          .col-auto.mb-3.mb-lg-0.d-none.d-lg-block
             figure
               img(src="@/assets/curso/temas/tema3/img06.svg", alt="Imagen Decorativa", data-aos="zoom-in")
           .col-lg
@@ -175,7 +175,7 @@
           h2#t_3_2 3.2 Etapas para desarrollar un MVP
       
       .row.mb-5.justify-content-center.align-items-center
-        .col-md-8.col-lg-3(order-sm="2" order-md="2")
+        .col-md-8.col-lg-3.mb-3(order-sm="2" order-md="2")
           figure
             img(src="@/assets/curso/temas/tema3/img07.png", alt="Imagen Decorativa", data-aos="zoom-in")
         .col-lg-9.col-md-12.mb-4.mb-md-0(order-sm="1" order-md="1")

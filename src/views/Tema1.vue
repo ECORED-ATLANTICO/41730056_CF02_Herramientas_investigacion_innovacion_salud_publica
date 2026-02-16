@@ -34,11 +34,10 @@
 
           //- banner con tarjeta
           .row.justify-content-center.align-items-center.mb-3.tarjeta(data-aos="fade-left")
-            .col-lg-12.mb-2
-              div.tarjeta-horz.mb-3
-                img(src='@/assets/curso/temas/tema1/img03.png', alt='Imagen decorativa')
-                div.texto-tarjeta.bg-white
-                    p.mb-0 ¿Qué es <em>Design Thinking</em>?  Es una metodología que permite estructurar la forma en que se entiende un problema, qué se quiere solucionar y cuál es la solución que se debe crear. Este enfoque se basa en principios como la empatía con los usuarios, la creatividad y un proceso de resolución de problemas iterativo, es decir que no sigue una secuencia rígida y lineal, sino que evoluciona según los aprendizajes que surgen en cada etapa. 
+            img(src="@/assets/curso/temas/tema1/img03.png", alt="Imagen decorativa")            
+            .row.justify-content-center.align-items-center.z-2.mb-2
+              .col-lg-8(data-aos="fade-up")
+                p.banner-text ¿Qué es <em>Design Thinking</em>?  Es una metodología que permite estructurar la forma en que se entiende un problema, qué se quiere solucionar y cuál es la solución que se debe crear. Este enfoque se basa en principios como la empatía con los usuarios, la creatividad y un proceso de resolución de problemas iterativo, es decir que no sigue una secuencia rígida y lineal, sino que evoluciona según los aprendizajes que surgen en cada etapa. 
 
     .row.align-items-center(data-aos="fade-left").justify-content-center
       //- Col3 y Col9
@@ -190,7 +189,7 @@
           h2#t_1_3 1.3  Beneficios del <em>Design Thinking</em> en salud pública
 
         .row.mb-4.justify-content-center.align-items-center
-          .col-auto.mb-3.mb-lg-0
+          .col-auto.mb-3.mb-lg-0.d-none.d-lg-block
             figure
               img(src="@/assets/curso/temas/tema1/img12.svg", alt="Imagen Decorativa", data-aos="zoom-in")
           .col-lg
@@ -219,10 +218,10 @@
 
         .col-12.col-md-12.col-lg-12.mb-4
           .row.justify-content-center.align-items-center.mb-2
-            .col-12.col-md-6.col-lg-4.order-lg-1
+            .col-12.col-md-6.col-lg-4.order-md-2.order-lg-1
               figure
                 img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/img15.png', alt='Imagen Decorativa')
-            .col-12.col-md-12.col-lg-8.order-lg-2
+            .col-12.col-md-12.col-lg-8.order-md-1.order-lg-2.mb-3
               p.mb-0 Un referente en la aplicación del <em>Design Thinking</em> en salud proviene de la compañía GE Healthcare, que emplea esta metodología en el diseño de equipamiento médico y en la experiencia del paciente durante su uso. Un ejemplo es el trabajo de Doug Dietz, diseñador industrial, quien creó una máquina de resonancia magnética que representó un gran avance tecnológico. Sin embargo, descubrió que muchas personas, especialmente los niños, experimentaban miedo y ansiedad intensa al utilizarla <b>(ver Figura 2)</b>. A partir de esta observación, propuso rediseñar la experiencia completa: desde el aspecto externo de la máquina hasta el espacio donde se realizaba el procedimiento. Transformó las salas en escenarios imaginarios, como una nave espacial o un barco pirata, lo que convirtió el examen de resonancia magnética en una aventura lúdica para los más pequeños (Saavedra, sf). 
     
         .row.align-items-center(data-aos="fade-left").justify-content-center
@@ -234,7 +233,7 @@
                   b Figura 2. 
                   span Imagen de equipo de resonancia magnética para niños 
               figure.mb-4
-                img(src='@/assets/curso/temas/tema1/img16.png', alt='La figura describe las herramientas de diagnóstico para la sostenibilidad, DOFA verde, benchmarking sostenible, Análisis de Ciclo de Vida, huella de carbono y balanced scorecard verde, destacando su función en la identificación de oportunidades de mejora y en la toma de decisiones estratégicas orientadas a la sostenibilidad empresarial.').mx-auto.d-none.d-md-block
+                img(src='@/assets/curso/temas/tema1/img16.png', alt='').mx-auto
 
               figcaption 
                 b Fuente: 
@@ -244,37 +243,34 @@
         .row.justify-content-center.align-items-center.mb-0
           .col-12.col-md-12.col-lg-10
             .row.mb-2.justify-content-center.align-items-center
-              .col-auto.mb-3.mb-lg-0
+              .col-auto.mb-3.mb-lg-0.d-none.d-lg-block
                 figure
                   img(src="@/assets/curso/temas/tema1/img17.svg", alt="Imagen Decorativa", data-aos="zoom-in")
               .col-lg
                 p.mb-0(data-aos="fade-right") Entre los avances logrados gracias al <em>Design Thinking</em> se encuentran otras que pueden parecer simples, pero que tienen un impacto significativo en la experiencia del paciente. Por ejemplo, el rediseño de un traje de paciente, los cuales solían ser bastante incómodos para los usuarios, especialmente para los más pudorosos, por lo que se diseñó un nuevo modelo tipo pijama que pudiera ser usado tanto dentro como fuera del hospital sin pasar incomodidades o vergüenza. También es muy conocido el caso de un diseño que elimina la necesidad de usar soportes para el suero, encapsulando el dispositivo en una bolsa transportable, lo que facilita la movilidad de los pacientes, especialmente con cáncer y otras enfermedades dentro del hospital. 
 
-        p.mb-2 Así, los beneficios del Desing Thinking en salud se dan en doble vía, tanto para los pacientes como para los trabajadores del sector salud, por ejemplo: 
+        p.mb-3 Así, los beneficios del Desing Thinking en salud se dan en doble vía, tanto para los pacientes como para los trabajadores del sector salud, por ejemplo: 
 
-        .row.justify-content-center.align-items-center.mb-2
-          .tarjeta.col-12.col-md-6.col-lg-5.bg-color-primario-p20.p-4.h-100
-            h4.mb-3 Para los pacientes
-            ul.lista-ul--color
-              li.mb-2 #[b Mejor experiencia:] genera, pues reduce la ansiedad y el miedo al interactuar con equipos médicos y mejora la comodidad y movilidad.
-              li.mb-2 #[b Mejor comunicación:] porque fomenta una comunicación más empática y clara entre profesionales de la salud y pacientes.
-              li.mb-2 #[b Soluciones personalizadas:] pues genera soluciones que responden a las necesidades específicas de los pacientes y la comunidad. 
+        .row.mb-4.justify-content-center
+          .col-12.col-md-12.col-lg-5.mb-3
+            .bg-color-primario-p20.p-4.h-100.border-radius-20.img-topright.h-100
+              img(src='@/assets/curso/temas/tema1/img26.svg' alt='AvatarTop' , style="max-width: 70px").mx-auto.mb-3
+              h5.mb-4.pt-lg-5.pt-xl-0 Para los pacientes
+              ul.lista-ul--color
+                li.mb-2 #[b Mejor experiencia:] genera, pues reduce la ansiedad y el miedo al interactuar con equipos médicos y mejora la comodidad y movilidad.
+                li.mb-2 #[b Mejor comunicación:] porque fomenta una comunicación más empática y clara entre profesionales de la salud y pacientes.
+                li.mb-0 #[b Soluciones personalizadas:] pues genera soluciones que responden a las necesidades específicas de los pacientes y la comunidad. 
 
-          .tarjeta.col-12.col-md-6.col-lg-7.bg-color-terciario-t10.p-4.h-100
-            h4.mb-3 Para los profesionales de salud y la organización
-            ul.lista-ul--color
-              li.mb-2 
-                i.fas.fa-check
-                | #[b Innovación en servicios:] permite desarrollar soluciones que aborden problemas reales desde la perspectiva del usuario, no solo la médica o tecnológica.
-              li.mb-2 
-                i.fas.fa-check
-                | #[b Mayor eficiencia:] porque optimiza flujos de trabajo, como en el caso de urgencias, y reduce tiempos de espera en áreas como farmacia.
-              li.mb-2 
-                i.fas.fa-check
-                | #[b Cultura de colaboración y cambio:] porque promueve la colaboración entre equipos y fomenta una cultura de mejora continua dentro de la organización.
-              li.mb-2 
-                i.fas.fa-check
-                | #[b Satisfacción del personal:] al aumentar el compromiso y la motivación de los equipos de salud al sentirse parte de un proceso de mejora que impacta positivamente a los usuarios.
+          .col-12.col-md-12.col-lg-7.mb-3
+            .bg-color-terciario-t10.p-4.h-100.border-radius-20.img-topright.h-100
+              img(src='@/assets/curso/temas/tema1/img27.svg' alt='AvatarTop' , style="max-width: 70px").mx-auto.mb-3
+              h5.mb-4.pt-lg-5.pt-xl-0 Hipótesis de crecimiento o adopción
+              
+              ul.bullets.color-adicional1
+                li #[b Innovación en servicios:] permite desarrollar soluciones que aborden problemas reales desde la perspectiva del usuario, no solo la médica o tecnológica.
+                li #[b Mayor eficiencia:] porque optimiza flujos de trabajo, como en el caso de urgencias, y reduce tiempos de espera en áreas como farmacia.
+                li #[b Cultura de colaboración y cambio:] porque promueve la colaboración entre equipos y fomenta una cultura de mejora continua dentro de la organización.
+                li  #[b Satisfacción del personal:] al aumentar el compromiso y la motivación de los equipos de salud al sentirse parte de un proceso de mejora que impacta positivamente a los usuarios.
 
     .bg-fondo-2
 
@@ -358,13 +354,13 @@
             .col-lg-9.order-lg-1
               AcordionA(tipo="a" clase-tarjeta="tarjeta bg-color-2")
                 div(titulo="Enfoque en el usuario")
-                  p.ms-5 Ambos priorizan la comprensión de las necesidades, deseos y comportamientos del usuario final, situándolo como eje central del proceso.
+                  p Ambos priorizan la comprensión de las necesidades, deseos y comportamientos del usuario final, situándolo como eje central del proceso.
                 div(titulo="Uso de la empatía")
-                  p.ms-5 Utilizan la empatía como punto de partida para comprender profundamente a las personas, sus contextos, emociones y motivaciones.
+                  p Utilizan la empatía como punto de partida para comprender profundamente a las personas, sus contextos, emociones y motivaciones.
                 div(titulo="Iteración")
-                  p.ms-5 Son procesos iterativos que implican probar, evaluar y refinar soluciones de manera continua hasta alcanzar mejores resultados.
+                  p Son procesos iterativos que implican probar, evaluar y refinar soluciones de manera continua hasta alcanzar mejores resultados.
                 div(titulo="Creatividad e innovación")
-                  p.ms-5 Fomentan la generación de ideas creativas para desarrollar soluciones innovadoras y efectivas frente a problemáticas complejas.
+                  p Fomentan la generación de ideas creativas para desarrollar soluciones innovadoras y efectivas frente a problemáticas complejas.
                   
             .col-md-6.col-lg-3.mb-3.mb-lg-0.order-lg-2
               figure
@@ -409,7 +405,7 @@
     .row.justify-content-center.align-items-center.mb-0
       .col-12.col-md-12.col-lg-8
         .row.mb-0.justify-content-center.align-items-center
-          .col-auto.mb-3.mb-lg-0
+          .col-auto.mb-3.mb-lg-0.d-none.d-lg-block
             figure
               img(src="@/assets/curso/temas/tema1/img25.svg", alt="Imagen Decorativa", data-aos="zoom-in")
           .col-lg

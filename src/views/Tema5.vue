@@ -20,7 +20,7 @@
         .row.justify-content-center.align-items-center
           .col-12.col-md-12.col-lg-12.bg-color-1.p-3
             .row.justify-content-center
-              .col-auto.mb-3.mb-lg-0
+              .col-auto.mb-3.mb-lg-0.d-none.d-lg-block
                 figure
                   img(src="@/assets/curso/temas/tema5/img03.svg", alt="Imagen Decorativa", data-aos="zoom-in")
               .col-lg
@@ -41,7 +41,7 @@
     .row.mb-5.justify-content-center.align-items-center
       .col-md-12.col-lg-10
         .row.justify-content-center.align-items-center
-          .col-auto.mb-3.mb-lg-0
+          .col-auto.mb-3.mb-lg-0.d-none.d-lg-block
             figure
               img(src="@/assets/curso/temas/tema5/img05.svg", alt="Imagen Decorativa", data-aos="zoom-in")
           .col-lg
@@ -119,7 +119,7 @@
           h2#t_5_1 5.1 Innovaciones participativas centradas en las personas impulsadas por <em>Design Thinking</em> o <em>Human-Centered Design</em> 
 
         .row.mb-5.justify-content-center.align-items-center
-          .col-auto.mb-3.mb-lg-0
+          .col-auto.mb-3.mb-lg-0.d-none.d-lg-block
             figure
               img(src="@/assets/curso/temas/tema5/img09.svg", alt="Imagen Decorativa", data-aos="zoom-in")
           .col-lg
@@ -159,14 +159,14 @@
             p.mb-0 Durante 2024, la OPS/OMS consolidaron prácticas innovadoras de gestión y ejecución estratégica, incorporando metodologías ágiles de gestión y operaciones, entre ellas el enfoque <em>Scrum</em>, con el fin de aumentar la eficiencia y la colaboración en sus proyectos de transformación digital. La introducción del enfoque ágil en esta institución de salud pública representa un cambio relevante en la forma de gestionar proyectos tecnológicos y de información sanitaria. 
 
     .row.justify-content-center.align-items-center
-      .col-md-8.col-lg-4(order-sm="2" order-md="2")
+      .col-md-8.col-lg-4.mb-3(order-sm="2" order-md="2")
         figure
           img(src="@/assets/curso/temas/tema5/img13.png", alt="Imagen Decorativa", data-aos="zoom-in")
       .col-lg-8.col-md-12.mb-4.mb-md-0(order-sm="1" order-md="1")
         p.mb-3(data-aos="fade-right") El uso de <em>Scrum</em> permitió organizar el trabajo en ciclos cortos e iterativos, fortalecer la comunicación entre equipos técnicos, administrativos y científicos, y priorizar entregas de valor tangible, como mejoras en plataformas, servicios digitales y herramientas basadas en inteligencia artificial. Además,  la OPS/OMS complementó la metodología con la incorporación de herramientas como ChatGPT que facilitaron el desarrollo de nuevos productos informativos y la personalización de servicios, reflejando un proceso de innovación continua y adaptativa.
 
         .row.justify-content-center.align-items-center
-          .col-auto.mb-3.mb-lg-0
+          .col-auto.mb-3.mb-lg-0.d-none.d-lg-block
             figure
               img(src="@/assets/curso/temas/tema5/img14.svg", alt="Imagen Decorativa", data-aos="zoom-in")
           .col-lg
