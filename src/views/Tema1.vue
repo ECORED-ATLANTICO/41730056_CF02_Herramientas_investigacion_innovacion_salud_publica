@@ -14,7 +14,7 @@
           .col-12.col-md-6.col-lg-5
             figure
               img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/img01.png', alt='Imagen Decorativa')
-          .col-12.col-md-12.col-lg-7.bg-color-terciario-t5
+          .col-12.col-md-12.col-lg-7.bg-color-9
             p.mb-0.p-4 Te invitamos a ver el siguiente video introductorio sobre el Pensamiento de Diseño (<em>Design Thinking</em>), el Diseño Centrado en el Usuario (<em>Human-Centered Design</em>). Mientras observas el video, reflexiona sobre las siguientes preguntas: ¿Cómo cambia la investigación en salud cuando se trabaja con las comunidades desde el inicio?
     
     .bg-fondo-1

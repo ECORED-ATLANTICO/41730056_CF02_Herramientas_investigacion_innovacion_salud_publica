@@ -3,7 +3,7 @@ export default {
     Name: 'Metodologías ágiles y diseño centrado en el usuario',
     Description:
       'Este componente formativo aborda los principios del Pensamiento de Diseño (<em>Design Thinking</em>), el Diseño Centrado en el Usuario (<em>Human-Centered Design</em>) y metodologías ágiles como <em>Lean Startup</em>, <em>Scrum</em> y <em>Kanban</em>, aplicadas al desarrollo, prototipado y validación de soluciones innovadoras en investigación en salud pública, integrando el concepto de Producto Mínimo Viable y casos exitosos en América Latina.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {

@@ -83,7 +83,7 @@
 
     .bg-fondo-2-2
       .row.mb-3.justify-content-center.align-items-center
-        .col-lg-12.order-lg-1
+        .col-lg-10.order-lg-1
           TabsA.color-acento-botones
             .tarjeta.color-acento-botones--borde.p-4(titulo="<em>Wireframes</em>")
               p.mb-2 Tras el <em>sketching</em> o primeros bocetos a papel donde generamos nuevas ideas y con el objetivo de crear un primer prototipo de lo que será nuestro proyecto digital, pasamos a crear <em>Wireframes</em> de nuestra idea. 
@@ -171,6 +171,10 @@
                 figure
                   img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema2/img09.svg', alt='Imagen Decorativa') 
 
+            
+      .bg-fondo-2-2
+        .row.justify-content-center.align-items-center.mb-5
+          .col-md-12.col-lg-10
             .row.mb-2.justify-content-center.align-items-center
               .col-auto.mb-3.mb-lg-0.d-none.d-lg-block
                 figure
@@ -178,10 +182,6 @@
               .col-lg
                 p.mb-0(data-aos="fade-right") Los principios básicos del <em>test</em>eo con usuarios se centran en definir objetivos claros, seleccionar participantes representativos y crear un entorno de prueba adecuado para observar el comportamiento real del usuario al interactuar con un producto. Se debe planificar meticulosamente las tareas a realizar, documentar las observaciones y analizar los datos para identificar problemas de usabilidad y generar un informe con propuestas de mejora (Narváez, sf).   
 
-      .bg-fondo-2-2
-        .row.justify-content-center.align-items-center.mb-5
-          .col-md-12.col-lg-10
-            
             //- Subtitulo
             .align-items-center.justify-content-star.mb-1
               .div.mb-3(data-aos="fade-left")

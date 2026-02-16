@@ -378,6 +378,7 @@
             h3.subtitle.position-relative Principios y gestión visual del flujo de trabajo
               img.image(src='@/assets/curso/temas/img01.svg', alt='Imagen decorativa')
 
+        .row.justify-content-center.align-items-center
           .col-md-8.col-lg-4.mb-3(order-sm="2" order-md="2")
             figure
               img(src="@/assets/curso/temas/tema4/img36.png", alt="Imagen Decorativa", data-aos="zoom-in")
