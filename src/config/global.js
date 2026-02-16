@@ -467,7 +467,7 @@ export default {
       ],
     },
     {
-      titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
+      titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
           nombre: 'Leonor Cristina Cañon Uribe',
