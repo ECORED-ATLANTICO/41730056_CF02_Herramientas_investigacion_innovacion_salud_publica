@@ -222,7 +222,7 @@
                 p(numero="3" titulo="Pruebas A/B") Este tipo de pruebas con usuarios son una de las formas más eficaces y rápidas de aumentar el número de conversiones. Las pruebas A/B son el proceso por el cual se envían dos variantes diferentes de un material de marketing, como un correo electrónico a distintos grupos de suscriptores. <br><br> Es importante recordar que cada grupo debe recibir sólo una variante del correo electrónico, no las dos, y que deben enviarse el mismo día y a la misma hora. <br><br> A continuación, se hace un seguimiento de las reacciones de los clientes y se determina qué variante ha suscitado las reacciones que le ayudan a alcanzar los objetivos propuestos.
                 p(numero="4" titulo="Grupos focales") Los grupos focales son una técnica de investigación cualitativa que consiste en establecer un debate sobre un tema determinado con un grupo formado por 8-10 participantes, normalmente durante 1 o 2 horas. <br><br> Este método permite obtener información en profundidad sobre las motivaciones y los comportamientos del público objetivo con respecto a las categorías de interés.
                 p(numero="5" titulo="Prueba con usuarios beta") La prueba con usuarios beta se utiliza para evaluar una versión de un producto que aún no está lista para el usuario final debido a la falta de pruebas en condiciones reales. <br><br> Los sitios web, los sistemas operativos y las diferentes aplicaciones pueden estar en la fase de pruebas beta. Las pruebas beta pueden ser abiertas, lanzadas para cualquier persona que quiera probar la versión inestable, o cerradas, diseñadas para las pruebas en un grupo cerrado o restringido. <br><br> El objetivo de la prueba beta es terminar las pruebas de rendimiento y la necesidad de identificar los problemas que causan errores (Narvaez, sf).
-            .col-8.col-md-5.col-lg-3.mb-3.mb-lg-0.order-1.order-lg-2
+            .col-8.col-md-5.col-lg-3.mb-4.order-1.order-lg-2
               figure
                 img(src="@/assets/curso/temas/tema2/img12.png", data-aos="zoom-in")
 
@@ -242,35 +242,35 @@
           .p-3.p-lg-4
             SlyderA(tipo="b").bg-color-white.p-4.tarjeta
               .row.justify-content-center.align-items-center
-                .col-lg-8.mb-4.mb-md-0
+                .col-lg-8.mb-4
                   h4 Confirmación del prototipo
                   p.mb-0 En este punto se define si en efecto existe un prototipo, se determina cuáles son las partes del prototipo que se desea evaluar y de igual forma se establece la clase de prototipo frente a la que nos encontramos: si este es un prototipo rápidamente obtenible o si se requiere elaborar lentamente pues para ello se deben generar cambios culturales; si es un prototipo desechable o si es evolutivo e incremental.
                 .col-md-9.col-lg-4.mb-0.mb-lg-0
                   figure
                     img(src='@/assets/curso/temas/tema2/img13.png', alt='Imagen de acompañamiento')
               .row.justify-content-center.align-items-center
-                .col-lg-8.mb-4.mb-md-0
+                .col-lg-8.mb-4
                   h4 Generación de preguntas
                   p.mb-0 Al respecto se elaboran preguntas, determinando cuáles serán los indicadores para probar los prototipos. Estas preguntas recaen sobre el prototipo, con miras a establecer su efectividad, viabilidad, soporte y escalabilidad, también recaen sobre el reto a superar, para lo cual se piensa en qué se está aprendiendo del reto y se analiza si el mismo se puede extender a otro contexto y, a su vez, se estudian las enseñanzas que obtiene el equipo interviniente en la generación del prototipo, en el sentido de definir si, por ejemplo, es un equipo adverso al riesgo o si tiene tolerancia a él.
                 .col-md-9.col-lg-4.mb-0.mb-lg-0
                   figure
                     img(src='@/assets/curso/temas/tema2/img14.png', alt='Imagen de acompañamiento')
               .row.justify-content-center.align-items-center
-                .col-lg-8.mb-4.mb-md-0
+                .col-lg-8.mb-4
                   h4 Diseño del método de evaluación
                   p.mb-0 Para evaluar un prototipo se deben tener en cuenta principios tales como el de relevancia, de tal manera que se respondan preguntas que den lineamientos y permitan que el equipo que está creándolo pueda realizar ajustes; también se debe aplicar el principio de credibilidad, para que el equipo que está creando el prototipo sienta confianza y tenga en cuenta los resultados de la retroalimentación, por último, se deben aplicar los principios de oportunidad y calidad, de tal forma que los resultados se proporcionen en tiempo real y puedan realizarse ajustes sobre el prototipo y que las evaluaciones cumplan con estándares de calidad.
                 .col-md-9.col-lg-4.mb-0.mb-lg-0
                   figure
                     img(src='@/assets/curso/temas/tema2/img15.png', alt='Imagen de acompañamiento')
               .row.justify-content-center.align-items-center
-                .col-lg-8.mb-4.mb-md-0
+                .col-lg-8.mb-4
                   h4 Implementación y adaptación
                   p.mb-0 Es importante tener en consideración que en esta etapa se pueden realizar ajustes sobre el método de evaluación, si por ejemplo se detecta que las preguntas no están profundizando sobre el prototipo o si, por ejemplo, el prototipo evoluciona.                      
                 .col-md-9.col-lg-4.mb-0.mb-lg-0
                   figure
                     img(src='@/assets/curso/temas/tema2/img16.png', alt='Imagen de acompañamiento')
               .row.justify-content-center.align-items-center
-                .col-lg-8.mb-4.mb-md-0
+                .col-lg-8.mb-4
                   h4 Toma de decisiones
                   p.mb-0 Una vez tienen lugar las anteriores etapas, el equipo puede tomar alguna de las siguientes decisiones: descartar el prototipo (en caso de que los resultados sean desfavorables y se determine que no vale la pena continuar invirtiendo en él); evolucionar y adaptar el prototipo (adaptándolo a un nuevo contexto); pasar a una fase piloto (si se determina que el prototipo se debe probar en un contexto más global); realizar el escalamiento (en cuyo caso se desarrollará la capacidad de operar con volúmenes significativos comercialmente y costos competitivos); continuar en las pruebas si los resultados de la evaluación no permiten tomar una decisión (Sarraipa, Artífcie & Jiménez, 2019).
                 .col-md-9.col-lg-4.mb-0.mb-lg-0

@@ -25,9 +25,9 @@
 
           .row.mb-5.justify-content-center.align-items-center
 
-            .col-12.col-md-12.col-lg-9
+            .col-12.col-md-12.col-lg-9.mb-3
               .row.justify-content-center.align-items-center.mb-4
-                .col-md-8.col-lg-5(order-sm="2" order-md="2")
+                .col-md-8.col-lg-5.mb-3(order-sm="2" order-md="2")
                   figure
                     img(src="@/assets/curso/temas/tema4/img02.png", alt="Imagen Decorativa", data-aos="zoom-in")
                 .col-lg-7.col-md-12.bg-color-primario-p20(order-sm="1" order-md="1").p-5
@@ -74,11 +74,11 @@
 
             p.mb-0(data-aos="fade-right") Esto se debe a que las metodologías ágiles transforman la gestión del proyecto en un proceso colaborativo, dinámico y orientado a resultados tempranos, favoreciendo el intercambio de conocimiento entre expertos técnicos, comunidades beneficiarias, y decisores en salud pública. Así, la aplicación de metodologías ágiles en investigación no solo mejora la eficiencia operativa, sino que también refuerza el enfoque participativo y el aprendizaje colectivo, aspectos esenciales para generar innovaciones sostenibles y de impacto social.
 
-    p.mb-3(data-aos="fade-right") Dentro de los principios clave aplicados a la investigación se encuentran los siguientes:
+    p.mb-4(data-aos="fade-right") Dentro de los principios clave aplicados a la investigación se encuentran los siguientes:
 
     .bg-full-width.bg-fondo-3
       .px-4.px-md-5
-        .row.justify-content-center.align-items-center
+        .row.justify-content-center.align-items-center.p-4
           .col-md-8.col-lg-4.order-lg-2
             figure
               img(src='@/assets/curso/temas/tema4/img10.png', alt='')
@@ -378,7 +378,7 @@
             h3.subtitle.position-relative Principios y gestión visual del flujo de trabajo
               img.image(src='@/assets/curso/temas/img01.svg', alt='Imagen decorativa')
 
-          .row
+          .row.align-items-center.justify-content-center
             .col-md-8.col-lg-4.mb-3(order-sm="2" order-md="2")
               figure
                 img(src="@/assets/curso/temas/tema4/img36.png", alt="Imagen Decorativa", data-aos="zoom-in")
@@ -391,7 +391,7 @@
         
     .bg-full-width.bg-fondo-3.mb-4
       .px-4.px-md-5
-        .row.justify-content-center.align-items-center
+        .row.justify-content-center.align-items-center.p-4
           .col-md-8.col-lg-4.order-lg-2
             figure
               img(src='@/assets/curso/temas/tema4/img41.png', alt='')
