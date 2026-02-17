@@ -7,36 +7,37 @@
         span 5
       h1 Casos de éxito de innovación en salud pública en Colombia y América Latina
 
-    .row.mb-5.justify-content-center.align-items-center
+    .container
+      .row.mb-5.justify-content-center.align-items-center
 
-      .col-12.col-md-12.col-lg-9
-        .row.justify-content-center.align-items-center.mb-4
-          .col-md-8.col-lg-4.mb-3(order-sm="2" order-md="2")
-            figure
-              img(src="@/assets/curso/temas/tema5/img01.png", alt="Imagen Decorativa", data-aos="zoom-in")
-          .col-lg-8.col-md-12.bg-color-primario-p20(order-sm="1" order-md="1").p-4
-            p.mb-0(data-aos="fade-right") La innovación en salud pública ha evolucionado significativamente en la última década, impulsada por la necesidad de dar respuesta a problemas complejos mediante enfoques interdisciplinarios, metodologías centradas en las personas y herramientas ágiles de gestión. Tanto en Colombia como en otros países latinoamericanos, los proyectos más exitosos se caracterizan por combinar diseño centrado en el usuario y gestión iterativa, en lugar de depender exclusivamente de enfoques técnicos o administrativos. 
+        .col-12.col-md-12.col-lg-9
+          .row.justify-content-center.align-items-center.mb-4
+            .col-md-8.col-lg-4.mb-3(order-sm="2" order-md="2")
+              figure
+                img(src="@/assets/curso/temas/tema5/img01.png", alt="Imagen Decorativa", data-aos="zoom-in")
+            .col-lg-8.col-md-12.bg-color-primario-p20(order-sm="1" order-md="1").p-4
+              p.mb-0(data-aos="fade-right") La innovación en salud pública ha evolucionado significativamente en la última década, impulsada por la necesidad de dar respuesta a problemas complejos mediante enfoques interdisciplinarios, metodologías centradas en las personas y herramientas ágiles de gestión. Tanto en Colombia como en otros países latinoamericanos, los proyectos más exitosos se caracterizan por combinar diseño centrado en el usuario y gestión iterativa, en lugar de depender exclusivamente de enfoques técnicos o administrativos. 
 
-        .row.justify-content-center.align-items-center
-          .col-12.col-md-12.col-lg-12.bg-color-1.p-3.mb-4
-            .row.justify-content-center
-              .col-auto.mb-3.mb-lg-0.d-none.d-lg-block
-                figure
-                  img(src="@/assets/curso/temas/tema5/img03.svg", alt="Imagen Decorativa", data-aos="zoom-in")
-              .col-lg
-                p.mb-0(data-aos="fade-right") A continuación, pasaremos a explicar algunos casos exitosos, sin embargo, es importante recapitular los marcos de trabajo metodológicos vistos hasta el momento y reconocer que la innovación en salud no depende únicamente del desarrollo tecnológico, sino también de la comprensión profunda del contexto social, la colaboración entre actores institucionales y las comunidades, y la aplicación sistemática de metodologías como <em>Design Thinking</em>, HCD y las metodologías ágiles.
-         
-      .col-md-6.col-lg-3
-        figure
-          img(src="@/assets/curso/temas/tema5/img02.png", alt="Imagen Decorativa", data-aos="zoom-in").mb-lg-0
+          .row.justify-content-center.align-items-center
+            .col-12.col-md-12.col-lg-12.bg-color-1.p-3.mb-4
+              .row.justify-content-center
+                .col-auto.mb-3.mb-lg-0.d-none.d-lg-block
+                  figure
+                    img(src="@/assets/curso/temas/tema5/img03.svg", alt="Imagen Decorativa", data-aos="zoom-in")
+                .col-lg
+                  p.mb-0(data-aos="fade-right") A continuación, pasaremos a explicar algunos casos exitosos, sin embargo, es importante recapitular los marcos de trabajo metodológicos vistos hasta el momento y reconocer que la innovación en salud no depende únicamente del desarrollo tecnológico, sino también de la comprensión profunda del contexto social, la colaboración entre actores institucionales y las comunidades, y la aplicación sistemática de metodologías como <em>Design Thinking</em>, HCD y las metodologías ágiles.
+          
+        .col-md-6.col-lg-3
+          figure
+            img(src="@/assets/curso/temas/tema5/img02.png", alt="Imagen Decorativa", data-aos="zoom-in").mb-lg-0
 
-    .row.mb-3.justify-content-center.align-items-center
-      .bloque-texto-g.bg-acento-contenido-p10.p-3.p-sm-4.p-md-5.mb-5
-        .bloque-texto-g__img(
-          :style="{'background-image': `url(${require('@/assets/curso/temas/tema5/img04.png')})`}"
-        )
-        .bloque-texto-g__texto.p-4
-          p.mb-0(data-aos="fade-right") Es importante tener en cuenta que, en la práctica, distinguir con precisión estos enfoques o marcos de trabajo metodológicos no siempre es sencillo, especialmente en entornos como la salud pública, donde los proyectos suelen ser interdisciplinarios y adaptativos. Aunque cada metodología tiene orígenes distintos, todas comparten una base común que es poner a las personas en el centro y mejorar los resultados a través de la iteración, la colaboración y el aprendizaje continuo.
+      .row.mb-3.justify-content-center.align-items-center
+        .bloque-texto-g.bg-acento-contenido-p10.p-3.p-sm-4.p-md-5.mb-3
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema5/img04.png')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            p.mb-0(data-aos="fade-right") Es importante tener en cuenta que, en la práctica, distinguir con precisión estos enfoques o marcos de trabajo metodológicos no siempre es sencillo, especialmente en entornos como la salud pública, donde los proyectos suelen ser interdisciplinarios y adaptativos. Aunque cada metodología tiene orígenes distintos, todas comparten una base común que es poner a las personas en el centro y mejorar los resultados a través de la iteración, la colaboración y el aprendizaje continuo.
 
     .row.mb-5.justify-content-center.align-items-center
       .col-md-12.col-lg-10
@@ -47,16 +48,17 @@
           .col-lg
             p.mb-0(data-aos="fade-right") De acuerdo con lo anterior, en proyectos reales de innovación, es habitual encontrar hibridaciones metodológicas, es decir, experiencias que inician con <em>Design Thinking</em> para explorar necesidades, continúan con HCD para adaptar soluciones al contexto local y se gestionan con marcos ágiles como <em>Scrum</em> o <em>Kanban</em> para su implementación progresiva. Es por esto por lo que más que metodologías cerradas, funcionan como principios complementarios dentro de un mismo proceso de innovación.
 
-    .row.mb-5.justify-content-center.align-items-center
-      .col-md-12.col-lg-10
-        .row.align-items-center.bg-color-primario-p20.p-4(data-aos="fade-left").icono-inferior.mb-4
-          .col-12.col-md-12.col-lg-9.mb-4.mb-lg-0
-            p Por ejemplo, una estrategia para mejorar la adherencia a tratamientos puede comenzar con un ejercicio de empatía y mapeo de actores, según el <em>Design Thinking</em>, seguir con la co-creación de prototipos con pacientes y profesionales, según HCD, y culminar en una implementación iterativa que evalúa resultados cada semana, empleando metodologías ágiles. En este sentido, lo importante no es etiquetar la metodología, sino evidenciar el enfoque centrado en el usuario, la experimentación y la mejora continua.
-          .col-12.col-md-6.col-lg-3.mb-4.mb-lg-0.mx-auto
-            figure
-              img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema5/img06.svg', alt='Imagen Decorativa') 
+    .container
+      .row.mb-5.justify-content-center.align-items-center
+        .col-md-12.col-lg-10
+          .row.align-items-center.bg-color-primario-p20.p-4(data-aos="fade-left").icono-inferior.mb-4
+            .col-12.col-md-12.col-lg-9.mb-4.mb-lg-0
+              p Por ejemplo, una estrategia para mejorar la adherencia a tratamientos puede comenzar con un ejercicio de empatía y mapeo de actores, según el <em>Design Thinking</em>, seguir con la co-creación de prototipos con pacientes y profesionales, según HCD, y culminar en una implementación iterativa que evalúa resultados cada semana, empleando metodologías ágiles. En este sentido, lo importante no es etiquetar la metodología, sino evidenciar el enfoque centrado en el usuario, la experimentación y la mejora continua.
+            .col-12.col-md-6.col-lg-3.mb-4.mb-lg-0.mx-auto
+              figure
+                img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema5/img06.svg', alt='Imagen Decorativa') 
 
-        p.mb-0 A continuación, se presenta una tabla comparativa entre <em>Design Thinking</em>, <em>Human-Centered Design</em> y metodologías ágiles
+          p.mb-0 A continuación, se presenta una tabla comparativa entre <em>Design Thinking</em>, <em>Human-Centered Design</em> y metodologías ágiles
 
     .row.justify-content-center.align-items-center(data-aos="fade-left").mb-4
       .col-lg-12
@@ -150,13 +152,13 @@
         .titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2#t_5_2 5.2 Implementaciones adaptativas y gestión de proyectos de innovación en salud en América Latina
 
-
-        .row.align-items-center.bg-color-1.p-4.mb-5
-          .col-lg-auto
-            img.d-lg-flex.d-none(src="@/assets/curso/temas/tema5/img12.svg", style="max-width: 90px").mx-auto
-          .col-lg.px-lg-4.p-3
-            p.mb-3 Uno de los ejemplos más recientes de adopción de enfoques ágiles en el ámbito de la salud pública en América Latina proviene del Centro Latinoamericano y del Caribe de Información en Ciencias de la Salud, centro especializado de la Organización Panamericana de la Salud. 
-            p.mb-0 Durante 2024, la OPS/OMS consolidaron prácticas innovadoras de gestión y ejecución estratégica, incorporando metodologías ágiles de gestión y operaciones, entre ellas el enfoque <em>Scrum</em>, con el fin de aumentar la eficiencia y la colaboración en sus proyectos de transformación digital. La introducción del enfoque ágil en esta institución de salud pública representa un cambio relevante en la forma de gestionar proyectos tecnológicos y de información sanitaria. 
+    .container
+      .row.align-items-center.bg-color-1.p-4.mb-5
+        .col-lg-auto
+          img.d-lg-flex.d-none(src="@/assets/curso/temas/tema5/img12.svg", style="max-width: 90px").mx-auto
+        .col-lg.px-lg-4.p-3
+          p.mb-3 Uno de los ejemplos más recientes de adopción de enfoques ágiles en el ámbito de la salud pública en América Latina proviene del Centro Latinoamericano y del Caribe de Información en Ciencias de la Salud, centro especializado de la Organización Panamericana de la Salud. 
+          p.mb-0 Durante 2024, la OPS/OMS consolidaron prácticas innovadoras de gestión y ejecución estratégica, incorporando metodologías ágiles de gestión y operaciones, entre ellas el enfoque <em>Scrum</em>, con el fin de aumentar la eficiencia y la colaboración en sus proyectos de transformación digital. La introducción del enfoque ágil en esta institución de salud pública representa un cambio relevante en la forma de gestionar proyectos tecnológicos y de información sanitaria. 
 
     .row.justify-content-center.align-items-center
       .col-md-8.col-lg-4.mb-3(order-sm="2" order-md="2")

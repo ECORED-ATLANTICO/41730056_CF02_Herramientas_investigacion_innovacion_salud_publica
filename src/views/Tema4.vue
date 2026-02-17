@@ -23,40 +23,40 @@
           .titulo-segundo.color-acento-contenido(data-aos="fade-right")
             h2#t_4_1 4.1 Introducción y principios de las metodologías ágiles 
 
-          .row.mb-5.justify-content-center.align-items-center
+        .row.mb-5.justify-content-center.align-items-center
+          .col-12.col-md-12.col-lg-9.mb-3
+            .row.justify-content-center.align-items-center.mb-4
+              .col-md-8.col-lg-5.mb-3(order-sm="2" order-md="2")
+                figure
+                  img(src="@/assets/curso/temas/tema4/img02.png", alt="Imagen Decorativa", data-aos="zoom-in")
+              .col-lg-7.col-md-12.bg-color-primario-p20(order-sm="1" order-md="1").p-5
+                p.mb-0(data-aos="fade-right") Las metodologías ágiles surgen como una respuesta crítica a la rigidez, linealidad y tiempos extensos que suelen presentarse en modelos tradicionales de gestión de proyectos, los cuales se centran en una planificación exhaustiva previa y en la ejecución secuencial de tareas.
 
-            .col-12.col-md-12.col-lg-9.mb-3
-              .row.justify-content-center.align-items-center.mb-4
-                .col-md-8.col-lg-5.mb-3(order-sm="2" order-md="2")
-                  figure
-                    img(src="@/assets/curso/temas/tema4/img02.png", alt="Imagen Decorativa", data-aos="zoom-in")
-                .col-lg-7.col-md-12.bg-color-primario-p20(order-sm="1" order-md="1").p-5
-                  p.mb-0(data-aos="fade-right") Las metodologías ágiles surgen como una respuesta crítica a la rigidez, linealidad y tiempos extensos que suelen presentarse en modelos tradicionales de gestión de proyectos, los cuales se centran en una planificación exhaustiva previa y en la ejecución secuencial de tareas.
-
-              .row.justify-content-center.align-items-center
-                .col-12.col-md-12.col-lg-12.bg-color-1.p-3.mb-3
-                  .row.justify-content-center
-                    .col-auto.mb-3.mb-lg-0.d-none.d-lg-block
-                      figure
-                        img(src="@/assets/curso/temas/tema4/img03.svg", alt="Imagen Decorativa", data-aos="zoom-in")
-                    .col-lg.p-3
+            .row.justify-content-center.align-items-center
+              .col-12.col-md-12.col-lg-12.bg-color-1.p-3.mb-3
+                .row.justify-content-center
+                  .col-auto.mb-3.mb-lg-0.d-none.d-lg-block
+                    figure
+                      img(src="@/assets/curso/temas/tema4/img03.svg", alt="Imagen Decorativa", data-aos="zoom-in")
+                  .col-lg.p-3
                       p.mb-0(data-aos="fade-right") Frente a estos esquemas, las metodologías ágiles se enfocan en la flexibilidad, la colaboración continua, la adaptabilidad al cambio y la entrega constante de valor, fomentando entornos de trabajo donde la incertidumbre se gestiona de forma iterativa y el aprendizaje se convierte en un proceso permanente.
 
-                .col-12.col-lg-12
-                  p.mb-0(data-aos="fade-right") En el campo de la investigación en salud pública, caracterizado por la complejidad, la variabilidad de contextos y la necesidad de respuestas rápidas ante problemas emergentes, la aplicación de principios ágiles ha cobrado creciente relevancia. Estos enfoques permiten que los equipos de investigación puedan ajustar objetivos, métodos y productos a medida que surgen nuevas evidencias o condiciones externas, evitando la rigidez metodológica que puede limitar la innovación.
+              .col-12.col-lg-12.p-0
+                p.mb-0(data-aos="fade-right") En el campo de la investigación en salud pública, caracterizado por la complejidad, la variabilidad de contextos y la necesidad de respuestas rápidas ante problemas emergentes, la aplicación de principios ágiles ha cobrado creciente relevancia. Estos enfoques permiten que los equipos de investigación puedan ajustar objetivos, métodos y productos a medida que surgen nuevas evidencias o condiciones externas, evitando la rigidez metodológica que puede limitar la innovación.
 
-            .col-8.col-md-6.col-lg-3
-              figure
-                img(src="@/assets/curso/temas/tema4/img04.png", alt="Imagen Decorativa", data-aos="zoom-in").mb-lg-0
+          .col-8.col-md-6.col-lg-3
+            figure
+              img(src="@/assets/curso/temas/tema4/img04.png", alt="Imagen Decorativa", data-aos="zoom-in").mb-lg-0
 
     .row.mb-2.justify-content-center.align-items-center
       .col-12.col-md-12.col-lg-10.mb-3
-        .row.align-items-center.bg-color-terciario-t5.p-4(data-aos="fade-left").icono-inferior.mb-4
-          .col-12.col-md-6.col-lg-4.mb-4.mb-lg-0.mx-auto.order-md-2.order-lg-1
-            figure
-              img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema4/img05.svg', alt='Imagen Decorativa') 
-          .col-12.col-md-12.col-lg-8.mb-4.mb-lg-0.order-md-1.order-lg-2
-            p.mb-0 Se ha identificado que el uso de metodologías ágiles en proyectos de investigación y desarrollo se da generalmente en modelos híbridos, donde los principios ágiles se integran con estructuras tradicionales de planificación. Su aplicación más frecuente ocurre en las fases de planeación y ejecución, donde se logra reducir los tiempos de entrega, optimizar los recursos disponibles y fortalecer la cohesión del equipo de trabajo. Además, los proyectos de investigación se benefician de la naturaleza iterativa de estos métodos, que promueven la reflexión constante y la toma de decisiones basadas en la evidencia obtenida durante el proceso.
+        .container
+          .row.align-items-center.bg-color-terciario-t5.p-4(data-aos="fade-left").icono-inferior.mb-4
+            .col-12.col-md-6.col-lg-4.mb-4.mb-lg-0.mx-auto.order-md-2.order-lg-1
+              figure
+                img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema4/img05.svg', alt='Imagen Decorativa') 
+            .col-12.col-md-12.col-lg-8.mb-4.mb-lg-0.order-md-1.order-lg-2
+              p.mb-0 Se ha identificado que el uso de metodologías ágiles en proyectos de investigación y desarrollo se da generalmente en modelos híbridos, donde los principios ágiles se integran con estructuras tradicionales de planificación. Su aplicación más frecuente ocurre en las fases de planeación y ejecución, donde se logra reducir los tiempos de entrega, optimizar los recursos disponibles y fortalecer la cohesión del equipo de trabajo. Además, los proyectos de investigación se benefician de la naturaleza iterativa de estos métodos, que promueven la reflexión constante y la toma de decisiones basadas en la evidencia obtenida durante el proceso.
           
         p.mb-3 Desde una perspectiva de gestión, Highsmith (2009) resalta que la agilidad implica más que rapidez: se trata de un enfoque estratégico que combina disciplina y adaptabilidad, permitiendo a las organizaciones y equipos científicos responder de forma efectiva a la incertidumbre, mientras mantienen la visión del propósito final del proyecto. La agilidad, aplicada a la investigación, no busca eliminar la planificación, sino convertirla en un proceso flexible, abierto a la experimentación, al aprendizaje validado y al cambio continuo, lo cual es fundamental en contextos de innovación en salud.
         
@@ -78,31 +78,31 @@
 
     .bg-full-width.bg-fondo-3
       .px-4.px-md-5
-        .row.justify-content-center.align-items-center.p-4
-          .col-md-8.col-lg-4.order-lg-2
-            figure
-              img(src='@/assets/curso/temas/tema4/img10.png', alt='')
-          .col-lg-8.order-lg-1
-            SlyderF(columnas="col-12 col-xl-6").p-4
-              .bg-color-white.p-4.h-100.box-shadow
-                img(src='@/assets/curso/temas/tema4/img08.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                h4.text-center.mb-4 Entregas incrementales de conocimiento
-                p.text-center Es decir que se generan resultados parciales o prototipos de conocimiento que pueden validarse tempranamente con los usuarios o con la evidencia científica disponible.
+      .row.justify-content-center.align-items-center.p-sm-0
+        .col-md-8.col-lg-4.order-lg-2.mt-3
+          figure
+            img(src='@/assets/curso/temas/tema4/img10.png', alt='')
+        .col-md-12.col-lg-8.order-lg-1.p-sm-0
+          SlyderF(columnas="col-12 col-md-12 col-xl-6").mt-4.mb-4
+            .bg-color-white.p-4.h-100.box-shadow
+              img(src='@/assets/curso/temas/tema4/img08.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+              h4.text-center.mb-4 Entregas incrementales de conocimiento
+              p.text-center Es decir que se generan resultados parciales o prototipos de conocimiento que pueden validarse tempranamente con los usuarios o con la evidencia científica disponible.
 
-              .bg-color-white.p-4.h-100.box-shadow
-                img(src='@/assets/curso/temas/tema4/img09.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                h4.text-center.mb-4 Retroalimentación constante
-                p.text-center Donde los usuarios, comunidades o partes interesadas participan activamente en la revisión de los avances, asegurando que los resultados sean relevantes y contextualizados.
+            .bg-color-white.p-4.h-100.box-shadow
+              img(src='@/assets/curso/temas/tema4/img09.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+              h4.text-center.mb-4 Retroalimentación constante
+              p.text-center Donde los usuarios, comunidades o partes interesadas participan activamente en la revisión de los avances, asegurando que los resultados sean relevantes y contextualizados.
 
-              .bg-color-white.p-4.h-100.box-shadow
-                img(src='@/assets/curso/temas/tema4/img11.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                h4.text-center.mb-4 Iteración y aprendizaje continuo
-                p.text-center A través de los hallazgos parciales que retroalimentan el diseño del estudio o la intervención, permitiendo reajustar hipótesis, métodos o productos.
+            .bg-color-white.p-4.h-100.box-shadow
+              img(src='@/assets/curso/temas/tema4/img11.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+              h4.text-center.mb-4 Iteración y aprendizaje continuo
+              p.text-center A través de los hallazgos parciales que retroalimentan el diseño del estudio o la intervención, permitiendo reajustar hipótesis, métodos o productos.
 
-              .bg-color-white.p-4.h-100.box-shadow
-                img(src='@/assets/curso/temas/tema4/img12.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                h4.text-center.mb-4 Equipos interdisciplinarios autoorganizados
-                p.text-center Lo cual fomenta la autonomía, la toma de decisiones compartida y la colaboración entre disciplinas diversas, potenciando la creatividad y la innovación colectiva.
+            .bg-color-white.p-4.h-100.box-shadow
+              img(src='@/assets/curso/temas/tema4/img12.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+              h4.text-center.mb-4 Equipos interdisciplinarios autoorganizados
+              p.text-center Lo cual fomenta la autonomía, la toma de decisiones compartida y la colaboración entre disciplinas diversas, potenciando la creatividad y la innovación colectiva.
           
     separador
 
@@ -191,20 +191,22 @@
                 figure
                   img(src="@/assets/curso/temas/tema4/img19.png", alt="Imagen Decorativa", data-aos="zoom-in")
         
-        .row.mb-5.justify-content-center.align-items-center.bg-color-1.p-4.mb-5
-          .col-auto.mb-3.mb-lg-0.d-none.d-lg-block
-            figure
-              img(src="@/assets/curso/temas/tema4/img20.svg", alt="Imagen Decorativa", data-aos="zoom-in")
-          .col-lg
-            p.mb-0.p-lg-4(data-aos="fade-right") Para validar estas hipótesis, se diseñan experimentos guiados por métricas accionables, es decir, indicadores que permiten generar conclusiones claras y útiles para la toma de decisiones. A diferencia de las métricas descriptivas o meramente estadísticas, las métricas accionables aportan información directa sobre el desempeño de la intervención o la herramienta y sobre su capacidad para generar valor o provocar cambios. Por ejemplo, una métrica accionable podría ser el porcentaje de profesionales que utilizan consistentemente una plataforma de seguimiento de pacientes durante un mes, o la variación en el tiempo de respuesta ante alertas clínicas después de su implementación.
+        .container
+          .row.mb-5.justify-content-center.align-items-center.bg-color-1.p-4.mb-5
+            .col-auto.mb-3.mb-lg-0.d-none.d-lg-block
+              figure
+                img(src="@/assets/curso/temas/tema4/img20.svg", alt="Imagen Decorativa", data-aos="zoom-in")
+            .col-lg
+              p.mb-0.p-lg-4(data-aos="fade-right") Para validar estas hipótesis, se diseñan experimentos guiados por métricas accionables, es decir, indicadores que permiten generar conclusiones claras y útiles para la toma de decisiones. A diferencia de las métricas descriptivas o meramente estadísticas, las métricas accionables aportan información directa sobre el desempeño de la intervención o la herramienta y sobre su capacidad para generar valor o provocar cambios. Por ejemplo, una métrica accionable podría ser el porcentaje de profesionales que utilizan consistentemente una plataforma de seguimiento de pacientes durante un mes, o la variación en el tiempo de respuesta ante alertas clínicas después de su implementación.
 
-        .row.mb-3.justify-content-center.align-items-center
-          .bloque-texto-g.bg-color-primario.p-3.p-sm-4.p-md-5.mb-5
-            .bloque-texto-g__img(
-              :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img21.png')})`}"
-            )
-            .bloque-texto-g__texto.p-4
-              p.mb-0 El análisis de los resultados conduce a la fase de aprendizaje validado, que constituye la verdadera unidad de progreso en <em>Lean Startup</em>, donde el aprendizaje validado se centra en el conocimiento adquirido a través de la evidencia empírica: qué funciona, qué no, por qué y bajo qué condiciones. Este aprendizaje puede conducir a dos decisiones estratégicas. Si los resultados confirman la hipótesis, el equipo puede perseverar, fortaleciendo o ampliando la intervención. Si los resultados la contradicen, se puede pivotar, es decir, rediseñar parte del enfoque, el público objetivo o la funcionalidad del sistema, sin perder de vista el problema principal que se busca resolver.
+        .container
+          .row.mb-4.justify-content-center.align-items-center
+            .bloque-texto-g.bg-color-primario.p-3.p-sm-4.p-md-5
+              .bloque-texto-g__img(
+                :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img21.png')})`}"
+              )
+              .bloque-texto-g__texto.p-4
+                p.mb-0 El análisis de los resultados conduce a la fase de aprendizaje validado, que constituye la verdadera unidad de progreso en <em>Lean Startup</em>, donde el aprendizaje validado se centra en el conocimiento adquirido a través de la evidencia empírica: qué funciona, qué no, por qué y bajo qué condiciones. Este aprendizaje puede conducir a dos decisiones estratégicas. Si los resultados confirman la hipótesis, el equipo puede perseverar, fortaleciendo o ampliando la intervención. Si los resultados la contradicen, se puede pivotar, es decir, rediseñar parte del enfoque, el público objetivo o la funcionalidad del sistema, sin perder de vista el problema principal que se busca resolver.
             
         .row.mb-4.justify-content-center.align-items-center
           .col-12.col-md-12.col-lg-10
@@ -215,12 +217,13 @@
               .col-lg
                 p.mb-0(data-aos="fade-right") En la práctica, validar hipótesis en proyectos de salud pública puede implicar diversas etapas de experimentación secuencial. Por ejemplo, inicialmente se podría confirmar si los usuarios comprenden y utilizan una interfaz digital para reportar síntomas; luego, evaluar si esta herramienta genera cambios observables en el comportamiento (como mayor adherencia al tratamiento o mayor reporte de casos); posteriormente, analizar si incentivos como notificaciones automáticas o recordatorios mejoran la retención de usuarios; y finalmente, valorar si la solución es escalable a otros territorios o poblaciones.
 
-            .row.align-items-center.bg-color-2.p-4(data-aos="fade-left").icono-inferior.mb-0
-              .col-12.col-md-12.col-lg-9.mb-4.mb-lg-0
-                p.mb-0 Este enfoque convierte la investigación en un proceso dinámico, participativo y adaptativo, donde los individuos, comunidades y profesionales de la salud dejan de ser receptores pasivos de una innovación y se convierten en colaboradores activos del proceso de diseño y validación. A través del aprendizaje validado, la investigación se orienta hacia un ciclo continuo de generación de conocimiento aplicado, en el que cada iteración contribuye no solo a perfeccionar la intervención, sino también a fortalecer la comprensión del problema de salud pública y sus determinantes (Solvingadhoc, 2017).
-              .col-12.col-md-6.col-lg-3.mb-4.mb-lg-0.mx-auto
-                figure
-                  img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema4/img23.png', alt='Imagen Decorativa') 
+            .container
+              .row.align-items-center.bg-color-2.p-4(data-aos="fade-left").icono-inferior.mb-0
+                .col-12.col-md-12.col-lg-9.mb-4.mb-lg-0
+                  p.mb-0 Este enfoque convierte la investigación en un proceso dinámico, participativo y adaptativo, donde los individuos, comunidades y profesionales de la salud dejan de ser receptores pasivos de una innovación y se convierten en colaboradores activos del proceso de diseño y validación. A través del aprendizaje validado, la investigación se orienta hacia un ciclo continuo de generación de conocimiento aplicado, en el que cada iteración contribuye no solo a perfeccionar la intervención, sino también a fortalecer la comprensión del problema de salud pública y sus determinantes (Solvingadhoc, 2017).
+                .col-12.col-md-6.col-lg-3.mb-4.mb-lg-0.mx-auto
+                  figure
+                    img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema4/img23.png', alt='Imagen Decorativa') 
           
     separador
             
@@ -243,12 +246,13 @@
             p.mb-0 En estos contextos, <em>Scrum</em> permite integrar de manera efectiva a equipos multidisciplinarios, como científicos, epidemiólogos, analistas de datos, ingenieros biomédicos y gestores, promoviendo la coordinación, la transparencia y la mejora continua en cada ciclo de trabajo.
         
 
-        .row.align-items-center.bg-color-terciario-t5.p-4(data-aos="fade-left").icono-inferior.mb-4
-          .col-12.col-md-6.col-lg-3.mb-4.mb-lg-0.mx-auto
-            figure
-              img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema4/img26.png', alt='Imagen Decorativa') 
-          .col-12.col-md-12.col-lg-9.mb-4.mb-lg-0
-            p.mb-0 En instituciones de salud o investigación, la implementación de <em>Scrum</em> ayuda a organizar proyectos en fases iterativas denominadas <em>sprint</em>s, donde los equipos producen entregables parciales, revisan resultados y adaptan sus estrategias con base en la evidencia emergente. Esta metodología es especialmente valiosa en entornos caracterizados por alta incertidumbre y múltiples dependencias entre disciplinas, como ocurre en estudios de vigilancia epidemiológica, desarrollo de herramientas tecnológicas, validación de intervenciones o implementación de sistemas de información en salud (Schwaber & Sutherland, 2020).
+        .container
+          .row.align-items-center.bg-color-terciario-t5.p-4(data-aos="fade-left").icono-inferior.mb-4
+            .col-12.col-md-6.col-lg-3.mb-4.mb-lg-0.mx-auto
+              figure
+                img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema4/img26.png', alt='Imagen Decorativa') 
+            .col-12.col-md-12.col-lg-9.mb-4.mb-lg-0
+              p.mb-0 En instituciones de salud o investigación, la implementación de <em>Scrum</em> ayuda a organizar proyectos en fases iterativas denominadas <em>sprint</em>s, donde los equipos producen entregables parciales, revisan resultados y adaptan sus estrategias con base en la evidencia emergente. Esta metodología es especialmente valiosa en entornos caracterizados por alta incertidumbre y múltiples dependencias entre disciplinas, como ocurre en estudios de vigilancia epidemiológica, desarrollo de herramientas tecnológicas, validación de intervenciones o implementación de sistemas de información en salud (Schwaber & Sutherland, 2020).
 
         //- Subtitulo
         .align-items-center.justify-content-star.mb-1
@@ -260,7 +264,7 @@
         .row.align-items-center.justify-content-center.mb-3
           p.mb-0 El marco <em>Scrum</em> se estructura en torno a tres roles fundamentales, que pueden adaptarse a los entornos institucionales y científicos sin perder su esencia colaborativa:
       
-      .bg-full-width.bg-fondo-5.tarjeta.mb-5
+      .bg-fondo-5.tarjeta.mb-5
         .p-3.p-lg-4
           SlyderA(tipo="b").bg-color-white.p-4.tarjeta
             .row.justify-content-center.align-items-center.p-4
@@ -363,13 +367,14 @@
           .bloque-texto-g__texto.p-4
             p.mb-0 El método <em>Kanban</em> es un sistema de gestión visual orientado a optimizar el flujo de trabajo, mejorar la comunicación y aumentar la eficiencia operativa dentro de los equipos y organizaciones. Su origen se remonta al modelo de producción de Toyota, donde se utilizaba para controlar los niveles de inventario y sincronizar los procesos industriales. Con el tiempo, este enfoque fue adaptado con éxito a los ámbitos de los servicios, la salud y la investigación, demostrando su utilidad para coordinar equipos interdisciplinarios, reducir tiempos de espera y mejorar la organización de las tareas.
         
-        .row.align-items-center.justify-content-center.mb-5(data-aos="fade-right")
-          .col-12.col-md-12.col-lg-10
-            .row.align-items-center.bg-color-1.p-4
-              .col-lg-auto
-                img.d-lg-flex.d-none(src="@/assets/curso/temas/tema4/img20.svg", style="max-width: 100px").mx-auto
-              .col-lg.p-lg-4
-                p.mb-0 En el contexto de la investigación y la salud pública, <em>Kanban</em> se ha consolidado como una herramienta que permite visualizar los procesos, identificar cuellos de botella, priorizar tareas críticas y tomar decisiones basadas en evidencia. Su aplicación resulta particularmente útil en proyectos de vigilancia epidemiológica, gestión de laboratorios, coordinación de actividades de campo o administración de proyectos de innovación, entre otros, donde la cantidad de tareas, la interacción entre áreas y la necesidad de seguimiento continuo suelen ser elevadas (Martins, 2025).
+        .container
+          .row.align-items-center.justify-content-center.mb-5(data-aos="fade-right")
+            .col-12.col-md-12.col-lg-10
+              .row.align-items-center.bg-color-1.p-4
+                .col-lg-auto
+                  img.d-lg-flex.d-none(src="@/assets/curso/temas/tema4/img20.svg", style="max-width: 100px").mx-auto
+                .col-lg.p-lg-4
+                  p.mb-0 En el contexto de la investigación y la salud pública, <em>Kanban</em> se ha consolidado como una herramienta que permite visualizar los procesos, identificar cuellos de botella, priorizar tareas críticas y tomar decisiones basadas en evidencia. Su aplicación resulta particularmente útil en proyectos de vigilancia epidemiológica, gestión de laboratorios, coordinación de actividades de campo o administración de proyectos de innovación, entre otros, donde la cantidad de tareas, la interacción entre áreas y la necesidad de seguimiento continuo suelen ser elevadas (Martins, 2025).
 
 
         //- Subtitulo
@@ -391,31 +396,31 @@
         
     .bg-full-width.bg-fondo-3.mb-4
       .px-4.px-md-5
-        .row.justify-content-center.align-items-center.p-4
-          .col-md-8.col-lg-4.order-lg-2
-            figure
-              img(src='@/assets/curso/temas/tema4/img41.png', alt='')
-          .col-lg-8.order-lg-1
-            SlyderF(columnas="col-12 col-xl-6").p-4
-              .bg-color-white.p-4.h-100.box-shadow
-                img(src='@/assets/curso/temas/tema4/img37.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                h4.text-center.mb-4 Visualizar el flujo de trabajo
-                p.text-center Mostrar de manera clara todas las actividades y su estado actual, para comprender el proceso en su conjunto y promover la colaboración.
+      .row.justify-content-center.align-items-center.p-sm-0
+        .col-md-8.col-lg-4.order-lg-2
+          figure
+            img(src='@/assets/curso/temas/tema4/img41.png', alt='')
+        .col-lg-8.order-lg-1
+          SlyderF(columnas="col-12 col-md-12 col-xl-6").mt-4.mb-4
+            .bg-color-white.p-4.h-100.box-shadow
+              img(src='@/assets/curso/temas/tema4/img37.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+              h4.text-center.mb-4 Visualizar el flujo de trabajo
+              p.text-center Mostrar de manera clara todas las actividades y su estado actual, para comprender el proceso en su conjunto y promover la colaboración.
 
-              .bg-color-white.p-4.h-100.box-shadow
-                img(src='@/assets/curso/temas/tema4/img38.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                h4.text-center.mb-4 Limitar el trabajo en curso
-                p.text-center Establecer un número máximo de tareas que pueden desarrollarse simultáneamente, evitando la dispersión y la sobrecarga del equipo.
+            .bg-color-white.p-4.h-100.box-shadow
+              img(src='@/assets/curso/temas/tema4/img38.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+              h4.text-center.mb-4 Limitar el trabajo en curso
+              p.text-center Establecer un número máximo de tareas que pueden desarrollarse simultáneamente, evitando la dispersión y la sobrecarga del equipo.
 
-              .bg-color-white.p-4.h-100.box-shadow
-                img(src='@/assets/curso/temas/tema4/img39.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                h4.text-center.mb-4 Gestionar el flujo y priorizar por valor
-                p.text-center Enfocar los esfuerzos en las tareas que aportan mayor impacto al objetivo del proyecto, asegurando la continuidad y el equilibrio entre las etapas.
+            .bg-color-white.p-4.h-100.box-shadow
+              img(src='@/assets/curso/temas/tema4/img39.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+              h4.text-center.mb-4 Gestionar el flujo y priorizar por valor
+              p.text-center Enfocar los esfuerzos en las tareas que aportan mayor impacto al objetivo del proyecto, asegurando la continuidad y el equilibrio entre las etapas.
 
-              .bg-color-white.p-4.h-100.box-shadow
-                img(src='@/assets/curso/temas/tema4/img40.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                h4.text-center.mb-4 Revisar y mejorar de manera continua
-                p.text-center Analizar los resultados del flujo de trabajo, identificar retrasos o cuellos de botella y ajustar los procesos con base en la evidencia obtenida.
+            .bg-color-white.p-4.h-100.box-shadow
+              img(src='@/assets/curso/temas/tema4/img40.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+              h4.text-center.mb-4 Revisar y mejorar de manera continua
+              p.text-center Analizar los resultados del flujo de trabajo, identificar retrasos o cuellos de botella y ajustar los procesos con base en la evidencia obtenida.
           
 
     .row.align-items-center.justify-content-center.mb-3(data-aos="fade-right")
@@ -435,12 +440,13 @@
             h3.subtitle.position-relative Implementación de tableros <em>Kanban</em> en investigación y salud
               img.image(src='@/assets/curso/temas/img01.svg', alt='Imagen decorativa')
 
-        .row.align-items-center.bg-color-primario-p20.p-4(data-aos="fade-left").icono-inferior
-          .col-12.col-md-6.col-lg-3.mb-4.mb-lg-0.mx-auto
-            figure
-              img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema4/img42.svg', alt='Imagen Decorativa') 
-          .col-12.col-md-12.col-lg-9.mb-4.mb-lg-0
-            p.mb-0 De acuerdo con Martins (2025), la implementación de <em>Kanban</em> no requiere herramientas tecnológicas complejas, sino una estructura clara y el compromiso del equipo con la transparencia y la organización del trabajo. En proyectos de investigación, los tableros <em>Kanban</em> pueden utilizarse para planificar y monitorear el avance de los objetivos específicos, desde la formulación del proyecto hasta la publicación de los resultados.
+        .container
+          .row.align-items-center.bg-color-primario-p20.p-4(data-aos="fade-left").icono-inferior
+            .col-12.col-md-6.col-lg-3.mb-4.mb-lg-0.mx-auto
+              figure
+                img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema4/img42.svg', alt='Imagen Decorativa') 
+            .col-12.col-md-12.col-lg-9.mb-4.mb-lg-0
+              p.mb-0 De acuerdo con Martins (2025), la implementación de <em>Kanban</em> no requiere herramientas tecnológicas complejas, sino una estructura clara y el compromiso del equipo con la transparencia y la organización del trabajo. En proyectos de investigación, los tableros <em>Kanban</em> pueden utilizarse para planificar y monitorear el avance de los objetivos específicos, desde la formulación del proyecto hasta la publicación de los resultados.
           
   
     .row.align-items-center.justify-content-center.mb-4(data-aos="fade-right")
@@ -470,13 +476,14 @@
             p.mb-0 Mientras <em>Scrum</em> estructura el trabajo en ciclos de tiempo definidos, <em>Kanban</em> ofrece una visión continua del flujo de tareas, ideal para procesos en marcha o de larga duración, como los que suelen presentarse en la investigación en salud pública
             
       
-    .row.align-items-center.justify-content-center.mb-2(data-aos="fade-right")
-      .col-12.col-md-12.col-lg-10
-        .row.align-items-center.bg-color-1.p-4
-          .col-lg-auto
-            img.d-lg-flex.d-none(src="@/assets/curso/temas/tema4/img20.svg", style="max-width: 100px").mx-auto
-          .col-lg.p-lg-4
-            p.mb-0 En resumen, <em>Kanban</em> aporta una estructura visual, flexible y participativa para la gestión de proyectos de investigación y programas de salud. Su aplicación fortalece la eficiencia, la comunicación y la toma de decisiones, contribuyendo a que los equipos trabajen de forma más coordinada, transparente y orientada al logro de resultados sostenibles.
+    .container
+      .row.align-items-center.justify-content-center.mb-2(data-aos="fade-right")
+        .col-12.col-md-12.col-lg-10
+          .row.align-items-center.bg-color-1.p-4
+            .col-lg-auto
+              img.d-lg-flex.d-none(src="@/assets/curso/temas/tema4/img20.svg", style="max-width: 100px").mx-auto
+            .col-lg.p-lg-4
+              p.mb-0 En resumen, <em>Kanban</em> aporta una estructura visual, flexible y participativa para la gestión de proyectos de investigación y programas de salud. Su aplicación fortalece la eficiencia, la comunicación y la toma de decisiones, contribuyendo a que los equipos trabajen de forma más coordinada, transparente y orientada al logro de resultados sostenibles.
 
     separador
             
@@ -486,55 +493,56 @@
         .titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2#t_4_5 4.5 Comparación y selección de la metodología ágil
 
-      .row.align-items-center.justify-content-center.mb-3(data-aos="fade-right")
-        .col-12.col-md-12.col-lg-10
-          .row.align-items-center
-            .col-lg-auto
-              img.d-lg-flex.d-none(src="@/assets/curso/temas/tema4/img45.png", style="max-width: 100px").mx-auto
-            .col-lg.p-lg-4
-              p.mb-0 La selección de las metodologías debe basarse en el nivel de incertidumbre, el tamaño del equipo y el tipo de entrega. En contextos de investigación en salud pública, se recomienda un enfoque híbrido, combinando <em>Scrum</em> para gestión iterativa, <em>Kanban</em> para control de flujo y <em>Lean Startup</em> para validación científica (ver Tabla 4).
+    .row.align-items-center.justify-content-center.mb-3(data-aos="fade-right")
+      .col-12.col-md-12.col-lg-10
+        .row.align-items-center
+          .col-lg-auto
+            img.d-lg-flex.d-none(src="@/assets/curso/temas/tema4/img45.png", style="max-width: 100px").mx-auto
+          .col-lg.p-lg-4
+            p.mb-0 La selección de las metodologías debe basarse en el nivel de incertidumbre, el tamaño del equipo y el tipo de entrega. En contextos de investigación en salud pública, se recomienda un enfoque híbrido, combinando <em>Scrum</em> para gestión iterativa, <em>Kanban</em> para control de flujo y <em>Lean Startup</em> para validación científica (ver Tabla 4).
 
-      .row.justify-content-center.align-items-center(data-aos="fade-left").mb-5
-        .col-lg-12
-          .titulo-sexto.mb-4.color-acento-contenido
-            h5
-              b Tabla 4.
-              span Tipos de metodologías Agiles para Innovación
-          .tabla-a.color-acento-contenido
-            table
-              caption Fuente: Adaptado SENA (2026), tomado de Martins, 2025
-              thead
-                tr
-                  th Metodología
-                  th Enfoque principal
-                  th Ventajas
-                  th Aplicación sugerida en salud pública
-              tbody
-                tr
-                  td <b><em>Lean Startup</em></b>
-                  td Validación rápida de hipótesis mediante la experimentación y el aprendizaje basado en evidencia.
-                  td Permite reducir riesgos, optimizar recursos y obtener resultados tempranos que guían decisiones basadas en datos.
-                  td Ideal para el diseño y prueba de intervenciones piloto, herramientas tecnológicas o estrategias innovadoras, antes de su implementación a gran escala.
-                tr
-                  td <b><em>Scrum</em></b>
-                  td Gestión iterativa y colaborativa de proyectos complejos a través de ciclos de trabajo cortos.
-                  td Favorece la coordinación de equipos multidisciplinarios, la transparencia y la entrega continua de productos verificables.
-                  td Recomendado para equipos de investigación, vigilancia o gestión institucional que desarrollan proyectos con objetivos y entregables sucesivos.
-                tr
-                  td <b><em>Kanban</em></b>
-                  td Visualización del flujo de trabajo y mejora continua del proceso.
-                  td Incrementa la eficiencia operativa, la priorización de tareas y la comunicación interna.
-                  td Adecuado para el seguimiento de proyectos, la gestión de laboratorios o la administración de programas de salud, donde es necesario mantener un control permanente del avance.
-      
-      .row.justify-content-center.align-items-center(data-aos="fade-left").mb-5
-        .col-lg-12
-          .bloque-texto-g.bg-color-primario.p-3.p-sm-4.p-md-5
-            .bloque-texto-g__img(
-              :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img46.png')})`}"
-            )
-            .bloque-texto-g__texto.p-4
-              p.mb-0 La selección de la metodología ágil más adecuada depende del contexto y de las condiciones del proyecto. En investigaciones o programas con alta incertidumbre o componentes innovadores, <em>Lean Startup</em> resulta particularmente útil para validar hipótesis tempranas y reducir el riesgo antes de invertir en desarrollos de mayor escala. Cuando el proyecto requiere una gestión estructurada y colaborativa de múltiples actores o disciplinas, <em>Scrum</em> ofrece una forma efectiva de coordinar tareas y fomentar la revisión continua. Por su parte, <em>Kanban</em> es ideal para contextos donde se necesita una visión general del flujo de trabajo, manteniendo el control operativo y optimizando los recursos en tiempo real.
+    .row.justify-content-center.align-items-center(data-aos="fade-left").mb-5
+      .col-lg-12
+        .titulo-sexto.mb-4.color-acento-contenido
+          h5
+            b Tabla 4.
+            span Tipos de metodologías Agiles para Innovación
+        .tabla-a.color-acento-contenido
+          table
+            caption Fuente: Adaptado SENA (2026), tomado de Martins, 2025
+            thead
+              tr
+                th Metodología
+                th Enfoque principal
+                th Ventajas
+                th Aplicación sugerida en salud pública
+            tbody
+              tr
+                td <b><em>Lean Startup</em></b>
+                td Validación rápida de hipótesis mediante la experimentación y el aprendizaje basado en evidencia.
+                td Permite reducir riesgos, optimizar recursos y obtener resultados tempranos que guían decisiones basadas en datos.
+                td Ideal para el diseño y prueba de intervenciones piloto, herramientas tecnológicas o estrategias innovadoras, antes de su implementación a gran escala.
+              tr
+                td <b><em>Scrum</em></b>
+                td Gestión iterativa y colaborativa de proyectos complejos a través de ciclos de trabajo cortos.
+                td Favorece la coordinación de equipos multidisciplinarios, la transparencia y la entrega continua de productos verificables.
+                td Recomendado para equipos de investigación, vigilancia o gestión institucional que desarrollan proyectos con objetivos y entregables sucesivos.
+              tr
+                td <b><em>Kanban</em></b>
+                td Visualización del flujo de trabajo y mejora continua del proceso.
+                td Incrementa la eficiencia operativa, la priorización de tareas y la comunicación interna.
+                td Adecuado para el seguimiento de proyectos, la gestión de laboratorios o la administración de programas de salud, donde es necesario mantener un control permanente del avance.
+    
+    .row.justify-content-center.align-items-center(data-aos="fade-left").mb-5
+      .col-lg-12
+        .bloque-texto-g.bg-color-primario.p-3.p-sm-4.p-md-5
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img46.png')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            p.mb-0 La selección de la metodología ágil más adecuada depende del contexto y de las condiciones del proyecto. En investigaciones o programas con alta incertidumbre o componentes innovadores, <em>Lean Startup</em> resulta particularmente útil para validar hipótesis tempranas y reducir el riesgo antes de invertir en desarrollos de mayor escala. Cuando el proyecto requiere una gestión estructurada y colaborativa de múltiples actores o disciplinas, <em>Scrum</em> ofrece una forma efectiva de coordinar tareas y fomentar la revisión continua. Por su parte, <em>Kanban</em> es ideal para contextos donde se necesita una visión general del flujo de trabajo, manteniendo el control operativo y optimizando los recursos en tiempo real.
 
+    .container
       .row.mb-0.justify-content-center.align-items-center
         .col-12.col-md-12.col-lg-10
           .row.align-items-center.bg-color-terciario-t10.p-4(data-aos="fade-left").icono-inferior
@@ -544,7 +552,7 @@
             .col-12.col-md-6.col-lg-3.mb-4.mb-lg-0.mx-auto
               figure
                 img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema4/img47.svg', alt='Imagen Decorativa') 
-            
+              
 
 
 

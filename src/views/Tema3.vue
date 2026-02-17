@@ -102,16 +102,17 @@
          
       
         p.mb-3 Al tratarse de un prototipo que debe mostrar cómo será el bien o servicio que se quiere introducir en el mercado, las características del producto mínimo viable están asociadas a los cuatro objetivos a comprobar:
-        .row.justify-content-center.align-items-center.bg-color-primario-p20.p-4(data-aos="fade-left").icono-inferior.mb-4
-          .col-12.col-md-6.col-lg-3.mb-4.mb-lg-0.mx-auto
-            figure
-              img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema3/img05.svg', alt='Imagen Decorativa') 
-          .col-12.col-md-12.col-lg-9.mb-4.mb-lg-0.px-lg-5
-            ul.bullets.color-primario
-              li <b>Su funcionalidad:</b> para qué ha sido creado, qué soluciones ofrece a las demandas del consumidor final.
-              li <b>Sus niveles de usabilidad:</b> cómo será la experiencia del público al que se dirige y si resulta fácil e intuitiva su utilización.
-              li El diseño con el que se presentará.
-              li Su fiabilidad y seguridad, constatando que el producto o servicio definitivo no solo responde a una necesidad, sino que también ha sido ideado y desarrollado sin que represente un riesgo para su público (UNIR, 2024)
+        .container
+          .row.justify-content-center.align-items-center.bg-color-primario-p20.p-4(data-aos="fade-left").icono-inferior.mb-4
+            .col-12.col-md-6.col-lg-3.mb-4.mb-lg-0.mx-auto
+              figure
+                img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema3/img05.svg', alt='Imagen Decorativa') 
+            .col-12.col-md-12.col-lg-9.mb-4.mb-lg-0.px-lg-5
+              ul.bullets.color-primario
+                li <b>Su funcionalidad:</b> para qué ha sido creado, qué soluciones ofrece a las demandas del consumidor final.
+                li <b>Sus niveles de usabilidad:</b> cómo será la experiencia del público al que se dirige y si resulta fácil e intuitiva su utilización.
+                li El diseño con el que se presentará.
+                li Su fiabilidad y seguridad, constatando que el producto o servicio definitivo no solo responde a una necesidad, sino que también ha sido ideado y desarrollado sin que represente un riesgo para su público (UNIR, 2024)
 
 
     .row.align-items-center.justify-content-center.mb-4
@@ -177,7 +178,7 @@
         .titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2#t_3_2 3.2 Etapas para desarrollar un MVP
       
-      .row.mb-5.justify-content-center.align-items-center
+      .row.mb-4.justify-content-center.align-items-center
         .col-md-8.col-lg-3.mb-3(order-sm="2" order-md="2")
           figure
             img(src="@/assets/curso/temas/tema3/img07.png", alt="Imagen Decorativa", data-aos="zoom-in")
@@ -185,7 +186,7 @@
           p.mb-3(data-aos="fade-right") Al pensar en cómo crear un MVP, es fundamental comprender que el principio fundamental del desarrollo de MVP es su simplicidad. Al crear un MVP, incorporamos un conjunto mínimo de las funcionalidades más importantes que permiten a los desarrolladores lanzar un producto al mercado rápidamente, probar su viabilidad y recopilar información valiosa. Esta estrategia permite a las empresas optimizar el uso de sus recursos, lo que se traduce en un tiempo de comercialización optimizado. Les permite probar sus ideas y conceptos sin comprometer recursos en exceso en una etapa temprana.
           p.mb-0(data-aos="fade-right") Las etapas para desarrollar un MVP son:
 
-      .bg-full-width.bg-fondo-5.tarjeta.mb-0
+      .bg-fondo-5.tarjeta.mb-0
         .p-3.p-lg-4
           SlyderA(tipo="b").bg-color-white.p-4.tarjeta
             .row.justify-content-center.align-items-center

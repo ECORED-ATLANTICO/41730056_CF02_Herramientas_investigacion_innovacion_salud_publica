@@ -10,12 +10,13 @@
     .row.align-items-center(data-aos="fade-left").justify-content-center.mb-4
 
       .col-md-12.col-lg-10
-        .row.justify-content-center.align-items-center
-          .col-12.col-md-6.col-lg-5
-            figure
-              img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/img01.png', alt='Imagen Decorativa')
-          .col-12.col-md-12.col-lg-7.bg-color-9
-            p.mb-0.p-4 Te invitamos a ver el siguiente video introductorio sobre el Pensamiento de Diseño (<em>Design Thinking</em>), el Diseño Centrado en el Usuario (<em>Human-Centered Design</em>). Mientras observas el video, reflexiona sobre las siguientes preguntas: ¿Cómo cambia la investigación en salud cuando se trabaja con las comunidades desde el inicio?
+        .container
+          .row.justify-content-center.align-items-center
+            .col-12.col-md-6.col-lg-5
+              figure
+                img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/img01.png', alt='Imagen Decorativa')
+            .col-12.col-md-12.col-lg-7.bg-color-9
+              p.mb-0.p-4 Te invitamos a ver el siguiente video introductorio sobre el Pensamiento de Diseño (<em>Design Thinking</em>), el Diseño Centrado en el Usuario (<em>Human-Centered Design</em>). Mientras observas el video, reflexiona sobre las siguientes preguntas: ¿Cómo cambia la investigación en salud cuando se trabaja con las comunidades desde el inicio?
     
     .bg-full-width.bg-fondo-1
       .row.align-items-center(data-aos="fade-left").justify-content-center.mb-3
@@ -95,17 +96,18 @@
           .col-12.col-md-12.col-lg-9.mb-4.mb-lg-0
             p Es importante tener en cuenta que más que una técnica, el <em>Design Thinking</em> es una mentalidad que impulsa a quienes investigan e innovan. La mentalidad de un <em>design thinker</em> se centra en la empatía con el usuario, el optimismo, la colaboración multidisciplinaria, la iteración constante y la aceptación del fracaso temprano como parte del proceso de aprendizaje. Se trata de un enfoque ágil y centrado en el ser humano para resolver problemas complejos a través de la creatividad, la experimentación y el pensamiento práctico. En general, se puede concretar la mentalidad del <em>design thinker</em> en:
 
-            .row.align-items-center.bg-color-terciario-t10.p-4(data-aos="fade-left").icono-inferior
-              .col-12.col-md-12.col-lg-12.mb-4.mb-lg-0
-                ul.bullets.color-secundario.mb-0
-                  li <b>Empatía radical:</b> ponerse en el lugar del otro.
-                  li <b>Pensamiento divergente y convergente:</b> explorar muchas ideas (divergente) y luego seleccionar y refinar (convergente).
-                  li <b>Prototipado rápido y experimentación:</b> fallar rápido, fallar barato, aprender rápido
-                  li <b>Tolerancia a la ambigüedad:</b> estar cómodo con la incertidumbre en las primeras etapas.
-                  li <b>Optimismo:</b> creer que siempre hay una solución creativa
-                  li Soluciones más relevantes y adoptables
-                  li Mayor colaboración intersectorial y multidisciplinar
-                  li Reducción de riesgos al validar o probar temprano (IxDF, 2016).
+            .container
+              .row.align-items-center.bg-color-terciario-t10.p-4(data-aos="fade-left").icono-inferior
+                .col-12.col-md-12.col-lg-12.mb-4.mb-lg-0
+                  ul.bullets.color-secundario.mb-0
+                    li <b>Empatía radical:</b> ponerse en el lugar del otro.
+                    li <b>Pensamiento divergente y convergente:</b> explorar muchas ideas (divergente) y luego seleccionar y refinar (convergente).
+                    li <b>Prototipado rápido y experimentación:</b> fallar rápido, fallar barato, aprender rápido
+                    li <b>Tolerancia a la ambigüedad:</b> estar cómodo con la incertidumbre en las primeras etapas.
+                    li <b>Optimismo:</b> creer que siempre hay una solución creativa
+                    li Soluciones más relevantes y adoptables
+                    li Mayor colaboración intersectorial y multidisciplinar
+                    li Reducción de riesgos al validar o probar temprano (IxDF, 2016).
 
     .bg-full-width.bg-fondo-1
 
@@ -204,10 +206,11 @@
               .bloque-texto-g__texto.p-4
                 p.mb-0 Considerando los problemas actuales de nuestra sociedad (crisis sociales, recortes presupuestales, transformación política…), así como la complejidad de nuestro sistema sanitario (unido a la competencia existente en la salud privada), cualquier organización que desee consolidarse como un sistema de salud exitoso, debe ser capaz de innovar en la prestación de servicios, trascendiendo todas las fronteras geográficas, políticas o sectoriales. El <em>Design Thinking</em> puede aportar a los profesionales de la salud a la integración de enfoques más creativos, interdisciplinares y centrados en las personas, que ayudará en la mejora de la gestión sanitaria y en la innovación dentro del sector.
       
-        .row.align-items-center(data-aos="fade-left").justify-content-center.mb-3
+        .row.align-items-center(data-aos="fade-left").justify-content-center.mb-2
           .col-12.col-md-12.col-lg-10.mx-auto.mb-4
-            p.mb-3 Además, el <em>Design Thinking</em> ofrece beneficios como mejorar la experiencia del paciente (reduciendo ansiedad, mejorando comodidad y movilidad) y optimizar la comunicación médico-paciente. También impulsa el desarrollo de soluciones ajustadas a necesidades reales, incrementa la satisfacción del personal y favorece la eficiencia de los servicios al optimizar procesos y reducir tiempos de espera. Aunque los beneficios que puede aportar la visión del <em>Design Thinking</em> en el ámbito sanitario son múltiples, aquellos relacionados con los pacientes probablemente sean los que provocan una mayor sensibilidad social, precisamente porque es algo que nos afecta a todos, pues en algún momento de nuestra vida pasaremos o tendremos el rol de pacientes en el sistema sanitario. 
+            p.mb-0 Además, el <em>Design Thinking</em> ofrece beneficios como mejorar la experiencia del paciente (reduciendo ansiedad, mejorando comodidad y movilidad) y optimizar la comunicación médico-paciente. También impulsa el desarrollo de soluciones ajustadas a necesidades reales, incrementa la satisfacción del personal y favorece la eficiencia de los servicios al optimizar procesos y reducir tiempos de espera. Aunque los beneficios que puede aportar la visión del <em>Design Thinking</em> en el ámbito sanitario son múltiples, aquellos relacionados con los pacientes probablemente sean los que provocan una mayor sensibilidad social, precisamente porque es algo que nos afecta a todos, pues en algún momento de nuestra vida pasaremos o tendremos el rol de pacientes en el sistema sanitario. 
 
+        .container
           .col-12.col-md-12.col-lg-10.mx-auto.mb-4
             .row.justify-content-center.align-items-center.bg-color-terciario-t5.p-4(data-aos="fade-left").icono-inferior
               .col-12.col-md-12.col-lg-9.mb-4.mb-lg-0.order-2.order-lg-1
@@ -311,28 +314,29 @@
                   p.mb-0.p-4 Asegurar que el diseño final responda realmente a los problemas de los usuarios y genere valor significativo, considerando sus contextos sociales, culturales y emocionales.
 
           h4.mb-4 Herramientas de empatía
+
     .bg-full-width.bg-fondo-3
-      .px-4.px-md-5
-        .row.justify-content-center.align-items-center
-          .col-lg-8.order-lg-2
-            SlyderF(columnas="col-12 col-xl-6").p-4
-              .bg-color-white.p-4.h-100.box-shadow
-                img(src='@/assets/curso/temas/tema1/img20.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                h4.text-center.mb-4 Mapas de actores (Stakeholder Maps)
-                p.text-center Herramienta visual que permite identificar y analizar a los diferentes actores involucrados en un sistema o problema, así como sus relaciones e influencias. Facilita comprender las dinámicas de poder, intereses y niveles de impacto dentro del entorno del proyecto.
+      .px-4.px-md-5.p-sm-0.px-sm-0
+      .row.justify-content-center.align-items-center.p-sm-0
+        .col-md-12.col-lg-8.order-lg-2.p-sm-0
+          SlyderF(columnas="col-12 col-md-12 col-xl-6").mt-4.mb-4
+            .bg-color-white.p-4.h-100.box-shadow.p-sm-0
+              img(src='@/assets/curso/temas/tema1/img20.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+              h4.text-center.mb-4 Mapas de actores (Stakeholder Maps)
+              p.text-center Herramienta visual que permite identificar y analizar a los diferentes actores involucrados en un sistema o problema, así como sus relaciones e influencias. Facilita comprender las dinámicas de poder, intereses y niveles de impacto dentro del entorno del proyecto.
 
-              .bg-color-white.p-4.h-100.box-shadow
-                img(src='@/assets/curso/temas/tema1/img21.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                h4.text-center.mb-4 Personas
-                p.text-center Representaciones semi-ficticias de los usuarios típicos construidas a partir de datos reales obtenidos en la investigación. Incluyen información demográfica, motivaciones, objetivos y frustraciones, ayudando al equipo a diseñar soluciones centradas en el usuario.
+            .bg-color-white.p-4.h-100.box-shadow.p-sm-0
+              img(src='@/assets/curso/temas/tema1/img21.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+              h4.text-center.mb-4 Personas
+              p.text-center Representaciones semi-ficticias de los usuarios típicos construidas a partir de datos reales obtenidos en la investigación. Incluyen información demográfica, motivaciones, objetivos y frustraciones, ayudando al equipo a diseñar soluciones centradas en el usuario.
 
-              .bg-color-white.p-4.h-100.box-shadow
-                img(src='@/assets/curso/temas/tema1/img22.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                h4.text-center.mb-4 Mapas de empatía
-                p.text-center Instrumento que permite profundizar en la comprensión del usuario a través de cuatro dimensiones: qué piensa y siente, qué ve, qué oye y qué dice y hace. Facilita la identificación de necesidades, dolores y oportunidades de mejora.
-          .col-md-8.col-lg-4.order-lg-1
-            figure
-              img(src='@/assets/curso/temas/tema1/img19.png', alt='')
+            .bg-color-white.p-4.h-100.box-shadow.p-sm-0
+              img(src='@/assets/curso/temas/tema1/img22.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+              h4.text-center.mb-4 Mapas de empatía
+              p.text-center Instrumento que permite profundizar en la comprensión del usuario a través de cuatro dimensiones: qué piensa y siente, qué ve, qué oye y qué dice y hace. Facilita la identificación de necesidades, dolores y oportunidades de mejora.
+        .col-md-8.col-lg-4.order-lg-1
+          figure
+            img(src='@/assets/curso/temas/tema1/img19.png', alt='')
 
     .bg-full-width.bg-fondo-1-2
       separador
