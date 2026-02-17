@@ -172,13 +172,13 @@
 
             .row.mb-4.justify-content-center
               
-              .col-12.col-md-6.col-lg-6
+              .col-12.col-md-6.col-lg-6.mb-3
                 .bg-color-primario-p20.p-4.h-100.border-radius-20.img-topright.h-100
                   img(src='@/assets/curso/temas/tema4/img17.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                   h5.mb-4.pt-lg-5.pt-xl-0.w-50 Hipótesis de valor
                   p.mb-0 Se refieren a la relevancia o utilidad percibida de la solución propuesta, es decir, si esta responde a una necesidad concreta de los usuarios o de las instituciones. Por ejemplo, si un sistema de monitoreo digital facilita efectivamente el seguimiento de pacientes con enfermedades crónicas o mejora la coordinación entre niveles de atención.
 
-              .col-12.col-md-6.col-lg-6
+              .col-12.col-md-6.col-lg-6.mb-3
                 .bg-color-terciario-t10.p-4.h-100.border-radius-20.img-topright.h-100
                   img(src='@/assets/curso/temas/tema4/img18.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                   h5.mb-4.pt-lg-5.pt-xl-0.w-50 Hipótesis de crecimiento o adopción
