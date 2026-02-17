@@ -242,7 +242,7 @@
           
         .row.justify-content-center.align-items-center.mb-0
           .col-12.col-md-12.col-lg-10
-            .row.mb-2.justify-content-center.align-items-center
+            .row.mb-4.justify-content-center.align-items-center
               .col-auto.mb-3.mb-lg-0.d-none.d-lg-block
                 figure
                   img(src="@/assets/curso/temas/tema1/img17.svg", alt="Imagen Decorativa", data-aos="zoom-in")
@@ -272,7 +272,7 @@
                 li #[b Cultura de colaboración y cambio:] porque promueve la colaboración entre equipos y fomenta una cultura de mejora continua dentro de la organización.
                 li  #[b Satisfacción del personal:] al aumentar el compromiso y la motivación de los equipos de salud al sentirse parte de un proceso de mejora que impacta positivamente a los usuarios.
 
-    .bg-fondo-2
+    .bg-full-width.bg-fondo-2
 
       separador
 
@@ -334,7 +334,7 @@
             figure
               img(src='@/assets/curso/temas/tema1/img19.png', alt='')
 
-    .bg-fondo-1-2
+    .bg-full-width.bg-fondo-1-2
       separador
 
       .row.align-items-center(data-aos="fade-left").justify-content-center

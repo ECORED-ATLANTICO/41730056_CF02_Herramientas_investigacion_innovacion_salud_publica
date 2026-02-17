@@ -7,7 +7,7 @@
         span 2
       h1 Tipos de prototipado y procesos de <em>test</em>eo con usuarios en salud
 
-    .bg-fondo-2-1
+    .bg-full-width.bg-fondo-2-1
       .row.align-items-center(data-aos="fade-left").justify-content-center.mb-1
         .col-md-12.col-lg-10
           .row.justify-content-center.align-items-center
@@ -81,7 +81,7 @@
       .col-12.col-md-12.col-lg-10
         h4.mb-4 Prototipado para producto digital:
 
-    .bg-fondo-2-2
+    .bg-full-width.bg-fondo-2-2
       .row.mb-3.justify-content-center.align-items-center
         .col-lg-10.order-lg-1
           TabsA.color-acento-botones
@@ -172,10 +172,10 @@
                   img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema2/img09.svg', alt='Imagen Decorativa') 
 
             
-      .bg-fondo-2-2
+      .bg-full-width.bg-fondo-2-2
         .row.justify-content-center.align-items-center.mb-5
           .col-md-12.col-lg-10
-            .row.mb-2.justify-content-center.align-items-center
+            .row.mb-5.justify-content-center.align-items-center
               .col-auto.mb-3.mb-lg-0.d-none.d-lg-block
                 figure
                   img(src="@/assets/curso/temas/tema2/img10.png", alt="Imagen Decorativa", data-aos="zoom-in")
@@ -189,7 +189,7 @@
                   img.image(src='@/assets/curso/temas/img01.svg', alt='Imagen decorativa')
 
 
-            p.mb-3 Existen diferentes métodos para realizar <em><em>test</em>s</em> con usuarios, entre los que destacan:
+            p.mb-5 Existen diferentes métodos para realizar <em><em>test</em>s</em> con usuarios, entre los que destacan:
 
             .row.align-items-center.justify-content-center.mb-2
               .col-8.col-md-6.col-lg-3.mb-3.mb-lg-0
@@ -277,7 +277,7 @@
                   figure
                     img(src='@/assets/curso/temas/tema2/img17.png', alt='Imagen de acompañamiento')
 
-    .bg-fondo-2-3
+    .bg-full-width.bg-fondo-2-3
       separador
 
       .row.align-items-center(data-aos="fade-left").justify-content-center

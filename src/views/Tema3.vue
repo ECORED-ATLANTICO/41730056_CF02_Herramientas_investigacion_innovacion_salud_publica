@@ -13,7 +13,7 @@
       .col-lg-9(data-aos="fade-up")
         p.banner-text El Producto Mínimo Viable (PMV) es una estrategia clave en los procesos de innovación, que consiste en desarrollar una versión inicial y simplificada de una solución con las funciones esenciales para resolver un problema específico y obtener retroalimentación real de los usuarios. En proyectos de salud, su aplicación permite poner a prueba intervenciones, tecnologías, servicios o estrategias educativas en contextos reales, con menor inversión de tiempo y recursos, antes de escalarlas.
 
-    .bg-fondo-3-1
+    .bg-full-width.bg-fondo-3-1
       .row.mb-3.justify-content-center.align-items-center
         .col-md-12.col-lg-9
           .row.justify-content-center.align-items-center
@@ -185,7 +185,7 @@
           p.mb-3(data-aos="fade-right") Al pensar en cómo crear un MVP, es fundamental comprender que el principio fundamental del desarrollo de MVP es su simplicidad. Al crear un MVP, incorporamos un conjunto mínimo de las funcionalidades más importantes que permiten a los desarrolladores lanzar un producto al mercado rápidamente, probar su viabilidad y recopilar información valiosa. Esta estrategia permite a las empresas optimizar el uso de sus recursos, lo que se traduce en un tiempo de comercialización optimizado. Les permite probar sus ideas y conceptos sin comprometer recursos en exceso en una etapa temprana.
           p.mb-0(data-aos="fade-right") Las etapas para desarrollar un MVP son:
 
-      .bg-fondo-5.tarjeta.mb-0
+      .bg-full-width.bg-fondo-5.tarjeta.mb-0
         .p-3.p-lg-4
           SlyderA(tipo="b").bg-color-white.p-4.tarjeta
             .row.justify-content-center.align-items-center

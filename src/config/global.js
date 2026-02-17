@@ -219,30 +219,30 @@ export default {
   },
   complementario: [
     {
-      tema: 'Fases del design thinking',
+      tema: 'Fases del <em>design thinking</em>',
       referencia:
-        '<em>De la Peña, N. (2024, 24 de abril). 5 fases del design thinking: cómo aplicar esta metodología para triunfar con tus proyectos. Genially (Blog).</em>',
+        'De la Peña, N. (2024, 24 de abril). <em>5 fases del design thinking: cómo aplicar esta metodología para triunfar con tus proyectos.</em> Genially (Blog).',
       tipo: 'Blog',
       link: 'https://blog.genially.com/fases-design-thinking/',
     },
     {
       tema: 'Atención primaria en salud en Colombia',
       referencia:
-        '<em>Saludderecho. (2022, 19 de abril). Claves de éxito de los Modelos Innovadores de Atención Primaria en Salud (Video). YouTube.</em>',
+        'Salud derecho. (2022, 19 de abril).<em> Claves de éxito de los Modelos Innovadores de Atención Primaria en Salud</em> (Video). YouTube.',
       tipo: 'Video Webinar',
       link: 'https://www.youtube.com/watch?v=uYk1HOmcMv0',
     },
     {
       tema: 'Producto mínimo viable',
       referencia:
-        '<em>CEEI, Comunidad Valenciana. Manual 51. Producto Mínimo Viable. Centro Europeo de Empresas Innovadoras de Valencia (CEEI Valencia). 2017. P45.</em>',
+        'CEEI, Comunidad Valenciana. <em>Manual 51. Producto Mínimo Viable. Centro Europeo de Empresas Innovadoras de Valencia (CEEI Valencia).</em> 2017. P45.',
       tipo: 'Manual',
       link: 'https://www.emprenemjunts.es/?op=13&n=11900',
     },
     {
       tema: 'Metodologías agiles',
       referencia:
-        '<em>Instituto de Investigación Sanitaria Galicia Sur. (2023). <em>Lean Startup</em> para científicos. Instituto de Investigación Sanitaria Galicia Sur.</em>',
+        'Instituto de Investigación Sanitaria Galicia Sur. (2023). <em>Lean Startup para científicos.</em> Instituto de Investigación Sanitaria Galicia Sur.',
       tipo: 'Libro',
       link:
         'https://www.iisgaliciasur.es/wp-content/uploads/2023/05/Lean-Startup-para-cientificos.pdf',

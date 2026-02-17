@@ -14,7 +14,7 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 Las metodologías ágiles son enfoques de gestión y desarrollo que promueven el trabajo colaborativo, la adaptación continua y la entrega progresiva de resultados, aspectos esenciales en contextos complejos como la salud pública. estas metodologías permiten planificar y ejecutar proyectos de manera flexible, respondiendo a cambios en el entorno, necesidades de la comunidad y hallazgos emergentes durante la investigación. A través de ciclos cortos de trabajo, retroalimentación constante y mejora continua, las metodologías ágiles facilitan la validación temprana de soluciones, el uso eficiente de recursos y la generación de evidencia aplicable, fortaleciendo el impacto real de las iniciativas innovadoras en salud pública.
 
-    .bg-fondo-4-1
+    .bg-full-width.bg-fondo-4-1
       separador
       
       .row.align-items-center(data-aos="fade-left").justify-content-center
@@ -27,7 +27,7 @@
 
             .col-12.col-md-12.col-lg-9
               .row.justify-content-center.align-items-center.mb-4
-                .col-md-8.col-lg-5.mb-3(order-sm="2" order-md="2")
+                .col-md-8.col-lg-5(order-sm="2" order-md="2")
                   figure
                     img(src="@/assets/curso/temas/tema4/img02.png", alt="Imagen Decorativa", data-aos="zoom-in")
                 .col-lg-7.col-md-12.bg-color-primario-p20(order-sm="1" order-md="1").p-5
@@ -260,7 +260,7 @@
         .row.align-items-center.justify-content-center.mb-3
           p.mb-0 El marco <em>Scrum</em> se estructura en torno a tres roles fundamentales, que pueden adaptarse a los entornos institucionales y científicos sin perder su esencia colaborativa:
       
-      .bg-fondo-5.tarjeta.mb-5
+      .bg-full-width.bg-fondo-5.tarjeta.mb-5
         .p-3.p-lg-4
           SlyderA(tipo="b").bg-color-white.p-4.tarjeta
             .row.justify-content-center.align-items-center.p-4
@@ -378,15 +378,15 @@
             h3.subtitle.position-relative Principios y gestión visual del flujo de trabajo
               img.image(src='@/assets/curso/temas/img01.svg', alt='Imagen decorativa')
 
-        .row.justify-content-center.align-items-center
-          .col-md-8.col-lg-4.mb-3(order-sm="2" order-md="2")
-            figure
-              img(src="@/assets/curso/temas/tema4/img36.png", alt="Imagen Decorativa", data-aos="zoom-in")
+          .row
+            .col-md-8.col-lg-4.mb-3(order-sm="2" order-md="2")
+              figure
+                img(src="@/assets/curso/temas/tema4/img36.png", alt="Imagen Decorativa", data-aos="zoom-in")
 
-          .col-lg-8.col-md-12.mb-4(order-sm="1" order-md="1")
-            p.mb-3(data-aos="fade-right") El fundamento del método <em>Kanban</em> radica en hacer visible el trabajo para comprender cómo fluye dentro del equipo o la organización. Esto se logra mediante la elaboración de tableros visuales, físicos o digitales, que muestran las distintas etapas del proceso, desde la planificación hasta la finalización de las actividades. Cada tarea se representa mediante una tarjeta o registro, que se desplaza a lo largo de columnas que reflejan el estado del trabajo marcándolo como, por ejemplo: pendiente, en ejecución, en revisión, finalizado.
-            p.mb-3(data-aos="fade-right") Esta representación permite que todos los miembros del equipo tengan una visión compartida del progreso, de las tareas en curso y de las prioridades, fortaleciendo la coordinación y la transparencia. Al observar el flujo completo, es posible detectar bloqueos o sobrecargas que dificultan el avance, y tomar medidas oportunas para resolverlos.
-            p.mb-0(data-aos="fade-right") Los principios básicos de <em>Kanban</em> pueden resumirse en cuatro aspectos centrales:
+            .col-lg-8.col-md-12.mb-4(order-sm="1" order-md="1")
+              p.mb-3(data-aos="fade-right") El fundamento del método <em>Kanban</em> radica en hacer visible el trabajo para comprender cómo fluye dentro del equipo o la organización. Esto se logra mediante la elaboración de tableros visuales, físicos o digitales, que muestran las distintas etapas del proceso, desde la planificación hasta la finalización de las actividades. Cada tarea se representa mediante una tarjeta o registro, que se desplaza a lo largo de columnas que reflejan el estado del trabajo marcándolo como, por ejemplo: pendiente, en ejecución, en revisión, finalizado.
+              p.mb-3(data-aos="fade-right") Esta representación permite que todos los miembros del equipo tengan una visión compartida del progreso, de las tareas en curso y de las prioridades, fortaleciendo la coordinación y la transparencia. Al observar el flujo completo, es posible detectar bloqueos o sobrecargas que dificultan el avance, y tomar medidas oportunas para resolverlos.
+              p.mb-0(data-aos="fade-right") Los principios básicos de <em>Kanban</em> pueden resumirse en cuatro aspectos centrales:
 
         
     .bg-full-width.bg-fondo-3.mb-4
@@ -434,7 +434,7 @@
           .div.mb-3(data-aos="fade-left")
             h3.subtitle.position-relative Implementación de tableros <em>Kanban</em> en investigación y salud
               img.image(src='@/assets/curso/temas/img01.svg', alt='Imagen decorativa')
-              
+
         .row.align-items-center.bg-color-primario-p20.p-4(data-aos="fade-left").icono-inferior
           .col-12.col-md-6.col-lg-3.mb-4.mb-lg-0.mx-auto
             figure
@@ -545,6 +545,8 @@
               figure
                 img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema4/img47.svg', alt='Imagen Decorativa') 
             
+
+
 
 </template>
 
