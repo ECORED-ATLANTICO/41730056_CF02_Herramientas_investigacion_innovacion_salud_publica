@@ -264,93 +264,93 @@
         .row.align-items-center.justify-content-center.mb-3
           p.mb-0 El marco <em>Scrum</em> se estructura en torno a tres roles fundamentales, que pueden adaptarse a los entornos institucionales y científicos sin perder su esencia colaborativa:
       
-      .bg-fondo-5.tarjeta.mb-5
-        .p-3.p-lg-4
-          SlyderA(tipo="b").bg-color-white.p-4.tarjeta
-            .row.justify-content-center.align-items-center.p-4
-              .col-lg-8.mb-3
-                h4 Propietario del Producto <em>(Product Owner)</em>
-                p.mb-0 En un proyecto de salud pública, este rol suele corresponder a un investigador principal, coordinador de proyecto o líder técnico responsable de definir la visión y los objetivos científicos o sanitarios. Su función es priorizar las tareas según el valor que aportan al propósito del proyecto, por ejemplo, decidir si se avanza primero en la validación del algoritmo de predicción, en la recopilación de datos de campo o en el diseño de la interfaz de usuario para una herramienta de vigilancia. Además, este rol actúa como enlace entre el equipo técnico y las partes interesadas que pueden ser por ejemplo ministerios, entidades territoriales, instituciones académicas o agencias de cooperación, pues es quien asegura que los entregables parciales respondan a las necesidades que se quieren atender.
-              .col-md-9.col-lg-4.mb-3.mb-lg-0
-                figure
-                  img(src='@/assets/curso/temas/tema4/img27.png', alt='Imagen de acompañamiento')
-
-            .row.justify-content-center.align-items-center.p-4
-              .col-lg-8.mb-3
-                h4 Facilitador o Líder de proceso (<em>Scrum</em> Master)
-                p.mb-0 Su función es garantizar que el marco <em>Scrum</em> se aplique correctamente, facilitando la comunicación, eliminando obstáculos organizativos o logísticos y promoviendo la eficiencia del equipo. En el contexto científico, este rol equivale a un gestor de proyectos de investigación y desarrollo, un coordinador metodológico o un profesional de innovación, encargado de asegurar que el equipo mantenga una dinámica ágil, cumpla los tiempos establecidos y reflexione periódicamente sobre cómo mejorar su rendimiento. Este rol no es jerárquico, sino de acompañamiento y se encarga de fomentar la autogestión y la colaboración, facilitando que los investigadores dediquen más tiempo al trabajo técnico y menos a la gestión burocrática.
-              .col-md-9.col-lg-4.mb-3.mb-lg-0
-                figure
-                  img(src='@/assets/curso/temas/tema4/img28.png', alt='Imagen de acompañamiento')
-
-            .row.justify-content-center.align-items-center.p-4
-              .col-lg-8.mb-3
-                h4 Equipo de trabajo interdisciplinario o equipo de desarrollo
-                p.mb-0 Son el equipo de trabajo en los proyectos de investigación y salud pública este equipo puede estar conformado por investigadores de distintas áreas, epidemiólogos, bioestadísticos, tecnólogos, analistas de laboratorio, profesionales de salud, programadores o diseñadores. Su tarea es ejecutar las actividades planificadas dentro de cada <em>sprint</em>, desarrollar los productos intermedios, por ejemplo, protocolos, bases de datos depuradas, informes de resultados parciales o prototipos tecnológicos, y validar los avances obtenidos. Lo esencial es que el equipo sea autónomo, multidisciplinario y comprometido con los resultados colectivos, ya que la efectividad del <em>Scrum</em> depende de la capacidad del grupo para autoorganizarse y mantener una comunicación constante (Schwaber & Sutherland, 2020).
-              .col-md-9.col-lg-4.mb-3.mb-lg-0
-                figure
-                  img(src='@/assets/curso/temas/tema4/img29.png', alt='Imagen de acompañamiento')
-
-      .row.justify-content-center.align-items-center
-        .col-12.col-md-12.col-lg-10
-          //- Subtitulo
-          .align-items-center.justify-content-star.mb-1
-            .div.mb-3(data-aos="fade-left")
-              h3.subtitle.position-relative Eventos y artefactos de <em>Scrum</em> aplicados a proyectos de salud
-                img.image(src='@/assets/curso/temas/img01.svg', alt='Imagen decorativa')
-          
-          
-          .row.mb-5.justify-content-center.align-items-center
-            .col-auto.mb-3.mb-lg-0.d-none.d-lg-block
+    .bg-fondo-5.tarjeta.mb-5
+      .p-3.p-lg-4
+        SlyderA(tipo="b").bg-color-white.p-4.tarjeta
+          .row.justify-content-center.align-items-center.p-4
+            .col-lg-8.mb-3
+              h4 Propietario del Producto <em>(Product Owner)</em>
+              p.mb-0 En un proyecto de salud pública, este rol suele corresponder a un investigador principal, coordinador de proyecto o líder técnico responsable de definir la visión y los objetivos científicos o sanitarios. Su función es priorizar las tareas según el valor que aportan al propósito del proyecto, por ejemplo, decidir si se avanza primero en la validación del algoritmo de predicción, en la recopilación de datos de campo o en el diseño de la interfaz de usuario para una herramienta de vigilancia. Además, este rol actúa como enlace entre el equipo técnico y las partes interesadas que pueden ser por ejemplo ministerios, entidades territoriales, instituciones académicas o agencias de cooperación, pues es quien asegura que los entregables parciales respondan a las necesidades que se quieren atender.
+            .col-md-9.col-lg-4.mb-3.mb-lg-0
               figure
-                img(src="@/assets/curso/temas/tema4/img30.png", alt="Imagen Decorativa", data-aos="zoom-in")
-            .col-lg
-              p.mb-0(data-aos="fade-right") Según lo establecido por Schwaber & Sutherland (2020), el ciclo de <em>Scrum</em> se compone de eventos iterativos y artefactos documentales que estructuran el trabajo del equipo, garantizando la visibilidad de los avances y la mejora continua en cada iteración.
-          
-          .row.mb-5.justify-content-center.align-items-center
-            h4.mb-3 Eventos principales:
-            .col-lg-12.order-lg-1
-              TabsA.color-acento-botones
-                .tarjeta.color-acento-botones--borde.p-4(titulo="Ciclo de trabajo (<em>Sprint</em>)")
-                  p.mb-0 Es el corazón de <em>Scrum</em>, consiste en un ciclo de trabajo corto, generalmente entre una y cuatro semanas, en el que se define un objetivo específico y se generan entregables concretos. En investigación en salud, un <em>sprint</em> puede enfocarse en una tarea específica como el diseño de un instrumento de recolección de datos, la limpieza de una base de datos epidemiológica, la validación de un algoritmo o el desarrollo de un módulo de visualización. Cada <em>sprint</em> debe concluir con un producto parcial funcional que aporte valor y que pueda ser revisado y mejorado.
-                .tarjeta.color-acento-botones--borde.p-4(titulo="Reunión de seguimiento (diaria o semanal)")
-                  p.mb-0 Es una reunión breve, de 10 a 15 minutos, en la que los miembros del equipo informan sobre lo que hicieron, lo que harán y los obstáculos que enfrentan. Este espacio favorece la sincronización, la coordinación interdisciplinaria y la detección temprana de problemas. En entornos de investigación, puede reemplazarse por reuniones semanales breves o informes de avance estructurados, dependiendo del tamaño del equipo y la carga académica.
-                .tarjeta.color-acento-botones--borde.p-4(titulo="Revisión del ciclo de trabajo o <em>sprint</em>")
-                  p.mb-0 Al finalizar cada ciclo, el equipo presenta los resultados obtenidos a las partes interesadas, por ejemplo, un comité científico o un área de salud pública, para recibir retroalimentación y validar el progreso. Este ejercicio fortalece la transparencia y la rendición de cuentas dentro del proceso de investigación.
-                .tarjeta.color-acento-botones--borde.p-4(titulo="Retrospectiva o reunión de reflexión")
-                  p.mb-0 Espacio interno del equipo para reflexionar sobre los aciertos y desafíos del <em>sprint</em>, y definir acciones de mejora. En el ámbito científico, esta práctica contribuye a consolidar una cultura de mejora continua, aprendizaje colectivo y gestión del conocimiento.
-       
-      .row.justify-content-center.mb-5(data-aos="fade-right")
-        .col-12.col-md-12.col-lg-12
-          h4 Artefactos principales:
+                img(src='@/assets/curso/temas/tema4/img27.png', alt='Imagen de acompañamiento')
 
-        .col-12.col-md-6.col-lg-4.mb-3
-          .bg-color-primario-p20.p-4.h-100.border-radius-20
-            img(src='@/assets/curso/temas/tema4/img31.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-            h4.text-center.mb-2 Lista de trabajo general
-            p.text-center Es la lista priorizada de tareas, requerimientos o hipótesis pendientes. Representa el plan general del proyecto. En salud pública, puede incluir actividades como desarrollo de instrumentos, pruebas de campo, análisis estadístico, redacción de artículos o reuniones con actores institucionales.
-
-        .col-12.col-md-6.col-lg-4.mb-3
-          .bg-color-terciario-t10.p-4.h-100.border-radius-20
-            img(src='@/assets/curso/temas/tema4/img32.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-            h4.text-center.mb-2 Lista de ciclo
-            p.text-center Conjunto de tareas específicas seleccionadas, son aquellas tareas que deben completarse en el <em>sprint</em> o ciclo actual.
-
-        .col-12.col-md-6.col-lg-4.mb-3
-          .bg-color-primario-p20.p-4.h-100.border-radius-20
-            img(src='@/assets/curso/temas/tema4/img33.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-            h4.text-center.mb-2 Resultado incremental
-            p.text-center Es el resultado tangible del <em>sprint</em>, es decir, el producto científico o técnico entregable, como un informe de avance, un prototipo de sistema o un análisis estadístico preliminar, que contribuye al objetivo general del proyecto.
-
-      .row.justify-content-center.align-items-center(data-aos="fade-right")
-        .col-12.col-md-12.col-lg-10     
-          .row.justify-content-center.align-items-center
-            .col-md-10.col-lg-5.mb-3.mb-lg-0
+          .row.justify-content-center.align-items-center.p-4
+            .col-lg-8.mb-3
+              h4 Facilitador o Líder de proceso (<em>Scrum</em> Master)
+              p.mb-0 Su función es garantizar que el marco <em>Scrum</em> se aplique correctamente, facilitando la comunicación, eliminando obstáculos organizativos o logísticos y promoviendo la eficiencia del equipo. En el contexto científico, este rol equivale a un gestor de proyectos de investigación y desarrollo, un coordinador metodológico o un profesional de innovación, encargado de asegurar que el equipo mantenga una dinámica ágil, cumpla los tiempos establecidos y reflexione periódicamente sobre cómo mejorar su rendimiento. Este rol no es jerárquico, sino de acompañamiento y se encarga de fomentar la autogestión y la colaboración, facilitando que los investigadores dediquen más tiempo al trabajo técnico y menos a la gestión burocrática.
+            .col-md-9.col-lg-4.mb-3.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema4/img34.png', alt='Imagen de acompañamiento')
-            .col-lg-7.mb-4.mb-md-0
-              p.mb-3 De acuerdo con Rojas (2022), la adaptación de <em>Scrum</em> a entornos de investigación fomenta la transparencia, la trazabilidad de los avances y la eficiencia operativa, especialmente cuando se combina con otros marcos como <em>Kanban</em>. Esta integración permite documentar de forma continua los hitos, reducir los cuellos de botella en los flujos de trabajo y fortalecer la cohesión del equipo alrededor de objetivos comunes.
-              p.mb-0 Este modelo no solo mejora la productividad y la coordinación, sino que promueve la ciencia colaborativa, la documentación viva de los procesos y la transferencia efectiva de conocimiento entre los actores del sistema de salud.
+                img(src='@/assets/curso/temas/tema4/img28.png', alt='Imagen de acompañamiento')
+
+          .row.justify-content-center.align-items-center.p-4
+            .col-lg-8.mb-3
+              h4 Equipo de trabajo interdisciplinario o equipo de desarrollo
+              p.mb-0 Son el equipo de trabajo en los proyectos de investigación y salud pública este equipo puede estar conformado por investigadores de distintas áreas, epidemiólogos, bioestadísticos, tecnólogos, analistas de laboratorio, profesionales de salud, programadores o diseñadores. Su tarea es ejecutar las actividades planificadas dentro de cada <em>sprint</em>, desarrollar los productos intermedios, por ejemplo, protocolos, bases de datos depuradas, informes de resultados parciales o prototipos tecnológicos, y validar los avances obtenidos. Lo esencial es que el equipo sea autónomo, multidisciplinario y comprometido con los resultados colectivos, ya que la efectividad del <em>Scrum</em> depende de la capacidad del grupo para autoorganizarse y mantener una comunicación constante (Schwaber & Sutherland, 2020).
+            .col-md-9.col-lg-4.mb-3.mb-lg-0
+              figure
+                img(src='@/assets/curso/temas/tema4/img29.png', alt='Imagen de acompañamiento')
+
+    .row.justify-content-center.align-items-center
+      .col-12.col-md-12.col-lg-10
+        //- Subtitulo
+        .align-items-center.justify-content-star.mb-1
+          .div.mb-3(data-aos="fade-left")
+            h3.subtitle.position-relative Eventos y artefactos de <em>Scrum</em> aplicados a proyectos de salud
+              img.image(src='@/assets/curso/temas/img01.svg', alt='Imagen decorativa')
+        
+        
+        .row.mb-5.justify-content-center.align-items-center
+          .col-auto.mb-3.mb-lg-0.d-none.d-lg-block
+            figure
+              img(src="@/assets/curso/temas/tema4/img30.png", alt="Imagen Decorativa", data-aos="zoom-in")
+          .col-lg
+            p.mb-0(data-aos="fade-right") Según lo establecido por Schwaber & Sutherland (2020), el ciclo de <em>Scrum</em> se compone de eventos iterativos y artefactos documentales que estructuran el trabajo del equipo, garantizando la visibilidad de los avances y la mejora continua en cada iteración.
+        
+        .row.mb-5.justify-content-center.align-items-center
+          h4.mb-3 Eventos principales:
+          .col-lg-12.order-lg-1
+            TabsA.color-acento-botones
+              .tarjeta.color-acento-botones--borde.p-4(titulo="Ciclo de trabajo (<em>Sprint</em>)")
+                p.mb-0 Es el corazón de <em>Scrum</em>, consiste en un ciclo de trabajo corto, generalmente entre una y cuatro semanas, en el que se define un objetivo específico y se generan entregables concretos. En investigación en salud, un <em>sprint</em> puede enfocarse en una tarea específica como el diseño de un instrumento de recolección de datos, la limpieza de una base de datos epidemiológica, la validación de un algoritmo o el desarrollo de un módulo de visualización. Cada <em>sprint</em> debe concluir con un producto parcial funcional que aporte valor y que pueda ser revisado y mejorado.
+              .tarjeta.color-acento-botones--borde.p-4(titulo="Reunión de seguimiento (diaria o semanal)")
+                p.mb-0 Es una reunión breve, de 10 a 15 minutos, en la que los miembros del equipo informan sobre lo que hicieron, lo que harán y los obstáculos que enfrentan. Este espacio favorece la sincronización, la coordinación interdisciplinaria y la detección temprana de problemas. En entornos de investigación, puede reemplazarse por reuniones semanales breves o informes de avance estructurados, dependiendo del tamaño del equipo y la carga académica.
+              .tarjeta.color-acento-botones--borde.p-4(titulo="Revisión del ciclo de trabajo o <em>sprint</em>")
+                p.mb-0 Al finalizar cada ciclo, el equipo presenta los resultados obtenidos a las partes interesadas, por ejemplo, un comité científico o un área de salud pública, para recibir retroalimentación y validar el progreso. Este ejercicio fortalece la transparencia y la rendición de cuentas dentro del proceso de investigación.
+              .tarjeta.color-acento-botones--borde.p-4(titulo="Retrospectiva o reunión de reflexión")
+                p.mb-0 Espacio interno del equipo para reflexionar sobre los aciertos y desafíos del <em>sprint</em>, y definir acciones de mejora. En el ámbito científico, esta práctica contribuye a consolidar una cultura de mejora continua, aprendizaje colectivo y gestión del conocimiento.
+      
+    .row.justify-content-center.mb-5(data-aos="fade-right")
+      .col-12.col-md-12.col-lg-12
+        h4 Artefactos principales:
+
+      .col-12.col-md-6.col-lg-4.mb-3
+        .bg-color-primario-p20.p-4.h-100.border-radius-20
+          img(src='@/assets/curso/temas/tema4/img31.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+          h4.text-center.mb-2 Lista de trabajo general
+          p.text-center Es la lista priorizada de tareas, requerimientos o hipótesis pendientes. Representa el plan general del proyecto. En salud pública, puede incluir actividades como desarrollo de instrumentos, pruebas de campo, análisis estadístico, redacción de artículos o reuniones con actores institucionales.
+
+      .col-12.col-md-6.col-lg-4.mb-3
+        .bg-color-terciario-t10.p-4.h-100.border-radius-20
+          img(src='@/assets/curso/temas/tema4/img32.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+          h4.text-center.mb-2 Lista de ciclo
+          p.text-center Conjunto de tareas específicas seleccionadas, son aquellas tareas que deben completarse en el <em>sprint</em> o ciclo actual.
+
+      .col-12.col-md-6.col-lg-4.mb-3
+        .bg-color-primario-p20.p-4.h-100.border-radius-20
+          img(src='@/assets/curso/temas/tema4/img33.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+          h4.text-center.mb-2 Resultado incremental
+          p.text-center Es el resultado tangible del <em>sprint</em>, es decir, el producto científico o técnico entregable, como un informe de avance, un prototipo de sistema o un análisis estadístico preliminar, que contribuye al objetivo general del proyecto.
+
+    .row.justify-content-center.align-items-center(data-aos="fade-right")
+      .col-12.col-md-12.col-lg-10     
+        .row.justify-content-center.align-items-center
+          .col-md-10.col-lg-5.mb-3.mb-lg-0
+            figure
+              img(src='@/assets/curso/temas/tema4/img34.png', alt='Imagen de acompañamiento')
+          .col-lg-7.mb-4.mb-md-0
+            p.mb-3 De acuerdo con Rojas (2022), la adaptación de <em>Scrum</em> a entornos de investigación fomenta la transparencia, la trazabilidad de los avances y la eficiencia operativa, especialmente cuando se combina con otros marcos como <em>Kanban</em>. Esta integración permite documentar de forma continua los hitos, reducir los cuellos de botella en los flujos de trabajo y fortalecer la cohesión del equipo alrededor de objetivos comunes.
+            p.mb-0 Este modelo no solo mejora la productividad y la coordinación, sino que promueve la ciencia colaborativa, la documentación viva de los procesos y la transferencia efectiva de conocimiento entre los actores del sistema de salud.
           
     separador
             
@@ -394,7 +394,7 @@
               p.mb-0(data-aos="fade-right") Los principios básicos de <em>Kanban</em> pueden resumirse en cuatro aspectos centrales:
 
         
-    .bg-full-width.bg-fondo-3.mb-4
+    .bg-full-width.bg-fondo-3.mb-5
       .px-4.px-md-5
       .row.justify-content-center.align-items-center.p-sm-0
         .col-md-8.col-lg-4.order-lg-2
@@ -423,12 +423,12 @@
               p.text-center Analizar los resultados del flujo de trabajo, identificar retrasos o cuellos de botella y ajustar los procesos con base en la evidencia obtenida.
           
 
-    .row.align-items-center.justify-content-center.mb-3(data-aos="fade-right")
+    .row.align-items-center.justify-content-center.mb-5(data-aos="fade-right")
       .col-12.col-md-12.col-lg-10
-        .row.align-items-center.p-4
+        .row.align-items-center
           .col-lg-auto
             img.d-lg-flex.d-none(src="@/assets/curso/temas/tema4/img20.svg", style="max-width: 90px").mx-auto
-          .col-lg.p-lg-4
+          .col-lg
             p.mb-0 En el ámbito de la salud pública, estos principios se traducen en una mayor claridad organizativa y capacidad de respuesta, especialmente cuando los equipos deben actuar con rapidez ante emergencias sanitarias o coordinar múltiples actividades de investigación en paralelo (Martins, 2025).
 
     .row.align-items-center.justify-content-center.mb-4(data-aos="fade-right")

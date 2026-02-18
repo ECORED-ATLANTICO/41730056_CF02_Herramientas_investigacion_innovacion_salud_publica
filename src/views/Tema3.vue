@@ -182,54 +182,54 @@
         .col-md-8.col-lg-3.mb-3(order-sm="2" order-md="2")
           figure
             img(src="@/assets/curso/temas/tema3/img07.png", alt="Imagen Decorativa", data-aos="zoom-in")
-        .col-lg-9.col-md-12.mb-4.mb-md-0(order-sm="1" order-md="1")
+        .col-lg-9.col-md-12.mb-4.mb-md-0(order-sm="1" order-md="1").p-0
           p.mb-3(data-aos="fade-right") Al pensar en cómo crear un MVP, es fundamental comprender que el principio fundamental del desarrollo de MVP es su simplicidad. Al crear un MVP, incorporamos un conjunto mínimo de las funcionalidades más importantes que permiten a los desarrolladores lanzar un producto al mercado rápidamente, probar su viabilidad y recopilar información valiosa. Esta estrategia permite a las empresas optimizar el uso de sus recursos, lo que se traduce en un tiempo de comercialización optimizado. Les permite probar sus ideas y conceptos sin comprometer recursos en exceso en una etapa temprana.
           p.mb-0(data-aos="fade-right") Las etapas para desarrollar un MVP son:
 
-      .bg-fondo-5.tarjeta.mb-0
-        .p-3.p-lg-4
-          SlyderA(tipo="b").bg-color-white.p-4.tarjeta
-            .row.justify-content-center.align-items-center
-              .col-lg-8.mb-4.mb-md-0.px-lg-4
-                h4 Identificar el problema y definir la solución
-                ul.bullets.color-secundario
-                  li <b>Identifica el problema:</b> determina la necesidad o punto débil real del mercado que tu producto resolverá.
-                  li <b>Define la solución:</b> esboza cómo tu producto abordará ese problema de manera efectiva.
-                  li <b>Define el público objetivo:</b> investiga y segmenta el mercado para saber a quién va dirigido tu producto.
-              .col-md-9.col-lg-4.mb-3.mb-lg-0
-                figure
-                  img(src='@/assets/curso/temas/tema3/img08.png', alt='Imagen de acompañamiento')
-            .row.justify-content-center.align-items-center
-              .col-lg-8.mb-4.mb-md-0.px-lg-4
-                h4 Priorizar las funcionalidades esenciales
-                ul.bullets.color-secundario
-                  li <b>Realiza un análisis de mercado:</b> investiga a la competencia y evalúa el mercado.
-                  li <b>Prioriza funciones:</b> haz una lista de todas las funcionalidades posibles y utiliza métodos como el MoSCoW (Debe tener, debería tener, podría tener, no tendrá) para seleccionar las más importantes que validen tu propuesta de valor principal.
-                  li <b>Diseña una interfaz simple:</b> crea un diseño básico y funcional para el MVP.
-              .col-md-9.col-lg-4.mb-3.mb-lg-0
-                figure
-                  img(src='@/assets/curso/temas/tema3/img09.png', alt='Imagen de acompañamiento')
-            .row.justify-content-center.align-items-center
-              .col-lg-8.mb-4.mb-md-0.px-lg-4
-                h4 Construir el MVP
-                ul.bullets.color-secundario
-                  li <b>Desarrolla el producto:</b> crea la primera versión del producto enfocándote en las funcionalidades priorizadas.
-                  li <b>Asegura la calidad básica:</b> el MVP debe ser funcional, fiable, usable y tener un buen diseño, aunque no sea perfecto.
-                  li <b>Considera métodos alternativos:</b> explora opciones como el "Mago de Oz", donde las operaciones se realizan manualmente detrás de escena, para validar un concepto rápidamente y con baja inversión inicial.
-              .col-md-9.col-lg-4.mb-3.mb-lg-0
-                figure
-                  img(src='@/assets/curso/temas/tema3/img10.png', alt='Imagen de acompañamiento')
-            .row.justify-content-center.align-items-center
-              .col-lg-8.mb-4.mb-md-0.px-lg-4
-                h4 Medir, aprender e iterar
-                ul.bullets.color-secundario
-                  li <b>Lanza el MVP:</b> pon el producto a disposición de los usuarios iniciales.
-                  li <b>Recopila retroalimentación:</b> usa comentarios, encuestas y herramientas para entender qué les gusta y qué no a los usuarios.
-                  li <b>Mide el rendimiento:</b> monitorea métricas clave como la interacción del usuario, la retención o las tasas de conversión.
-                  li <b>Itera:</b> utiliza los datos y la retroalimentación para realizar mejoras y ajustar el producto en ciclos sucesivos (Clavijo, 2025). 
-              .col-md-9.col-lg-4.mb-3.mb-lg-0
-                figure
-                  img(src='@/assets/curso/temas/tema3/img11.png', alt='Imagen de acompañamiento')
+    .bg-fondo-5.tarjeta.mb-0
+      .p-3.p-lg-4
+        SlyderA(tipo="b").bg-color-white.p-4.tarjeta
+          .row.justify-content-center.align-items-center
+            .col-lg-8.mb-4.mb-md-0.px-lg-4
+              h4 Identificar el problema y definir la solución
+              ul.bullets.color-secundario
+                li <b>Identifica el problema:</b> determina la necesidad o punto débil real del mercado que tu producto resolverá.
+                li <b>Define la solución:</b> esboza cómo tu producto abordará ese problema de manera efectiva.
+                li <b>Define el público objetivo:</b> investiga y segmenta el mercado para saber a quién va dirigido tu producto.
+            .col-md-9.col-lg-4.mb-3.mb-lg-0
+              figure
+                img(src='@/assets/curso/temas/tema3/img08.png', alt='Imagen de acompañamiento')
+          .row.justify-content-center.align-items-center
+            .col-lg-8.mb-4.mb-md-0.px-lg-4
+              h4 Priorizar las funcionalidades esenciales
+              ul.bullets.color-secundario
+                li <b>Realiza un análisis de mercado:</b> investiga a la competencia y evalúa el mercado.
+                li <b>Prioriza funciones:</b> haz una lista de todas las funcionalidades posibles y utiliza métodos como el MoSCoW (Debe tener, debería tener, podría tener, no tendrá) para seleccionar las más importantes que validen tu propuesta de valor principal.
+                li <b>Diseña una interfaz simple:</b> crea un diseño básico y funcional para el MVP.
+            .col-md-9.col-lg-4.mb-3.mb-lg-0
+              figure
+                img(src='@/assets/curso/temas/tema3/img09.png', alt='Imagen de acompañamiento')
+          .row.justify-content-center.align-items-center
+            .col-lg-8.mb-4.mb-md-0.px-lg-4
+              h4 Construir el MVP
+              ul.bullets.color-secundario
+                li <b>Desarrolla el producto:</b> crea la primera versión del producto enfocándote en las funcionalidades priorizadas.
+                li <b>Asegura la calidad básica:</b> el MVP debe ser funcional, fiable, usable y tener un buen diseño, aunque no sea perfecto.
+                li <b>Considera métodos alternativos:</b> explora opciones como el "Mago de Oz", donde las operaciones se realizan manualmente detrás de escena, para validar un concepto rápidamente y con baja inversión inicial.
+            .col-md-9.col-lg-4.mb-3.mb-lg-0
+              figure
+                img(src='@/assets/curso/temas/tema3/img10.png', alt='Imagen de acompañamiento')
+          .row.justify-content-center.align-items-center
+            .col-lg-8.mb-4.mb-md-0.px-lg-4
+              h4 Medir, aprender e iterar
+              ul.bullets.color-secundario
+                li <b>Lanza el MVP:</b> pon el producto a disposición de los usuarios iniciales.
+                li <b>Recopila retroalimentación:</b> usa comentarios, encuestas y herramientas para entender qué les gusta y qué no a los usuarios.
+                li <b>Mide el rendimiento:</b> monitorea métricas clave como la interacción del usuario, la retención o las tasas de conversión.
+                li <b>Itera:</b> utiliza los datos y la retroalimentación para realizar mejoras y ajustar el producto en ciclos sucesivos (Clavijo, 2025). 
+            .col-md-9.col-lg-4.mb-3.mb-lg-0
+              figure
+                img(src='@/assets/curso/temas/tema3/img11.png', alt='Imagen de acompañamiento')
 
 
        

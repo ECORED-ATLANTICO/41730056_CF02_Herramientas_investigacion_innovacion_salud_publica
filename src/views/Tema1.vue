@@ -356,9 +356,9 @@
           .row.align-items-center(data-aos="fade-left").justify-content-center.mb-1
             .col-md-12.col-lg-12
               .row.justify-content-center.align-items-center
-                .col-12.col-md-6.col-lg-2.bg-color-primario-p20.p-3.mb-0
+                .col-12.col-md-6.col-lg-2.mb-0
                   figure
-                    img(src='@/assets/curso/temas/tema1/img28.svg', alt='Imagen Decorativa', style="max-width: 88%")
+                    img(src='@/assets/curso/temas/tema1/img28_1.svg', alt='Imagen Decorativa', style="max-width: 100%")
                 .col-12.col-md-12.col-lg-10.p-4.px-lg-4
                   .row.justify-content-center.bg-color-1.p-3
                     .col-auto.mb-3.mb-lg-0.d-none.d-lg-block

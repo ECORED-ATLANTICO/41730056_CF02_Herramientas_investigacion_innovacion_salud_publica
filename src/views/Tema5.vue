@@ -48,17 +48,17 @@
           .col-lg
             p.mb-0(data-aos="fade-right") De acuerdo con lo anterior, en proyectos reales de innovación, es habitual encontrar hibridaciones metodológicas, es decir, experiencias que inician con <em>Design Thinking</em> para explorar necesidades, continúan con HCD para adaptar soluciones al contexto local y se gestionan con marcos ágiles como <em>Scrum</em> o <em>Kanban</em> para su implementación progresiva. Es por esto por lo que más que metodologías cerradas, funcionan como principios complementarios dentro de un mismo proceso de innovación.
 
-    .container
-      .row.mb-5.justify-content-center.align-items-center
-        .col-md-12.col-lg-10
-          .row.align-items-center.bg-color-primario-p20.p-4(data-aos="fade-left").icono-inferior.mb-4
+    .row.mb-5.justify-content-center.align-items-center
+      .col-md-12.col-lg-10
+        .align-items-center.bg-color-primario-p20.p-4(data-aos="fade-left").icono-inferior.mb-4
+          .row
             .col-12.col-md-12.col-lg-9.mb-4.mb-lg-0
               p Por ejemplo, una estrategia para mejorar la adherencia a tratamientos puede comenzar con un ejercicio de empatía y mapeo de actores, según el <em>Design Thinking</em>, seguir con la co-creación de prototipos con pacientes y profesionales, según HCD, y culminar en una implementación iterativa que evalúa resultados cada semana, empleando metodologías ágiles. En este sentido, lo importante no es etiquetar la metodología, sino evidenciar el enfoque centrado en el usuario, la experimentación y la mejora continua.
             .col-12.col-md-6.col-lg-3.mb-4.mb-lg-0.mx-auto
               figure
                 img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema5/img06.svg', alt='Imagen Decorativa') 
 
-          p.mb-0 A continuación, se presenta una tabla comparativa entre <em>Design Thinking</em>, <em>Human-Centered Design</em> y metodologías ágiles
+        p A continuación, se presenta una tabla comparativa entre <em>Design Thinking</em>, <em>Human-Centered Design</em> y metodologías ágiles
 
     .row.justify-content-center.align-items-center(data-aos="fade-left").mb-4
       .col-lg-12

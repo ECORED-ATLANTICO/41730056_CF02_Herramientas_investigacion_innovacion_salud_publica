@@ -15,7 +15,7 @@
               .tarjeta.h-100.col-12.col-md-6.col-lg-2.bg-color-5.p-4.mb-3
                 figure
                   img(src='@/assets/curso/temas/tema2/img01.svg', alt='Imagen Decorativa')
-              .col-12.col-md-12.col-lg-10.p-0
+              .col-12.col-md-12.col-lg-10.p-0.px-lg-3
                 p.mb-2 El prototipado y el <em>test</em>eo con usuarios constituyen etapas fundamentales dentro de los procesos de innovación aplicados a la investigación en salud pública, ya que permiten transformar ideas en soluciones tangibles y evaluarlas en contextos reales o simulados. A través de los distintos tipos de prototipado, es posible validar tempranamente hipótesis, identificar oportunidades de mejora y reducir riesgos antes de la implementación definitiva de intervenciones, servicios o herramientas en salud. 
                 p.mb-0 De igual manera, los procesos de <em>test</em>eo con usuarios facilitan la incorporación de la experiencia, necesidades y expectativas de los actores involucrados, fortaleciendo la pertinencia, usabilidad y efectividad de las soluciones propuestas, en coherencia con los principios de enfoque centrado en las personas y toma de decisiones basada en evidencia.
 
@@ -49,7 +49,7 @@
 
 
         //- Subtitulo
-        .align-items-center.justify-content-star.mb-1.ps-2
+        .align-items-center.justify-content-star.mb-1
           .div.mb-3(data-aos="fade-left")
             h3.subtitle.position-relative Tipos de prototipado
               img.image(src='@/assets/curso/temas/img01.svg', alt='Imagen decorativa')
@@ -232,7 +232,7 @@
       .col-md-12.col-lg-10
         
         //- Subtitulo
-        .row.align-items-center.justify-content-star.mb-1.ps-2
+        .row.align-items-center.justify-content-star.mb-1
           .div.mb-3(data-aos="fade-left")
             h3.subtitle.position-relative Evaluación de prototipos
               img.image(src='@/assets/curso/temas/img01.svg', alt='Imagen decorativa')
@@ -240,44 +240,44 @@
             
         p.mb-3 Para la evaluación de prototipos y con un enfoque hacia el emprendimiento, se destaca la metodología creada por <em>Tamarack Institute</em> en Canadá denominada Evaluación de Prototipos, la cual se basa en los siguientes pasos, los cuales son iterativos:
 
-      .bg-fondo-5.tarjeta.mb-2
-        .p-3.p-lg-4
-          SlyderA(tipo="b").bg-color-white.p-4.tarjeta
-            .row.justify-content-center.align-items-center
-              .col-lg-8.mb-4
-                h4 Confirmación del prototipo
-                p.mb-0 En este punto se define si en efecto existe un prototipo, se determina cuáles son las partes del prototipo que se desea evaluar y de igual forma se establece la clase de prototipo frente a la que nos encontramos: si este es un prototipo rápidamente obtenible o si se requiere elaborar lentamente pues para ello se deben generar cambios culturales; si es un prototipo desechable o si es evolutivo e incremental.
-              .col-md-9.col-lg-4.mb-0.mb-lg-0
-                figure
-                  img(src='@/assets/curso/temas/tema2/img13.png', alt='Imagen de acompañamiento')
-            .row.justify-content-center.align-items-center
-              .col-lg-8.mb-4
-                h4 Generación de preguntas
-                p.mb-0 Al respecto se elaboran preguntas, determinando cuáles serán los indicadores para probar los prototipos. Estas preguntas recaen sobre el prototipo, con miras a establecer su efectividad, viabilidad, soporte y escalabilidad, también recaen sobre el reto a superar, para lo cual se piensa en qué se está aprendiendo del reto y se analiza si el mismo se puede extender a otro contexto y, a su vez, se estudian las enseñanzas que obtiene el equipo interviniente en la generación del prototipo, en el sentido de definir si, por ejemplo, es un equipo adverso al riesgo o si tiene tolerancia a él.
-              .col-md-9.col-lg-4.mb-0.mb-lg-0
-                figure
-                  img(src='@/assets/curso/temas/tema2/img14.png', alt='Imagen de acompañamiento')
-            .row.justify-content-center.align-items-center
-              .col-lg-8.mb-4
-                h4 Diseño del método de evaluación
-                p.mb-0 Para evaluar un prototipo se deben tener en cuenta principios tales como el de relevancia, de tal manera que se respondan preguntas que den lineamientos y permitan que el equipo que está creándolo pueda realizar ajustes; también se debe aplicar el principio de credibilidad, para que el equipo que está creando el prototipo sienta confianza y tenga en cuenta los resultados de la retroalimentación, por último, se deben aplicar los principios de oportunidad y calidad, de tal forma que los resultados se proporcionen en tiempo real y puedan realizarse ajustes sobre el prototipo y que las evaluaciones cumplan con estándares de calidad.
-              .col-md-9.col-lg-4.mb-0.mb-lg-0
-                figure
-                  img(src='@/assets/curso/temas/tema2/img15.png', alt='Imagen de acompañamiento')
-            .row.justify-content-center.align-items-center
-              .col-lg-8.mb-4
-                h4 Implementación y adaptación
-                p.mb-0 Es importante tener en consideración que en esta etapa se pueden realizar ajustes sobre el método de evaluación, si por ejemplo se detecta que las preguntas no están profundizando sobre el prototipo o si, por ejemplo, el prototipo evoluciona.                      
-              .col-md-9.col-lg-4.mb-0.mb-lg-0
-                figure
-                  img(src='@/assets/curso/temas/tema2/img16.png', alt='Imagen de acompañamiento')
-            .row.justify-content-center.align-items-center
-              .col-lg-8.mb-4
-                h4 Toma de decisiones
-                p.mb-0 Una vez tienen lugar las anteriores etapas, el equipo puede tomar alguna de las siguientes decisiones: descartar el prototipo (en caso de que los resultados sean desfavorables y se determine que no vale la pena continuar invirtiendo en él); evolucionar y adaptar el prototipo (adaptándolo a un nuevo contexto); pasar a una fase piloto (si se determina que el prototipo se debe probar en un contexto más global); realizar el escalamiento (en cuyo caso se desarrollará la capacidad de operar con volúmenes significativos comercialmente y costos competitivos); continuar en las pruebas si los resultados de la evaluación no permiten tomar una decisión (Sarraipa, Artífcie & Jiménez, 2019).
-              .col-md-9.col-lg-4.mb-0.mb-lg-0
-                figure
-                  img(src='@/assets/curso/temas/tema2/img17.png', alt='Imagen de acompañamiento')
+    .bg-fondo-5.tarjeta.mb-2
+      .p-3.p-lg-4
+        SlyderA(tipo="b").bg-color-white.p-4.tarjeta
+          .row.justify-content-center.align-items-center
+            .col-lg-8.mb-4
+              h4 Confirmación del prototipo
+              p.mb-0 En este punto se define si en efecto existe un prototipo, se determina cuáles son las partes del prototipo que se desea evaluar y de igual forma se establece la clase de prototipo frente a la que nos encontramos: si este es un prototipo rápidamente obtenible o si se requiere elaborar lentamente pues para ello se deben generar cambios culturales; si es un prototipo desechable o si es evolutivo e incremental.
+            .col-md-9.col-lg-4.mb-0.mb-lg-0
+              figure
+                img(src='@/assets/curso/temas/tema2/img13.png', alt='Imagen de acompañamiento')
+          .row.justify-content-center.align-items-center
+            .col-lg-8.mb-4
+              h4 Generación de preguntas
+              p.mb-0 Al respecto se elaboran preguntas, determinando cuáles serán los indicadores para probar los prototipos. Estas preguntas recaen sobre el prototipo, con miras a establecer su efectividad, viabilidad, soporte y escalabilidad, también recaen sobre el reto a superar, para lo cual se piensa en qué se está aprendiendo del reto y se analiza si el mismo se puede extender a otro contexto y, a su vez, se estudian las enseñanzas que obtiene el equipo interviniente en la generación del prototipo, en el sentido de definir si, por ejemplo, es un equipo adverso al riesgo o si tiene tolerancia a él.
+            .col-md-9.col-lg-4.mb-0.mb-lg-0
+              figure
+                img(src='@/assets/curso/temas/tema2/img14.png', alt='Imagen de acompañamiento')
+          .row.justify-content-center.align-items-center
+            .col-lg-8.mb-4
+              h4 Diseño del método de evaluación
+              p.mb-0 Para evaluar un prototipo se deben tener en cuenta principios tales como el de relevancia, de tal manera que se respondan preguntas que den lineamientos y permitan que el equipo que está creándolo pueda realizar ajustes; también se debe aplicar el principio de credibilidad, para que el equipo que está creando el prototipo sienta confianza y tenga en cuenta los resultados de la retroalimentación, por último, se deben aplicar los principios de oportunidad y calidad, de tal forma que los resultados se proporcionen en tiempo real y puedan realizarse ajustes sobre el prototipo y que las evaluaciones cumplan con estándares de calidad.
+            .col-md-9.col-lg-4.mb-0.mb-lg-0
+              figure
+                img(src='@/assets/curso/temas/tema2/img15.png', alt='Imagen de acompañamiento')
+          .row.justify-content-center.align-items-center
+            .col-lg-8.mb-4
+              h4 Implementación y adaptación
+              p.mb-0 Es importante tener en consideración que en esta etapa se pueden realizar ajustes sobre el método de evaluación, si por ejemplo se detecta que las preguntas no están profundizando sobre el prototipo o si, por ejemplo, el prototipo evoluciona.                      
+            .col-md-9.col-lg-4.mb-0.mb-lg-0
+              figure
+                img(src='@/assets/curso/temas/tema2/img16.png', alt='Imagen de acompañamiento')
+          .row.justify-content-center.align-items-center
+            .col-lg-8.mb-4
+              h4 Toma de decisiones
+              p.mb-0 Una vez tienen lugar las anteriores etapas, el equipo puede tomar alguna de las siguientes decisiones: descartar el prototipo (en caso de que los resultados sean desfavorables y se determine que no vale la pena continuar invirtiendo en él); evolucionar y adaptar el prototipo (adaptándolo a un nuevo contexto); pasar a una fase piloto (si se determina que el prototipo se debe probar en un contexto más global); realizar el escalamiento (en cuyo caso se desarrollará la capacidad de operar con volúmenes significativos comercialmente y costos competitivos); continuar en las pruebas si los resultados de la evaluación no permiten tomar una decisión (Sarraipa, Artífcie & Jiménez, 2019).
+            .col-md-9.col-lg-4.mb-0.mb-lg-0
+              figure
+                img(src='@/assets/curso/temas/tema2/img17.png', alt='Imagen de acompañamiento')
 
     .bg-full-width.bg-fondo-2-3
       separador
