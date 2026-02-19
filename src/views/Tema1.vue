@@ -336,17 +336,17 @@
       .row.justify-content-center.align-items-center.p-sm-0
         .col-md-12.col-lg-8.order-lg-2.p-sm-0
           SlyderF(columnas="col-12 col-md-12 col-xl-6").mt-4.mb-4
-            .bg-color-white.p-4.h-100.box-shadow.p-sm-0
+            .bg-color-white.p-4.h-100.box-shadow
               img(src='@/assets/curso/temas/tema1/img20.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
               h4.text-center.mb-4 Mapas de actores
               p.text-center Ayudan a identificar y comprender las interconexiones entre los diferentes grupos de personas (usuarios, clientes, empleados, etc.) que están involucrados en un sistema o problema.
 
-            .bg-color-white.p-4.h-100.box-shadow.p-sm-0
+            .bg-color-white.p-4.h-100.box-shadow
               img(src='@/assets/curso/temas/tema1/img21.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
               h4.text-center.mb-4 Personas
               p.text-center Representaciones semi-ficticias de los usuarios típicos, creadas a partir de la investigación. Incluyen datos demográficos, motivaciones, objetivos y frustraciones, lo que ayuda al equipo a comprender con quién está diseñando.
 
-            .bg-color-white.p-4.h-100.box-shadow.p-sm-0
+            .bg-color-white.p-4.h-100.box-shadow
               img(src='@/assets/curso/temas/tema1/img22.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
               h4.text-center.mb-4 Mapas de empatía
               p.text-center Una herramienta que ayuda a profundizar en el entendimiento de los usuarios. Se divide en cuatro cuadrantes: qué piensa y siente, qué ve, qué oye y qué dice y hace. Es una forma de visualizar la información recopilada para identificar oportunidades.
