@@ -80,10 +80,10 @@
               .col-12.col-md-12.col-lg-9.mb-4.mb-lg-0
                 p El enfoque se apoya en valores fundamentales que guían su práctica, los principios del <em>Design Thinking</em>:
                 ul.bullets.color-primario
-                  li <b>Centrado en el ser humano:</b> se enfoca en las necesidades, sentimientos y experiencias de los usuarios.
-                  li <b>Colaborativo:</b> reúne a personas de diversas disciplinas para innovar.
-                  li <b>Iterativo:</b> el proceso es flexible y permite volver a fases anteriores según se obtenga nueva información.
-                  li <b>Abrazar el fracaso:</b> anima a probar y fracasar pronto para aprender y mejorar rápidamente. 
+                  li <b>Centrado en el ser humano:</b> Se enfoca en las necesidades, sentimientos y experiencias de los usuarios.
+                  li <b>Colaborativo:</b> Reúne a personas de diversas disciplinas para innovar.
+                  li <b>Iterativo:</b> El proceso es flexible y permite volver a fases anteriores según se obtenga nueva información.
+                  li <b>Abrazar el fracaso:</b> Anima a probar y fracasar pronto para aprender y mejorar rápidamente. 
 
           p.mb-3 En salud pública, estos principios resultan especialmente valiosos ante problemas complejos, donde las soluciones efectivas requieren escuchar y trabajar con las comunidades involucradas para abordar problemas complejos, centrándose en las personas. 
 
@@ -100,11 +100,11 @@
               .row.align-items-center.bg-color-terciario-t10.p-4(data-aos="fade-left").icono-inferior
                 .col-12.col-md-12.col-lg-12.mb-4.mb-lg-0
                   ul.bullets.color-secundario.mb-0
-                    li <b>Empatía radical:</b> ponerse en el lugar del otro.
-                    li <b>Pensamiento divergente y convergente:</b> explorar muchas ideas (divergente) y luego seleccionar y refinar (convergente).
-                    li <b>Prototipado rápido y experimentación:</b> fallar rápido, fallar barato, aprender rápido
-                    li <b>Tolerancia a la ambigüedad:</b> estar cómodo con la incertidumbre en las primeras etapas.
-                    li <b>Optimismo:</b> creer que siempre hay una solución creativa
+                    li <b>Empatía radical:</b> Ponerse en el lugar del otro.
+                    li <b>Pensamiento divergente y convergente:</b> Explorar muchas ideas (divergente) y luego seleccionar y refinar (convergente).
+                    li <b>Prototipado rápido y experimentación:</b> Fallar rápido, fallar barato, aprender rápido
+                    li <b>Tolerancia a la ambigüedad:</b> Estar cómodo con la incertidumbre en las primeras etapas.
+                    li <b>Optimismo:</b> Creer que siempre hay una solución creativa
                     li Soluciones más relevantes y adoptables
                     li Mayor colaboración intersectorial y multidisciplinar
                     li Reducción de riesgos al validar o probar temprano (IxDF, 2016).
@@ -276,9 +276,9 @@
               img(src='@/assets/curso/temas/tema1/img26.svg' alt='AvatarTop' , style="max-width: 70px").mx-auto.mb-3
               h5.mb-4.pt-lg-5.pt-xl-0.w-75 Para los pacientes
               ul.lista-ul--color
-                li.mb-2 #[b Mejor experiencia:] genera, pues reduce la ansiedad y el miedo al interactuar con equipos médicos y mejora la comodidad y movilidad.
-                li.mb-2 #[b Mejor comunicación:] porque fomenta una comunicación más empática y clara entre profesionales de la salud y pacientes.
-                li.mb-0 #[b Soluciones personalizadas:] pues genera soluciones que responden a las necesidades específicas de los pacientes y la comunidad. 
+                li.mb-2 #[b Mejor experiencia:] reduce la ansiedad y el miedo al interactuar con equipos médicos y mejora la comodidad y movilidad.
+                li.mb-2 #[b Mejor comunicación:] fomenta una comunicación más empática y clara entre profesionales de la salud y pacientes.
+                li.mb-0 #[b Soluciones personalizadas:] genera soluciones que responden a las necesidades específicas de los pacientes y la comunidad. 
 
           .col-12.col-md-12.col-lg-7.mb-3
             .bg-color-terciario-t10.p-4.h-100.border-radius-20.img-topright.h-100
@@ -287,9 +287,9 @@
               
               ul.bullets.color-adicional1
                 li #[b Innovación en servicios:] permite desarrollar soluciones que aborden problemas reales desde la perspectiva del usuario, no solo la médica o tecnológica.
-                li #[b Mayor eficiencia:] porque optimiza flujos de trabajo, como en el caso de urgencias, y reduce tiempos de espera en áreas como farmacia.
-                li #[b Cultura de colaboración y cambio:] porque promueve la colaboración entre equipos y fomenta una cultura de mejora continua dentro de la organización.
-                li  #[b Satisfacción del personal:] al aumentar el compromiso y la motivación de los equipos de salud al sentirse parte de un proceso de mejora que impacta positivamente a los usuarios.
+                li #[b Mayor eficiencia:] optimiza flujos de trabajo, como en el caso de urgencias, y reduce tiempos de espera en áreas como farmacia.
+                li #[b Cultura de colaboración y cambio:] promueve la colaboración entre equipos y fomenta una cultura de mejora continua dentro de la organización.
+                li  #[b Satisfacción del personal:] aumentar el compromiso y la motivación de los equipos de salud al sentirse parte de un proceso de mejora que impacta positivamente a los usuarios.
 
     .bg-full-width.bg-fondo-2
 
@@ -315,19 +315,19 @@
             .col-lg-8.order-lg-1
               TabsA.color-acento-botones
                 .tarjeta.color-acento-botones--borde.p-4(titulo="Empatía")
-                  p.mb-0.p-4 Ponerse en el lugar del usuario para comprender sus necesidades, emociones y experiencias. Se logra mediante la observación, la escucha activa y la participación directa en sus contextos reales.
+                  p.mb-0.p-4 Ponerse en el lugar del usuario para comprender sus necesidades, emociones y experiencias. Se logra observando, escuchando y participando en sus contextos.
 
                 .tarjeta.color-acento-botones--borde.p-4(titulo="Colaboración")
-                  p.mb-0.p-4 Trabajar de manera conjunta con equipos multidisciplinarios y con los usuarios finales durante todo el proceso, integrando distintas perspectivas para enriquecer las soluciones.
+                  p.mb-0.p-4 Trabajar en conjunto con personas de diferentes disciplinas y con los usuarios finales a lo largo de todo el proceso.
 
                 .tarjeta.color-acento-botones--borde.p-4(titulo="Iteración")
-                  p.mb-0.p-4 Considerar el diseño como un proceso no lineal de ensayo y error, en el cual las ideas se refinan continuamente a partir de la retroalimentación y el aprendizaje obtenido.
+                  p.mb-0.p-4 Considerar el diseño como un proceso no lineal de ensayo y error, donde se refinan las ideas basándose en la retroalimentación.
 
                 .tarjeta.color-acento-botones--borde.p-4(titulo="Prototipado")
-                  p.mb-0.p-4 Crear versiones preliminares y rápidas de las soluciones para probarlas, validarlas y aprender de ellas, permitiendo evaluar las ideas de manera tangible antes de su implementación final.
+                  p.mb-0.p-4 Crear versiones rápidas de las soluciones para probarlas y aprender de ellas. Esto permite evaluar las ideas de forma tangible.
 
                 .tarjeta.color-acento-botones--borde.p-4(titulo="Enfoque en las personas")
-                  p.mb-0.p-4 Asegurar que el diseño final responda realmente a los problemas de los usuarios y genere valor significativo, considerando sus contextos sociales, culturales y emocionales.
+                  p.mb-0.p-4 Asegurarse de que el diseño final realmente resuelva los problemas de los usuarios y les aporte valor. 
 
           h4.mb-4 Herramientas de empatía
 
@@ -445,7 +445,7 @@
             figure
               img(src="@/assets/curso/temas/tema1/img25.png", alt="Imagen Decorativa", data-aos="zoom-in")
           .col-lg
-            p.mb-0(data-aos="fade-right") En los años 90, cuando la gente hablaba de Innovación, en realidad se refería a Tecnología. Ahora, cuando la gente habla de Innovación en realidad quiere decir Diseño. Bruce Nussbaum, <em>Managing Editor Businessweek Magazine</em> (De la Peña, 2024). 
+            p.mb-0(data-aos="fade-right") En los años 90, cuando la gente hablaba de Innovación, en realidad se refería a Tecnología. Ahora, cuando la gente habla de Innovación en realidad quiere decir Diseño Bruce Nussbaum, <em>Managing Editor Businessweek Magazine</em> (De la Peña, 2024). 
 
 </template>
 

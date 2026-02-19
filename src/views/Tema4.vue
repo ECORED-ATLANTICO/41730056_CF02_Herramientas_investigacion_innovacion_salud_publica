@@ -126,7 +126,7 @@
                 h3.subtitle.position-relative Ciclo construir, medir, aprender 
                   img.image(src='@/assets/curso/temas/img01.svg', alt='Imagen decorativa')
                 
-            p.mb-3(data-aos="fade-right") El núcleo operativo de <em>Lean Startup</em> es el bucle construir, medir, aprender. Este ciclo debe recorrerse tantas veces como sea necesario para validar o refinar las hipótesis de proyecto que busque por ejemplo, convertir ideas en productos, observar las respuestas de los usuarios y aprender si perseverar o realizar cambios.  
+            p.mb-3(data-aos="fade-right") El núcleo operativo de <em>Lean Startup</em> es el bucle construir, medir, aprender. Este ciclo debe recorrerse tantas veces como sea necesario para validar o refinar las hipótesis de proyecto que busque, por ejemplo, convertir ideas en productos, observar las respuestas de los usuarios y aprender si perseverar o realizar cambios.  
 
             p.mb-4(data-aos="fade-right") A continuación, se profundiza en cada fase con ejemplos adaptados al contexto de investigación en salud: 
 
@@ -140,7 +140,7 @@
                   .div(titulo="Construir")
                     p En esta fase se desarrolla una versión mínima del producto o la intervención, usualmente un prototipo, piloto o módulo, que permita <em>test</em>ear hipótesis específicas. Por ejemplo, un prototipo digital de vigilancia epidemiológica con funciones básicas (registro de casos, alertas). Esta versión mínima busca consumir pocos recursos, pero ser funcional para fines de prueba. En el contexto científico, muchas veces el producto puede ser también un protocolo, una encuesta piloto, un módulo de un sistema de información.
                   .div(titulo="Medir")
-                    p En esta etapa se recolectan datos cuantitativos o cualitativos sobre el desempeño del prototipo o intervención. Las métricas deben ser accionables, es decir, que permitan juzgar si una hipótesis es verdadera, parcialmente válida o falsa. No basta con opiniones vagas, por lo que se deben emplear indicadores que reflejen el comportamiento real, como el uso, la aceptación, el impacto, o la retención. Por ejemplo, se puede medir cuántos usuarios ingresan datos, la tasa de abandono del sistema, la proporción de alertas, o los cambios en indicadores de salud (prevalencia, incidencia, adherencia).
+                    p En esta etapa se recolectan datos cuantitativos o cualitativos sobre el desempeño del prototipo o intervención. Las métricas deben ser accionables, es decir, que permitan juzgar si una hipótesis es verdadera, parcialmente válida o falsa. No basta con opiniones vagas, por lo que se deben emplear indicadores que reflejen el comportamiento real, como el uso, la aceptación, el impacto, o la retención.  Por ejemplo, se puede medir cuántos usuarios ingresan datos, la tasa de abandono del sistema, la proporción de alertas, o los cambios en indicadores de salud (prevalencia, incidencia, adherencia).
                   .div(titulo="Aprender")
                     p Con los datos recolectados, el equipo analiza si las hipótesis formuladas inicialmente son válidas o no, y decide si perseverar con el rumbo actual, es decir seguir desarrollando, o cambiar algún componente. En investigación en salud, aprender puede implicar, por ejemplo, cambiar componentes como, redefinir la población objetivo, ajustar la herramienta de recolección de datos, o modificar el diseño. Este aprendizaje validado es el motor que dirige las siguientes iteraciones, por lo que el aprendizaje no solo es técnico, sino estratégico y metodológico.
 
@@ -195,7 +195,7 @@
         .row.justify-content-center.align-items-center.mb-4
           .col-lg-8.col-xl-5.mb-3.mb-lg-0
             .bg-color-5.p-5.px-lg-4.tarjeta 
-              p.mb-0 <em>Scrum</em> es un marco ágil diseñado para facilitar la gestión colaborativa de proyectos complejos que requieren adaptación constante, comunicación continua y entrega incremental de resultados. Aunque su origen está en el desarrollo de software, su estructura flexible y su énfasis en el trabajo en equipo lo han convertido en una herramienta útil en múltiples ámbitos, incluyendo la investigación científica, la salud pública y la gestión hospitalaria.
+              p.mb-0 <em>Scrum</em> es un marco ágil diseñado para facilitar la gestión colaborativa de proyectos complejos que requieren adaptación constante, comunicación continua y entrega incremental de resultados. Aunque su origen está en el desarrollo de <em>software</em>, su estructura flexible y su énfasis en el trabajo en equipo lo han convertido en una herramienta útil en múltiples ámbitos, incluyendo la investigación científica, la salud pública y la gestión hospitalaria.
           .col-md-6.col-lg-4.col-xl-4.mb-3.mb-xl-0
             figure
               img(src="@/assets/curso/temas/tema4/img24.png", data-aos="zoom-in")
