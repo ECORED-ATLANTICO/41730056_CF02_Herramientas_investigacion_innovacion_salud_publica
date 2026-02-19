@@ -163,12 +163,6 @@ export default {
               'Innovaciones participativas centradas en las personas impulsadas por <em>Design Thinking</em> o <em>Human-Centered Design</em>',
             hash: 't_5_1',
           },
-          {
-            numero: '5.2',
-            titulo:
-              'Implementaciones adaptativas y gestión de proyectos de innovación en salud en América Latina',
-            hash: 't_5_2',
-          },
         ],
       },
     ],

@@ -50,19 +50,19 @@
           .col-12.col-md-12.col-lg-8.mb-4.mb-lg-0
             //- Linea de tiempo
             LineaTiempoD.color-secundario
-              .row(numero="1" titulo="Empatizar (entender al usuario)")
+              .row(numero="A" titulo="Empatizar (entender al usuario)")
                 p.mb-0 Comprender en profundidad la experiencia del usuario.
 
-              .row(numero="2" titulo="Definir (establecer el problema)")
+              .row(numero="B" titulo="Definir (establecer el problema)")
                 p.mb-0 Analizar lo aprendido para formular el problema de forma clara y precisa.
 
-              .row(numero="3" titulo="Idear (generar soluciones)")
+              .row(numero="C" titulo="Idear (generar soluciones)")
                 p.mb-0 Generar múltiples alternativas y propuestas de solución.
 
-              .row(numero="4" titulo="Prototipar (crear modelos)")
+              .row(numero="D" titulo="Prototipar (crear modelos)")
                 p.mb-0 Materializar esas ideas en modelos, pruebas o versiones preliminares.
 
-              .row(numero="5" titulo="Probar (validar las soluciones con los usuarios)")
+              .row(numero="E" titulo="Probar (validar las soluciones con los usuarios)")
                 p.mb-0 Validar con los usuarios qué funciona, qué no y cómo mejorar.
           
           .col-12.col-md-5.col-lg-4.mb-2.mb-lg-0.mx-auto
@@ -120,7 +120,7 @@
           .titulo-segundo.color-acento-contenido(data-aos="fade-right")
             h2#t_1_2 1.2  Fases del proceso de <em>Design Thinking</em>
 
-          p.mb-3 A continuación, se presenta con mayor profundidad cada una de las fases del proceso de <em>Design Thinking</em> <b>(ver Figura 1)</b>: 
+          p.mb-3 A continuación, se presenta con mayor profundidad cada una de las fases del proceso de <em>Design Thinking</em> <b></b>
 
           TabsC.color-acento-contenido.mb-4
             .p-3.p-md-4(titulo="Empatizar")
@@ -159,27 +159,11 @@
             .p-3.p-md-4(titulo="Probar")
               .row.justify-content-center
                 .col-lg-6.mb-4.mb-md-0
-                  p.p-4 Los prototipos se ponen a prueba con usuarios reales para recoger sus opiniones y comentarios. La retroalimentación obtenida se utiliza para refinar las soluciones o para iterar, volviendo a una fase anterior si es necesario, hasta llegar a la mejor versión posible (De la Peña, 2024).
+                  p.p-4 Los prototipos se ponen a prueba con usuarios reales para recoger sus opiniones y comentarios. La retroalimentación obtenida se utiliza para refinar las soluciones o para iterar, volviendo a una fase anterior si es necesario, hasta llegar a la mejor versión posible.
               
                 .col-md-9.col-lg-4.mb-3.mb-lg-0
                   figure
                     img(src='@/assets/curso/temas/tema1/img11.png', alt='Texto que describa la imagen')
-
-    .row.align-items-center(data-aos="fade-left").justify-content-center
-      .col-12.col-md-12.col-lg-10
-        //- Figura
-        .mb-3(data-aos="zoom-in-down")
-          .titulo-sexto.mb-4.color-acento-contenido
-            h5 
-              b Figura 1. 
-              span Fases del <em>Design Thinking</em> 
-          figure.mb-4
-            img(src='@/assets/curso/temas/tema1/img12.png', alt='La figura describe las herramientas de diagnóstico para la sostenibilidad, DOFA verde, benchmarking sostenible, Análisis de Ciclo de Vida, huella de carbono y balanced scorecard verde, destacando su función en la identificación de oportunidades de mejora y en la toma de decisiones estratégicas orientadas a la sostenibilidad empresarial.').mx-auto.d-none.d-md-block
-            img(src='@/assets/curso/temas/tema1/img13.png', alt='La figura describe las herramientas de diagnóstico para la sostenibilidad, DOFA verde, benchmarking sostenible, Análisis de Ciclo de Vida, huella de carbono y balanced scorecard verde, destacando su función en la identificación de oportunidades de mejora y en la toma de decisiones estratégicas orientadas a la sostenibilidad empresarial.').mx-auto.d-block.d-md-none
-
-          figcaption 
-            b Fuente: 
-            | SENA, 2026.
 
     separador
 
@@ -197,18 +181,50 @@
           .col-lg
             p.mb-0(data-aos="fade-right") De acuerdo con la Fundación para el Diseño y la Interacción (IxDF, 2016), hoy en día hablar de salud implica no solo es referirse a la enfermedad, sino también, y especialmente, a las personas y a sus experiencias. Aunque el sistema sanitario presenta múltiples oportunidades de mejora, las estrategias y reflexiones sobre cómo debemos fortalecer la salud, desde la gestión de servicios sanitarios hasta el desarrollo de equipos médicos o dispositivos para pacientes, deben poner el foco en las personas.
 
-        .row.align-items-center(data-aos="fade-left").justify-content-center.mb-3
+        .row.align-items-center(data-aos="fade-left").justify-content-center.mb-4
           .col-12.col-md-12.col-lg-12.mx-auto
             .bloque-texto-g.bg-acento-contenido.p-3.p-sm-4.p-md-5.mb-3
               .bloque-texto-g__img(
                 :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img13_1.png')})`}"
               )
               .bloque-texto-g__texto.p-4
-                p.mb-0 Considerando los problemas actuales de nuestra sociedad (crisis sociales, recortes presupuestales, transformación política…), así como la complejidad de nuestro sistema sanitario (unido a la competencia existente en la salud privada), cualquier organización que desee consolidarse como un sistema de salud exitoso, debe ser capaz de innovar en la prestación de servicios, trascendiendo todas las fronteras geográficas, políticas o sectoriales. El <em>Design Thinking</em> puede aportar a los profesionales de la salud a la integración de enfoques más creativos, interdisciplinares y centrados en las personas, que ayudará en la mejora de la gestión sanitaria y en la innovación dentro del sector.
+                p.mb-0 Considerando los problemas actuales de nuestra sociedad (crisis sociales, recortes presupuestales, transformación política), así como la complejidad de nuestro sistema sanitario (unido a la competencia existente en la salud privada), cualquier organización que desee consolidarse como un sistema de salud exitoso, debe ser capaz de innovar en la prestación de servicios, trascendiendo todas las fronteras geográficas, políticas o sectoriales. El <em>Design Thinking</em> puede aportar a los profesionales de la salud a la integración de enfoques más creativos, interdisciplinares y centrados en las personas, que ayudará en la mejora de la gestión sanitaria y en la innovación dentro del sector. Entre los principales beneficios tenemos:
       
+        .bg-fondo-5.tarjeta.mb-4
+          .p-3.p-lg-4
+            SlyderA(tipo="b").bg-color-white.p-4.tarjeta
+              .row.justify-content-center.align-items-center
+                .col-lg-8.mb-4
+                  h4 Experiencia del paciente
+                  p.mb-0 Integra percepciones e interacciones con el sistema de salud y; aplicada a la investigación en salud pública, impulsa innovaciones centradas en las personas, mejorando la pertinencia, accesibilidad, adherencia y el impacto real de las intervenciones.
+                .col-md-9.col-lg-4.mb-0.mb-lg-0
+                  figure
+                    img(src='@/assets/curso/temas/tema1/img29.png', alt='Imagen de acompañamiento')
+              .row.justify-content-center.align-items-center
+                .col-lg-8.mb-4
+                  h4 Optimización de la comunicación
+                  p.mb-0 Es la mejora estratégica de los procesos, canales, mensajes y herramientas mediante los cuales se intercambia información entre investigadores, profesionales de salud, instituciones y comunidades. Su objetivo es lograr que la información sea clara, comprensible, oportuna, culturalmente pertinente y accionable.
+                .col-md-9.col-lg-4.mb-0.mb-lg-0
+                  figure
+                    img(src='@/assets/curso/temas/tema1/img30.png', alt='Imagen de acompañamiento')
+              .row.justify-content-center.align-items-center
+                .col-lg-8.mb-4
+                  h4 Reducción de tiempos de espera
+                  p.mb-0 Se refiere a la implementación de estrategias, procesos y soluciones innovadoras orientadas a disminuir el tiempo que las personas deben esperar para acceder a servicios, diagnósticos, tratamientos o programas de atención en salud. 
+                .col-md-9.col-lg-4.mb-0.mb-lg-0
+                  figure
+                    img(src='@/assets/curso/temas/tema1/img31.png', alt='Imagen de acompañamiento')
+              .row.justify-content-center.align-items-center
+                .col-lg-8.mb-4
+                  h4 Interacción con tecnologías de diagnostico
+                  p.mb-0 Es la forma de cómo pacientes, profesionales y comunidades usan y comprenden tecnologías de salud para la detección, monitoreo y seguimiento de condiciones, incluyendo dispositivos, aplicaciones móviles, telemedicina, inteligencia artificial y sistemas de análisis de datos.
+                .col-md-9.col-lg-4.mb-0.mb-lg-0
+                  figure
+                    img(src='@/assets/curso/temas/tema1/img32.png', alt='Imagen de acompañamiento')
+        
         .row.align-items-center(data-aos="fade-left").justify-content-center.mb-2
           .col-12.col-md-12.col-lg-10.mx-auto.mb-4
-            p.mb-0 Además, el <em>Design Thinking</em> ofrece beneficios como mejorar la experiencia del paciente (reduciendo ansiedad, mejorando comodidad y movilidad) y optimizar la comunicación médico-paciente. También impulsa el desarrollo de soluciones ajustadas a necesidades reales, incrementa la satisfacción del personal y favorece la eficiencia de los servicios al optimizar procesos y reducir tiempos de espera. Aunque los beneficios que puede aportar la visión del <em>Design Thinking</em> en el ámbito sanitario son múltiples, aquellos relacionados con los pacientes probablemente sean los que provocan una mayor sensibilidad social, precisamente porque es algo que nos afecta a todos, pues en algún momento de nuestra vida pasaremos o tendremos el rol de pacientes en el sistema sanitario. 
+            p.mb-0 Todos estos beneficios se pueden explicitar en una serie de ejemplos reales:
 
         .container
           .col-12.col-md-12.col-lg-10.mx-auto.mb-4
@@ -225,7 +241,7 @@
               figure
                 img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/img15.png', alt='Imagen Decorativa')
             .col-12.col-md-12.col-lg-8.order-md-1.order-lg-2.mb-3
-              p.mb-0 Un referente en la aplicación del <em>Design Thinking</em> en salud proviene de la compañía GE Healthcare, que emplea esta metodología en el diseño de equipamiento médico y en la experiencia del paciente durante su uso. Un ejemplo es el trabajo de Doug Dietz, diseñador industrial, quien creó una máquina de resonancia magnética que representó un gran avance tecnológico. Sin embargo, descubrió que muchas personas, especialmente los niños, experimentaban miedo y ansiedad intensa al utilizarla <b>(ver Figura 2)</b>. A partir de esta observación, propuso rediseñar la experiencia completa: desde el aspecto externo de la máquina hasta el espacio donde se realizaba el procedimiento. Transformó las salas en escenarios imaginarios, como una nave espacial o un barco pirata, lo que convirtió el examen de resonancia magnética en una aventura lúdica para los más pequeños (Saavedra, sf). 
+              p.mb-0 Un referente en la aplicación del <em>Design Thinking</em> en salud proviene de la compañía GE Healthcare, que emplea esta metodología en el diseño de equipamiento médico y en la experiencia del paciente durante su uso. Un ejemplo es el trabajo de Doug Dietz, diseñador industrial, quien creó una máquina de resonancia magnética que representó un gran avance tecnológico. Sin embargo, descubrió que muchas personas, especialmente los niños, experimentaban miedo y ansiedad intensa al utilizarla. A partir de esta observación, propuso rediseñar la experiencia completa: desde el aspecto externo de la máquina hasta el espacio donde se realizaba el procedimiento. Transformó las salas en escenarios imaginarios, como una nave espacial o un barco pirata, lo que convirtió el examen de resonancia magnética en una aventura lúdica para los más pequeños (Saavedra, sf). 
     
         .row.align-items-center(data-aos="fade-left").justify-content-center
           .col-12.col-md-12.col-lg-8
@@ -233,14 +249,14 @@
             .mb-5(data-aos="zoom-in-down")
               .titulo-sexto.mb-4.color-acento-contenido
                 h5 
-                  b Figura 2. 
-                  span Imagen de equipo de resonancia magnética para niños 
+                  b Figura 1. 
+                  span Imagen de equipo de resonancia magnética para niños
               figure.mb-4
                 img(src='@/assets/curso/temas/tema1/img16.png', alt='').mx-auto
 
               figcaption 
                 b Fuente: 
-                | Open Ideo
+                | https://www.nicklauschildrens.org/tratamientos/mri-%28imagenes-por-resonancia-magnetica%29
 
           
         .row.justify-content-center.align-items-center.mb-0
@@ -322,18 +338,18 @@
           SlyderF(columnas="col-12 col-md-12 col-xl-6").mt-4.mb-4
             .bg-color-white.p-4.h-100.box-shadow.p-sm-0
               img(src='@/assets/curso/temas/tema1/img20.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-              h4.text-center.mb-4 Mapas de actores (Stakeholder Maps)
-              p.text-center Herramienta visual que permite identificar y analizar a los diferentes actores involucrados en un sistema o problema, así como sus relaciones e influencias. Facilita comprender las dinámicas de poder, intereses y niveles de impacto dentro del entorno del proyecto.
+              h4.text-center.mb-4 Mapas de actores
+              p.text-center Ayudan a identificar y comprender las interconexiones entre los diferentes grupos de personas (usuarios, clientes, empleados, etc.) que están involucrados en un sistema o problema.
 
             .bg-color-white.p-4.h-100.box-shadow.p-sm-0
               img(src='@/assets/curso/temas/tema1/img21.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
               h4.text-center.mb-4 Personas
-              p.text-center Representaciones semi-ficticias de los usuarios típicos construidas a partir de datos reales obtenidos en la investigación. Incluyen información demográfica, motivaciones, objetivos y frustraciones, ayudando al equipo a diseñar soluciones centradas en el usuario.
+              p.text-center Representaciones semi-ficticias de los usuarios típicos, creadas a partir de la investigación. Incluyen datos demográficos, motivaciones, objetivos y frustraciones, lo que ayuda al equipo a comprender con quién está diseñando.
 
             .bg-color-white.p-4.h-100.box-shadow.p-sm-0
               img(src='@/assets/curso/temas/tema1/img22.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
               h4.text-center.mb-4 Mapas de empatía
-              p.text-center Instrumento que permite profundizar en la comprensión del usuario a través de cuatro dimensiones: qué piensa y siente, qué ve, qué oye y qué dice y hace. Facilita la identificación de necesidades, dolores y oportunidades de mejora.
+              p.text-center Una herramienta que ayuda a profundizar en el entendimiento de los usuarios. Se divide en cuatro cuadrantes: qué piensa y siente, qué ve, qué oye y qué dice y hace. Es una forma de visualizar la información recopilada para identificar oportunidades.
         .col-md-8.col-lg-4.order-lg-1
           figure
             img(src='@/assets/curso/temas/tema1/img19.png', alt='')
@@ -351,7 +367,7 @@
 
           .row.align-items-center(data-aos="fade-left").justify-content-center.mb-3
             .col-12.col-md-12.col-lg-12
-              p.mb-0 Aunque comparten una misma filosofía centrada en las personas, el <em>Design Thinking</em> (DT) y el <em>Human-Centered Design</em> (HCD) presentan enfoques y alcances ligeramente distintos (ver Tabla 1). El DT es un proceso general que se utiliza principalmente como una metodología estructurada para la resolución de problemas complejos, que incluye empatía, definición, ideación, prototipado y prueba, las cuales guían la generación y validación de soluciones. 
+              p.mb-0 Aunque comparten una misma filosofía centrada en las personas, el <em>Design Thinking</em> (DT) y el <em>Human-Centered Design</em> (HCD) presentan enfoques y alcances ligeramente distintos. El DT es un proceso general que se utiliza principalmente como una metodología estructurada para la resolución de problemas complejos, que incluye empatía, definición, ideación, prototipado y prueba, las cuales guían la generación y validación de soluciones.
 
           .row.align-items-center(data-aos="fade-left").justify-content-center.mb-1
             .col-md-12.col-lg-12

@@ -50,7 +50,7 @@
             span <em>Diferencias entre prototipo y MVP</em>
         .tabla-a.color-acento-contenido
           table
-            caption Fuente: Adaptado SENA (2026), Tomado de UNIR, 2024.
+            caption Fuente: SENA (2025).
             thead
               tr
                 th Criterios
@@ -103,18 +103,24 @@
       
         p.mb-3 Al tratarse de un prototipo que debe mostrar cómo será el bien o servicio que se quiere introducir en el mercado, las características del producto mínimo viable están asociadas a los cuatro objetivos a comprobar:
         .container
-          .row.justify-content-center.align-items-center.bg-color-primario-p20.p-4(data-aos="fade-left").icono-inferior.mb-4
+          .row.justify-content-center.align-items-center.bg-color-primario-p20.p-4(data-aos="fade-left").icono-inferior.mb-5
             .col-12.col-md-6.col-lg-3.mb-4.mb-lg-0.mx-auto
               figure
                 img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema3/img05.svg', alt='Imagen Decorativa') 
             .col-12.col-md-12.col-lg-9.mb-4.mb-lg-0.px-lg-5
               ul.bullets.color-primario
-                li <b>Su funcionalidad:</b> para qué ha sido creado, qué soluciones ofrece a las demandas del consumidor final.
-                li <b>Sus niveles de usabilidad:</b> cómo será la experiencia del público al que se dirige y si resulta fácil e intuitiva su utilización.
-                li El diseño con el que se presentará.
-                li Su fiabilidad y seguridad, constatando que el producto o servicio definitivo no solo responde a una necesidad, sino que también ha sido ideado y desarrollado sin que represente un riesgo para su público (UNIR, 2024)
+                li <b>Funcionalidad:</b> Para qué ha sido creado, qué soluciones ofrece a las demandas del consumidor final.
+                li <b>Niveles de usabilidad:</b> Cómo será la experiencia del público al que se dirige y si resulta fácil e intuitiva su utilización.
+                li <b>Diseño:</b> Creación de una versión inicial, y funcional de una solución que incluye las características necesarias para resolver un problema y obtener retroalimentación los usuarios.
+                li <b>Fiabilidad y seguridad:</b> Constatando que el producto o servicio definitivo no solo responde a una necesidad, sino que también ha sido ideado y desarrollado sin que represente un riesgo para su público.
 
 
+        //- Subtitulo
+        .align-items-center.justify-content-star.mb-1
+          .div.mb-3(data-aos="fade-left")
+            h3.subtitle.position-relative Tipos de Producto mínimo viable
+              img.image(src='@/assets/curso/temas/img01.svg', alt='Imagen decorativa')
+         
     .row.align-items-center.justify-content-center.mb-4
       .col-12.col-md-12.col-lg-10
         .row.justify-content-center.align-items-center.mb-4
@@ -134,7 +140,7 @@
             span <em>Diferencias entre PMV de Baja vs PMV de alta</em>
         .tabla-a.color-acento-contenido
           table
-            caption Fuente: Clavijo, 2025.
+            caption Fuente: SENA, 2025.
             thead
               tr
                 th Criterio
@@ -155,8 +161,8 @@
                 td 4-8 semanas.
               tr
                 td Herramientas típicas
-                td Landing pages, entrevistas, encuestas, videos explicativos.
-                td Prototipos funcionales, apps básicas, servicios piloto.
+                td <em>Landing pages</em>, entrevistas, encuestas, videos explicativos.
+                td Prototipos funcionales, <em>apps</em> básicas, servicios piloto.
               tr
                 td Equipo necesario
                 td 1-3 personas sin desarrolladores.
@@ -166,7 +172,7 @@
                 td Cualitativos principalmente.
                 td Cuantitativos y cualitativos.
               tr
-                td Ideal para
+                td Ideal para validaciones
                 td Ideas nuevas, presupuesto muy limitado, validación inicial.
                 td Problema validado, disponibilidad de recursos, prueba de solución específica.
 
@@ -192,41 +198,29 @@
           .row.justify-content-center.align-items-center
             .col-lg-8.mb-4.mb-md-0.px-lg-4
               h4 Identificar el problema y definir la solución
-              ul.bullets.color-secundario
-                li <b>Identifica el problema:</b> determina la necesidad o punto débil real del mercado que tu producto resolverá.
-                li <b>Define la solución:</b> esboza cómo tu producto abordará ese problema de manera efectiva.
-                li <b>Define el público objetivo:</b> investiga y segmenta el mercado para saber a quién va dirigido tu producto.
+              p.mb-0(data-aos="fade-right") En esta etapa se identifica el problema real del mercado, se plantea una solución clara y viable para abordarlo, y se define el público objetivo mediante investigación y segmentación, asegurando que el producto responda a necesidades concretas de usuarios específicos.
+              
             .col-md-9.col-lg-4.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema3/img08.png', alt='Imagen de acompañamiento')
           .row.justify-content-center.align-items-center
             .col-lg-8.mb-4.mb-md-0.px-lg-4
               h4 Priorizar las funcionalidades esenciales
-              ul.bullets.color-secundario
-                li <b>Realiza un análisis de mercado:</b> investiga a la competencia y evalúa el mercado.
-                li <b>Prioriza funciones:</b> haz una lista de todas las funcionalidades posibles y utiliza métodos como el MoSCoW (Debe tener, debería tener, podría tener, no tendrá) para seleccionar las más importantes que validen tu propuesta de valor principal.
-                li <b>Diseña una interfaz simple:</b> crea un diseño básico y funcional para el MVP.
+              p.mb-0(data-aos="fade-right") Se analiza el mercado y la competencia, donde priorizan funcionalidades clave mediante criterios para validar la propuesta de valor. Finalmente se diseña una interfaz simple, clara y funcional que permita probar el producto con usuarios.
             .col-md-9.col-lg-4.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema3/img09.png', alt='Imagen de acompañamiento')
           .row.justify-content-center.align-items-center
             .col-lg-8.mb-4.mb-md-0.px-lg-4
               h4 Construir el MVP
-              ul.bullets.color-secundario
-                li <b>Desarrolla el producto:</b> crea la primera versión del producto enfocándote en las funcionalidades priorizadas.
-                li <b>Asegura la calidad básica:</b> el MVP debe ser funcional, fiable, usable y tener un buen diseño, aunque no sea perfecto.
-                li <b>Considera métodos alternativos:</b> explora opciones como el "Mago de Oz", donde las operaciones se realizan manualmente detrás de escena, para validar un concepto rápidamente y con baja inversión inicial.
+              p.mb-0(data-aos="fade-right") Entra en juego el desarrollo de la primera versión del producto con funciones priorizadas, garantizando una calidad básica en funcionamiento y usabilidad, empleando métodos alternativos, para validar el concepto rápidamente y con baja inversión.
             .col-md-9.col-lg-4.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema3/img10.png', alt='Imagen de acompañamiento')
           .row.justify-content-center.align-items-center
             .col-lg-8.mb-4.mb-md-0.px-lg-4
               h4 Medir, aprender e iterar
-              ul.bullets.color-secundario
-                li <b>Lanza el MVP:</b> pon el producto a disposición de los usuarios iniciales.
-                li <b>Recopila retroalimentación:</b> usa comentarios, encuestas y herramientas para entender qué les gusta y qué no a los usuarios.
-                li <b>Mide el rendimiento:</b> monitorea métricas clave como la interacción del usuario, la retención o las tasas de conversión.
-                li <b>Itera:</b> utiliza los datos y la retroalimentación para realizar mejoras y ajustar el producto en ciclos sucesivos (Clavijo, 2025). 
+              p.mb-0(data-aos="fade-right") En esta fase se lanza el MVP a usuarios iniciales, recopilando información mediante diversas herramientas, para medir métricas clave de uso y desempeño, y se realizan iteraciones continúas basadas en datos para mejorar y ajustar el producto.
             .col-md-9.col-lg-4.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema3/img11.png', alt='Imagen de acompañamiento')
