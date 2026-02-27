@@ -138,7 +138,7 @@
               .col-lg-8
                 AcordionA(tipo="a" clase-tarjeta="tarjeta bg-color-1")
                   .div(titulo="Construir")
-                    p En esta fase se desarrolla una versión mínima del producto o la intervención, usualmente un prototipo, piloto o módulo, que permita <em>test</em>ear hipótesis específicas. Por ejemplo, un prototipo digital de vigilancia epidemiológica con funciones básicas (registro de casos, alertas). Esta versión mínima busca consumir pocos recursos, pero ser funcional para fines de prueba. En el contexto científico, muchas veces el producto puede ser también un protocolo, una encuesta piloto, un módulo de un sistema de información.
+                    p En esta fase se desarrolla una versión mínima del producto o la intervención, usualmente un prototipo, piloto o módulo, que permita testear hipótesis específicas. Por ejemplo, un prototipo digital de vigilancia epidemiológica con funciones básicas (registro de casos, alertas). Esta versión mínima busca consumir pocos recursos, pero ser funcional para fines de prueba. En el contexto científico, muchas veces el producto puede ser también un protocolo, una encuesta piloto, un módulo de un sistema de información.
                   .div(titulo="Medir")
                     p En esta etapa se recolectan datos cuantitativos o cualitativos sobre el desempeño del prototipo o intervención. Las métricas deben ser accionables, es decir, que permitan juzgar si una hipótesis es verdadera, parcialmente válida o falsa. No basta con opiniones vagas, por lo que se deben emplear indicadores que reflejen el comportamiento real, como el uso, la aceptación, el impacto, o la retención.  Por ejemplo, se puede medir cuántos usuarios ingresan datos, la tasa de abandono del sistema, la proporción de alertas, o los cambios en indicadores de salud (prevalencia, incidencia, adherencia).
                   .div(titulo="Aprender")
@@ -178,7 +178,7 @@
 
             .row.mb-3.justify-content-center.align-items-center
               .col-lg-7.col-md-12.mb-3(order-sm="1" order-md="1")
-                p.mb-0(data-aos="fade-right") El proceso de validación implica identificar las hipótesis más arriesgadas, aquellas que, de resultar falsas, pondrían en riesgo el propósito del proyecto. En lugar de invertir recursos en desarrollar soluciones complejas desde el inicio, el enfoque Lean propone someter estos supuestos a pruebas experimentales tempranas, controladas y de bajo costo. Por ejemplo, antes de escalar una aplicación móvil para la notificación de síntomas, puede ser más útil verificar si los trabajadores de salud en zonas rurales están dispuestos a utilizar herramientas digitales, si cuentan con conectividad suficiente o si el formato de registro es comprensible. Este tipo de aprendizaje temprano evita invertir esfuerzos en productos que, aunque técnicamente viables, no serían funcionales en el contexto real.
+                p.mb-0(data-aos="fade-right") El proceso de validación implica identificar las hipótesis más arriesgadas, aquellas que, de resultar falsas, pondrían en riesgo el propósito del proyecto. En lugar de invertir recursos en desarrollar soluciones complejas desde el inicio, el enfoque <em>Lean</em> propone someter estos supuestos a pruebas experimentales tempranas, controladas y de bajo costo. Por ejemplo, antes de escalar una aplicación móvil para la notificación de síntomas, puede ser más útil verificar si los trabajadores de salud en zonas rurales están dispuestos a utilizar herramientas digitales, si cuentan con conectividad suficiente o si el formato de registro es comprensible. Este tipo de aprendizaje temprano evita invertir esfuerzos en productos que, aunque técnicamente viables, no serían funcionales en el contexto real.
               .col-md-8.col-lg-5(order-sm="2" order-md="2")
                 figure
                   img(src="@/assets/curso/temas/tema4/img19.png", alt="Imagen Decorativa", data-aos="zoom-in")
@@ -210,7 +210,7 @@
               figure
                 img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema4/img26.png', alt='Imagen Decorativa') 
             .col-12.col-md-12.col-lg-9.mb-4.mb-lg-0
-              p.mb-0 En instituciones de salud o investigación, la implementación de <em>Scrum</em> ayuda a organizar proyectos en fases iterativas denominadas <em>sprint</em>s, donde los equipos producen entregables parciales, revisan resultados y adaptan sus estrategias con base en la evidencia emergente. Esta metodología es especialmente valiosa en entornos caracterizados por alta incertidumbre y múltiples dependencias entre disciplinas, como ocurre en estudios de vigilancia epidemiológica, desarrollo de herramientas tecnológicas, validación de intervenciones o implementación de sistemas de información en salud (Schwaber & Sutherland, 2020).
+              p.mb-0 En instituciones de salud o investigación, la implementación de <em>Scrum</em> ayuda a organizar proyectos en fases iterativas denominadas <em>sprints</em>, donde los equipos producen entregables parciales, revisan resultados y adaptan sus estrategias con base en la evidencia emergente. Esta metodología es especialmente valiosa en entornos caracterizados por alta incertidumbre y múltiples dependencias entre disciplinas, como ocurre en estudios de vigilancia epidemiológica, desarrollo de herramientas tecnológicas, validación de intervenciones o implementación de sistemas de información en salud (Schwaber & Sutherland, 2020).
 
         //- Subtitulo
         .align-items-center.justify-content-star.mb-1
@@ -270,13 +270,13 @@
           .col-lg-12.order-lg-1
             TabsA.color-acento-botones
               .tarjeta.color-acento-botones--borde.p-4(titulo="Ciclo de trabajo (<em>Sprint</em>)")
-                p.mb-0 El sprint es el ciclo central de Scrum, con duración de una a cuatro semanas, orientado a cumplir un objetivo específico y generar entregables funcionales que aporten valor, como instrumentos, datos, algoritmos o módulos, revisables y mejorables.
+                p.mb-0 El <em>sprint</em> es el ciclo central de <em>Scrum</em>, con duración de una a cuatro semanas, orientado a cumplir un objetivo específico y generar entregables funcionales que aporten valor, como instrumentos, datos, algoritmos o módulos, revisables y mejorables.
               .tarjeta.color-acento-botones--borde.p-4(titulo="Reunión de seguimiento (diaria o semanal)")
                 p.mb-0 Es una reunión corta de 10 a 15 minutos donde el equipo comparte avances, planes y obstáculos, facilitando la coordinación, la detección temprana de problemas y la sincronización del trabajo, adaptable a contextos de investigación mediante reuniones breves o informes de avance.
               .tarjeta.color-acento-botones--borde.p-4(titulo="Revisión del ciclo de trabajo")
                 p.mb-0 Al finalizar cada ciclo, el equipo presenta los resultados obtenidos a las partes interesadas, para recibir retroalimentación y validar el progreso. Este ejercicio fortalece la transparencia y la rendición de cuentas dentro del proceso de investigación.
               .tarjeta.color-acento-botones--borde.p-4(titulo="Retrospectiva o reunión de reflexión")
-                p.mb-0 Espacio interno del equipo para reflexionar sobre los aciertos y desafíos del sprint, y definir acciones de mejora. En el ámbito científico, esta práctica contribuye a consolidar una cultura de mejora continua, aprendizaje colectivo y gestión del conocimiento.
+                p.mb-0 Espacio interno del equipo para reflexionar sobre los aciertos y desafíos del <em>sprint</em>, y definir acciones de mejora. En el ámbito científico, esta práctica contribuye a consolidar una cultura de mejora continua, aprendizaje colectivo y gestión del conocimiento.
       
     .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-12.col-md-12.col-lg-12
@@ -449,17 +449,17 @@
                 th Aplicación sugerida en salud pública
             tbody
               tr
-                td <b><em>Lean Startup</em></b>
+                td <b><em>Lean Startup.</em></b>
                 td Validación rápida de hipótesis mediante la experimentación y el aprendizaje basado en evidencia.
                 td Permite reducir riesgos, optimizar recursos y obtener resultados tempranos que guían decisiones basadas en datos.
                 td Ideal para el diseño y prueba de intervenciones piloto, herramientas tecnológicas o estrategias innovadoras, antes de su implementación a gran escala.
               tr
-                td <b><em>Scrum</em></b>
+                td <b><em>Scrum.</em></b>
                 td Gestión iterativa y colaborativa de proyectos complejos a través de ciclos de trabajo cortos.
                 td Favorece la coordinación de equipos multidisciplinarios, la transparencia y la entrega continua de productos verificables.
                 td Recomendado para equipos de investigación, vigilancia o gestión institucional que desarrollan proyectos con objetivos y entregables sucesivos.
               tr
-                td <b><em>Kanban</em></b>
+                td <b><em>Kanban.</em></b>
                 td Visualización del flujo de trabajo y mejora continua del proceso.
                 td Incrementa la eficiencia operativa, la priorización de tareas y la comunicación interna.
                 td Adecuado para el seguimiento de proyectos, la gestión de laboratorios o la administración de programas de salud, donde es necesario mantener un control permanente del avance.

@@ -47,7 +47,7 @@
         .titulo-sexto.mb-4.color-acento-contenido
           h5 
             b Tabla 2. 
-            span <em>Diferencias entre prototipo y MVP</em>
+            span Diferencias entre prototipo y MVP
         .tabla-a.color-acento-contenido
           table
             caption Fuente: SENA (2025).
@@ -58,35 +58,35 @@
                 th Producto Mínimo Viable (MVP)
             tbody
               tr
-                td Definición
+                td Definición.
                 td Representación visual de alta fidelidad que muestra la experiencia del usuario.
                 td Versión preliminar del producto con características principales para resolver los problemas de los usuarios.
               tr
-                td Funcionalidad
+                td Funcionalidad.
                 td Simula la funcionalidad del producto a través de acciones básicas.
                 td Contiene características principales, funcionales, pero no completas.
               tr
-                td Objetivo
+                td Objetivo.
                 td Probar ideas, identificar problemas y perfeccionar conceptos.
                 td Recopilar comentarios de los usuarios, validar la demanda del mercado y perfeccionar la funcionalidad.
               tr
-                td Etapa de desarrollo
+                td Etapa de desarrollo.
                 td Desarrollo en fase temprana, previo al MVP.
                 td Etapa posterior al prototipado.
               tr
-                td Participación del usuario
+                td Participación del usuario.
                 td Limitado, centrado en la interacción básica.
                 td Más atractivo, ofrece una experiencia funcional a los primeros usuarios.
               tr
-                td Inversión de tiempo y costos
+                td Inversión de tiempo y costos.
                 td Menos costoso y requiere menos tiempo.
                 td Requiere más tiempo y recursos para su desarrollo.
               tr
-                td Mitigación de riesgos
+                td Mitigación de riesgos.
                 td Ayuda a identificar problemas de forma temprana, reduciendo riesgos.
                 td Valida las necesidades del mercado y reduce el riesgo de desarrollar características no deseadas.
               tr
-                td Iteración y mejora
+                td Iteración y mejora.
                 td Facilita cambios y mejoras fáciles.
                 td El objetivo es la iteración basada en los comentarios de los usuarios para obtener funciones mejoradas.
 
@@ -109,10 +109,10 @@
                 img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema3/img05.svg', alt='Imagen Decorativa') 
             .col-12.col-md-12.col-lg-9.mb-4.mb-lg-0.px-lg-5
               ul.bullets.color-primario
-                li <b>Funcionalidad:</b> Para qué ha sido creado, qué soluciones ofrece a las demandas del consumidor final.
-                li <b>Niveles de usabilidad:</b> Cómo será la experiencia del público al que se dirige y si resulta fácil e intuitiva su utilización.
-                li <b>Diseño:</b> Creación de una versión inicial, y funcional de una solución que incluye las características necesarias para resolver un problema y obtener retroalimentación los usuarios.
-                li <b>Fiabilidad y seguridad:</b> Constatando que el producto o servicio definitivo no solo responde a una necesidad, sino que también ha sido ideado y desarrollado sin que represente un riesgo para su público.
+                li <b>Funcionalidad:</b> para qué ha sido creado, qué soluciones ofrece a las demandas del consumidor final.
+                li <b>Niveles de usabilidad:</b> cómo será la experiencia del público al que se dirige y si resulta fácil e intuitiva su utilización.
+                li <b>Diseño:</b> creación de una versión inicial, y funcional de una solución que incluye las características necesarias para resolver un problema y obtener retroalimentación los usuarios.
+                li <b>Fiabilidad y seguridad:</b> constatando que el producto o servicio definitivo no solo responde a una necesidad, sino que también ha sido ideado y desarrollado sin que represente un riesgo para su público.
 
 
         //- Subtitulo
@@ -137,7 +137,7 @@
         .titulo-sexto.mb-4.color-acento-contenido
           h5 
             b Tabla 3. 
-            span <em>Diferencias entre PMV de Baja vs PMV de alta</em>
+            span Diferencias entre PMV de Baja vs PMV de alta
         .tabla-a.color-acento-contenido
           table
             caption Fuente: SENA, 2025.
@@ -148,31 +148,31 @@
                 th MVP de Alta Fidelidad
             tbody
               tr
-                td Objetivo principal
+                td Objetivo principal.
                 td Validar que existe un problema real.
                 td Validar que tu solución funciona y la pagarían.
               tr
-                td Inversión típica
+                td Inversión típica.
                 td 0-500 USD.
                 td 500-5000 USD.
               tr
-                td Tiempo de desarrollo
+                td Tiempo de desarrollo.
                 td 1-3 semanas.
                 td 4-8 semanas.
               tr
-                td Herramientas típicas
+                td Herramientas típicas.
                 td <em>Landing pages</em>, entrevistas, encuestas, videos explicativos.
                 td Prototipos funcionales, <em>apps</em> básicas, servicios piloto.
               tr
-                td Equipo necesario
+                td Equipo necesario.
                 td 1-3 personas sin desarrolladores.
                 td 3-5 personas con al menos 1 desarrollador.
               tr
-                td Tipo de datos obtenidos
+                td Tipo de datos obtenidos.
                 td Cualitativos principalmente.
                 td Cuantitativos y cualitativos.
               tr
-                td Ideal para validaciones
+                td Ideal para validaciones.
                 td Ideas nuevas, presupuesto muy limitado, validación inicial.
                 td Problema validado, disponibilidad de recursos, prueba de solución específica.
 
@@ -189,7 +189,7 @@
           figure
             img(src="@/assets/curso/temas/tema3/img07.png", alt="Imagen Decorativa", data-aos="zoom-in")
         .col-lg-9.col-md-12.mb-4.mb-md-0(order-sm="1" order-md="1").p-0
-          p.mb-3(data-aos="fade-right") Al pensar en cómo crear un MVP, es fundamental comprender que el principio fundamental del desarrollo de MVP es su simplicidad. Creando un producto minio viable, se incorpora un conjunto mínimo de las funcionalidades más importantes que permiten a los desarrolladores lanzar un producto al mercado rápidamente, probar su viabilidad y recopilar información valiosa. Esta estrategia permite a las empresas optimizar el uso de sus recursos, lo que se traduce en un tiempo de comercialización optimizado. Les permite probar sus ideas y conceptos sin comprometer recursos en exceso en una etapa temprana.
+          p.mb-3(data-aos="fade-right") Al pensar en cómo crear un MVP, es fundamental comprender que el principio fundamental del desarrollo de MVP es su simplicidad. Creando un producto minimo viable, se incorpora un conjunto mínimo de las funcionalidades más importantes que permiten a los desarrolladores lanzar un producto al mercado rápidamente, probar su viabilidad y recopilar información valiosa. Esta estrategia permite a las empresas optimizar el uso de sus recursos, lo que se traduce en un tiempo de comercialización optimizado. Les permite probar sus ideas y conceptos sin comprometer recursos en exceso en una etapa temprana.
           p.mb-0(data-aos="fade-right") Las etapas para desarrollar un MVP son:
 
     .bg-fondo-5.tarjeta.mb-0

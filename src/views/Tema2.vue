@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Tipos de prototipado y procesos de <em>test</em>eo con usuarios en salud
+      h1 Tipos de prototipado y procesos de testeo con usuarios en salud
 
     .bg-full-width.bg-fondo-2-1
       .container
@@ -16,8 +16,8 @@
                 figure
                   img(src='@/assets/curso/temas/tema2/img01.svg', alt='Imagen Decorativa')
               .col-12.col-md-12.col-lg-10.p-0.px-lg-3
-                p.mb-2 El prototipado y el <em>test</em>eo con usuarios constituyen etapas fundamentales dentro de los procesos de innovación aplicados a la investigación en salud pública, ya que permiten transformar ideas en soluciones tangibles y evaluarlas en contextos reales o simulados. A través de los distintos tipos de prototipado, es posible validar tempranamente hipótesis, identificar oportunidades de mejora y reducir riesgos antes de la implementación definitiva de intervenciones, servicios o herramientas en salud. 
-                p.mb-0 De igual manera, los procesos de <em>test</em>eo con usuarios facilitan la incorporación de la experiencia, necesidades y expectativas de los actores involucrados, fortaleciendo la pertinencia, usabilidad y efectividad de las soluciones propuestas, en coherencia con los principios de enfoque centrado en las personas y toma de decisiones basada en evidencia.
+                p.mb-2 El prototipado y el testeo con usuarios constituyen etapas fundamentales dentro de los procesos de innovación aplicados a la investigación en salud pública, ya que permiten transformar ideas en soluciones tangibles y evaluarlas en contextos reales o simulados. A través de los distintos tipos de prototipado, es posible validar tempranamente hipótesis, identificar oportunidades de mejora y reducir riesgos antes de la implementación definitiva de intervenciones, servicios o herramientas en salud. 
+                p.mb-0 De igual manera, los procesos de testeo con usuarios facilitan la incorporación de la experiencia, necesidades y expectativas de los actores involucrados, fortaleciendo la pertinencia, usabilidad y efectividad de las soluciones propuestas, en coherencia con los principios de enfoque centrado en las personas y toma de decisiones basada en evidencia.
 
       separador
 
@@ -37,7 +37,7 @@
             .col-lg-auto
               img.d-lg-flex.d-none(src="@/assets/curso/temas/tema2/img03.svg", style="max-width: 90px").mx-auto
             .col-lg
-              p.mb-0 Propósito del prototipado: El prototipado sirve como puente entre la ideación y ejecución, proporcionando una oportunidad para recopilar comentarios, iterar sobre conceptos de diseño y descubrir posibles problemas o mejoras.
+              p.mb-0 Propósito del prototipado: el prototipado sirve como puente entre la ideación y ejecución, proporcionando una oportunidad para recopilar comentarios, iterar sobre conceptos de diseño y descubrir posibles problemas o mejoras.
 
 
         //- Subtitulo
@@ -77,9 +77,8 @@
             
             .row.justify-content-center.align-items-center
               .col-lg-8.mb-3
-                h4 Maqueta/ prototipo de alta fidelidad
-                p.mb-2 Aunque la impresión 3D es una de las técnicas más empleadas a la hora de prototipar, existen otras muchas técnicas y materiales para realizar un prototipo. 
-                p.mb-0 Este sería otro tipo de prototipado digital. En este caso, el más fiel al proyecto final. Con la maqueta se valida si la idea o negocio funciona. Esta fase sirve para detectar problemas de navegación y usabilidad, así como el <em>feedback</em> de los usuarios/ futuros clientes.
+                h4 Maqueta / prototipo de alta fidelidad
+                p.mb-0 Este sería otro tipo de prototipado digital. En este caso, el más fiel al proyecto final. Con la maqueta se valida si la idea o negocio funciona. Esta fase sirve para detectar problemas de navegación y usabilidad, así como el <em>feedback</em> de los usuarios / futuros clientes.
 
               .col-lg-4.mb-3.mb-lg-0
                 figure
@@ -102,7 +101,7 @@
               AcordionA(tipo="a" clase-tarjeta="tarjeta bg-color-1")
                 .div(titulo="De baja fidelidad")
                   p.mb-3 <b>Características</b>: son representaciones sencillas, como bocetos en papel, notas adhesivas o <em>wireframes</em> básicos.
-                  p.mb-0 <b>Propósito</b>: Explorar y probar muchas ideas de forma rápida en las primeras etapas del proyecto, centrándose en la funcionalidad principal y la propuesta de valor.
+                  p.mb-0 <b>Propósito</b>: explorar y probar muchas ideas de forma rápida en las primeras etapas del proyecto, centrándose en la funcionalidad principal y la propuesta de valor.
 
                 .div(titulo="De media fidelidad")
                   p.mb-3 <b>Características</b>: a menudo se conocen como <em>wireframes</em> digitales. Incorporan una estructura y flujo de navegación más definidos, utilizando herramientas digitales.
@@ -132,14 +131,14 @@
 
         //- Titulo
         .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2#t_2_3 2.3  Principios básicos del <em>test</em>eo con usuarios
+          h2#t_2_3 2.3  Principios básicos del testeo con usuarios
 
 
         img(src="@/assets/curso/temas/tema2/img08.png", alt="Imagen decorativa")
         
         .row.justify-content-center.align-items-center.z-2.mb-3
           .col-lg-9(data-aos="fade-up")
-            p.banner-text Las pruebas con usuarios o test con usuarios son una de las mejores herramientas en el diseño de productos, servicios y experiencias, ya que permiten utilizar la observación y el análisis para evaluar cómo un grupo de personas determinado utiliza los desarrollos para identificar errores y mejoras antes de realizar un lanzamiento oficial. El objetivo de este proceso es evaluar la usabilidad de los productos y servicios, revelar áreas de confusión, descubrir oportunidades de mejora y, en última instancia, decidir si el producto está listo para ser lanzado para usuarios reales o no.
+            p.banner-text Las pruebas con usuarios o <em>test</em> con usuarios son una de las mejores herramientas en el diseño de productos, servicios y experiencias, ya que permiten utilizar la observación y el análisis para evaluar cómo un grupo de personas determinado utiliza los desarrollos para identificar errores y mejoras antes de realizar un lanzamiento oficial. El objetivo de este proceso es evaluar la usabilidad de los productos y servicios, revelar áreas de confusión, descubrir oportunidades de mejora y, en última instancia, decidir si el producto está listo para ser lanzado para usuarios reales o no.
 
         .row.justify-content-center.align-items-center.mb-3
           .col-md-12.col-lg-10
@@ -154,7 +153,7 @@
                   ul.bullets.color-primario
                     li Encontrar errores de diseño de los productos o servicios.
                     li Descubrir oportunidades de mejora.
-                    li Conocer el comportamiento de los usuarios ante tus productos
+                    li Conocer el comportamiento de los usuarios ante tus productos.
                 .col-12.col-md-6.col-lg-3.mb-4.mb-lg-0.mx-auto
                   figure
                     img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema2/img09.svg', alt='Imagen Decorativa') 
@@ -167,16 +166,16 @@
               figure
                 img(src="@/assets/curso/temas/tema2/img10.png", alt="Imagen Decorativa", data-aos="zoom-in")
             .col-lg
-              p.mb-0(data-aos="fade-right") Los principios básicos del <em>test</em>eo con usuarios se centran en definir objetivos claros, seleccionar participantes representativos y crear un entorno de prueba adecuado para observar el comportamiento real del usuario al interactuar con un producto. Se debe planificar meticulosamente las tareas a realizar, documentar las observaciones y analizar los datos para identificar problemas de usabilidad y generar un informe con propuestas de mejora (Narváez, sf).   
+              p.mb-0(data-aos="fade-right") Los principios básicos del testeo con usuarios se centran en definir objetivos claros, seleccionar participantes representativos y crear un entorno de prueba adecuado para observar el comportamiento real del usuario al interactuar con un producto. Se debe planificar meticulosamente las tareas a realizar, documentar las observaciones y analizar los datos para identificar problemas de usabilidad y generar un informe con propuestas de mejora (Narváez, sf).   
 
           //- Subtitulo
           .align-items-center.justify-content-star.mb-1
             .div.mb-3(data-aos="fade-left")
-              h3.subtitle.position-relative Métodos para realizar <em><em>test</em>s</em> con usuarios
+              h3.subtitle.position-relative Métodos para realizar <em>tests</em> con usuarios
                 img.image(src='@/assets/curso/temas/img01.svg', alt='Imagen decorativa')
 
 
-          p.mb-5 Existen diferentes métodos para realizar <em><em>test</em>s</em> con usuarios, entre los que destacan:
+          p.mb-5 Existen diferentes métodos para realizar <em>tests</em> con usuarios, entre los que destacan:
 
           .row.align-items-center.justify-content-center.mb-2
             .col-8.col-md-6.col-lg-3.mb-3.mb-lg-0
@@ -192,7 +191,7 @@
                   p.mb-3 Las pruebas remotas son una alternativa eficaz a las presenciales, ya que permiten que moderador y participante interactúen desde cualquier lugar compartiendo la misma información. Además, con cámaras web y datos biométricos, es posible observar reacciones y emociones del usuario.
                 .div(titulo="Pruebas con usuario remotas no moderadas")
                   p.mb-3 <b>Imagen y sonido grabados:</b> se pide a los usuarios que piensen en voz alta. También es posible hacer pruebas con un panel de usuarios propio.
-                  p.mb-0 <b>Movimientos del ratón y tiempo grabados:</b> No se ve al participante de la prueba y no se le oye. Ellos ven la tarea en la pantalla, realizan la tarea y rellenan un cuestionario online para dar feedback después de cada tarea.
+                  p.mb-0 <b>Movimientos del ratón y tiempo grabados:</b> No se ve al participante de la prueba y no se le oye. Ellos ven la tarea en la pantalla, realizan la tarea y rellenan un cuestionario <em>online</em> para dar <em>feedback</em> después de cada tarea.
 
 
     .row.justify-content-center.align-items-center.mb-3
@@ -203,9 +202,9 @@
         .row.mb-3.justify-content-center.align-items-center
           .col-lg-9.order-2.order-lg-1
             LineaTiempoD.color-secundario
-              p(numero="A" titulo="Pruebas de usabilidad (investigación UX)") Busca medir la eficacia y la facilidad de uso de una página web o un <em>e-commerce</em> por parte de un usuario para satisfacer sus necesidades. En las pruebas de usabilidad de un sitio web se miden varios aspectos: seguimiento ocular, mapas de calor online, mapas de clics, recorrido del usuario, etc.
-              p(numero="B" titulo="Encuestas on line") Es una de las formas más fáciles de obtener datos de los clientes porque pueden completar las encuestas a través de cualquier lugar.  <br><br>Se recomienda recurrir a las encuestas de satisfacción del cliente si quiere recibir, en poco tiempo, muchas respuestas de los clientes sobre un producto. La información recopilada ayudará al diseñador de UX a tener indicaciones claras en el proceso de diseño y en la arquitectura de la información para ofrecer un viaje de usuario perfecto para los clientes.
-              p(numero="C" titulo="Pruebas A/B") Son el proceso por el cual se envían dos variantes diferentes de un material de <em>marketing</em>, como un correo electrónico a distintos grupos de suscriptores Es importante recordar que cada grupo debe recibir sólo una variante del correo electrónico, no las dos, y que deben enviarse el mismo día y a la misma hora. A continuación, se hace un seguimiento de las reacciones de los clientes y se determina qué variante ha suscitado las reacciones que le ayudan a alcanzar los objetivos propuestos. 
+              p(numero="A" titulo="Pruebas de usabilidad (investigación UX)") Busca medir la eficacia y la facilidad de uso de una página web o un <em>e-commerce</em> por parte de un usuario para satisfacer sus necesidades. En las pruebas de usabilidad de un sitio web se miden varios aspectos: seguimiento ocular, mapas de calor <em>online</em>, mapas de clics, recorrido del usuario, etc.
+              p(numero="B" titulo="Encuestas <em>online</em>") Es una de las formas más fáciles de obtener datos de los clientes porque pueden completar las encuestas a través de cualquier lugar.  <br><br>Se recomienda recurrir a las encuestas de satisfacción del cliente si quiere recibir, en poco tiempo, muchas respuestas de los clientes sobre un producto. La información recopilada ayudará al diseñador de UX a tener indicaciones claras en el proceso de diseño y en la arquitectura de la información para ofrecer un viaje de usuario perfecto para los clientes.
+              p(numero="C" titulo="Pruebas A/B") Son el proceso por el cual se envían dos variantes diferentes de un material de <em>marketing</em>, como un correo electrónico a distintos grupos de suscriptores. Es importante recordar que cada grupo debe recibir sólo una variante del correo electrónico, no las dos, y que deben enviarse el mismo día y a la misma hora. A continuación, se hace un seguimiento de las reacciones de los clientes y se determina qué variante ha suscitado las reacciones que le ayudan a alcanzar los objetivos propuestos. 
               p(numero="D" titulo="Prueba con usuarios beta") Se utiliza para evaluar una versión de un producto que aún no está lista para el usuario final debido a la falta de pruebas en condiciones reales. <br><br>Los sitios web, los sistemas operativos y las diferentes aplicaciones pueden estar en la fase de pruebas beta. Estas pueden ser abiertas, lanzadas para cualquier persona que quiera probar la versión inestable, o cerradas, diseñadas para las pruebas en un grupo cerrado o restringido.
           .col-8.col-md-5.col-lg-3.mb-4.order-1.order-lg-2
             figure
@@ -270,7 +269,7 @@
 
           //- Titulo
           .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-            h2#t_2_4 2.4  Recolección de retroalimentación e iteración:
+            h2#t_2_4 2.4  Recolección de retroalimentación e iteración
 
           .bloque-texto-g.bg-color-primario.p-3.p-sm-4.p-md-5.mb-0
             .bloque-texto-g__img(

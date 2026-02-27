@@ -16,7 +16,7 @@
               figure
                 img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/img01.png', alt='Imagen Decorativa')
             .col-12.col-md-12.col-lg-7.bg-color-9
-              p.mb-0.p-4 Te invitamos a ver el siguiente video introductorio sobre el Pensamiento de Diseño (<em>Design Thinking</em>), el Diseño Centrado en el Usuario (<em>Human-Centered Design</em>). Mientras observas el video, reflexiona sobre las siguientes preguntas: ¿Cómo cambia la investigación en salud cuando se trabaja con las comunidades desde el inicio?
+              p.mb-0.p-4 Te invitamos a ver el siguiente video introductorio sobre el Pensamiento de Diseño (<em>Design Thinking</em>), el Diseño Centrado en el Usuario (<em>Human-Centered Design</em>). Mientras observas el video, "reflexiona sobre la siguiente pregunta": ¿Cómo cambia la investigación en salud cuando se trabaja con las comunidades desde el inicio?.
     
     .bg-full-width.bg-fondo-1
       .row.align-items-center(data-aos="fade-left").justify-content-center.mb-3
@@ -80,10 +80,10 @@
               .col-12.col-md-12.col-lg-9.mb-4.mb-lg-0
                 p El enfoque se apoya en valores fundamentales que guían su práctica, los principios del <em>Design Thinking</em>:
                 ul.bullets.color-primario
-                  li <b>Centrado en el ser humano:</b> Se enfoca en las necesidades, sentimientos y experiencias de los usuarios.
-                  li <b>Colaborativo:</b> Reúne a personas de diversas disciplinas para innovar.
-                  li <b>Iterativo:</b> El proceso es flexible y permite volver a fases anteriores según se obtenga nueva información.
-                  li <b>Abrazar el fracaso:</b> Anima a probar y fracasar pronto para aprender y mejorar rápidamente. 
+                  li <b>Centrado en el ser humano:</b> se enfoca en las necesidades, sentimientos y experiencias de los usuarios.
+                  li <b>Colaborativo:</b> reúne a personas de diversas disciplinas para innovar.
+                  li <b>Iterativo:</b> el proceso es flexible y permite volver a fases anteriores según se obtenga nueva información.
+                  li <b>Abrazar el fracaso:</b> anima a probar y fracasar pronto para aprender y mejorar rápidamente. 
 
           p.mb-3 En salud pública, estos principios resultan especialmente valiosos ante problemas complejos, donde las soluciones efectivas requieren escuchar y trabajar con las comunidades involucradas para abordar problemas complejos, centrándose en las personas. 
 
@@ -100,11 +100,11 @@
               .row.align-items-center.bg-color-terciario-t10.p-4(data-aos="fade-left").icono-inferior
                 .col-12.col-md-12.col-lg-12.mb-4.mb-lg-0
                   ul.bullets.color-secundario.mb-0
-                    li <b>Empatía radical:</b> Ponerse en el lugar del otro.
-                    li <b>Pensamiento divergente y convergente:</b> Explorar muchas ideas (divergente) y luego seleccionar y refinar (convergente).
-                    li <b>Prototipado rápido y experimentación:</b> Fallar rápido, fallar barato, aprender rápido
-                    li <b>Tolerancia a la ambigüedad:</b> Estar cómodo con la incertidumbre en las primeras etapas.
-                    li <b>Optimismo:</b> Creer que siempre hay una solución creativa
+                    li <b>Empatía radical:</b> ponerse en el lugar del otro.
+                    li <b>Pensamiento divergente y convergente:</b> explorar muchas ideas (divergente) y luego seleccionar y refinar (convergente).
+                    li <b>Prototipado rápido y experimentación:</b> fallar rápido, fallar barato, aprender rápido
+                    li <b>Tolerancia a la ambigüedad:</b> estar cómodo con la incertidumbre en las primeras etapas.
+                    li <b>Optimismo:</b> creer que siempre hay una solución creativa
                     li Soluciones más relevantes y adoptables
                     li Mayor colaboración intersectorial y multidisciplinar
                     li Reducción de riesgos al validar o probar temprano (IxDF, 2016).
@@ -120,7 +120,7 @@
           .titulo-segundo.color-acento-contenido(data-aos="fade-right")
             h2#t_1_2 1.2  Fases del proceso de <em>Design Thinking</em>
 
-          p.mb-3 A continuación, se presenta con mayor profundidad cada una de las fases del proceso de <em>Design Thinking</em> <b></b>
+          p.mb-3 A continuación, se presenta con mayor profundidad cada una de las fases del proceso de <em>Design Thinking:</em> 
 
           TabsC.color-acento-contenido.mb-4
             .p-3.p-md-4(titulo="Empatizar")
@@ -226,14 +226,14 @@
           .col-12.col-md-12.col-lg-10.mx-auto.mb-4
             p.mb-0 Todos estos beneficios se pueden explicitar en una serie de ejemplos reales:
 
-        .container
-          .col-12.col-md-12.col-lg-10.mx-auto.mb-4
-            .row.justify-content-center.align-items-center.bg-color-terciario-t5.p-4(data-aos="fade-left").icono-inferior
-              .col-12.col-md-12.col-lg-9.mb-4.mb-lg-0.order-2.order-lg-1
-                p Entre los beneficios que ha aportado la aplicación del Pensamiento de Diseño en salud, se destacan: la humanización en la interacción con tecnologías de diagnóstico (reducción de la ansiedad y del miedo), mejorar la comunicación profesional de salud y usuario (la comunicación médico-paciente o farmacéutico-consumidor, por ejemplo) o aumentar la comodidad y movilidad de los pacientes. Todos estos beneficios se pueden explicitar en una serie de ejemplos reales:
-              .col-12.col-md-6.col-lg-3.order-1.order-lg-2
-                figure
-                  img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/img14.svg', alt='Imagen Decorativa')
+        //- .container
+        //-   .col-12.col-md-12.col-lg-10.mx-auto.mb-4
+        //-     .row.justify-content-center.align-items-center.bg-color-terciario-t5.p-4(data-aos="fade-left").icono-inferior
+        //-       .col-12.col-md-12.col-lg-9.mb-4.mb-lg-0.order-2.order-lg-1
+        //-         p Entre los beneficios que ha aportado la aplicación del Pensamiento de Diseño en salud, se destacan: la humanización en la interacción con tecnologías de diagnóstico (reducción de la ansiedad y del miedo), mejorar la comunicación profesional de salud y usuario (la comunicación médico-paciente o farmacéutico-consumidor, por ejemplo) o aumentar la comodidad y movilidad de los pacientes. Todos estos beneficios se pueden explicitar en una serie de ejemplos reales:
+        //-       .col-12.col-md-6.col-lg-3.order-1.order-lg-2
+        //-         figure
+        //-           img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/img14.svg', alt='Imagen Decorativa')
 
         .col-12.col-md-12.col-lg-12.mb-4
           .row.justify-content-center.align-items-center.mb-2
@@ -252,12 +252,11 @@
                   b Figura 1. 
                   span Imagen de equipo de resonancia magnética para niños
               figure.mb-4
-                img(src='@/assets/curso/temas/tema1/img16.png', alt='').mx-auto
+                img(src='@/assets/curso/temas/tema1/img16.png', alt='Una captura de pantalla de una computadora. El contenido generado por IA puede ser incorrecto.').mx-auto
 
               figcaption 
                 b Fuente: 
-                | https://www.nicklauschildrens.org/tratamientos/mri-%28imagenes-por-resonancia-magnetica%29
-
+                | Nicklaus Children’s Hospital. Disponible en: https://www.nicklauschildrens.org/tratamientos/mri-%28imagenes-por-resonancia-magnetica%29
           
         .row.justify-content-center.align-items-center.mb-0
           .col-12.col-md-12.col-lg-10
@@ -283,13 +282,13 @@
           .col-12.col-md-12.col-lg-7.mb-3
             .bg-color-terciario-t10.p-4.h-100.border-radius-20.img-topright.h-100
               img(src='@/assets/curso/temas/tema1/img27.svg' alt='AvatarTop' , style="max-width: 70px").mx-auto.mb-3
-              h5.mb-4.pt-lg-5.pt-xl-0.w-75 Hipótesis de crecimiento o adopción
+              h5.mb-4.pt-lg-5.pt-xl-0.w-75 Para los profesionales de la salud y de la organización
               
               ul.bullets.color-adicional1
                 li #[b Innovación en servicios:] permite desarrollar soluciones que aborden problemas reales desde la perspectiva del usuario, no solo la médica o tecnológica.
                 li #[b Mayor eficiencia:] optimiza flujos de trabajo, como en el caso de urgencias, y reduce tiempos de espera en áreas como farmacia.
                 li #[b Cultura de colaboración y cambio:] promueve la colaboración entre equipos y fomenta una cultura de mejora continua dentro de la organización.
-                li  #[b Satisfacción del personal:] aumentar el compromiso y la motivación de los equipos de salud al sentirse parte de un proceso de mejora que impacta positivamente a los usuarios.
+                li  #[b Satisfacción del personal:] aumenta el compromiso y la motivación de los equipos de salud al sentirse parte de un proceso de mejora que impacta positivamente a los usuarios.
 
     .bg-full-width.bg-fondo-2
 
@@ -390,13 +389,13 @@
             .col-lg-9.order-lg-1
               AcordionA(tipo="a" clase-tarjeta="tarjeta bg-color-2")
                 div(titulo="Enfoque en el usuario")
-                  p Ambos priorizan la comprensión de las necesidades, deseos y comportamientos del usuario final, situándolo como eje central del proceso.
+                  p ambos priorizan la comprensión de las necesidades, deseos y comportamientos del usuario final.
                 div(titulo="Uso de la empatía")
-                  p Utilizan la empatía como punto de partida para comprender profundamente a las personas, sus contextos, emociones y motivaciones.
+                  p ambos métodos utilizan la empatía como punto de partida para comprender profundamente a las personas.
                 div(titulo="Iteración")
-                  p Son procesos iterativos que implican probar, evaluar y refinar soluciones de manera continua hasta alcanzar mejores resultados.
+                  p ambos son procesos iterativos que implican probar y refinar soluciones continuamente.
                 div(titulo="Creatividad e innovación")
-                  p Fomentan la generación de ideas creativas para desarrollar soluciones innovadoras y efectivas frente a problemáticas complejas.
+                  p ambos fomentan la creatividad para encontrar soluciones innovadoras y efectivas.
                   
             .col-md-6.col-lg-3.mb-3.mb-lg-0.order-lg-2
               figure
@@ -410,7 +409,7 @@
             span Comparación <em>Design thinking</em> y diseño centrado en el humano
         .tabla-a.color-acento-contenido
           table
-            caption Fuente: SENA 2026
+            caption Fuente: SENA 2025.
             thead
               tr
                 th Característica
@@ -423,7 +422,7 @@
                 td Enfoque de diseño holístico que pone al ser humano y su contexto en el centro del proceso.
               tr
                 td Alcance
-                td Puede abordar problemas más amplios, equilibrando deseabilidad (personas), factibilidad (tecnología) y viabilidad (negocio).
+                td Puede abordar problemas más amplios que van más allá de la necesidad inmediata del usuario, incluyendo el equilibrio entre deseabilidad (personas), factibilidad (tecnología) y viabilidad (organización/ negocio).
                 td Se enfoca específicamente en el usuario y la creación de productos y servicios con alta usabilidad, accesibilidad y valor real.
               tr
                 td Fases conceptuales
@@ -432,7 +431,7 @@
               tr
                 td Partes interesadas
                 td Involucra usuarios, pero el foco principal está en el proceso para lograr soluciones.
-                td Promueve la participación activa de usuarios, equipo y demás partes interesadas en todas las decisiones clave.
+                td Busca activamente la participación de todos los involucrados (equipo, partes interesadas) durante todas las decisiones clave.
               tr
                 td Objetivo final
                 td Generar soluciones innovadoras para problemas definidos.
@@ -445,7 +444,7 @@
             figure
               img(src="@/assets/curso/temas/tema1/img25.png", alt="Imagen Decorativa", data-aos="zoom-in")
           .col-lg
-            p.mb-0(data-aos="fade-right") En los años 90, cuando la gente hablaba de Innovación, en realidad se refería a Tecnología. Ahora, cuando la gente habla de Innovación en realidad quiere decir Diseño Bruce Nussbaum, <em>Managing Editor Businessweek Magazine</em> (De la Peña, 2024). 
+            p.mb-0(data-aos="fade-right") “En los años noventa, cuando la gente hablaba de innovación, en realidad se refería a tecnología. Ahora, cuando la gente habla de innovación, en realidad quiere decir diseño.” Bruce Nussbaum, <em>Managing Editor Businessweek Magazine</em> (De la Peña, 2024). 
 
 </template>
 

@@ -244,12 +244,12 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Backlog',
+      termino: '<em>Backlog</em>',
       significado:
         'Lista ordenada y priorizada de las funcionalidades, requisitos, mejoras y correcciones que se necesitan para un producto. Es central en el marco de trabajo <em>Scrum</em>.',
     },
     {
-      termino: 'Brainstormng',
+      termino: '<em>Brainstormng</em>',
       significado:
         'Técnica de generación de ideas en grupo cuyo objetivo es encontrar una conclusión o solución creativa a un problema, fomentando la libre expresión de ideas.',
     },
@@ -294,9 +294,9 @@ export default {
         'Organización o equipo en fase inicial que desarrolla una idea innovadora con alto potencial de crecimiento.',
     },
     {
-      termino: 'Story Mapping (Mapa de Historias)',
+      termino: '<em>Story Mapping</em> (Mapa de Historias)',
       significado:
-        'Herramienta utilizada para visualizar el backlog y el flujo de trabajo de un producto desde la perspectiva del usuario, ayudando a priorizar el desarrollo',
+        'Herramienta utilizada para visualizar el <em>backlog</em> y el <em>flujo</em> de trabajo de un producto desde la perspectiva del usuario, ayudando a priorizar el desarrollo',
     },
     {
       termino: 'Testeo con Usuarios',

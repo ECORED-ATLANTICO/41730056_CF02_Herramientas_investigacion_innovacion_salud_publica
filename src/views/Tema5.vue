@@ -50,7 +50,7 @@
               figure
                 img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema5/img06.svg', alt='Imagen Decorativa') 
 
-        p A continuación, se presenta una tabla comparativa entre <em>Design Thinking</em>, <em>Human-Centered Design</em> y metodologías ágiles
+        p A continuación, se presenta una tabla comparativa entre <em>Design Thinking</em>, <em>Human-Centered Design</em> y metodologías ágiles:
 
     .row.justify-content-center.align-items-center(data-aos="fade-left").mb-4
       .col-lg-12
@@ -69,22 +69,22 @@
                 th Metodologías Ágiles
             tbody
               tr
-                td Propósito principal
+                td Propósito principal.
                 td Generar soluciones creativas ante problemas complejos.
                 td Diseñar productos, servicios o sistemas centrados en las necesidades y capacidades reales de las personas.
                 td Gestionar equipos y proyectos de manera flexible, eficiente y adaptable.
               tr
-                td Foco de aplicación
+                td Foco de aplicación.
                 td Exploración, ideación y prototipado de nuevas soluciones.
                 td Implementación, prueba y adaptación de soluciones en contextos reales.
                 td Ejecución, seguimiento y mejora continua de proyectos o productos.
               tr
-                td Enfoque
+                td Enfoque.
                 td Se centra en la creatividad y exploración.
                 td Enfocado en la empatía y contexto.
                 td Orientado a gestión y seguimiento.
               tr
-                td Ejemplo 
+                td Ejemplo. 
                 td Talleres de ideación para rediseñar la ruta de atención en salud materna.
                 td Co-diseño de materiales educativos con comunidades indígenas o rurales.
                 td Implementación por ciclos de un sistema de telemedicina o vigilancia epidemiológica.
@@ -111,7 +111,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema5/img10.png')})`}"
           )
           .bloque-texto-g__texto.p-4.w-75
-            p.mb-0 A continuación, se presentan cuatro ejemplos de innovaciones impulsadas por Design Thinking y Human-Centered Design, estos casos han sido reconocidos por las lecciones en innovación social en salud pública que han dejado y han sido documentadas por la Organización Panamericana de la Salud (OPS, 2025), debido a su capacidad para co-crear soluciones pertinentes con las comunidades, mejorar la equidad en salud y generar modelos replicables basados en el diseño centrado en las personas y la comprensión profunda del contexto local.
+            p.mb-0 A continuación, se presentan cuatro ejemplos de innovaciones impulsadas por <em>Design Thinking</em> y <em>Human-Centered Design</em>, estos casos han sido reconocidos por las lecciones en innovación social en salud pública que han dejado y han sido documentadas por la Organización Panamericana de la Salud (OPS, 2025), debido a su capacidad para co-crear soluciones pertinentes con las comunidades, mejorar la equidad en salud y generar modelos replicables basados en el diseño centrado en las personas y la comprensión profunda del contexto local.
 
     .row.justify-content-center.align-items-center
       .col-md-12.col-lg-10
@@ -121,7 +121,7 @@
               .div(titulo="Mamás del Río")
                 p.mb-0 Liderado por la Universidad Cayetano Heredia de Perú y aliados regionales de Colombia. El proyecto mejoró la atención materna en comunidades amazónicas a través de prototipos de comunicación en salud, capacitación de agentes comunitarios y pruebas piloto que se ajustaron iterativamente según los resultados. Su estructura reproduce el proceso de empatía con usuarias, definición de problemas de acceso, ideación de soluciones comunicacionales y prueba de prototipos con agentes locales antes de la expansión nacional (Social Innovation, 2020).
               .div(titulo="Niños del Zika")
-                p.mb-0 Liderado por el Instituto Nacional de Salud de Colombia. Este modelo surgió durante la epidemia de Zika (2015–2016) e integró procesos de empatía y redefinición del problema pues parte de la identificación de necesidades de madres y niños afectados, empleó ideación y co-diseño de estrategias de atención integral, y <em>test</em>eo continuo con las familias mediante brigadas de salud y espacios de diálogo social. Combina el ciclo clásico de idear, prototipar, probar con el énfasis de la participación y emocional de las familias, la perspectiva de género y la contextualización territorial (Instituto Nacional de Salud, 2016).
+                p.mb-0 Liderado por el Instituto Nacional de Salud de Colombia. Este modelo surgió durante la epidemia de Zika (2015–2016) e integró procesos de empatía y redefinición del problema pues parte de la identificación de necesidades de madres y niños afectados, empleó ideación y co-diseño de estrategias de atención integral, y testeo continuo con las familias mediante brigadas de salud y espacios de diálogo social. Combina el ciclo clásico de idear, prototipar, probar con el énfasis de la participación y emocional de las familias, la perspectiva de género y la contextualización territorial (Instituto Nacional de Salud, 2016).
               .div(titulo="Modelo Integral de Atención en Salud para la Ruralidad de Sumapaz")
                 p.mb-0 Liderado por la Subred Integrada de Servicios de Salud Sur, Secretaría Distrital de Salud de Bogotá, Colombia. El modelo se centra en diseñar servicios de salud adaptados a contextos rurales mediante participación comunitaria, diálogo intercultural y fortalecimiento de redes locales de apoyo. La OPS resalta su capacidad para integrar saberes ancestrales, medicina alternativa y determinantes ambientales, mostrando un enfoque de diseño verdaderamente centrado en las personas y en su entorno ecológico y cultural (PAHO TV, 2024).
           .col-8.col-md-6.col-lg-3.mb-3.mb-lg-0.order-lg-2.order-1

@@ -20,7 +20,7 @@ export default {
       tema: 'Metodologías ágiles y diseño centrado en el usuario',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Identificar el grado de apropiación de los contenidos del Componente Formativo 2.<br>A continuación, se presentan una serie de preguntas, la idea es que partiendo de los materiales del Componente Formativo 2, usted las responda, según sea el caso',
+        '<b> Objetivo:</b> identificar el grado de apropiación de los contenidos del Componente Formativo 2.<br>A continuación, se presentan una serie de preguntas, la idea es que partiendo de los materiales del Componente Formativo 2, usted las responda, según sea el caso.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
