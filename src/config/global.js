@@ -184,11 +184,11 @@ export default {
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
       },
-      {
-        nombreRuta: 'complementario',
-        icono: 'far fa-folder-open',
-        titulo: 'Material complementario',
-      },
+      // {
+      //   nombreRuta: 'complementario',
+      //   icono: 'far fa-folder-open',
+      //   titulo: 'Material complementario',
+      // },
       {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
@@ -197,7 +197,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/CFA_02_41730056__DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -299,54 +299,47 @@ export default {
         'Herramienta utilizada para visualizar el <em>backlog</em> y el <em>flujo</em> de trabajo de un producto desde la perspectiva del usuario, ayudando a priorizar el desarrollo',
     },
     {
-      termino: 'Testeo con Usuarios',
+      termino: 'Testeo con usuarios',
       significado:
-        'Proceso sistemático de validar un prototipo o MVP con usuarios reales para obtener retroalimentación, identificar fallos de usabilidad y áreas de mejora',
+        'Proceso sistemático de validar un prototipo o MVP con usuarios reales para obtener retroalimentación, identificar fallos de usabilidad y áreas de mejora.',
     },
   ],
   referencias: [
     {
+      referencia: '3Dalia. Tipos de prototipado.',
+      link: 'https://3dalia.com/tipos-de-prototipado/',
+    },
+    {
       referencia:
-        'Clavijo, C. (2025). Producto Mínimo Viable: qué es, características, cómo hacerlo y ejemplos. Recuperado de',
+        'Clavijo, C. (2025). Producto Mínimo Viable: qué es, características, cómo hacerlo y ejemplos.',
       link: 'https://blog.hubspot.es/sales/producto-minimo-viable',
     },
     {
       referencia:
-        '3Dalia. Tipos de prototipado. Disponible en: https://3dalia.com/tipos-de-prototipado/. Acceso octubre 20 de 2025.',
-      link: '',
-    },
-    {
-      referencia:
-        'De la Peña, N. (2024, 24 de abril). 5 fases del design thinking: cómo aplicar esta metodología para triunfar con tus proyectos. Genially (Blog).',
+        'De la Peña, N. (2024). 5 fases del Design Thinking: cómo aplicar esta metodología para triunfar con tus proyectos. Genially (Blog).',
       link: 'https://blog.genially.com/fases-design-thinking/',
     },
     {
       referencia:
-        'Highsmith, J. (2009). Gestión Ágil de Proyectos: Creación de productos innovadores. Addison-Wesley.',
-      link:
-        'https://books.google.com.co/books?id=VuFpkztwPaUC&printsec=frontcover&hl=es&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false',
-    },
-    {
-      referencia:
-        'Instituto Nacional de Salud (2016, 2 de diciembre). INS de Colombia compartirá su conocimiento sobre zika al mundo.',
+        'Instituto Nacional de Salud (2016). INS de Colombia compartirá su conocimiento sobre zika al mundo.',
       link:
         'https://www.ins.gov.co/BibliotecaDigital/boletin-prensa-ins-2-12-2016-zika.pdf',
     },
     {
       referencia:
-        'IxDF - Fundación para el Diseño de Interacción. (25 de mayo de 2016). ¿Qué es el <em>Design Thinking</em>? IxDF - Fundación para el Diseño de Interacción.',
+        'IxDF - Fundación para el Diseño de Interacción. (2016). ¿Qué es el Design Thinking? IxDF - Fundación para el Diseño de Interacción.',
       link:
         'https://www.interaction-design.org/literature/topics/design-thinking',
     },
     {
       referencia:
-        'Justinmente. (marzo 19 de 2018). ¿Qué diferencia hay entre un prototipo y un MVP? recuperado de',
+        'Justinmente. (2018). ¿Qué diferencia hay entre un prototipo y un MVP?',
       link:
         'https://www.justinmind.com/es/prototipado/que-diferencia-hay-entre-un-prototipo-y-un-mvp',
     },
     {
       referencia:
-        'Martins, J. (2025, 19 de enero). ¿Qué es la metodología <em>Kanban</em> y cómo funciona? Asana (Blog).',
+        'Martins, J. (2025). ¿Qué es la metodología Kanban y cómo funciona? Asana (Blog).',
       link: 'https://asana.com/es/resources/what-is-kanban',
     },
     {
@@ -357,90 +350,83 @@ export default {
     },
     {
       referencia: 'Miro (sf). Prototipos de alta fidelidad vs baja fidelidad.',
-      link: 'https://miro.com/es/prototipos/baja-fidelidad-vs-alta-fidelidad/',
-    },
-    {
-      referencia:
-        'Narvaez, M. (sf). ¿Qué son las pruebas con usuarios o <em>test</em> con usuarios? Questionpro (Blog).',
       link:
-        'https://www.questionpro.com/blog/es/pruebas-con-usuarios-o-<em>test</em>-con-usuarios/',
+        'https://miro.com/es/prototyping/low-fidelity-vs-high-fidelity-prototypes/',
     },
     {
       referencia:
-        'Organización Panamericana de la Salud & Organización Mundial de la Salud - OPS/OMS, (2025, 23 de junio). Avances e innovaciones destacan BIREME en el 2024. Boletín BIREME no 94.',
+        'Narváez, M. (sf). ¿Qué son las pruebas con usuarios o test con usuarios? Questionpro (Blog).',
+      link:
+        'https://www.questionpro.com/blog/es/pruebas-con-usuarios-o-test-con-usuarios/',
+    },
+    {
+      referencia:
+        'Organización Panamericana de la Salud y Organización Mundial de la Salud - OPS/OMS, (2025). Avances e innovaciones destacan BIREME en el 2024. Boletín BIREME no 94.',
       link:
         'https://boletin.bireme.org/2025/01/23/1-avances-e-innovaciones-destacan-bireme-en-el-2024/',
     },
     {
       referencia:
-        'Organización Panamericana de la Salud, & Organización Mundial de la Salud. (2025). Innovación social en salud: lecciones para avanzar hacia la equidad-Antología de experiencias en América Latina.',
-      link: 'https://iris.paho.org/handle/10665.2/68812',
+        'Organización Panamericana de la Salud, y Organización Mundial de la Salud. (2025). Innovación social en salud: lecciones para avanzar hacia la equidad-Antología de experiencias en América Latina.',
+      link: 'https://iris.paho.org/items/1b9f3a8e-3e23-4163-9761-2b27ca422099',
     },
     {
       referencia:
-        'PAHO TV (2024, 28 de agosto). Un modelo innovador en salud rural en Colombia [Video]. YouTube.',
-      link: 'https://youtu.be/ssluZKwCEzs?si=wQ6bYTeso-ns5Hak',
+        'PAHO TV (2024). Un modelo innovador en salud rural en Colombia.',
+      link:
+        'https://www.youtube.com/watch?si=wQ6bYTeso-ns5Hak&v=ssluZKwCEzs&feature=youtu.be',
     },
     {
       referencia:
-        'Pomar, P. (2017, 19 de mayo). Diferencias entre <em>Design Thinking</em> y Diseño centrado en las personas. Thinkernautas (Blog).',
+        'Pomar, P. (2017). Diferencias entre Design Thinking y Diseño centrado en las personas. Thinkernautas (Blog).',
       link:
         'https://thinkernautas.com/diferencias-design-thinking-human-centered-design',
     },
     {
       referencia:
-        'Ries, E. (2011). The <em>Lean Startup</em>: How Today’s Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses. Crown Business.',
-      link:
-        'https://books.google.com.co/books?id=tvfyz-4JILwC&printsec=frontcover&hl=es&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false',
+        'Programa Erasmus, Unión Europea, Universidad Distrital Francisco José de Caldas. 2019; 1-25.',
+      link: '',
+    },
+    {
+      referencia: 'Ruwaach Utz, S (2022). Unidad de Antropología Médica (UAM).',
+      link: 'https://www.youtube.com/watch?v=IUUofhPby-s',
     },
     {
       referencia:
-        'Rojas Otálora, A. (2022). Desafíos en la gestión de proyectos.',
-      link:
-        'https://es.scribd.com/document/913850916/Annotated-Desafios-en-La-Gesti-c3-93n-de-Los-Proyectos-Aplicados-a-Los-Proc-281-29-Docx',
-    },
-    {
-      referencia:
-        'Ruwaach Utz, S (2022, 13 de mayo). Unidad de Antropología Médica (UAM) [Video]. YouTube.',
-      link: 'https://youtu.be/IUUofhPby-s?si=EA0-9IDQtn4CKDh3',
-    },
-    {
-      referencia:
-        'Saavedra Seoane, M. (sf). El <em>Design Thinking</em> en la salud. Designthinking.gal (Blog).',
+        'Saavedra Seoane, M. (sf). (2024).  El Design Thinking en la salud. Designthinking.gal (Blog).',
       link: 'https://designthinking.gal/el-design-thinking-en-salud/',
     },
     {
       referencia:
-        'Sarraipa, J., Artífcie, A, Jiménez, H. (2019). Metodología De Evaluación De Prototipo Innovador. Programa Erasmus, Unión Europea, Universidad Distrital Franscico José de Caldas. 2019; 1-25.',
+        'Sarraipa, J., Artífcie, A, Jiménez, H. (2019). Metodología De Evaluación De Prototipo Innovador.',
       link: '',
     },
     {
       referencia:
-        'Schwaber, K., & Sutherland, J. (2020). Guía de <em>Scrum</em>: la guía definitiva del marco de trabajo <em>Scrum</em>. Scrum.org.',
+        'Schwaber, K., y Sutherland, J. (2020). Guía de Scrum: la guía definitiva del marco de trabajo Scrum.',
       link:
         'https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-Spanish-Latin-South-American.pdf',
     },
     {
+      referencia: 'Social Innovation (2020). Programa Mamás del Río.',
+      link: 'https://www.youtube.com/watch?v=QGHHlptCpi0',
+    },
+    {
       referencia:
-        'Solvingadhoc. (2017, 13 de noviembre). El aprendizaje validado en <em>Lean Startup</em>, un pilar fundamental. Solvingadhoc (Blog).',
+        'Solvingadhoc. (2017). El aprendizaje validado en Lean Startup, un pilar fundamental. Solvingadhoc',
       link:
         'https://solvingadhoc.com/aprendizaje-validado-lean-startup-pilar-fundamental/',
     },
     {
       referencia:
-        'Social Innovation (2020). Programa Mamás del Río [Video]. YouTube.',
-      link: 'https://youtu.be/QGHHlptCpi0?si=xgzUChOzgYx57vke',
-    },
-    {
-      referencia:
-        'UNIR La Universidad en internet, (2024, 9 de diciembre). Producto mínimo viable (MVP): ¿qué es?',
+        'UNIR La Universidad en internet, (2024). Producto mínimo viable (MVP): ¿qué es?',
       link: 'https://www.unir.net/revista/empresa/mvp-producto-minimo-viable/',
     },
     {
       referencia:
-        'Universidad Internacional de Valencia (2023, 20 de febrero). Prototipado: qué es y cómo funciona. VIU (Blog).',
+        'Universidad Internacional de Valencia (2023). Prototipado: qué es y cómo funciona.',
       link:
-        'https://www.universidadviu.com/co/actualidad/nuestros-expertos/prototipado-que-es-y-como-funciona',
+        'https://www.universidadviu.com/co/prototipado-que-es-y-como-funciona',
     },
   ],
   creditos: [
@@ -464,32 +450,32 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Leonor Cristina Cañon Uribe',
+          nombre: 'Leonor Cristina Cañón Uribe',
           cargo: 'Profesional especializado',
           centro:
             'Subdirección de Innovación en salud pública - Dirección de Investigación - Instituto Nacional de Salud',
         },
         {
-          nombre: 'Angelica Rocio Borbon Orjuela',
+          nombre: 'Angelica Rocío Borbón Orjuela',
           cargo: 'Profesional especializado',
           centro:
             'Subdirección de Innovación en salud pública - Dirección de Investigación - Instituto Nacional de Salud',
         },
         {
-          nombre: 'Maria Luz Gunturiz Albarracin',
+          nombre: 'María Luz Gunturiz Albarracín',
           cargo: 'Profesional especializado',
           centro:
             'Subdirección de Innovación en salud pública - Dirección de Investigación - Instituto Nacional de Salud',
         },
         {
           nombre: 'Angela Navas Cáceres',
-          cargo: 'Expertas Técnica',
+          cargo: 'Experta Técnica',
           centro:
             'Centro de Formación de Talento humano en Salud - Regional Distrito Capital',
         },
         {
           nombre: 'Gina Carol Villate Calderón',
-          cargo: 'Expertas Técnica',
+          cargo: 'Experta Técnica',
           centro:
             'Centro de Formación de Talento humano en Salud - Regional Distrito Capital',
         },

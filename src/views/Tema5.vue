@@ -60,13 +60,13 @@
             span Comparativa entre <em>Design Thinking</em>, <em>Human-Centered Design</em> y metodologías ágiles
         .tabla-a.color-acento-contenido
           table
-            caption Fuente: SENA, 2025.
+            caption Nota: SENA, 2025.
             thead
               tr
                 th Aspecto
                 th <em>Design Thinking</em> 
                 th <em>Human-Centered Design</em> 
-                th Metodologías Ágiles
+                th Metodologías ágiles
             tbody
               tr
                 td Propósito principal.

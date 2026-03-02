@@ -191,7 +191,7 @@
                   p.mb-3 Las pruebas remotas son una alternativa eficaz a las presenciales, ya que permiten que moderador y participante interactúen desde cualquier lugar compartiendo la misma información. Además, con cámaras web y datos biométricos, es posible observar reacciones y emociones del usuario.
                 .div(titulo="Pruebas con usuario remotas no moderadas")
                   p.mb-3 <b>Imagen y sonido grabados:</b> se pide a los usuarios que piensen en voz alta. También es posible hacer pruebas con un panel de usuarios propio.
-                  p.mb-0 <b>Movimientos del ratón y tiempo grabados:</b> No se ve al participante de la prueba y no se le oye. Ellos ven la tarea en la pantalla, realizan la tarea y rellenan un cuestionario <em>online</em> para dar <em>feedback</em> después de cada tarea.
+                  p.mb-0 <b>Movimientos del ratón y tiempo grabados:</b> no se ve al participante de la prueba y no se le oye. Ellos ven la tarea en la pantalla, realizan la tarea y rellenan un cuestionario <em>online</em> para dar <em>feedback</em> después de cada tarea.
 
 
     .row.justify-content-center.align-items-center.mb-3

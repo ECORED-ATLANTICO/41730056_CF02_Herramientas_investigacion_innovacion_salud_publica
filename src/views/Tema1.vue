@@ -16,14 +16,15 @@
               figure
                 img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/img01.png', alt='Imagen Decorativa')
             .col-12.col-md-12.col-lg-7.bg-color-9
-              p.mb-0.p-4 Te invitamos a ver el siguiente video introductorio sobre el Pensamiento de Diseño (<em>Design Thinking</em>), el Diseño Centrado en el Usuario (<em>Human-Centered Design</em>). Mientras observas el video, "reflexiona sobre la siguiente pregunta": ¿Cómo cambia la investigación en salud cuando se trabaja con las comunidades desde el inicio?.
+              p.mb-0.p-4 Te invitamos a revisar el siguiente video introductorio sobre el Pensamiento de Diseño (<em>Design Thinking</em>), el Diseño Centrado en el Usuario (<em>Human-Centered Design</em>). Mientras observas el video, "reflexiona sobre la siguiente pregunta": ¿Cómo cambia la investigación en salud cuando se trabaja con las comunidades desde el inicio?.
     
     .bg-full-width.bg-fondo-1
       .row.align-items-center(data-aos="fade-left").justify-content-center.mb-3
         .col-12.col-md-12.col-lg-12
           figure
-            img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/img02.png', alt='Imagen Decorativa')
-
+            .video.mb-2
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/3sM9OFhyls4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            
       separador
 
       .row.align-items-center(data-aos="fade-left").justify-content-center
@@ -102,11 +103,11 @@
                   ul.bullets.color-secundario.mb-0
                     li <b>Empatía radical:</b> ponerse en el lugar del otro.
                     li <b>Pensamiento divergente y convergente:</b> explorar muchas ideas (divergente) y luego seleccionar y refinar (convergente).
-                    li <b>Prototipado rápido y experimentación:</b> fallar rápido, fallar barato, aprender rápido
+                    li <b>Prototipado rápido y experimentación:</b> fallar rápido, fallar barato, aprender rápido.
                     li <b>Tolerancia a la ambigüedad:</b> estar cómodo con la incertidumbre en las primeras etapas.
-                    li <b>Optimismo:</b> creer que siempre hay una solución creativa
-                    li Soluciones más relevantes y adoptables
-                    li Mayor colaboración intersectorial y multidisciplinar
+                    li <b>Optimismo:</b> creer que siempre hay una solución creativa.
+                    li Soluciones más relevantes y adoptables.
+                    li Mayor colaboración intersectorial y multidisciplinar.
                     li Reducción de riesgos al validar o probar temprano (IxDF, 2016).
 
     .bg-full-width.bg-fondo-1
@@ -285,7 +286,7 @@
               h5.mb-4.pt-lg-5.pt-xl-0.w-75 Para los profesionales de la salud y de la organización
               
               ul.bullets.color-adicional1
-                li #[b Innovación en servicios:] permite desarrollar soluciones que aborden problemas reales desde la perspectiva del usuario, no solo la médica o tecnológica.
+                li #[b Innovación en servicios:] permite desarrollar soluciones que aborden problemas reales desde la perspectiva del usuario.
                 li #[b Mayor eficiencia:] optimiza flujos de trabajo, como en el caso de urgencias, y reduce tiempos de espera en áreas como farmacia.
                 li #[b Cultura de colaboración y cambio:] promueve la colaboración entre equipos y fomenta una cultura de mejora continua dentro de la organización.
                 li  #[b Satisfacción del personal:] aumenta el compromiso y la motivación de los equipos de salud al sentirse parte de un proceso de mejora que impacta positivamente a los usuarios.
@@ -389,13 +390,13 @@
             .col-lg-9.order-lg-1
               AcordionA(tipo="a" clase-tarjeta="tarjeta bg-color-2")
                 div(titulo="Enfoque en el usuario")
-                  p ambos priorizan la comprensión de las necesidades, deseos y comportamientos del usuario final.
+                  p Ambos priorizan la comprensión de las necesidades, deseos y comportamientos del usuario final.
                 div(titulo="Uso de la empatía")
-                  p ambos métodos utilizan la empatía como punto de partida para comprender profundamente a las personas.
+                  p Ambos métodos utilizan la empatía como punto de partida para comprender profundamente a las personas.
                 div(titulo="Iteración")
-                  p ambos son procesos iterativos que implican probar y refinar soluciones continuamente.
+                  p Ambos son procesos iterativos que implican probar y refinar soluciones continuamente.
                 div(titulo="Creatividad e innovación")
-                  p ambos fomentan la creatividad para encontrar soluciones innovadoras y efectivas.
+                  p Ambos fomentan la creatividad para encontrar soluciones innovadoras y efectivas.
                   
             .col-md-6.col-lg-3.mb-3.mb-lg-0.order-lg-2
               figure
@@ -409,7 +410,7 @@
             span Comparación <em>Design thinking</em> y diseño centrado en el humano
         .tabla-a.color-acento-contenido
           table
-            caption Fuente: SENA 2025.
+            caption Nota: SENA 2025.
             thead
               tr
                 th Característica
@@ -444,7 +445,7 @@
             figure
               img(src="@/assets/curso/temas/tema1/img25.png", alt="Imagen Decorativa", data-aos="zoom-in")
           .col-lg
-            p.mb-0(data-aos="fade-right") “En los años noventa, cuando la gente hablaba de innovación, en realidad se refería a tecnología. Ahora, cuando la gente habla de innovación, en realidad quiere decir diseño.” Bruce Nussbaum, <em>Managing Editor Businessweek Magazine</em> (De la Peña, 2024). 
+            p.mb-0(data-aos="fade-right") En los años noventa, cuando la gente hablaba de innovación, en realidad se refería a tecnología. Ahora, cuando la gente habla de innovación, en realidad quiere decir diseño. Bruce Nussbaum, <em>Managing Editor Businessweek Magazine</em> (De la Peña, 2024). 
 
 </template>
 

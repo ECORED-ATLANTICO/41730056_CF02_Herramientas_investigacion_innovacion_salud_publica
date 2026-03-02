@@ -123,7 +123,7 @@
             //- Subtitulo
             .align-items-center.justify-content-star.mb-1
               .div.mb-3(data-aos="fade-left")
-                h3.subtitle.position-relative Ciclo construir, medir, aprender 
+                h3.subtitle.position-relative A. Ciclo construir, medir, aprender 
                   img.image(src='@/assets/curso/temas/img01.svg', alt='Imagen decorativa')
                 
             p.mb-3(data-aos="fade-right") El núcleo operativo de <em>Lean Startup</em> es el bucle construir, medir, aprender. Este ciclo debe recorrerse tantas veces como sea necesario para validar o refinar las hipótesis de proyecto que busque, por ejemplo, convertir ideas en productos, observar las respuestas de los usuarios y aprender si perseverar o realizar cambios.  
@@ -338,7 +338,7 @@
         //- Subtitulo
         .align-items-center.justify-content-star.mb-1
           .div.mb-3(data-aos="fade-left")
-            h3.subtitle.position-relative Principios y gestión visual del flujo de trabajo
+            h3.subtitle.position-relative A. Principios y gestión visual del flujo de trabajo
               img.image(src='@/assets/curso/temas/img01.svg', alt='Imagen decorativa')
 
           .row.align-items-center.justify-content-center
@@ -430,17 +430,17 @@
           .col-lg-auto
             img.d-lg-flex.d-none(src="@/assets/curso/temas/tema4/img45.png", style="max-width: 100px").mx-auto
           .col-lg.p-lg-4
-            p.mb-0 La selección de las metodologías debe basarse en el nivel de incertidumbre, el tamaño del equipo y el tipo de entrega. En contextos de investigación en salud pública, se recomienda un enfoque híbrido, combinando <em>Scrum</em> para gestión iterativa, <em>Kanban</em> para control de flujo y <em>Lean Startup</em> para validación científica (ver Tabla 4).
+            p.mb-0 La selección de las metodologías debe basarse en el nivel de incertidumbre, el tamaño del equipo y el tipo de entrega. En contextos de investigación en salud pública, se recomienda un enfoque híbrido, combinando <em>Scrum</em> para gestión iterativa, <em>Kanban</em> para control de flujo y <em>Lean Startup</em> para validación científica (Observar Tabla 4).
 
     .row.justify-content-center.align-items-center(data-aos="fade-left").mb-5
       .col-lg-12
         .titulo-sexto.mb-4.color-acento-contenido
           h5
             b Tabla 4.
-            span Tipos de metodologías Agiles para Innovación
+            span Tipos de metodologías ágiles para innovación
         .tabla-a.color-acento-contenido
           table
-            caption Fuente: SENA (2025)
+            caption Nota: SENA (2025)
             thead
               tr
                 th Metodología

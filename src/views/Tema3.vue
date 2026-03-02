@@ -40,7 +40,7 @@
                 img(src="@/assets/curso/temas/tema3/img03.png", data-aos="zoom-in")
             .col-xl-5
               img.d-xl-flex.d-none(src="@/assets/curso/temas/tema3/img04.svg", style="max-width: 90px").mb-3
-              p.mb-0 Las diferencias entre un prototipo y un MVP, radican en que el prototipo valida una idea o concepto, mientras que un MVP lanza una versión funcional del producto al mercado para recopilar retroalimentación real de los usuarios. El prototipo se enfoca en probar la viabilidad y el diseño, puede no ser completamente funcional y a menudo se presenta a partes interesadas internas, mientras que el MVP es un producto completo con funcionalidades clave, diseñado para ser vendido y usado por clientes reales (ver Tabla 2).  
+              p.mb-0 Las diferencias entre un prototipo y un MVP, radican en que el prototipo valida una idea o concepto, mientras que un MVP lanza una versión funcional del producto al mercado para recopilar retroalimentación real de los usuarios. El prototipo se enfoca en probar la viabilidad y el diseño, puede no ser completamente funcional y a menudo se presenta a partes interesadas internas, mientras que el MVP es un producto completo con funcionalidades clave, diseñado para ser vendido y usado por clientes reales (Visualizar Tabla 2).  
 
     .row.justify-content-center.align-items-center(data-aos="fade-left").mb-5
       .col-lg-12
@@ -50,7 +50,7 @@
             span Diferencias entre prototipo y MVP
         .tabla-a.color-acento-contenido
           table
-            caption Fuente: SENA (2025).
+            caption Nota: SENA (2025).
             thead
               tr
                 th Criterios

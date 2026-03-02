@@ -14,7 +14,7 @@
       .row.justify-content-center
         .col-lg-10.mb-5.bgs.p-4.brad
           figure
-            img(src="@/assets/curso/sintesis.svg", alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. ")
+            img(src="@/assets/curso/sintesis.svg", alt="La figura muestra la estructura del componente formativo: metodologías ágiles y diseño centrado en el usuario; presenta el uso de Design Thinking y Human-Centered Design para identificar necesidades y crear soluciones centradas en las personas, junto con prototipado, niveles de fidelidad y pruebas con usuarios. Incluye el concepto de Producto Mínimo Viable y sus etapas, así como metodologías ágiles como lo son: Lean Startup, Scrum y Kanban; para el desarrollo iterativo de proyectos. También muestra experiencias exitosas de innovación participativa en Colombia y América Latina.")
     
     .row.justify-content-center
       .col-auto
