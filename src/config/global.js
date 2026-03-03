@@ -316,7 +316,7 @@ export default {
     },
     {
       referencia:
-        'De la Peña, N. (2024). 5 fases del Design Thinking: cómo aplicar esta metodología para triunfar con tus proyectos. Genially (Blog).',
+        'De la Peña, N. (2024). 5 fases del <em>Design Thinking</em>: cómo aplicar esta metodología para triunfar con tus proyectos. Genially (Blog).',
       link: 'https://blog.genially.com/fases-design-thinking/',
     },
     {
@@ -327,7 +327,7 @@ export default {
     },
     {
       referencia:
-        'IxDF - Fundación para el Diseño de Interacción. (2016). ¿Qué es el Design Thinking? IxDF - Fundación para el Diseño de Interacción.',
+        'IxDF - Fundación para el Diseño de Interacción. (2016). ¿Qué es el <em>Design Thinking</em>? IxDF - Fundación para el Diseño de Interacción.',
       link:
         'https://www.interaction-design.org/literature/topics/design-thinking',
     },
@@ -339,7 +339,7 @@ export default {
     },
     {
       referencia:
-        'Martins, J. (2025). ¿Qué es la metodología Kanban y cómo funciona? Asana (Blog).',
+        'Martins, J. (2025). ¿Qué es la metodología <em>Kanban</em> y cómo funciona? Asana (Blog).',
       link: 'https://asana.com/es/resources/what-is-kanban',
     },
     {
@@ -355,7 +355,7 @@ export default {
     },
     {
       referencia:
-        'Narváez, M. (sf). ¿Qué son las pruebas con usuarios o test con usuarios? Questionpro (Blog).',
+        'Narváez, M. (sf). ¿Qué son las pruebas con usuarios o <em>test</em> con usuarios? Questionpro (Blog).',
       link:
         'https://www.questionpro.com/blog/es/pruebas-con-usuarios-o-test-con-usuarios/',
     },
@@ -378,7 +378,7 @@ export default {
     },
     {
       referencia:
-        'Pomar, P. (2017). Diferencias entre Design Thinking y Diseño centrado en las personas. Thinkernautas (Blog).',
+        'Pomar, P. (2017). Diferencias entre <em>Design Thinking</em> y Diseño centrado en las personas. Thinkernautas (Blog).',
       link:
         'https://thinkernautas.com/diferencias-design-thinking-human-centered-design',
     },
@@ -393,7 +393,7 @@ export default {
     },
     {
       referencia:
-        'Saavedra Seoane, M. (sf). (2024).  El Design Thinking en la salud. Designthinking.gal (Blog).',
+        'Saavedra Seoane, M. (sf). (2024).  El <em>Design Thinking</em> en la salud. Designthinking.gal (Blog).',
       link: 'https://designthinking.gal/el-design-thinking-en-salud/',
     },
     {
@@ -403,7 +403,7 @@ export default {
     },
     {
       referencia:
-        'Schwaber, K., y Sutherland, J. (2020). Guía de Scrum: la guía definitiva del marco de trabajo Scrum.',
+        'Schwaber, K., y Sutherland, J. (2020). Guía de Scrum: la guía definitiva del marco de trabajo <em>Scrum</em>.',
       link:
         'https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-Spanish-Latin-South-American.pdf',
     },
@@ -413,7 +413,7 @@ export default {
     },
     {
       referencia:
-        'Solvingadhoc. (2017). El aprendizaje validado en Lean Startup, un pilar fundamental. Solvingadhoc',
+        'Solvingadhoc. (2017). El aprendizaje validado en <em>Lean Startup</em>, un pilar fundamental. Solvingadhoc',
       link:
         'https://solvingadhoc.com/aprendizaje-validado-lean-startup-pilar-fundamental/',
     },
