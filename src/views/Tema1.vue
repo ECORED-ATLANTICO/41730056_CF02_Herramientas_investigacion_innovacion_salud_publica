@@ -18,13 +18,7 @@
             .col-12.col-md-12.col-lg-7.bg-color-9
               p.mb-0.p-4 Te invitamos a revisar el siguiente video introductorio sobre el Pensamiento de Diseño (<em>Design Thinking</em>), el Diseño Centrado en el Usuario (<em>Human-Centered Design</em>). Mientras observas el video, "reflexiona sobre la siguiente pregunta": ¿Cómo cambia la investigación en salud cuando se trabaja con las comunidades desde el inicio?.
     
-    .bg-full-width.bg-fondo-1
-      .row.align-items-center(data-aos="fade-left").justify-content-center.mb-3
-        .col-12.col-md-12.col-lg-12
-          figure
-            .video.mb-2
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/3sM9OFhyls4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-            
+
       separador
 
       .row.align-items-center(data-aos="fade-left").justify-content-center
@@ -288,7 +282,7 @@
               ul.bullets.color-adicional1
                 li #[b Innovación en servicios:] permite desarrollar soluciones que aborden problemas reales desde la perspectiva del usuario.
                 li #[b Mayor eficiencia:] optimiza flujos de trabajo, como en el caso de urgencias, y reduce tiempos de espera en áreas como farmacia.
-                li #[b Cultura de colaboración y cambio:] promueve la colaboración entre equipos y fomenta una cultura de mejora continua dentro de la organización.
+                li #[b Cultura de colaboración:] promueve la colaboración entre equipos y fomenta una cultura de mejora continua dentro de la organización.
                 li  #[b Satisfacción del personal:] aumenta el compromiso y la motivación de los equipos de salud al sentirse parte de un proceso de mejora que impacta positivamente a los usuarios.
 
     .bg-full-width.bg-fondo-2

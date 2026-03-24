@@ -20,7 +20,7 @@ export default {
       tema: 'Metodologías ágiles y diseño centrado en el usuario',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> identificar el grado de apropiación de los contenidos del Componente Formativo 2.<br>A continuación, se presentan una serie de preguntas, la idea es que partiendo de los materiales del Componente Formativo 2, usted las responda, según sea el caso.',
+        '<b> Objetivo:</b> identificar el grado de apropiación de los contenidos del Componente Formativo 2.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
@@ -368,7 +368,7 @@ export default {
           texto:
             'El procesos de <em>Design Thinking</em> combina las capacidades del pensamiento creativo y racional, enfocándose en los siguientes aspectos:',
           imagen: require('@/assets/actividad/imagen4.png'),
-          barajarRespuestas: true,
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
@@ -391,7 +391,7 @@ export default {
       mensaje_final_aprobado:
         '¡Excelente! Le felicito, ha superado la actividad',
       mensaje_final_reprobado:
-        'Te recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica',
+        'Recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica',
     },
   }),
 }

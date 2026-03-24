@@ -12,7 +12,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img01.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Las metodologías ágiles son enfoques de gestión y desarrollo que promueven el trabajo colaborativo, la adaptación continua y la entrega progresiva de resultados, aspectos esenciales en contextos complejos como la salud pública. estas metodologías permiten planificar y ejecutar proyectos de manera flexible, respondiendo a cambios en el entorno, necesidades de la comunidad y hallazgos emergentes durante la investigación. A través de ciclos cortos de trabajo, retroalimentación constante y mejora continua, las metodologías ágiles facilitan la validación temprana de soluciones, el uso eficiente de recursos y la generación de evidencia aplicable, fortaleciendo el impacto real de las iniciativas innovadoras en salud pública.
+        p.mb-0 Las metodologías ágiles son enfoques de gestión y desarrollo que promueven el trabajo colaborativo, la adaptación continua y la entrega progresiva de resultados, aspectos esenciales en contextos complejos como la salud pública. Estas metodologías permiten planificar y ejecutar proyectos de manera flexible, respondiendo a cambios en el entorno, necesidades de la comunidad y hallazgos emergentes durante la investigación. A través de ciclos cortos de trabajo, retroalimentación constante y mejora continua, las metodologías ágiles facilitan la validación temprana de soluciones, el uso eficiente de recursos y la generación de evidencia aplicable, fortaleciendo el impacto real de las iniciativas innovadoras en salud pública.
 
     .bg-full-width.bg-fondo-4-1
       separador

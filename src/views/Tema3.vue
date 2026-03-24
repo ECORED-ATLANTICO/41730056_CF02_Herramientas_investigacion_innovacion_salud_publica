@@ -220,7 +220,7 @@
           .row.justify-content-center.align-items-center
             .col-lg-8.mb-4.mb-md-0.px-lg-4
               h4 Medir, aprender e iterar
-              p.mb-0(data-aos="fade-right") En esta fase se lanza el MVP a usuarios iniciales, recopilando información mediante diversas herramientas, para medir métricas clave de uso y desempeño, y se realizan iteraciones continúas basadas en datos para mejorar y ajustar el producto.
+              p.mb-0(data-aos="fade-right") En esta fase se lanza el MVP a usuarios iniciales, recopilando información mediante diversas herramientas, para medir métricas clave de uso y desempeño, y se realizan iteraciones continuas basadas en datos para mejorar y ajustar el producto.
             .col-md-9.col-lg-4.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema3/img11.png', alt='Imagen de acompañamiento')

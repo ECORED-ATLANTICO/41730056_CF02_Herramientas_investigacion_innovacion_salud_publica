@@ -453,37 +453,37 @@ export default {
           nombre: 'Leonor Cristina Cañón Uribe',
           cargo: 'Profesional especializado',
           centro:
-            'Subdirección de Innovación en salud pública - Dirección de Investigación - Instituto Nacional de Salud',
+            'Subdirección de Innovación en Salud Pública - Dirección de Investigación - Instituto Nacional de Salud',
         },
         {
           nombre: 'Angelica Rocío Borbón Orjuela',
           cargo: 'Profesional especializado',
           centro:
-            'Subdirección de Innovación en salud pública - Dirección de Investigación - Instituto Nacional de Salud',
+            'Subdirección de Innovación en Salud Pública - Dirección de Investigación - Instituto Nacional de Salud',
         },
         {
           nombre: 'María Luz Gunturiz Albarracín',
           cargo: 'Profesional especializado',
           centro:
-            'Subdirección de Innovación en salud pública - Dirección de Investigación - Instituto Nacional de Salud',
+            'Subdirección de Innovación en Salud Pública - Dirección de Investigación - Instituto Nacional de Salud',
         },
         {
           nombre: 'Angela Navas Cáceres',
           cargo: 'Experta Técnica',
           centro:
-            'Centro de Formación de Talento humano en Salud - Regional Distrito Capital',
+            'Centro de Formación de Talento Humano en Salud - Regional Distrito Capital',
         },
         {
           nombre: 'Gina Carol Villate Calderón',
           cargo: 'Experta Técnica',
           centro:
-            'Centro de Formación de Talento humano en Salud - Regional Distrito Capital',
+            'Centro de Formación de Talento Humano en Salud - Regional Distrito Capital',
         },
         {
           nombre: 'Eliana Milena Buitrago Umaña',
           cargo: 'Asesora Pedagógica',
           centro:
-            'Centro de Formación de Talento humano en Salud - Regional Distrito Capital',
+            'Centro de Formación de Talento Humano en Salud - Regional Distrito Capital',
         },
         {
           nombre: 'Jair Enrique Coll Gallardo ',
