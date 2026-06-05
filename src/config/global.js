@@ -246,185 +246,186 @@ export default {
     {
       termino: '<em>Backlog</em>',
       significado:
-        'Lista ordenada y priorizada de las funcionalidades, requisitos, mejoras y correcciones que se necesitan para un producto. Es central en el marco de trabajo <em>Scrum</em>.',
+        'lista ordenada y priorizada de las funcionalidades, requisitos, mejoras y correcciones que se necesitan para un producto. Es central en el marco de trabajo <em>Scrum</em>.',
     },
     {
-      termino: '<em>Brainstormng</em>',
+      termino: '<em>Brainstorming</em>',
       significado:
-        'Técnica de generación de ideas en grupo cuyo objetivo es encontrar una conclusión o solución creativa a un problema, fomentando la libre expresión de ideas.',
+        'técnica de generación de ideas en grupo cuyo objetivo es encontrar una conclusión o solución creativa a un problema, fomentando la libre expresión de ideas.',
     },
     {
       termino: 'Fidelidad',
       significado:
-        'En prototipado, se refiere al nivel de detalle, precisión y realismo de un prototipo en comparación con el producto final.',
+        'en prototipado, se refiere al nivel de detalle, precisión y realismo de un prototipo en comparación con el producto final.',
     },
     {
       termino: '<em>Human-Centered Design</em> (HCD)',
       significado:
-        'Enfoque de diseño que pone las necesidades, capacidades y comportamientos de los seres humanos en el centro del proceso de desarrollo. Es la filosofía subyacente al <em>Design Thinking</em>.',
+        'enfoque de diseño que pone las necesidades, capacidades y comportamientos de los seres humanos en el centro del proceso de desarrollo. Es la filosofía subyacente al <em>Design Thinking</em>.',
     },
     {
       termino: 'Iteración',
       significado:
-        'Es el proceso de repetir un conjunto de instrucciones o pasos varias veces. Permite realizar la misma tarea varias veces con ligeras variaciones o modificar un fragmento de código hasta que se cumpla una condición específica.',
-    },
-    {
-      termino: 'Prototipo',
-      significado:
-        'Representación temprana y funcional de un producto o sistema, diseñada para proporcionar una vista preliminar y tangible de cómo se verá y se comportará el producto final.',
+        'es el proceso de repetir un conjunto de instrucciones o pasos varias veces. Permite realizar la misma tarea varias veces con ligeras variaciones o modificar un fragmento de código hasta que se cumpla una condición específica.',
     },
     {
       termino: 'Producto mínimo viable',
       significado:
-        'Es un prototipo que permite comprobar si el bien o servicio que está desarrollando una compañía se ajusta a las necesidades del mercado y, de no hacerlo, los cambios que debe introducir en su diseño, funcionalidad o, incluso, precio.',
+        'es un prototipo que permite comprobar si el bien o servicio que está desarrollando una compañía se ajusta a las necesidades del mercado y, de no hacerlo, los cambios que debe introducir en su diseño, funcionalidad o, incluso, precio.',
+    },
+    {
+      termino: 'Prototipo',
+      significado:
+        'representación temprana y funcional de un producto o sistema, diseñada para proporcionar una vista preliminar y tangible de cómo se verá y se comportará el producto final.',
     },
     {
       termino: 'Pruebas con usuarios o <em>test</em> con usuarios',
       significado:
-        'Son una herramienta en el diseño de productos, servicios y experiencias, ya que permiten utilizar la observación y el análisis para evaluar cómo un grupo de personas determinado utiliza los desarrollos para identificar errores y mejoras antes de realizar un lanzamiento oficial',
+        'son una herramienta en el diseño de productos, servicios y experiencias, ya que permiten utilizar la observación y el análisis para evaluar cómo un grupo de personas determinado utiliza los desarrollos para identificar errores y mejoras antes de realizar un lanzamiento oficial.',
     },
     {
       termino: '<em>Sprint</em>',
       significado:
-        'Periodo corto de trabajo en <em>Scrum</em> durante el cual se desarrollan entregables específicos y verificables.',
+        'periodo corto de trabajo en <em>Scrum</em> durante el cual se desarrollan entregables específicos y verificables.',
     },
     {
       termino: 'Startup',
       significado:
-        'Organización o equipo en fase inicial que desarrolla una idea innovadora con alto potencial de crecimiento.',
+        'organización o equipo en fase inicial que desarrolla una idea innovadora con alto potencial de crecimiento.',
     },
     {
       termino: '<em>Story Mapping</em> (Mapa de Historias)',
       significado:
-        'Herramienta utilizada para visualizar el <em>backlog</em> y el <em>flujo</em> de trabajo de un producto desde la perspectiva del usuario, ayudando a priorizar el desarrollo',
+        'herramienta utilizada para visualizar el <em>backlog</em> y el flujo de trabajo de un producto desde la perspectiva del usuario, ayudando a priorizar el desarrollo.',
     },
     {
       termino: 'Testeo con usuarios',
       significado:
-        'Proceso sistemático de validar un prototipo o MVP con usuarios reales para obtener retroalimentación, identificar fallos de usabilidad y áreas de mejora.',
+        'proceso sistemático de validar un prototipo o MVP con usuarios reales para obtener retroalimentación, identificar fallos de usabilidad y áreas de mejora.',
     },
   ],
   referencias: [
     {
-      referencia: '3Dalia. Tipos de prototipado.',
+      referencia: '3Dalia. <em>Tipos de prototipado.</em>',
       link: 'https://3dalia.com/tipos-de-prototipado/',
     },
     {
       referencia:
-        'Clavijo, C. (2025). Producto Mínimo Viable: qué es, características, cómo hacerlo y ejemplos.',
+        'Clavijo, C. (2025). <em>Producto Mínimo Viable: qué es, características, cómo hacerlo y ejemplos.</em>',
       link: 'https://blog.hubspot.es/sales/producto-minimo-viable',
     },
     {
       referencia:
-        'De la Peña, N. (2024). 5 fases del <em>Design Thinking</em>: cómo aplicar esta metodología para triunfar con tus proyectos. Genially (Blog).',
+        'De la Peña, N. (2024). <em>5 fases del Design Thinking: cómo aplicar esta metodología para triunfar con tus proyectos.</em> Genially (Blog).',
       link: 'https://blog.genially.com/fases-design-thinking/',
     },
     {
       referencia:
-        'Instituto Nacional de Salud (2016). INS de Colombia compartirá su conocimiento sobre zika al mundo.',
+        'Instituto Nacional de Salud (2016). <em>INS de Colombia compartirá su conocimiento sobre zika al mundo.</em>',
       link:
         'https://www.ins.gov.co/BibliotecaDigital/boletin-prensa-ins-2-12-2016-zika.pdf',
     },
     {
       referencia:
-        'IxDF - Fundación para el Diseño de Interacción. (2016). ¿Qué es el <em>Design Thinking</em>? IxDF - Fundación para el Diseño de Interacción.',
+        'IxDF - Fundación para el Diseño de Interacción. (2016). <em>¿Qué es el Design Thinking?</em> IxDF - Fundación para el Diseño de Interacción.',
       link:
         'https://www.interaction-design.org/literature/topics/design-thinking',
     },
     {
       referencia:
-        'Justinmente. (2018). ¿Qué diferencia hay entre un prototipo y un MVP?',
+        'Justinmente. (2018). <em>¿Qué diferencia hay entre un prototipo y un MVP?</em>',
       link:
         'https://www.justinmind.com/es/prototipado/que-diferencia-hay-entre-un-prototipo-y-un-mvp',
     },
     {
       referencia:
-        'Martins, J. (2025). ¿Qué es la metodología <em>Kanban</em> y cómo funciona? Asana (Blog).',
+        'Martins, J. (2025). <em>¿Qué es la metodología Kanban y cómo funciona?</em> Asana (Blog).',
       link: 'https://asana.com/es/resources/what-is-kanban',
     },
     {
       referencia:
-        'Mejía Flores, G. E. (2024). Metodologías ágiles aplicadas a organizaciones de salud: desafíos actuales y cómo gestionarlos. Pontificia Universidad Católica del Ecuador.',
+        'Mejía Flores, G. E. (2024). <em>Metodologías ágiles aplicadas a organizaciones de salud: desafíos actuales y cómo gestionarlos.</em> Pontificia Universidad Católica del Ecuador.',
       link:
         'https://repositorio.puce.edu.ec/items/a55af9eb-93df-4af0-a5c4-d3f8e0395e30',
     },
     {
-      referencia: 'Miro (sf). Prototipos de alta fidelidad vs baja fidelidad.',
+      referencia:
+        'Miro (sf). <em>Prototipos de alta fidelidad vs baja fidelidad.</em>',
       link:
         'https://miro.com/es/prototyping/low-fidelity-vs-high-fidelity-prototypes/',
     },
     {
       referencia:
-        'Narváez, M. (sf). ¿Qué son las pruebas con usuarios o <em>test</em> con usuarios? Questionpro (Blog).',
+        'Narváez, M. (sf). <em>¿Qué son las pruebas con usuarios o test con usuarios?</em> Questionpro (Blog).',
       link:
         'https://www.questionpro.com/blog/es/pruebas-con-usuarios-o-test-con-usuarios/',
     },
     {
       referencia:
-        'Organización Panamericana de la Salud y Organización Mundial de la Salud - OPS/OMS, (2025). Avances e innovaciones destacan BIREME en el 2024. Boletín BIREME no 94.',
+        'Organización Panamericana de la Salud y Organización Mundial de la Salud - OPS/OMS, (2025). <em>Avances e innovaciones destacan BIREME en el 2024.</em> Boletín BIREME no 94.',
       link:
         'https://boletin.bireme.org/2025/01/23/1-avances-e-innovaciones-destacan-bireme-en-el-2024/',
     },
     {
       referencia:
-        'Organización Panamericana de la Salud, y Organización Mundial de la Salud. (2025). Innovación social en salud: lecciones para avanzar hacia la equidad-Antología de experiencias en América Latina.',
+        'Organización Panamericana de la Salud, y Organización Mundial de la Salud. (2025). <em>Innovación social en salud: lecciones para avanzar hacia la equidad-Antología de experiencias en América Latina.</em>',
       link: 'https://iris.paho.org/items/1b9f3a8e-3e23-4163-9761-2b27ca422099',
     },
     {
       referencia:
-        'PAHO TV (2024). Un modelo innovador en salud rural en Colombia.',
-      link:
-        'https://www.youtube.com/watch?si=wQ6bYTeso-ns5Hak&v=ssluZKwCEzs&feature=youtu.be',
+        'PAHO TV (2024). <em>Un modelo innovador en salud rural en Colombia.</em>',
+      link: 'https://www.youtube.com/watch?v=ssluZKwCEzs',
     },
     {
       referencia:
-        'Pomar, P. (2017). Diferencias entre <em>Design Thinking</em> y Diseño centrado en las personas. Thinkernautas (Blog).',
+        'Pomar, P. (2017). <em>Diferencias entre Design Thinking y Diseño centrado en las personas.</em> Thinkernautas (Blog).',
       link:
         'https://thinkernautas.com/diferencias-design-thinking-human-centered-design',
     },
     {
       referencia:
-        'Programa Erasmus, Unión Europea, Universidad Distrital Francisco José de Caldas. 2019; 1-25.',
+        '<em>Programa Erasmus, Unión Europea, Universidad Distrital Francisco José de Caldas.</em> 2019; 1-25.',
       link: '',
     },
     {
-      referencia: 'Ruwaach Utz, S (2022). Unidad de Antropología Médica (UAM).',
+      referencia:
+        'Ruwaach Utz, S (2022). <em>Unidad de Antropología Médica (UAM).</em>',
       link: 'https://www.youtube.com/watch?v=IUUofhPby-s',
     },
     {
       referencia:
-        'Saavedra Seoane, M. (sf). (2024).  El <em>Design Thinking</em> en la salud. Designthinking.gal (Blog).',
+        'Saavedra Seoane, M. (sf). (2024). <em>El Design Thinking en la salud.</em> Designthinking.gal (Blog).',
       link: 'https://designthinking.gal/el-design-thinking-en-salud/',
     },
     {
       referencia:
-        'Sarraipa, J., Artífcie, A, Jiménez, H. (2019). Metodología De Evaluación De Prototipo Innovador.',
+        'Sarraipa, J., Artífcie, A, Jiménez, H. (2019). <em>Metodología De Evaluación De Prototipo Innovador.</em>',
       link: '',
     },
     {
       referencia:
-        'Schwaber, K., y Sutherland, J. (2020). Guía de Scrum: la guía definitiva del marco de trabajo <em>Scrum</em>.',
+        'Schwaber, K., y Sutherland, J. (2020). <em>Guía de Scrum: la guía definitiva del marco de trabajo Scrum.</em>',
       link:
         'https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-Spanish-Latin-South-American.pdf',
     },
     {
-      referencia: 'Social Innovation (2020). Programa Mamás del Río.',
+      referencia: 'Social Innovation (2020). <em>Programa Mamás del Río.</em>',
       link: 'https://www.youtube.com/watch?v=QGHHlptCpi0',
     },
     {
       referencia:
-        'Solvingadhoc. (2017). El aprendizaje validado en <em>Lean Startup</em>, un pilar fundamental. Solvingadhoc',
+        'Solvingadhoc. (2017). <em>El aprendizaje validado en Lean Startup, un pilar fundamental.</em> Solvingadhoc',
       link:
         'https://solvingadhoc.com/aprendizaje-validado-lean-startup-pilar-fundamental/',
     },
     {
       referencia:
-        'UNIR La Universidad en internet, (2024). Producto mínimo viable (MVP): ¿qué es?',
+        'UNIR La Universidad en internet, (2024). <em>Producto mínimo viable (MVP): ¿qué es?</em>',
       link: 'https://www.unir.net/revista/empresa/mvp-producto-minimo-viable/',
     },
     {
       referencia:
-        'Universidad Internacional de Valencia (2023). Prototipado: qué es y cómo funciona.',
+        'Universidad Internacional de Valencia (2023). <em>Prototipado: qué es y cómo funciona.</em>',
       link:
         'https://www.universidadviu.com/co/prototipado-que-es-y-como-funciona',
     },
@@ -437,12 +438,12 @@ export default {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
             'Responsable del Ecosistema de Recursos Educativos Digitales (RED)',
-          centro: 'Dirección General',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Miguel de Jesús Paredes Maestre',
           cargo: 'Responsable de línea de producción',
-          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
     },
@@ -453,25 +454,25 @@ export default {
           nombre: 'Leonor Cristina Cañón Uribe',
           cargo: 'Profesional especializado',
           centro:
-            'Subdirección de Innovación en Salud Pública - Dirección de Investigación - Instituto Nacional de Salud',
+            'Subdirección de Innovación en Salud Pública - Dirección de Investigación-Instituto Nacional de Salud',
         },
         {
           nombre: 'Angelica Rocío Borbón Orjuela',
           cargo: 'Profesional especializado',
           centro:
-            'Subdirección de Innovación en Salud Pública - Dirección de Investigación - Instituto Nacional de Salud',
+            'Subdirección de Innovación en Salud Pública - Dirección de Investigación-Instituto Nacional de Salud',
         },
         {
           nombre: 'María Luz Gunturiz Albarracín',
           cargo: 'Profesional especializado',
           centro:
-            'Subdirección de Innovación en Salud Pública - Dirección de Investigación - Instituto Nacional de Salud',
+            'Subdirección de Innovación en Salud Pública - Dirección de Investigación-Instituto Nacional de Salud',
         },
         {
           nombre: 'Angela Navas Cáceres',
           cargo: 'Experta Técnica',
           centro:
-            'Centro de Formación de Talento Humano en Salud - Regional Distrito Capital',
+            'Centro de Formación de Talento Humano en Salud- Regional Distrito Capital',
         },
         {
           nombre: 'Gina Carol Villate Calderón',
@@ -483,12 +484,12 @@ export default {
           nombre: 'Eliana Milena Buitrago Umaña',
           cargo: 'Asesora Pedagógica',
           centro:
-            'Centro de Formación de Talento Humano en Salud - Regional Distrito Capital',
+            'Centro de Formación de Talento Humano en Salud- Regional Distrito Capital',
         },
         {
-          nombre: 'Jair Enrique Coll Gallardo ',
+          nombre: 'Jair Enrique Coll Gallardo',
           cargo: 'Evaluador instruccional',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+          centro: 'Centro de Comercio y Servicios -Regional Atlántico',
         },
       ],
     },
@@ -498,17 +499,17 @@ export default {
         {
           nombre: 'Carmen Alicia Martínez Torres',
           cargo: 'Diseñador web',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
           nombre: 'Álvaro Guillermo Araújo Angarita',
           cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
           nombre: 'Alexander Rafael Acosta Bedoya',
           cargo: 'Animador y productor audiovisual',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
       ],
     },
@@ -518,22 +519,22 @@ export default {
         {
           nombre: 'Luz Karime Amaya Cabra',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
           nombre: 'Laura Daniela Burgos Rueda',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
           nombre: 'Jonathan Adié Villafañe',
           cargo: 'Validador y vinculador de recursos digitales',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
-          nombre: 'Karine Isabel Ospino Fritz ',
+          nombre: 'Karine Isabel Ospino Fritz',
           cargo: 'Validador y vinculador de recursos digitales',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
       ],
     },
