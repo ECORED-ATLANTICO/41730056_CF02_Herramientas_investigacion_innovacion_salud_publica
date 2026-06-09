@@ -9,15 +9,14 @@
   
     .row.align-items-center(data-aos="fade-left").justify-content-center.mb-4
 
-      .col-md-12.col-lg-10
-        .container
-          .row.justify-content-center.align-items-center
-            .col-12.col-md-6.col-lg-5
+      .row.justify-content-center.align-items-center.mb-0
+        .col-12.col-md-12.col-lg-12
+          .row.mb-4.justify-content-center.align-items-center
+            .col-auto.mb-3.mb-lg-0.d-none.d-lg-block
               figure
-                img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/img01.png', alt='Imagen Decorativa')
-            .col-12.col-md-12.col-lg-7.bg-color-9
-              p.mb-0.p-4 Te invitamos a revisar el siguiente video introductorio sobre el Pensamiento de Diseño (<em>Design Thinking</em>), el Diseño Centrado en el Usuario (<em>Human-Centered Design</em>). Mientras observas el video, "reflexiona sobre la siguiente pregunta": ¿Cómo cambia la investigación en salud cuando se trabaja con las comunidades desde el inicio?.
-    
+                img(src="@/assets/curso/temas/tema1/img17.svg", alt="Imagen Decorativa", data-aos="zoom-in")
+            .col-lg
+              p La salud pública enfrenta desafíos cada vez más complejos relacionados con la prevención de enfermedades, la promoción de hábitos saludables, el acceso equitativo los servicios de salud y la atención de las necesidades de poblaciones diversas. En este contexto, metodologías de innovación como <em>Design Thinking</em> y <em>Human-Centered Design</em> (HCD) han adquirido especial relevancia al proponer un enfoque centrado en las personas, que permite comprender sus necesidades, experiencias y contextos para diseñar soluciones más efectivas, pertinentes y sostenibles. Estos enfoques promueven la empatía, la colaboración interdisciplinaria y la experimentación continua, favoreciendo el desarrollo de intervenciones con mayor impacto y capacidad de respuesta frente a los retos actuales de la salud pública.
 
       separador
 

@@ -24,7 +24,7 @@
           figure
             .video.mb-2
               iframe(width="560" height="315" src="https://www.youtube.com/embed/3sM9OFhyls4" title="Video 1. Metodologías ágiles y diseño centrado en el usuario" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Metodologías ágiles y diseño centrado en el usuario
+          figcaption Video: Metodologías ágiles y diseño centrado en el usuario
 
 </template>
 

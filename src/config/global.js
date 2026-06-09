@@ -197,7 +197,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/CFA2_41730056_DU.pdf',
+        download: 'downloads/41730056_CFA02_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -306,10 +306,6 @@ export default {
   ],
   referencias: [
     {
-      referencia: '3Dalia. <em>Tipos de prototipado.</em>',
-      link: 'https://3dalia.com/tipos-de-prototipado/',
-    },
-    {
       referencia:
         'Clavijo, C. (2025). <em>Producto Mínimo Viable: qué es, características, cómo hacerlo y ejemplos.</em>',
       link: 'https://blog.hubspot.es/sales/producto-minimo-viable',
@@ -417,6 +413,10 @@ export default {
         'Solvingadhoc. (2017). <em>El aprendizaje validado en Lean Startup, un pilar fundamental.</em> Solvingadhoc',
       link:
         'https://solvingadhoc.com/aprendizaje-validado-lean-startup-pilar-fundamental/',
+    },
+    {
+      referencia: '3Dalia. <em>Tipos de prototipado.</em>',
+      link: 'https://3dalia.com/tipos-de-prototipado/',
     },
     {
       referencia:
