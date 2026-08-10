@@ -403,7 +403,7 @@
             span Comparación <em>Design thinking</em> y diseño centrado en el humano
         .tabla-a.color-acento-contenido
           table
-            caption Nota: SENA 2025.
+            caption Nota: INS, SENA 2025.
             thead
               tr
                 th Característica
