@@ -440,7 +440,7 @@
             span Tipos de metodologías ágiles para innovación
         .tabla-a.color-acento-contenido
           table
-            caption Nota: SENA (2025)
+            caption Nota: INS, SENA 2025.
             thead
               tr
                 th Metodología

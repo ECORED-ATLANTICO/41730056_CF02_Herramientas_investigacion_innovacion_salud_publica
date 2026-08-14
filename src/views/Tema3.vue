@@ -50,7 +50,7 @@
             span Diferencias entre prototipo y MVP
         .tabla-a.color-acento-contenido
           table
-            caption Nota: SENA (2025).
+            caption Nota: INS, SENA 2025.
             thead
               tr
                 th Criterios
@@ -140,7 +140,7 @@
             span Diferencias entre PMV de Baja vs PMV de alta
         .tabla-a.color-acento-contenido
           table
-            caption Fuente: SENA, 2025.
+            caption Nota: INS, SENA 2025.
             thead
               tr
                 th Criterio
